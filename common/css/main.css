@@ -22,7 +22,7 @@ body {
 	color: #444444;
 }
 .wrap{
-    overflow: hidden;   
+    overflow: hidden;
 }
 img {
 	max-width: 100%;
@@ -78,15 +78,16 @@ strong{
 /* ======== header ======== */
 header{
 	background-color: #ffffff;
-	height: 100px;
+	height: 10vw;
 }
 .navWrapper .navWrapper__logo{
 	float: left;
-    width: 290px;
-    padding: 10px;
+    max-width: 30vw;
+    padding: 5px;
 }
 .navWrapper .navWrapper__logo :hover{
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); 
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+		max-height: 100%
 }
 
 .navWrapper .snsWrapper{
@@ -95,25 +96,25 @@ header{
 /* ▽ グローバルナビゲーション ▽ */
 .navWrapper .globalNav{
 	float: right;
-    width: 75%;
+	height: 10vw
 }
 ul.globalNav__menu{
 	display: flex;
 	justify-content: space-between;
+	height: 100%
 }
 ul.globalNav__menu > li{
-	width:250px;
+	width:16vw;
 	text-align: center;
 }
 ul.globalNav__menu > li a{
 	display: block;
 	height: 100px;
-    padding-top: 45px;
-	padding-left: 20px;
 	color:#444444;
 	font-weight: 500;
 	position: relative;
 	transition: 0.3s;
+	height: 100%
 }
 ul.globalNav__menu > li a:hover{
 	transition: 0.3s;
@@ -130,9 +131,9 @@ ul.globalNav__menu > li a:hover{
 ul.globalNav__menu > li a:before{
 	content: "";
 	position: absolute;
-	top:50%;
-	left:20px;
-	margin-top:-3px;
+	top:5vw;
+	left:0vw;
+	margin-top:4px;
 	width:13px;
 	height:20px;
 	background: url(../images/index_ic_001.png) no-repeat 0 0/13px 20px;
@@ -412,7 +413,7 @@ section.commonSection section.summary .summary__txtWrapper{
 	line-height: 1.8;
     margin-left: 20px;
     margin-right: 20px;
-    
+
 }
 section.commonSection h2.summary__heading{
 	display: inline-block;
@@ -423,7 +424,7 @@ section.commonSection h2.summary__heading{
 	font-weight: 600;
 	position: relative;
 	z-index:1000;
-    
+
 }
 section.commonSection h2.summary__heading:before{
 	display: inline-block;
@@ -1316,7 +1317,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     .mainVisual__img img{
         max-width: 300%;
         max-height: 300px;
-        object-fit: cover;   
+        object-fit: cover;
     }
 	/* ▽ スクロール（down）ボタン ▽ */
 	.mainVisual__scroll-down a{
@@ -1501,7 +1502,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         padding-left:0;
     }
     ul.snsWrapper__btn > li:not(:first-child){
-        margin-left: 10px; 
+        margin-left: 10px;
     }
     ul.snsWrapper__btn:before{
         background-size: 80%;
@@ -1528,7 +1529,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	footer .footer-infomation .footer-infomation__logo{
 		width:60%;
 		margin: auto;
-        padding-top:10px; 
+        padding-top:10px;
 	}
 	footer .footer-infomation__logo + p {
 		margin-top: 0;
@@ -1539,7 +1540,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     }
     footer .footer-action .questionBtn a {
         padding: 10px;
-        min-width: 300px; 
+        min-width: 300px;
         background-color: #666666;
 		display: block;
 		width: 80%;
@@ -1551,7 +1552,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		border-radius: 40px;
         border-width: 0px;
 	}
-    
+
     }
     footer .footer-infomation .pageTop-up a{
         background-color: #666666;
