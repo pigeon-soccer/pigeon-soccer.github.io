@@ -27,6 +27,7 @@ $(function(){
     } else {
       console.log('jQuery loaded');
     }
+    console.log("dom loaded...?: "+$('.globalNav__btn'))
 //    */
     $(".globalNav__btn").on("click", function(){
         console.log("fired on-click") //test
