@@ -49,6 +49,7 @@ $(function(){
 $(function() {
     //クリックしたときのファンクションをまとめて指定
     $('.tab > li.tab__label').click(function() {
+        console.log("test")
         //.index()を使いクリックされたタブが何番目かを調べ、
         //indexという変数に代入します。
         var index = $('.tab > li.tab__label').index(this);
