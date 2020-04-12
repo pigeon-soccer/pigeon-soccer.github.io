@@ -19,17 +19,18 @@ $(function(){
 
 
 // ▼ハンバーガーメニュー
-$(function(){
-//    /*test
-    console.log("function loaded")
-    if (typeof jQuery == 'undefined') {
-      console.log('jQuery not loaded');
-    } else {
-      console.log('jQuery loaded');
-    }
-    if($('.globalNav__btn')) {console.log("dom loaded")}
+// $(function(){
+// //    /*test
+//     console.log("function loaded")
+//     if (typeof jQuery == 'undefined') {
+//       console.log('jQuery not loaded');
+//     } else {
+//       console.log('jQuery loaded');
+//     }
+//     if($('.globalNav__btn')) {console.log("dom loaded")}
 //    */
-    $(".globalNav__btn").on("click", function(){
+ 
+ $(document).on('click','.globalNav__btn', function() {
         console.log("fired on-click") //test
         // ハンバーガーメニューの位置を設定
         var rightVal = 0;
@@ -47,7 +48,28 @@ $(function(){
             right: rightVal
         }, 200);
     });
+
 });
+ 
+//     $(".globalNav__btn").on("click", function(){
+//         console.log("fired on-click") //test
+//         // ハンバーガーメニューの位置を設定
+//         var rightVal = 0;
+//         if($(this).hasClass("open")) {
+//             // 位置を移動させメニューを開いた状態にする
+//             rightVal = -700;
+//             // メニューを開いたら次回クリック時は閉じた状態になるよう設定
+//             $(this).removeClass("open");
+//         } else {
+//             // メニューを開いたら次回クリック時は閉じた状態になるよう設定
+//             $(this).addClass("open");
+//         }
+
+//         $(".globalNav").stop().animate({
+//             right: rightVal
+//         }, 200);
+//     });
+// });
 
 
 $(function() {
