@@ -29,11 +29,7 @@ $(function(){
     }
 //    */
     $(".globalNav__btn").on("click", function(){
-<<<<<<< HEAD
         console.log("fired on-click") //test
-=======
-        console.log("test")
->>>>>>> 897079f998de1111263cb63b587b86c9a30fab16
         // ハンバーガーメニューの位置を設定
         var rightVal = 0;
         if($(this).hasClass("open")) {
