@@ -111,7 +111,6 @@ ul.globalNav__menu > li a{
 	display: block;
 	color:#444444;
 	font-weight: 500;
-	font-size: 1.5vw
 	position: relative;
 	transition: 0.3s;
 	padding-top: 5vw;
@@ -127,12 +126,12 @@ ul.globalNav__menu > li a{
 }
 ul.globalNav__menu > li a:before{
 	content: "";
-	position: absolute;
-	left: 0vw;
-	margin-top: 4px;
-	width: 13px;
-	height: 20px;
-	background: url(../images/index_ic_001.png) no-repeat 0 0/13px 20px;
+	    position: absolute;
+	    margin-top: 4px;
+	    width: 2vw;
+	    height: 3vw;
+	    background: url(../images/index_ic_001.png) no-repeat 0 0/13px 20px;
+	    left: -0.5vw;
 }
 ul.globalNav__menu > li a:hover:after{
 	content: "";
@@ -1039,11 +1038,8 @@ ul.snsWrapper__btn > li.snsBtn__fb a:before{
 	margin-left:-12px;
 	background:url(../images/index_ic-sns_002.png) no-repeat;
 }
-
 footer .footer-infomation{
 	color: white;
-}
-footer .footer-infomation{
 	padding: 20px 0;
 	height: 100px;
 	background-color: #666666;
@@ -1083,16 +1079,13 @@ footer .footer-infomation .pageTop-up a:before{
 footer .footer-infomation .footer-infomation__logo{
 	width:200px;
 }
-footer .footer-infomation__logo + p{
-	font-size: 16px;
-	margin-top:-50px;
-    margin-left: 50px;
+footer .copyright{
+    font-size: 14px;
+    margin-top: -50px;
+    position: absolute;
+    left: 215px;
+    text-align: left;
 }
-footer .footer-infomation__logo + p small{
-	display: inline;
-	margin-top:-80px;
-}
-
 
 /* ▽ transition ▽ */
 ul.globalNav__menu > li a,
@@ -1140,7 +1133,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.navWrapper .navWrapper__logo,
 	.globalNav{
 		float: initial;
-		max-width: 50vw 
+		max-width: 50vw
 	}
 	/* ▽ display:flex解除 ▽ */
 	ul.possible,
@@ -1211,6 +1204,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	/* ======== header ======== */
 	header{
 		height: 70px;
+	}
+	.navWrapper{
+		font-size: 1.8vw;
 	}
 	.navWrapper .navWrapper__logo {
 	  	width: 200px;
@@ -1511,7 +1507,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     footer .footer-action__btnWrapper{
         padding-top: 80px;
     }
-    .portraitRight{
+    .copyright{
         display: none;
     }
 	footer .footer-infomation {
