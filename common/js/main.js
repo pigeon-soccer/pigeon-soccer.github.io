@@ -26,6 +26,7 @@ $(function(){
 // ▼ハンバーガーメニュー
 $(function(){
     $(".globalNav__btn").on("click", function(){
+        console.log("test")
         // ハンバーガーメニューの位置を設定
         var rightVal = 0;
         if($(this).hasClass("open")) {
