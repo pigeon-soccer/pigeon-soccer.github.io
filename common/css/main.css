@@ -1123,6 +1123,11 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.navWrapper{
 		height: 100%;
 	}
+	ul.globalNav__menu > li a:before{
+		width: 7vw;
+    height: 7vw;
+	}
+
 	/* ▽ float解除 ▽ */
 	.navWrapper .navWrapper__logo,
 	.globalNav{
