@@ -95,8 +95,9 @@ header{
 }
 /* ▽ グローバルナビゲーション ▽ */
 .navWrapper .globalNav{
-	float: right;
-	height: 10vw
+    float: right;
+    height: 10vw;
+    font-size: 1.7vw;
 }
 ul.globalNav__menu{
 	display: flex;
@@ -193,22 +194,14 @@ ul.globalNav__menu > li.current:before{
 .topImage .topImage__txt{
 	font-size: 2.4rem;
 }
-.mainVisual .mainVisual__txt{
-/*	backdrop-filter: blur(2.5px);*/
-    width: 500px;
-}
 .txt__main{ /* ※indexのみ */
-	font-size: 7vw;
+	font-size: 5vw;
 	line-height:1;
   text-shadow: 0 0 50px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
   letter-spacing: 0.2rem;
 }
-.txt__main > span{ /* ※indexのみ */
-	font-size: 3rem;
-	line-height:1.8;
-}
 .mainVisual .mainVisual__txt .txt__sub{ /* ※indexのみ */
-	font-size: 2.5vw;
+	font-size: 2vw;
 	line-height:1.5;
 	padding-top: 20px;
   text-shadow: 0 0 25px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
@@ -223,10 +216,10 @@ ul.globalNav__menu > li.current:before{
 /* ▽ スクロール（down）ボタン ▽ */
 .mainVisual__scroll-down a{
 	position: absolute;
-	bottom:25px;
+	bottom:23px;
 	left:50%;
 	margin-left:-4rem;
-	padding-bottom: 16px;
+    padding-bottom: 1.5vw;
 	text-decoration: none;
 /*	letter-spacing: 0.1rem;*/
 	color:#ffffff;
@@ -236,7 +229,7 @@ ul.globalNav__menu > li.current:before{
 }
 .mainVisual__scroll-down span{
 	position: absolute;
-	bottom: 0;
+	bottom: -0.5vw ;
 	left: 55%;
 	width: 15px;
 	height: 15px;
