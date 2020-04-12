@@ -82,7 +82,7 @@ header{
 }
 .navWrapper .navWrapper__logo{
 	float: left;
-    max-width: 30vw;
+    max-width: 29vw;
     padding: 5px;
 }
 .navWrapper .navWrapper__logo :hover{
@@ -104,13 +104,14 @@ ul.globalNav__menu{
 	height: 100%
 }
 ul.globalNav__menu > li{
-	width:16vw;
+	width:17vw;
 	text-align: center;
 }
 ul.globalNav__menu > li a{
 	display: block;
 	color:#444444;
 	font-weight: 500;
+	font-size: 1.5vw
 	position: relative;
 	transition: 0.3s;
 	padding-top: 5vw;
@@ -198,20 +199,20 @@ ul.globalNav__menu > li.current:before{
     width: 500px;
 }
 .txt__main{ /* ※indexのみ */
-	font-size: 6rem;
+	font-size: 7vw;
 	line-height:1;
-    text-shadow: 0 0 50px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
-    letter-spacing: 0.2rem;
+  text-shadow: 0 0 50px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
+  letter-spacing: 0.2rem;
 }
 .txt__main > span{ /* ※indexのみ */
 	font-size: 3rem;
 	line-height:1.8;
 }
 .mainVisual .mainVisual__txt .txt__sub{ /* ※indexのみ */
-	font-size: 2.4rem;
+	font-size: 2.5vw;
 	line-height:1.5;
 	padding-top: 20px;
-    text-shadow: 0 0 25px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
+  text-shadow: 0 0 25px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
 }
 #activity .topImage .topImage__txt{ /* ※indexのみ */
 	color:#ffffff;
@@ -1132,11 +1133,14 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 ================================*/
 
 @media screen and (max-width: 599px), print {
-
+	.navWrapper{
+		height: 100%;
+	}
 	/* ▽ float解除 ▽ */
 	.navWrapper .navWrapper__logo,
 	.globalNav{
 		float: initial;
+		max-width: 50vw 
 	}
 	/* ▽ display:flex解除 ▽ */
 	ul.possible,
@@ -1297,18 +1301,14 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	/* ======== main ======== */
 
 	/* ▽ メインビジュアル ▽ */
-    .txt__main{
-        font-size: 3.6rem;
-	}
-    .txt__main > span{
-		font-size: 1.2rem;
+  .txt__main{
+        font-size: 10vw;
 	}
 	.mainVisual .mainVisual__txt div.txt__sub{
 		white-space: nowrap;
-		font-size: 1.6rem;
-        width: 100%;
+		font-size: 4vw;
 	}
-    .mainVisual__img img{
+  .mainVisual__img img{
         max-width: 300%;
         max-height: 300px;
         object-fit: cover;
