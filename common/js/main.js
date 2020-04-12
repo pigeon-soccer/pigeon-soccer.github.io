@@ -18,18 +18,7 @@ $(function(){
 });
 
 
-// ▼ハンバーガーメニュー
-// $(function(){
-// //    /*test
-//     console.log("function loaded")
-//     if (typeof jQuery == 'undefined') {
-//       console.log('jQuery not loaded');
-//     } else {
-//       console.log('jQuery loaded');
-//     }
-//     if($('.globalNav__btn')) {console.log("dom loaded")}
-//    */
- 
+// ▼ハンバーガーメニュー 
 $(document).on('click','.globalNav__btn', function() {
     console.log("fired on-click") //test
     // ハンバーガーメニューの位置を設定
@@ -49,7 +38,17 @@ $(document).on('click','.globalNav__btn', function() {
     }, 200);
 });
 
- 
+// 以下はJQueryのライブラリの問題で上手く動作せず
+// $(function(){
+// //    /*test
+//     console.log("function loaded")
+//     if (typeof jQuery == 'undefined') {
+//       console.log('jQuery not loaded');
+//     } else {
+//       console.log('jQuery loaded');
+//     }
+//     if($('.globalNav__btn')) {console.log("dom loaded")}
+//    */
 //     $(".globalNav__btn").on("click", function(){
 //         console.log("fired on-click") //test
 //         // ハンバーガーメニューの位置を設定
