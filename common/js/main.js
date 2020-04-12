@@ -1,10 +1,9 @@
 // JavaScript Document
-
- ▼共通パーツ（最終的に共通化する予定）
-$(function(){ 
-	$("#header").load("header.html");
-	$("#footer").load("footer.html");
-});
+ // ▼共通パーツ（最終的に共通化する予定）
+ $(function(){
+ 	$("#header").load("https://pigeon-soccer.github.io/header.html");
+ 	$("#footer").load("https://pigeon-soccer.github.io/footer.html");
+ });
 
 
 // ▼スマホでhover解除
