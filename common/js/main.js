@@ -5,11 +5,6 @@
  	$("#footer").load("https://pigeon-soccer.github.io/footer.html");
  });
 
-
-// ▼スマホでhover解除
-
-
-
 // ▼スムーススクロール
 $(function(){
   $('a[href^="#"]').click(function(){
@@ -26,7 +21,6 @@ $(function(){
 // ▼ハンバーガーメニュー
 $(function(){
     $(".globalNav__btn").on("click", function(){
-        console.log("test")
         // ハンバーガーメニューの位置を設定
         var rightVal = 0;
         if($(this).hasClass("open")) {
@@ -49,6 +43,7 @@ $(function(){
 $(function() {
     //クリックしたときのファンクションをまとめて指定
     $('.tab > li.tab__label').click(function() {
+        console.log("test")
         //.index()を使いクリックされたタブが何番目かを調べ、
         //indexという変数に代入します。
         var index = $('.tab > li.tab__label').index(this);
