@@ -542,22 +542,6 @@ ul.commonInner__solution > li dd{
     background-color: #f1f1f1;
     box-shadow: 1px 1.5px 4px 1px rgba(0,0,0,0.1);
 }
-.commonInner__introduce dl{
-	width:630px;
-	background-color:#f1f1f1;
-	padding:20px;
-	padding-left:250px;
-	position: relative;
-}
-.commonInner__introduce dl:before{
-	content: "";
-	position: absolute;
-	top:50%;
-	left:20px;
-	width:200px;
-	height:200px;
-	margin-top:-100px;
-}
 .commonInner__introduce .introduce__position{
 	font-weight: bold;
 	font-size: 20px;
