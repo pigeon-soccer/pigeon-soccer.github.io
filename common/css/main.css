@@ -57,7 +57,7 @@ p.noticeTxt{ /* 文頭に"※"等がつく注意書き */
 strong{
 	font-weight: bold;
 }
-.commonInner{
+main.commonInner{
     max-width: 1250px;
     min-height: 100%;
 	margin: 0 auto;
@@ -134,7 +134,6 @@ ul.globalNav__menu > li a{
 	color:#444444;
 	font-weight: 500;
 	position: relative;
-	background-color: #f1f1f1;
 	transition: 0.3s;
 }
 ul.globalNav__menu > li a:before{
@@ -428,7 +427,7 @@ section.commonSection h2.summary__heading{
 	font-size: 3.4rem;
 	font-weight: 600;
 	position: relative;
-	z-index:1000;
+	z-index:100;
 
 }
 section.commonSection h2.summary__heading:before{
