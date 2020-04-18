@@ -486,8 +486,7 @@ ul.commonInner__solution > li dd{
 /* ▽ about - 沿革 ▽ */
 
 .commonInner-mission{
-/*    background-image: url("https://pigeon-soccer.github.io/common/images/people_handShake.JPG");*/
-    background-image: url("people_handShake.JPG");
+    background-image: url("https://pigeon-soccer.github.io/common/images/people_handShake.JPG");
     background-size: cover;
     height: 100%;
 }
