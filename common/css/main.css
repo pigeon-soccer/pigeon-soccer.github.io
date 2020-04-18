@@ -484,6 +484,21 @@ ul.commonInner__solution > li dd{
 }
 
 /* ▽ about - 沿革 ▽ */
+
+.commonInner-mission{
+/*    background-image: url("https://pigeon-soccer.github.io/common/images/people_handShake.JPG");*/
+    background-image: url("people_handShake.JPG");
+    background-size: cover;
+    height: 100%;
+}
+
+.commonInner-mission{
+    background-color: rgba(31, 20, 11, 0.5);
+    backdrop-filter: blur(3px);
+    color: white;
+    padding-top: 80px;
+}
+
 .commonInner__history > dl{
 	border-bottom:1px solid #cccccc;
 	display: flex;
