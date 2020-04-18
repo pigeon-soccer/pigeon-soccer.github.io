@@ -514,7 +514,7 @@ ul.commonInner__solution > li dd{
     color: white;
 }
 .commonSection-mission__wrapper{
-    background-color: rgba(40, 20, 10, 0.35);
+    background-color: rgba(40, 20, 10, 0.3);
     backdrop-filter: blur(4px);
     height: 100%;
 }
@@ -532,7 +532,7 @@ ul.commonInner__solution > li dd{
 	display: flex;
 	justify-content: space-between;
 }
-.commonInner__introduce.introduce__profile{
+.commonInner__introduce .introduce__profile{
     display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
