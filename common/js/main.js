@@ -1,9 +1,20 @@
-// JavaScript Document
- // ▼共通パーツ（最終的に共通化する予定）
- $(function(){
+$(function(){
  	$("#header").load("https://pigeon-soccer.github.io/header.html");
  	$("#footer").load("https://pigeon-soccer.github.io/footer.html");
- });
+});
+
+$(function(){
+    var startPos = 0,winScrollTop = 0;
+    $(window).on('scroll',function(){
+        winScrollTop = $(this).scrollTop();
+        if (winScrollTop >= startPos) {
+            $('#header').addClass('hide');
+        } else {
+            $('#header').removeClass('hide');
+        }
+        startPos = winScrollTop;
+    });
+});
 
 // ▼スムーススクロール
 $(function(){
