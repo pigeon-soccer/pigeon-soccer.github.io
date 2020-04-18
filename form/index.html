@@ -35,87 +35,86 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <!--タブを切り替えて表示するコンテンツ-->
 				<ul class="tabContent">
 					<li class="tabContent__box">
-                        <form class="formrun" action="https://form.run/api/v1/r/jsd6xsfbhgvktlebkghb15ou" method="post">
-                            <div class="formWrapper">
-                            <p>各項目を入力・選択いただき、お問い合わせください。</p>
-                            <div class="address">
-                                <p class="form__title">ご連絡先</p>
-                                <table class="form">
-                                    <tr>
-                                        <th class="form__label">メールアドレス</th>
-                                        <td>
-                                            <input name="email" type="text" size="10" value placeholder="例 - sample@pigeon.com" maxlength="8" autocomplete="on" onfocus="" data-formrun-type="email" data-formrun-required>
-                                            <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                      <th class="form__label">苗字</th>
-                                      <td>
-                                          <input maxlength="20" name="name" type="text" size="18" value placeholder="例 - 山田" data-formrun-required>
-                                      </td>
-                                    </tr>
-                                </table>
-                            </div><!-- /address -->
 
-                            <div class="contact">
-                                <p class="form__title">お問い合わせ内容</p>
-                                <table class="form">
-                                    <tr class="row1">
-                                      <th class="form__label">ご関心</th>
-                                      <td>
-                                          <ul class="form__checkList">
-                                              <li>
-                                                  <input type="radio" name="interest" id="parent" data-formrun-type="interest">
-                                                  <label for="parent" class="radio">お子さんのクラブ活動</label>
-                                              </li>
-                                              <li>
-                                                  <input type="radio" name="interest" id="support" data-formrun-type="interest">
-                                                  <label for="support" class="radio" data-formrun-type="interest">スタッフ・その他のご支援</label>
-                                              </li>
-                                              <li>
-                                                  <input type="radio" name="interest" id="infoExchange">
-                                                  <label for="infoExchange" class="radio">非営利団体の情報交換・ご提案</label>
-                                              </li>
-                                          </ul>
-                                      </td>
-                                    </tr>
-                                    <tr class="row2">
-                                        <th class="form__label">ご希望</th>
-                                        <td>
-                                            <ul class="form__checkList">
-                                                <li>
-                                                    <input type="radio" name="request" id="question" data-formrun-type="request">
-                                                    <label for="question" class="radio">質問だけしたい</label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="request" id="visit" data-formrun-type="request">
-                                                    <label for="visit" class="radio">見学もしてみたい</label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="request" id="trialLesson" data-formrun-type="request">
-                                                    <label for="trialLesson" class="radio">体験もしてみたい</label>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th class="form__label">ご質問内容(任意)</th>
-                                        <td>
-                                            <textarea name="テキストエリア" rows="5" cols="50" wrap="hard" value placeholder="ご入力ください"></textarea>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div><!-- /contact -->
-<!--
-                              <div class="_formrun_gotcha">
-                                <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
-                                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
-                                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-                              </div>
--->
-                              <button class="formSendBtn" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">お問い合わせする</button>
+
+                        <!--フォームツールのフォーム埋め込み用コード-->
+                        <!--https://smpdoc.shanon.co.jp/ja/visitor/other/chapter002/chapter003/001/-->
+                        <div id="emb3554ffa6-efc5-4c8e-9344-d27543ad2baa" class="smpForm">
+
+                            <form action="https://pigeon.smktg.jp/public/embeddedapplication/add/emb3554ffa6-efc5-4c8e-9344-d27543ad2baa" autocomplete="off" method="post">
+                                <div class="formWrapper">
+                                <p>各項目を入力・選択いただき、お問い合わせください。</p>
+                                <div class="address">
+                                    <p class="form__title">ご連絡先</p>
+                                    <table class="form">
+                                        <tr>
+                                            <th class="form__label">メールアドレス</th>
+                                            <td>
+                                                <input name="Public::EmbeddedApplication::User_D__P__D_email" type="text" size="10" value placeholder="例 - sample@pigeon.com" maxlength="8" autocomplete="on" onfocus="" data-formrun-type="email">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                          <th class="form__label">苗字</th>
+                                          <td>
+                                              <input maxlength="20" name="Public::EmbeddedApplication::User_D__P__D_name1" type="text" size="18" value placeholder="例 - 山田">
+                                          </td>
+                                        </tr>
+                                    </table>
+                                </div><!-- /address -->
+
+                                <div class="contact">
+                                    <p class="form__title">お問い合わせ内容</p>
+                                    <table class="form">
+                                        <tr class="row1">
+                                          <th class="form__label">ご関心</th>
+                                          <td>
+                                              <ul class="form__checkList">
+                                                  <li>
+                                                      <input type="radio" id="parent" name="Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute34" value="1">
+                                                      <label for="parent" class="radio">お子さんのクラブ活動</label>
+                                                  </li>
+                                                  <li>
+                                                      <input type="radio" id="support" name="Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute34" value="2">
+                                                      <label for="support" class="radio">スタッフ・その他のご支援</label>
+                                                  </li>
+                                                  <li>
+                                                      <input type="radio" id="infoExchange" name="Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute34" value="3">
+                                                      <label for="infoExchange" class="radio">非営利団体の情報交換・ご提案</label>
+                                                  </li>
+                                              </ul>
+                                          </td>
+                                        </tr>
+                                        <tr class="row2">
+                                            <th class="form__label">ご希望</th>
+                                            <td>
+                                                <ul class="form__checkList">
+                                                    <li>
+                                                        <input type="radio" id="question" name="Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute35" value="1">
+                                                        <label for="question" class="radio">質問だけしたい</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" id="visit" name="Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute35" value="2">
+                                                        <label for="visit" class="radio">見学もしてみたい</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" id="trialLesson" name="Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute35" value="3">
+                                                        <label for="trialLesson" class="radio">体験もしてみたい</label>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="form__label">ご質問内容(任意)</th>
+                                            <td>
+                                                <textarea rows="5" cols="50" wrap="hard" value placeholder="ご入力ください" name="Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36"></textarea>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div><!-- /contact -->
+                                <button class="formSendBtn" type="submit" name="smpSubmit">お問い合わせする</button>
                           </div><!-- /formWrapper -->
                         </form>
+                    </div>
 					</li>
 					<li class="tabContent__box contactSns">
                         <p><span class="tabContent__box__tw">Twitter</span><span class="tabContent__box__fb">Facebook</span></p>
