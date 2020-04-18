@@ -1158,9 +1158,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		line-height: 1.6;
 		font-size: 1.6rem;
 	}
-	a:hover{
-		 pointer-events: none;
-	}
 	.spNone{
 		display: none;
 	}
@@ -1194,8 +1191,8 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		padding:10px;
 		font-size: 18px;
 		border-radius: 40px;
-        margin: auto;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    margin: auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 	}
     .sp_display{
         display: none;
