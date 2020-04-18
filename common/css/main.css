@@ -424,14 +424,14 @@ section.commonSection h2.summary__heading:before{
 	font-weight: normal;
 	z-index: -1;
 }
-section.commonSection .personality h2.summary__heading:before{
+section.commonSection .summary-personality h2.summary__heading:before{
 	content: "Personality";
 
 }
-section.commonSection .individualAbility h2.summary__heading:before{
+section.commonSection .summary-individualAbility h2.summary__heading:before{
 	content: "Individual";
 }
-section.commonSection .continue h2.summary__heading:before{
+section.commonSection .summary-continue h2.summary__heading:before{
 	content: "Continue";
 }
 section.commonSection h2.summary__heading > span{
@@ -448,7 +448,7 @@ section.commonSection h2.summary__heading > span:before{
 	background-color: #ffc2c4;
 	border-radius: 30px;
 }
-section.commonSection .summary .summary__img, .snsWindow{
+section.commonSection .summary .summary__img, .summary__snsWindow{
 	width: 550px;
 }
 
@@ -464,48 +464,48 @@ section.commonSection section.summary .commonDetailBtn{
 /* ▽ コンテンツ -【about】▽ */
 
 /* ▽ about - Pigeonができること ▽ */
-ul.possible{
+ul.commonInner__solution{
 	display: flex;
 	justify-content: space-between;
 	padding-top:40px;
 }
-ul.possible > li{
+ul.commonInner__solution > li{
 	width:410px;
 	text-align: center;
 	background-color: #ffffff;
 	padding:30px 20px;
 }
-ul.possible > li dt{
+ul.commonInner__solution > li dt{
 	font-weight: bold;
 	font-size: 2.4rem;
 }
-ul.possible > li dd{
+ul.commonInner__solution > li dd{
 	padding-top:20px;
 }
 
 /* ▽ about - 沿革 ▽ */
-.history > dl{
+.commonInner__history > dl{
 	border-bottom:1px solid #cccccc;
 	display: flex;
 	padding: 20px 40px;
 }
-.history > dl dd{
+.commonInner__history > dl dd{
 	margin-left:80px;
 }
 
 /* ▽ about - 代表の紹介 ▽ */
-.introduce{
+.commonInner__introduce{
 	display: flex;
 	justify-content: space-between;
 }
-.introduce dl{
+.commonInner__introduce dl{
 	width:630px;
 	background-color:#f1f1f1;
 	padding:20px;
 	padding-left:250px;
 	position: relative;
 }
-.introduce dl:before{
+.commonInner__introduce dl:before{
 	content: "";
 	position: absolute;
 	top:50%;
@@ -514,20 +514,20 @@ ul.possible > li dd{
 	height:200px;
 	margin-top:-100px;
 }
-.introduce dl.introduce__01:before{
+.commonInner__introduce dl.introduce__01:before{
 	background: url(../images/index_ph_001.png) no-repeat;
 }
-.introduce dl.introduce__02:before{
+.commonInner__introduce dl.introduce__02:before{
 	background: url(../images/index_ph_002.png) no-repeat;
 }
-.introduce .introduce__position{
+.commonInner__introduce .introduce__position{
 	font-weight: bold;
 	font-size: 20px;
 }
-.introduce dd{
+.commonInner__introduce dd{
 	padding-top:16px;
 }
-.introduce + .txtLink{
+.commonInner__introduce + .txtLink{
 	text-align:center;
 	margin-top:60px;
 }
@@ -1135,17 +1135,17 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		max-width: 50vw
 	}
 	/* ▽ display:flex解除 ▽ */
-	ul.possible,
-	.introduce,
-	.history > dl,
+	ul.commonInner__solution,
+	.commonInner__introduce,
+	.commonInner__history > dl,
 	ul.convey,
 
     /* ▽ width指定解除 ▽ */
-	ul.possible > li,
+	ul.commonInner__solution > li,
 	ul.convey > li,
 	.dailySchedule,
 	.dailySchedule > dl dd,
-	.introduce > dl,
+	.commonInner__introduce > dl,
 	.eventOutline,
 	.formWrapper,
 	th.form__label,
@@ -1320,7 +1320,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 
 	/* ▽ セクション - 見出し ▽ */
-    section.commonSection .individualAbility h2.summary__heading:before {
+    section.commonSection .summary-individualAbility h2.summary__heading:before {
     content: "Individual";
     }
     section.commonSection h2.summary__heading {
@@ -1350,7 +1350,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	section.commonSection .summary .summary__txtWrapper {
 	  	width: 100%;
 	}
-	section.commonSection .summary .summary__txtWrapper .txt{
+	section.commonSection .summary .summary__txtWrapper .txtWrapper__txt{
 		padding-top:20px;
 	}
 	section.commonSection .summary .commonDetailBtn__sp {
@@ -1365,35 +1365,35 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	section.commonSection .summary .summary__txtWrapper{
 		order: 1;
 	}
-    section.commonSection .continue .summary__txtWrapper{
+    section.commonSection .summary-continue .summary__txtWrapper{
         order: 0;
 
     }
     .twitter-timeline{
         height: 100px;
     }
-	ul.possible > li:not(:first-child){
+	ul.commonInner__solution > li:not(:first-child){
 		margin-top:60px;
 	}
-	ul.possible > li dd{
+	ul.commonInner__solution > li dd{
 		text-align:left;
 	}
 
-	.history > dl {
+	.commonInner__history > dl {
 	  padding: 20px 20px;
 	}
-	.history > dl dd {
+	.commonInner__history > dl dd {
 	  margin-left: 0;
 	}
-	.introduce dl{
+	.commonInner__introduce dl{
 		padding: 120px 20px 20px 20px;
 		z-index: 0;
 		position: relative;
 	}
-	.introduce dl:not(:first-child){
+	.commonInner__introduce dl:not(:first-child){
 		margin-top:20px;
 	}
-	.introduce dl:before {
+	.commonInner__introduce dl:before {
 	  content: "";
 	  position: absolute;
 	  top: 120px;
@@ -1402,10 +1402,10 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	  height: 100px;
 	  margin-left: -50px;
 	}
-	.introduce dl.introduce__01:before {
+	.commonInner__introduce dl.introduce__01:before {
 	  background: url(../images/index_ph_001.png) no-repeat 0 0/100px 100px;
 	}
-	.introduce dl.introduce__02:before {
+	.commonInner__introduce dl.introduce__02:before {
 	  background: url(../images/index_ph_002.png) no-repeat 0 0/100px 100px;
 	}
 	.episode > dl {
