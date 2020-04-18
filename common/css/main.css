@@ -485,13 +485,20 @@ section.commonSection section.summary .commonDetailBtn{
 ul.commonInner__solution{
 	display: flex;
 	justify-content: space-between;
-	padding-top:40px;
 }
 ul.commonInner__solution > li{
-	width:410px;
-	text-align: center;
-	background-color: #ffffff;
-	padding:30px 20px;
+    align-content: space-between;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: 1px 1.5px 4px 1px rgba(0,0,0,0.1);
+    color: #4c4c4c;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 8px;
+    max-width: unset;
+    padding: 32px 30px;
 }
 ul.commonInner__solution > li dt{
 	font-weight: bold;
@@ -507,7 +514,7 @@ ul.commonInner__solution > li dd{
     color: white;
 }
 .commonSection-mission__wrapper{
-    background-color: rgba(40, 20, 10, 0.4);
+    background-color: rgba(40, 20, 10, 0.35);
     backdrop-filter: blur(4px);
     height: 100%;
 }
@@ -525,6 +532,16 @@ ul.commonInner__solution > li dd{
 	display: flex;
 	justify-content: space-between;
 }
+.commonInner__introduce.introduce__profile{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 8px;
+    padding: 10px 10px;
+    background-color: #f1f1f1;
+    box-shadow: 1px 1.5px 4px 1px rgba(0,0,0,0.1);
+}
 .commonInner__introduce dl{
 	width:630px;
 	background-color:#f1f1f1;
@@ -540,12 +557,6 @@ ul.commonInner__solution > li dd{
 	width:200px;
 	height:200px;
 	margin-top:-100px;
-}
-.commonInner__introduce dl.introduce__01:before{
-	background: url(../images/index_ph_001.png) no-repeat;
-}
-.commonInner__introduce dl.introduce__02:before{
-	background: url(../images/index_ph_002.png) no-repeat;
 }
 .commonInner__introduce .introduce__position{
 	font-weight: bold;
@@ -1403,9 +1414,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     .twitter-timeline{
         height: 100px;
     }
-	ul.commonInner__solution > li:not(:first-child){
-		margin-top:60px;
-	}
+    ul.commonInner__solution{
+        flex-wrap: wrap;
+    }
 	ul.commonInner__solution > li dd{
 		text-align:left;
 	}
@@ -1416,29 +1427,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.commonInner__history > dl dd {
 	  margin-left: 0;
 	}
-	.commonInner__introduce dl{
-		padding: 120px 20px 20px 20px;
-		z-index: 0;
-		position: relative;
-	}
-	.commonInner__introduce dl:not(:first-child){
-		margin-top:20px;
-	}
-	.commonInner__introduce dl:before {
-	  content: "";
-	  position: absolute;
-	  top: 120px;
-	  left: 50%;
-	  width: 100px;
-	  height: 100px;
-	  margin-left: -50px;
-	}
-	.commonInner__introduce dl.introduce__01:before {
-	  background: url(../images/index_ph_001.png) no-repeat 0 0/100px 100px;
-	}
-	.commonInner__introduce dl.introduce__02:before {
-	  background: url(../images/index_ph_002.png) no-repeat 0 0/100px 100px;
-	}
+    .commonInner__introduce{
+      flex-wrap: wrap;        
+    }
 	.episode > dl {
 		padding: 100px 0 20px 0;
 	}
