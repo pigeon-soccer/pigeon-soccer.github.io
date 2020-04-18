@@ -186,7 +186,7 @@ ul.globalNav__menu > li.current:before{
 	text-align: center;
 	z-index: 0;
 }
-.topImage .topImage__img{
+#about .topImage .topImage__img{
     background-image: url(https://pigeon-soccer.github.io/common/images/index_mv_002.jpg);
     background-size: cover;
     height: 100%;
