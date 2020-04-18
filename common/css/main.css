@@ -485,17 +485,15 @@ ul.commonInner__solution > li dd{
 
 /* ▽ about - 沿革 ▽ */
 
-.commonInner-mission{
+.commonSection-mission{
     background-image: url("https://pigeon-soccer.github.io/common/images/people_handShake.JPG");
     background-size: cover;
-    height: 100%;
 }
 
 .commonInner-mission{
     background-color: rgba(31, 20, 11, 0.5);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(3px);
-    color: white;
-    padding-top: 80px;
 }
 
 .commonInner__history > dl{
