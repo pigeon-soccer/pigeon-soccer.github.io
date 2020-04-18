@@ -187,7 +187,13 @@ ul.globalNav__menu > li.current:before{
 	z-index: 0;
 }
 .topImage .topImage__img{
-	z-index: 0;
+    background-image: url(https://pigeon-soccer.github.io/common/images/index_mv_002.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.topImage__wrapper{
+    background-color: rgba(100, 100, 10, 0.2);
+    height: 100%;
 }
 .mainVisual .mainVisual__txt,
 .topImage .topImage__txt{
@@ -201,10 +207,7 @@ ul.globalNav__menu > li.current:before{
     width: 100%
 }
 .topImage .topImage__txt{
-	color:#333333;
-}
-.topImage .topImage__txt{
-	font-size: 2.4rem;
+	font-size: 3vw;
 }
 .txt__main{ /* ※indexのみ */
 	font-size: 5vw;
