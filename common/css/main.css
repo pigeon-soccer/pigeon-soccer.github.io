@@ -192,8 +192,8 @@ ul.globalNav__menu > li.current:before{
     height: 100%;
 }
 .topImage__wrapper{
-    background-color: rgba(100, 100, 10, 0.2);
     height: 100%;
+    background-color: rgba(40, 20, 10, 0.3);    
 }
 .mainVisual .mainVisual__txt,
 .topImage .topImage__txt{
@@ -208,6 +208,11 @@ ul.globalNav__menu > li.current:before{
 }
 .topImage .topImage__txt{
 	font-size: 3vw;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .txt__main{ /* ※indexのみ */
 	font-size: 5vw;
@@ -300,7 +305,7 @@ section.commonSection section:not(:first-of-type){
 	background-color:#ffffff;
 }
 #about #mainContent > section:nth-of-type(3){ /* aboutのみ */
-	background-color:#e0efb2;
+    background-color: #86c4635e;
 }
 
 #about  #mainContent > section:nth-of-type(5){ /* aboutのみ */
@@ -1316,8 +1321,12 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 
 	/* ▽ メインビジュアル ▽ */
     .txt__main{
-        font-size: 10vw;
+        font-size: xx-large;
     }
+    .topImage__txt{
+        font-size: medium;
+    }
+    .topImage__txt
     .mainVisual .mainVisual__txt div.txt__sub{
         white-space: nowrap;
         font-size: 4vw;
