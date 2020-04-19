@@ -1325,6 +1325,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     }
     .topImage__txt{
         font-size: medium;
+        padding: 0 25px 0 25px;
     }
     .topImage__txt
     .mainVisual .mainVisual__txt div.txt__sub{
