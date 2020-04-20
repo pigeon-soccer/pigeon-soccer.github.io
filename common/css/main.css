@@ -1541,7 +1541,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
       padding: 40px 0 20px
   }
   footer .footer-action .questionBtn a {
-			width: 80%;
+			min-width: 80%;
 	}
   footer .footer-infomation .pageTop-up a{
       background-color: #666666;
