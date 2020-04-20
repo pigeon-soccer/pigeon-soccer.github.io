@@ -87,7 +87,7 @@ header{
     top: 0;
     transition: .5s;
     z-index: 999;
-} 
+}
 header.hide{
     transform: translateY(-100%);
 }
@@ -193,7 +193,7 @@ ul.globalNav__menu > li.current:before{
 }
 .topImage__wrapper{
     height: 100%;
-    background-color: rgba(40, 20, 10, 0.3);    
+    background-color: rgba(40, 20, 10, 0.3);
 }
 .mainVisual .mainVisual__txt,
 .topImage .topImage__txt{
@@ -204,10 +204,10 @@ ul.globalNav__menu > li.current:before{
 	transform : translate(-50%,-50%);
 	color:#ffffff;
 	font-weight: 500;
-    width: 100%
+  width: 100%
 }
 .topImage .topImage__txt{
-	font-size: 3vw;
+		font-size: 3vw;
     color: white;
     text-align: left;
     padding-left: 50px;
@@ -215,16 +215,15 @@ ul.globalNav__menu > li.current:before{
     letter-spacing: 2px;
 }
 .txt__main{ /* ※indexのみ */
-	font-size: 5vw;
+	font-size: 60px;
 	line-height:1;
   text-shadow: 0 0 50px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
-  letter-spacing: 0.2rem;
+	letter-spacing: 2;
 }
 .mainVisual .mainVisual__txt .txt__sub{ /* ※indexのみ */
-	font-size: 2vw;
 	line-height:1.5;
 	padding-top: 20px;
-    text-shadow: 0 0 25px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
+  text-shadow: 0 0 25px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
 }
 #activity .topImage .topImage__txt{ /* ※indexのみ */
 	color:#ffffff;
@@ -330,6 +329,7 @@ section.commonSection section:not(:first-of-type){
 }
 .sectionContent h2 + p{
 	text-align: center;
+  padding: 0 20px 0 20px;
 }
 
 /* ▽ ボタン ▽ */
@@ -503,7 +503,7 @@ ul.commonInner__solution > li{
     justify-content: space-around;
     margin: 8px;
     max-width: unset;
-    padding: 32px 30px;
+    padding: 30px 20px;
 }
 ul.commonInner__solution > li dt{
 	font-weight: bold;
@@ -527,7 +527,7 @@ ul.commonInner__solution > li dd{
 .commonInner__history > dl{
 	border-bottom:1px solid #cccccc;
 	display: flex;
-	padding: 20px 40px;
+	padding: 30px 25px 30px 25px;
 }
 .commonInner__history > dl dd{
 	margin-left:80px;
@@ -543,7 +543,7 @@ ul.commonInner__solution > li dd{
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 8px;
-    padding: 10px 10px;
+    padding: 30px 20px;
     background-color: #f1f1f1;
     box-shadow: 1px 1.5px 4px 1px rgba(0,0,0,0.1);
 }
@@ -1178,7 +1178,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	th.form__label,
 	.formWrapper .address input,
 	.eventMap iframe{
-		width: 100%;
+	width: 100%;
 	}
 	/* ▽ base ▽ */
 	body {
@@ -1323,16 +1323,16 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     .txt__main{
         font-size: xx-large;
     }
-    .topImage__txt{
+    .topImage .topImage__txt{
         font-size: medium;
-        padding: 0 25px 0 25px;
+        padding: 0 20px;
     }
     .topImage__txt
     .mainVisual .mainVisual__txt div.txt__sub{
         white-space: nowrap;
         font-size: 4vw;
     }
-    .mainVisual__img img{        
+    .mainVisual__img img{
 /*
         max-width: 300%;
         max-height: 300px;
@@ -1416,13 +1416,13 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 
 	.commonInner__history > dl {
-	  padding: 20px 20px;
+    flex-wrap: wrap;
 	}
 	.commonInner__history > dl dd {
 	  margin-left: 0;
 	}
     .commonInner__introduce{
-      flex-wrap: wrap;        
+      flex-wrap: wrap;
     }
 	.episode > dl {
 		padding: 100px 0 20px 0;
@@ -1537,26 +1537,13 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		margin-top: 0;
 		padding-top:10px;
 	}
-    footer .footer-action{
-        padding: 40px 0 20px
-    }
-    footer .footer-action .questionBtn a {
-        padding: 10px;
-        min-width: 300px;
-        background-color: #666666;
-		display: block;
-		width: 80%;
-		background-color:#ef454a;
-		color:#ffffff;
-		text-align:center;
-		padding:10px;
-		font-size: 18px;
-		border-radius: 40px;
-        border-width: 0px;
+  footer .footer-action{
+      padding: 40px 0 20px
+  }
+  footer .footer-action .questionBtn a {
+			width: 80%;
 	}
-
-    }
-    footer .footer-infomation .pageTop-up a{
-        background-color: #666666;
-    }
+  footer .footer-infomation .pageTop-up a{
+      background-color: #666666;
+  }
 }
