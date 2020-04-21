@@ -57,9 +57,11 @@ p.noticeTxt{ /* 文頭に"※"等がつく注意書き */
 strong{
 	font-weight: bold;
 }
-.commonInner{
+.commonInner.sectionContent{
     max-width: 1250px;
+    min-height: 100%;
 	margin: 0 auto;
+    padding: 150px 0;
 }
 .pcNone{
 	display: none;
@@ -79,7 +81,17 @@ strong{
 header{
 	background-color: #ffffff;
 	height: 10vw;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    position: fixed;
+    top: 0;
+    transition: .5s;
+    z-index: 999;
 }
+header.hide{
+    transform: translateY(-100%);
+}
+
 .navWrapper .navWrapper__logo{
 	float: left;
     max-width: 29vw;
@@ -122,7 +134,6 @@ ul.globalNav__menu > li a{
 	color:#444444;
 	font-weight: 500;
 	position: relative;
-	background-color: #f1f1f1;
 	transition: 0.3s;
 }
 ul.globalNav__menu > li a:before{
@@ -175,8 +186,14 @@ ul.globalNav__menu > li.current:before{
 	text-align: center;
 	z-index: 0;
 }
-.topImage .topImage__img{
-	z-index: 0;
+#about .topImage .topImage__img{
+    background-image: url(https://pigeon-soccer.github.io/common/images/index_mv_002.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.topImage__wrapper{
+    height: 100%;
+    background-color: rgba(40, 20, 10, 0.3);
 }
 .mainVisual .mainVisual__txt,
 .topImage .topImage__txt{
@@ -187,25 +204,26 @@ ul.globalNav__menu > li.current:before{
 	transform : translate(-50%,-50%);
 	color:#ffffff;
 	font-weight: 500;
-    width: 100%
+  width: 100%
 }
 .topImage .topImage__txt{
-	color:#333333;
-}
-.topImage .topImage__txt{
-	font-size: 2.4rem;
+		font-size: 3vw;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .txt__main{ /* ※indexのみ */
-	font-size: 5vw;
+	font-size: 60px;
 	line-height:1;
   text-shadow: 0 0 50px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
-  letter-spacing: 0.2rem;
+	letter-spacing: 2;
 }
 .mainVisual .mainVisual__txt .txt__sub{ /* ※indexのみ */
-	font-size: 2vw;
 	line-height:1.5;
 	padding-top: 20px;
-    text-shadow: 0 0 25px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
+  text-shadow: 0 0 25px #ffc2c4, 0 0 0px rgba(0,0,0,.1);
 }
 #activity .topImage .topImage__txt{ /* ※indexのみ */
 	color:#ffffff;
@@ -213,6 +231,9 @@ ul.globalNav__menu > li.current:before{
 
 .mainVisual__img{
     box-sizing:content-box;
+    background-image: url(https://pigeon-soccer.github.io/common/images/index_mv_001.jpg);
+    background-size: cover;
+    height: 100%;
 }
 /* ▽ スクロール（down）ボタン ▽ */
 .mainVisual__scroll-down a{
@@ -267,11 +288,11 @@ ul.globalNav__menu > li.current:before{
 }
 
 /* ======== main -content- ======== */
-
 /* ▽ セクション ▽ */
 #mainContent .commonSection{
-	padding:100px 0;
+    min-height: 100%;
 }
+
 #mainContent > section:nth-of-type(odd){ /* 共通 */
 	background-color:#f1f1f1;
 }
@@ -283,8 +304,9 @@ section.commonSection section:not(:first-of-type){
 	background-color:#ffffff;
 }
 #about #mainContent > section:nth-of-type(3){ /* aboutのみ */
-	background-color:#e0efb2;
+    background-color: #86c4635e;
 }
+
 #about  #mainContent > section:nth-of-type(5){ /* aboutのみ */
 	background-color:#ffffff;
 }
@@ -307,6 +329,7 @@ section.commonSection section:not(:first-of-type){
 }
 .sectionContent h2 + p{
 	text-align: center;
+  padding: 0 20px 0 20px;
 }
 
 /* ▽ ボタン ▽ */
@@ -411,7 +434,7 @@ section.commonSection h2.summary__heading{
 	font-size: 3.4rem;
 	font-weight: 600;
 	position: relative;
-	z-index:1000;
+	z-index:100;
 
 }
 section.commonSection h2.summary__heading:before{
@@ -424,14 +447,14 @@ section.commonSection h2.summary__heading:before{
 	font-weight: normal;
 	z-index: -1;
 }
-section.commonSection .personality h2.summary__heading:before{
+section.commonSection .summary-personality h2.summary__heading:before{
 	content: "Personality";
 
 }
-section.commonSection .individualAbility h2.summary__heading:before{
+section.commonSection .summary-individualAbility h2.summary__heading:before{
 	content: "Individual";
 }
-section.commonSection .continue h2.summary__heading:before{
+section.commonSection .summary-continue h2.summary__heading:before{
 	content: "Continue";
 }
 section.commonSection h2.summary__heading > span{
@@ -448,7 +471,7 @@ section.commonSection h2.summary__heading > span:before{
 	background-color: #ffc2c4;
 	border-radius: 30px;
 }
-section.commonSection .summary .summary__img, .snsWindow{
+section.commonSection .summary .summary__img, .summary__snsWindow{
 	width: 550px;
 }
 
@@ -464,70 +487,74 @@ section.commonSection section.summary .commonDetailBtn{
 /* ▽ コンテンツ -【about】▽ */
 
 /* ▽ about - Pigeonができること ▽ */
-ul.possible{
+ul.commonInner__solution{
 	display: flex;
 	justify-content: space-between;
-	padding-top:40px;
 }
-ul.possible > li{
-	width:410px;
-	text-align: center;
-	background-color: #ffffff;
-	padding:30px 20px;
+ul.commonInner__solution > li{
+    align-content: space-between;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: 1px 1.5px 4px 1px rgba(0,0,0,0.1);
+    color: #4c4c4c;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 8px;
+    max-width: unset;
+    padding: 30px 20px;
 }
-ul.possible > li dt{
+ul.commonInner__solution > li dt{
 	font-weight: bold;
 	font-size: 2.4rem;
 }
-ul.possible > li dd{
+ul.commonInner__solution > li dd{
 	padding-top:20px;
 }
 
-/* ▽ about - 沿革 ▽ */
-.history > dl{
+.commonSection-mission{
+    background-image: url("https://pigeon-soccer.github.io/common/images/people_handShake.JPG");
+    background-size: cover;
+    color: white;
+}
+.commonSection-mission__wrapper{
+    background-color: rgba(40, 20, 10, 0.3);
+    backdrop-filter: blur(4px);
+    height: 100%;
+}
+
+.commonInner__history > dl{
 	border-bottom:1px solid #cccccc;
 	display: flex;
-	padding: 20px 40px;
+	padding: 30px 25px 30px 25px;
 }
-.history > dl dd{
+.commonInner__history > dl dd{
 	margin-left:80px;
 }
 
-/* ▽ about - 代表の紹介 ▽ */
-.introduce{
+.commonInner__introduce{
 	display: flex;
 	justify-content: space-between;
 }
-.introduce dl{
-	width:630px;
-	background-color:#f1f1f1;
-	padding:20px;
-	padding-left:250px;
-	position: relative;
+.commonInner__introduce .introduce__profile{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 8px;
+    padding: 30px 20px;
+    background-color: #f1f1f1;
+    box-shadow: 1px 1.5px 4px 1px rgba(0,0,0,0.1);
 }
-.introduce dl:before{
-	content: "";
-	position: absolute;
-	top:50%;
-	left:20px;
-	width:200px;
-	height:200px;
-	margin-top:-100px;
-}
-.introduce dl.introduce__01:before{
-	background: url(../images/index_ph_001.png) no-repeat;
-}
-.introduce dl.introduce__02:before{
-	background: url(../images/index_ph_002.png) no-repeat;
-}
-.introduce .introduce__position{
+.commonInner__introduce .introduce__position{
 	font-weight: bold;
 	font-size: 20px;
 }
-.introduce dd{
+.commonInner__introduce dd{
 	padding-top:16px;
 }
-.introduce + .txtLink{
+.commonInner__introduce + .txtLink{
 	text-align:center;
 	margin-top:60px;
 }
@@ -1135,31 +1162,28 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		max-width: 50vw
 	}
 	/* ▽ display:flex解除 ▽ */
-	ul.possible,
-	.introduce,
-	.history > dl,
+	ul.commonInner__solution,
+	.commonInner__introduce,
+	.commonInner__history > dl,
 	ul.convey,
 
     /* ▽ width指定解除 ▽ */
-	ul.possible > li,
+	ul.commonInner__solution > li,
 	ul.convey > li,
 	.dailySchedule,
 	.dailySchedule > dl dd,
-	.introduce > dl,
+	.commonInner__introduce > dl,
 	.eventOutline,
 	.formWrapper,
 	th.form__label,
 	.formWrapper .address input,
 	.eventMap iframe{
-		width: 100%;
+	width: 100%;
 	}
 	/* ▽ base ▽ */
 	body {
 		line-height: 1.6;
 		font-size: 1.6rem;
-	}
-	a:hover{
-		 pointer-events: none;
 	}
 	.spNone{
 		display: none;
@@ -1194,8 +1218,8 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		padding:10px;
 		font-size: 18px;
 		border-radius: 40px;
-        margin: auto;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    margin: auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 	}
     .sp_display{
         display: none;
@@ -1297,16 +1321,25 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 
 	/* ▽ メインビジュアル ▽ */
     .txt__main{
-        font-size: 10vw;
+        font-size: xx-large;
     }
+    .topImage .topImage__txt{
+        font-size: medium;
+        padding: 0 20px;
+    }
+    .topImage__txt
     .mainVisual .mainVisual__txt div.txt__sub{
         white-space: nowrap;
         font-size: 4vw;
     }
     .mainVisual__img img{
+/*
         max-width: 300%;
         max-height: 300px;
         object-fit: cover;
+*/
+        background-image: url("https://pigeon-soccer.github.io/common/images/index_mv_001.jpg");
+        background-size: cover;
     }
 	/* ▽ スクロール（down）ボタン ▽ */
 	.mainVisual__scroll-down a{
@@ -1315,7 +1348,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 
 	/* ▽ セクション ▽ */
-	#mainContent .commonSection {
+	#mainContent .commonInner {
 		padding: 60px 0;
 	}
 	section.commonSection section:not(:first-of-type) {
@@ -1323,7 +1356,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 
 	/* ▽ セクション - 見出し ▽ */
-    section.commonSection .individualAbility h2.summary__heading:before {
+    section.commonSection .summary-individualAbility h2.summary__heading:before {
     content: "Individual";
     }
     section.commonSection h2.summary__heading {
@@ -1353,7 +1386,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	section.commonSection .summary .summary__txtWrapper {
 	  	width: 100%;
 	}
-	section.commonSection .summary .summary__txtWrapper .txt{
+	section.commonSection .summary .summary__txtWrapper .txtWrapper__txt{
 		padding-top:20px;
 	}
 	section.commonSection .summary .commonDetailBtn__sp {
@@ -1368,49 +1401,29 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	section.commonSection .summary .summary__txtWrapper{
 		order: 1;
 	}
-    section.commonSection .continue .summary__txtWrapper{
+    section.commonSection .summary-continue .summary__txtWrapper{
         order: 0;
 
     }
     .twitter-timeline{
         height: 100px;
     }
-	ul.possible > li:not(:first-child){
-		margin-top:60px;
-	}
-	ul.possible > li dd{
+    ul.commonInner__solution{
+        flex-wrap: wrap;
+    }
+	ul.commonInner__solution > li dd{
 		text-align:left;
 	}
 
-	.history > dl {
-	  padding: 20px 20px;
+	.commonInner__history > dl {
+    flex-wrap: wrap;
 	}
-	.history > dl dd {
+	.commonInner__history > dl dd {
 	  margin-left: 0;
 	}
-	.introduce dl{
-		padding: 120px 20px 20px 20px;
-		z-index: 0;
-		position: relative;
-	}
-	.introduce dl:not(:first-child){
-		margin-top:20px;
-	}
-	.introduce dl:before {
-	  content: "";
-	  position: absolute;
-	  top: 120px;
-	  left: 50%;
-	  width: 100px;
-	  height: 100px;
-	  margin-left: -50px;
-	}
-	.introduce dl.introduce__01:before {
-	  background: url(../images/index_ph_001.png) no-repeat 0 0/100px 100px;
-	}
-	.introduce dl.introduce__02:before {
-	  background: url(../images/index_ph_002.png) no-repeat 0 0/100px 100px;
-	}
+    .commonInner__introduce{
+      flex-wrap: wrap;
+    }
 	.episode > dl {
 		padding: 100px 0 20px 0;
 	}
@@ -1524,26 +1537,13 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		margin-top: 0;
 		padding-top:10px;
 	}
-    footer .footer-action{
-        padding: 40px 0 20px
-    }
-    footer .footer-action .questionBtn a {
-        padding: 10px;
-        min-width: 300px;
-        background-color: #666666;
-		display: block;
-		width: 80%;
-		background-color:#ef454a;
-		color:#ffffff;
-		text-align:center;
-		padding:10px;
-		font-size: 18px;
-		border-radius: 40px;
-        border-width: 0px;
+  footer .footer-action{
+      padding: 40px 0 20px
+  }
+  footer .footer-action .questionBtn a {
+			min-width: 80%;
 	}
-
-    }
-    footer .footer-infomation .pageTop-up a{
-        background-color: #666666;
-    }
+  footer .footer-infomation .pageTop-up a{
+      background-color: #666666;
+  }
 }
