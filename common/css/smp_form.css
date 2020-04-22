@@ -133,9 +133,12 @@ ss_warning_label{
 table{
     width: auto;
 }
-@media screen and (max-width: 800px), print {
+@media screen and (max-width: 885px), print {
     table {
         width: 400;
+    }
+    input[type="text"], input[type="email"]{
+        margin-right: 80px;
     }
 }
 
