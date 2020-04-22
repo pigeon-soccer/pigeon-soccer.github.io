@@ -726,8 +726,6 @@ input[type="text"]{
 
 
 textarea{
-	width:75%;
-	height: 200%;
 	padding: 10px;
 	border-style: none;
 	background-color: #f6f7f8;
@@ -747,7 +745,7 @@ table.form td{
 	font-weight: bold;
 	color:#ffffff;
 	background-color: #a6ca3a;
-	border-right: 20px solid #ffffff;
+    margin-right: 20px;
 }
 
 
@@ -1546,4 +1544,85 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
   footer .footer-infomation .pageTop-up a{
       background-color: #666666;
   }
+}
+
+
+
+/*SMP 埋め込みForm用*/
+.ss_form_title, form td, input[type="text"],input[type="email"],textarea{
+    width: 320px;
+}
+.ss_form_title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #a6ca3a;
+    margin-right: 20px;
+    float: left;
+}
+.ss_user_notnull{
+    display: none;
+}
+form td {
+    box-sizing: border-box;
+    -webkit-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+    position: relative;
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f6f7f8;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    width: -webkit-fill-available;
+}
+input[type="text"],input[type="email"] {
+    padding: 15px;
+    border-style: none;
+    background-color: #f6f7f8;
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-ordinal-group: 1;
+    order: 1;
+}
+.ss_rightComment,ss_leftComment,ss_rightComment,ss_bottomComment,ss_topComment{
+    -webkit-box-ordinal-group: 2;
+    order: 2;
+}
+.ss_error_msg{
+    -webkit-box-ordinal-group: 3;
+    order: 3;
+}
+
+.ss_field:nth-child(odd){
+    background-color: white;
+}
+.ss_contents fieldset {
+    border: 0px;
+}
+.ss_field:first-child {
+    margin-top: 0px; 
+}
+.ss_input{
+    display: flex;
+    flex-wrap: wrap;
+}
+ss_warning_label{
+    display: none;
+}
+@media screen and (max-width: 599px), print {
+    .ss_input{
+        flex-wrap: inherit;
+    }
+    form td{
+        width: 320px;
+    }
+    .ss_warning_label{
+        display: inherit;
+    }
+    
 }
