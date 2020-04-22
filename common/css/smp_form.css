@@ -1,17 +1,30 @@
 @charset "utf-8";
 
 /*SMP 埋め込みForm用*/
+/*
 .ss_input, .ss_form_title, form td, input[type="text"],input[type="email"],textarea{
     width: 320px;
 }
+*/
+input[type="text"], input[type="email"] {
+    width: 320px;
+    padding: 15px;
+    border-style: none;
+    background-color: #f6f7f8;
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-ordinal-group: 1;
+    order: 1;
+}
+
 .ss_form_title {
+    width: 320px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
     color: #ffffff;
     background-color: #a6ca3a;
-    margin-right: 20px;
-    float: left;
 }
 .ss_user_notnull{
     display: none;
@@ -57,9 +70,6 @@ input[type="text"],input[type="email"] {
 }
 .ss_contents fieldset {
     border: 0px;
-}
-.ss_field:first-child {
-    margin-top: 0px; 
 }
 .ss_input{
     flex-wrap: wrap;
@@ -112,6 +122,9 @@ ss_warning_label{
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+table{
+    width: auto;
 }
 @media screen and (max-width: 599px), print {
     form td{
