@@ -18,7 +18,9 @@ input[type="text"], input[type="email"] {
     -webkit-box-ordinal-group: 1;
     order: 1;
 }
-
+textarea{
+    width: 400px;
+}
 .ss_form_title {
     width: 320px;
     padding: 10px;
@@ -131,9 +133,9 @@ ss_warning_label{
 table{
     width: auto;
 }
-@media screen and (max-width: 720px), print {
+@media screen and (max-width: 800px), print {
     table {
-        width: 330;
+        width: 400;
     }
 }
 
