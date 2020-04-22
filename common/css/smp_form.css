@@ -126,9 +126,9 @@ ss_warning_label{
     background: #ff6c4a url(../images/index_bg_001.png) repeat-y;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
     -webkit-tap-highlight-color: transparent;
-    margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 80%
 }
 table{
     width: auto;
@@ -137,15 +137,12 @@ table{
     table {
         width: 400;
     }
-    input[type="text"], input[type="email"]{
+    input[type="text"], input[type="email"],.ss_form_title, textarea{{
         margin-right: 80px;
     }
 }
 
 @media screen and (max-width: 599px), print {
-    form td, input[type="text"], input[type="email"],.ss_form_title, textarea{
-        width: 320px;
-    }
     .ss_warning_label{
         display: inherit;
     }
