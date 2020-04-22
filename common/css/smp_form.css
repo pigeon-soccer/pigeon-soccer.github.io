@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*SMP 埋め込みForm用*/
-.ss_form_title, form td, input[type="text"],input[type="email"],textarea{
+.ss_input, .ss_form_title, form td, input[type="text"],input[type="email"],textarea{
     width: 320px;
 }
 .ss_form_title {
@@ -29,7 +29,6 @@ form td {
     vertical-align: middle;
     cursor: pointer;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-    width: -webkit-fill-available;
 }
 input[type="text"],input[type="email"] {
     padding: 15px;
@@ -41,9 +40,12 @@ input[type="text"],input[type="email"] {
     -webkit-box-ordinal-group: 1;
     order: 1;
 }
-.ss_rightComment,ss_leftComment,ss_rightComment,ss_bottomComment,ss_topComment{
+.ss_rightComment,.ss_leftComment,.ss_rightComment,.ss_bottomComment,.ss_topComment{
     -webkit-box-ordinal-group: 2;
     order: 2;
+    margin-top: 3px;
+    color: #777777;
+    font-size: 12px;
 }
 .ss_error_msg{
     -webkit-box-ordinal-group: 3;
@@ -60,16 +62,58 @@ input[type="text"],input[type="email"] {
     margin-top: 0px; 
 }
 .ss_input{
-    display: flex;
     flex-wrap: wrap;
 }
 ss_warning_label{
     display: none;
 }
-@media screen and (min-width: 768px), print {
-    .ss_input{
-        flex-wrap: inherit;
-    }
+
+.ss_warning_label {
+  background-color: #f89406;
+  border-radius: 3px;
+  vertical-align: top;
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  line-height: 12px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+.ss_error_msg, .errorMsg {
+  vertical-align: top;
+  margin-left: 3px;
+  font-size: 12px;
+  color: #F89406;
+}
+.ss_input:hover{
+  background-color: #f5f5f5;
+}
+.ss_field + .ss_field, .ss_enquete_form fieldset{
+  margin-top: 20px;
+}
+.ss_btnArea input{
+    display: block;
+    padding: 10px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 2px solid #ef454a;
+    position: relative;
+    transition: 0.3s;
+    color: #ffffff;
+    text-decoration: none;
+    background: #ff6c4a url(../images/index_bg_001.png) repeat-y;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    -webkit-tap-highlight-color: transparent;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 599px), print {
     form td{
         width: 320px;
     }
