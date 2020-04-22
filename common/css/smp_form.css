@@ -6,7 +6,7 @@
     width: 320px;
 }
 */
-input[type="text"], input[type="email"] {
+input[type="text"], input[type="email"], textarea {
     width: 320px;
     height: auto;
     padding: 15px;
@@ -17,9 +17,6 @@ input[type="text"], input[type="email"] {
     box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
     -webkit-box-ordinal-group: 1;
     order: 1;
-}
-textarea{
-    width: 400px;
 }
 .ss_form_title {
     width: 320px;
@@ -130,13 +127,7 @@ ss_warning_label{
     margin-bottom: 40px;
     width: 80%
 }
-table{
-    width: auto;
-}
 @media screen and (max-width: 885px), print {
-    table {
-        width: 400;
-    }
     input[type="text"], input[type="email"],.ss_form_title, textarea{{
         margin-right: 80%;
     }
