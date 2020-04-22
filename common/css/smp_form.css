@@ -18,6 +18,9 @@ input[type="text"], input[type="email"], textarea {
     -webkit-box-ordinal-group: 1;
     order: 1;
 }
+table {
+    width: auto;
+}
 .ss_form_title {
     width: 320px;
     padding: 10px;
@@ -125,17 +128,25 @@ ss_warning_label{
     -webkit-tap-highlight-color: transparent;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin: auto;
     width: 80%
 }
-@media screen and (max-width: 885px), print {
-    input[type="text"], input[type="email"],.ss_form_title, textarea{{
-        margin-right: 80%;
+@media screen and (max-width: 800px), print {
+    input[type="text"], input[type="email"],.ss_form_title, textarea,table,.ss_btnArea input{
+        width: 320px;
     }
-}
-
-@media screen and (max-width: 599px), print {
+    div#emb3554ffa6-efc5-4c8e-9344-d27543ad2baa {
+        margin-left: 5vw;
+        margin-top: 5vw;
+    }
+    table{
+        text-align: center;
+    }
+    .ss_btnArea {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     .ss_warning_label{
         display: inherit;
     }
-    
 }
