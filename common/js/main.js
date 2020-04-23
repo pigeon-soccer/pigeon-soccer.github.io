@@ -100,14 +100,15 @@ $(function() {
 
 //-----SMP form-----
 if(document.location.pathname.match(/^\/form.*/)){
-
-    //SMPフォームの読み込みを待つ
-    setInterval(function(){
+    var viewSmpForm = false;
+    //SMPフォームの読み込みを判別
+    var timer = setInterval(function(){
         //SMPフォームの読み込みが終わったときの処理
         if(document.querySelector(".smpForm form")){
             //Loading非表示
             document.querySelector(".loadingWrap").style.display = "none";
-
+            //フォームのレイアウト修正
+            if()
             //フォームカテゴリの修正
             var categoryName_address = "ご連絡先"
             var categoryName_detail = "お問い合わせ内容"
@@ -153,8 +154,12 @@ if(document.location.pathname.match(/^\/form.*/)){
                     target_node[i].replaceChild(new_node[i],old_node[i]);
                 }
             }
-      } 
-      //<--SMPフォームの読み込みが終わったときの処理
+            //<--フォームのレイアウト修正
+            //ループの解除
+            clearInterval(timer);
+        }
     }, 300);
-    //<--SMPフォームの読み込みを待つ
+    //<--ループ
+    
+
 }
