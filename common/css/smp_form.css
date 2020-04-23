@@ -134,6 +134,8 @@ ss_warning_label{
 .loadingWrap{
     display: inline-block;
     white-space: nowrap;
+    width: 100%;
+    text-align: center;
 }
 .loadingWrap__text span{
     display: inline-block;
