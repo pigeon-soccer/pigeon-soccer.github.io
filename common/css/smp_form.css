@@ -38,6 +38,9 @@ table {
 .ss_user_notnull{
     display: none;
 }
+.formCategory_address{
+    padding-bottom: 30px;
+}
 td{
     display: inline;
 }
