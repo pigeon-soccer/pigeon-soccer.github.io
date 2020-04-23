@@ -108,6 +108,7 @@ if(document.location.pathname.match(/^\/form.*/)){
             document.querySelector(".loadingWrap").style.display = "none";
             //フォームのレイアウト修正
             //「非表示」とつく入力項目を非表示にする
+            //長期的には直接IDを指定してCSSで非表示にする方針に変更でも良い
             var elms = document.querySelectorAll(".ss_form_title")
             for(var i=0; i<elms.length; i++){
                 if( elms[i].innerText.match(/非表示/) ){
