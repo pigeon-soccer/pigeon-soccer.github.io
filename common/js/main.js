@@ -100,15 +100,13 @@ $(function() {
 
 //-----SMP form-----
 if(document.location.pathname.match(/^\/form.*/)){
-    var viewSmpForm = false;
     //SMPフォームの読み込みを判別
     var timer = setInterval(function(){
         //SMPフォームの読み込みが終わったときの処理
-        if(document.querySelector(".smpForm form")){
+        if(document.querySelector(".smpForm form td input")){
             //Loading非表示
             document.querySelector(".loadingWrap").style.display = "none";
             //フォームのレイアウト修正
-            if()
             //フォームカテゴリの修正
             var categoryName_address = "ご連絡先"
             var categoryName_detail = "お問い合わせ内容"
