@@ -99,10 +99,11 @@ $(function() {
 });
 
 
-// ▼Loading表示制御
-$('.smpForm').on('inview', function() {
-           //ブラウザの表示域に表示されたときに実行する処理
-           $('.loadingWrap').animate({
-                  display: "none"
-           },1500);
-});
+// ▼Loading非表示
+if(document.location.pathname.match(/^\/form.*/)){
+  setInterval(function(){
+      if(document.querySelector(".smpForm form")){
+          document.querySelector(".loadingWrap").style.display = "none";
+      }
+  }, 300);
+}
