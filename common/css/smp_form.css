@@ -6,9 +6,10 @@
     width: 300px;
 }
 */
-#emb3554ffa6-efc5-4c8e-9344-d27543ad2baa {
+div#emb3554ffa6-efc5-4c8e-9344-d27543ad2baa {
     margin-left: 0vw;
-    margin-top: 5vw;
+    margin-top: 0vw;
+    height: auto!important;
 }
 input[type="text"], input[type="email"], textarea {
     width: 300px;
@@ -37,9 +38,6 @@ table {
 }
 .ss_user_notnull{
     display: none;
-}
-.formCategory_address{
-    padding: 0 0 30px;
 }
 td{
     display: inline;
