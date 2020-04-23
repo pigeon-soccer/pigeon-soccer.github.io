@@ -101,13 +101,13 @@ $(function() {
 
 // ▼Loading表示制御
 // ローディング画面のdivを取得
-var loading_elm = document.querySelector('loadingWrap');
+var loading_elm = document.querySelector('.loadingWrap');
 // 画面本体のdivを取得
 var target_elm = document.querySelector('.smpForm');
 // 読み込みが完了したら発動
 window.addEventListener('load', function () {
 // loadingのdivを非表示に
     loading_elm.style.display = 'none';
-    // contentsのdivを表示
-    target_elm.classList.remove('hidden');
+//    // contentsのdivを表示
+//    target_elm.classList.remove('hidden');
 });
