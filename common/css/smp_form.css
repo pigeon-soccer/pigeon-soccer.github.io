@@ -213,9 +213,6 @@ ss_warning_label{
     .ss_btnArea{
         margin: 30px 0px;
     }
-    #ss_VisitorData.attribute38, #ss_VisitorData.attribute39{
-        display: none;
-    }
 }
 @media screen and (max-width: 600px), print {
     .tabContent > li {
