@@ -39,7 +39,7 @@ table {
     display: none;
 }
 .formCategory_address{
-    padding-bottom: 30px;
+    padding: 0 0 30px;
 }
 td{
     display: inline;
