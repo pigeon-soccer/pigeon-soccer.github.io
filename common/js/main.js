@@ -98,12 +98,59 @@ $(function() {
     });
 });
 
-
-// ▼Loading非表示
+//-----SMP form-----
 if(document.location.pathname.match(/^\/form.*/)){
-  setInterval(function(){
+
+    //Loading非表示
+    setInterval(function(){
       if(document.querySelector(".smpForm form")){
           document.querySelector(".loadingWrap").style.display = "none";
       }
-  }, 300);
+    }, 300);
+
+    //フォームカテゴリの修正
+    var categoryName_address = "ご連絡先"
+    var categoryName_detail = "お問い合わせ内容"
+    var targetElm_selector_address = "#ss_name"
+    var targetElm_selector_detail = "#ss_VisitorData\\.attribute34"
+    var categoryClassName_address = "formCategory_address"
+    var categoryClassName_detail = "formCategory_delail"
+    function categoryTitleElement(categoryName, targetElm_selector,categoryClassName){
+        //フォームカテゴリ名の要素の作成
+        var p_elm = document.createElement('p');
+        p_elm.textContent = categoryName
+        p_elm.className = categoryClassName
+        $(p_elm).insertBefore(targetElm_selector);
+        //フォームカテゴリ名のスタイル
+        var categoryTitleStyle = document.querySelector("p."+categoryClassName).style;
+        categoryTitleStyle.textAlign = "center";
+        categoryTitleStyle.fontWeight = "bold";
+        categoryTitleStyle.fontSize = "2rem";
+        categoryTitleStyle.padding = "30px 0";
+    }
+    categoryTitleElement(categoryName_address, targetElm_selector_address, categoryClassName_address);
+    categoryTitleElement(categoryName_detail, targetElm_selector_detail, categoryClassName_detail);
+    
+    //フォーム項目の修正実行
+    document.querySelector("[name='Public::EmbeddedApplication::User_D__P__D_email']").placeholder = "例 - sample@pigeon.com"
+    document.querySelector("[name='Public::EmbeddedApplication::User_D__P__D_name1']").placeholder = "例 - 山田"
+    document.querySelector("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']").placeholder = "ご入力ください"
+    
+    //CSSを適用しやすくするために選択肢テキストを<label>タグで囲む
+    setLebelTag("td input[type='radio']")
+    setLebelTag("td input[type='checkbox']")
+    function setLebelTag(selector_text){
+        var old_nodes = document.querySelectorAll(selector_text)
+        var old_node = [];
+        var new_node = [];
+        var target_node = [];
+        for(var i=0; i<old_nodes.length; i++){
+            old_node[i] = old_nodes[i].parentNode.childNodes[1];
+            console.log(old_node[i])
+            new_node[i] = document.createElement('label');
+            new_node[i].textContent = old_node[i].textContent
+            target_node[i] = old_node[i].parentNode;
+            target_node[i].replaceChild(new_node[i],old_node[i]);
+        }
+    }
 }
