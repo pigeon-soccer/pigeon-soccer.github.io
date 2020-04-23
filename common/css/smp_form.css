@@ -6,6 +6,10 @@
     width: 320px;
 }
 */
+#emb3554ffa6-efc5-4c8e-9344-d27543ad2baa {
+    margin-left: 0vw;
+    margin-top: 5vw;
+}
 input[type="text"], input[type="email"], textarea {
     width: 320px;
     height: auto;
@@ -33,6 +37,9 @@ table {
 }
 .ss_user_notnull{
     display: none;
+}
+td{
+    display: inline;
 }
 label {
     box-sizing: border-box;
@@ -132,7 +139,7 @@ ss_warning_label{
   margin-top: 20px;
 }
 .ss_btnArea{
-    margin: 30px 0;
+    margin: 30px 100px;
 }
 .ss_btnArea input{
     display: block;
@@ -169,11 +176,10 @@ ss_warning_label{
 
 @media screen and (max-width: 800px), print {
     input[type="text"], input[type="email"],.ss_form_title, textarea,table,.ss_btnArea input{
-        width: 320px;
+        width: 100%;
     }
     div#emb3554ffa6-efc5-4c8e-9344-d27543ad2baa {
-        margin-left: 5vw;
-        margin-top: 5vw;
+        margin-left: 0vw;
     }
     table{
         text-align: center;
@@ -181,4 +187,8 @@ ss_warning_label{
     .ss_warning_label{
         display: inherit;
     }
+    .ss_btnArea{
+        margin: 30px 0px;
+    }
+
 }
