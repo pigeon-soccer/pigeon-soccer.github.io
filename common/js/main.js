@@ -145,7 +145,6 @@ if(document.location.pathname.match(/^\/form.*/)){
                 var target_node = [];
                 for(var i=0; i<old_nodes.length; i++){
                     old_node[i] = old_nodes[i].parentNode.childNodes[1];
-                    console.log(old_node[i])
                     new_node[i] = document.createElement('label');
                     new_node[i].textContent = old_node[i].textContent
                     target_node[i] = old_node[i].parentNode;
