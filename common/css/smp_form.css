@@ -3,7 +3,7 @@
 /*SMP 埋め込みForm用*/
 /*
 .ss_input, .ss_form_title, form td, input[type="text"],input[type="email"],textarea{
-    width: 320px;
+    width: 300px;
 }
 */
 #emb3554ffa6-efc5-4c8e-9344-d27543ad2baa {
@@ -11,7 +11,7 @@
     margin-top: 5vw;
 }
 input[type="text"], input[type="email"], textarea {
-    width: 320px;
+    width: 300px;
     height: auto;
     padding: 15px;
     border-style: none;
@@ -26,7 +26,7 @@ table {
     width: auto;
 }
 .ss_form_title {
-    width: 320px;
+    width: 300px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
@@ -47,8 +47,8 @@ label {
     transition: background-color 0.2s linear;
     position: relative;
     display: inline-block;
-    margin: 0 20px 8px 0;
-    padding: 12px 12px 12px 42px;
+    margin: 0 10px 8px 0;
+    padding: 10px 10px 10px 40px;
     border-radius: 8px;
     background-color: #f6f7f8;
     vertical-align: middle;
