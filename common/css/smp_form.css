@@ -55,14 +55,6 @@ label {
     cursor: pointer;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
-label:hover {
-    background-color: #e2edd7;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-    height: 100%;
-}
-label:hover:after {
-    border-color: #53b300;
-}
 label:before {
     -webkit-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
@@ -77,6 +69,37 @@ label:before {
     background-color: #53b300;
     content: '';
     opacity: 0;
+}
+label:after {
+    -webkit-transition: border-color 0.2s linear;
+    transition: border-color 0.2s linear;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    display: block;
+    margin-top: -10px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #bbb;
+    border-radius: 6px;
+    content: '';
+}
+label:hover {
+    background-color: #e2edd7;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    height: 100%;
+}
+label:hover:after {
+    border-color: #53b300;
+}
+input[type=radio], input[type=checkbox] {
+    display: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-radius: 50%;
+}
+input[type=radio]:checked + label:before {
+    opacity: 1;
 }
 
 input[type="text"],input[type="email"] {
@@ -190,5 +213,9 @@ ss_warning_label{
     .ss_btnArea{
         margin: 30px 0px;
     }
-
+}
+@media screen and (max-width: 600px), print {
+    .tabContent > li {
+        padding: 0px;
+    }
 }

@@ -107,6 +107,13 @@ if(document.location.pathname.match(/^\/form.*/)){
             //Loading非表示
             document.querySelector(".loadingWrap").style.display = "none";
             //フォームのレイアウト修正
+            //「非表示」とつく入力項目を非表示にする
+            var elms = document.querySelectorAll(".ss_form_title")
+            for(var i=0; i<elms.length; i++){
+                if( elms[i].innerText.match(/非表示/) ){
+                    elms[i].parentNode.style.display = "none";
+                }
+            }
             //フォームカテゴリの修正
             var categoryName_address = "ご連絡先"
             var categoryName_detail = "お問い合わせ内容"
@@ -136,21 +143,30 @@ if(document.location.pathname.match(/^\/form.*/)){
             document.querySelector("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']").placeholder = "ご入力ください"
 
             //CSSを適用しやすくするために選択肢テキストを<label>タグで囲む
-            setLebelTag("td input[type='radio']")
-            setLebelTag("td input[type='checkbox']")
             function setLebelTag(selector_text){
                 var old_nodes = document.querySelectorAll(selector_text)
                 var old_node = [];
                 var new_node = [];
                 var target_node = [];
                 for(var i=0; i<old_nodes.length; i++){
+                    //テキストをlabelタグで囲んだ要素を準備する
                     old_node[i] = old_nodes[i].parentNode.childNodes[1];
                     new_node[i] = document.createElement('label');
                     new_node[i].textContent = old_node[i].textContent
+                    //いま見ているinputタグに「ID属性+識別子」を付与し、nameと同様の値を振る + labelには同じ値を持つfor属性を付与する
+                    var input_elm = old_nodes[i].parentNode.childNodes[0]
+                    var id = input_elm.name + "_" + i;
+                    input_elm.setAttribute( 'id', id );
+                    new_node[i].htmlFor = id
+                    //HTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
                     target_node[i] = old_node[i].parentNode;
                     target_node[i].replaceChild(new_node[i],old_node[i]);
                 }
             }
+            setLebelTag("td input[type='radio']")
+            setLebelTag("td input[type='checkbox']")
+
+
             //<--フォームのレイアウト修正
             //ループの解除
             clearInterval(timer);
