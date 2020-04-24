@@ -29,7 +29,7 @@ $(function(){
 });
 
 
-// ▼ハンバーガーメニュー 
+// ▼ハンバーガーメニュー
 $(document).on('click','.globalNav__btn', function() {
     console.log("fired on-click") //test
     // ハンバーガーメニューの位置を設定
@@ -167,13 +167,20 @@ if(document.location.pathname.match(/^\/form.*/)){
             setLebelTag("td input[type='radio']")
             setLebelTag("td input[type='checkbox']")
 
+            //ボタンの文言の修正
+            document.getElementsByName("smpSubmit")[0].value = "連絡する"
+
+            //フォームの読み込み終了フラグ
+            dataLayer.push({'event': 'smpFormLoaded'});
 
             //<--フォームのレイアウト修正
             //ループの解除
             clearInterval(timer);
+
+
         }
     }, 300);
     //<--ループ
-    
+
 
 }

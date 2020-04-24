@@ -472,7 +472,8 @@ section.commonSection h2.summary__heading > span:before{
 	border-radius: 30px;
 }
 section.commonSection .summary .summary__img, .summary__snsWindow{
-	width: 550px;
+	max-width: 46vw;
+	min-width: 500px;
 }
 
 /* ▽ ボタン【部分】 ▽ */
@@ -950,7 +951,7 @@ footer .footer-action .questionBtn{
 }
 footer .footer-action .questionBtn a{
 	display: inline-block;
-	min-width: 680px;
+	min-width: 550px;
 	margin: 0 auto;
 	padding: 10px;
 	background-color: #ef454a;
