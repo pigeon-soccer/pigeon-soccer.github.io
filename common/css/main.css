@@ -548,6 +548,10 @@ ul.commonInner__solution > li dd{
     background-color: #f1f1f1;
     box-shadow: 1px 1.5px 4px 1px rgba(0,0,0,0.1);
 }
+.introduce__profile img{
+    width: 200px;
+    height: 200px;
+}
 .commonInner__introduce .introduce__position{
 	font-weight: bold;
 	font-size: 20px;
@@ -748,7 +752,6 @@ table.form td{
     margin-right: 20px;
 }
 
-
 /*formのラジオボタン・チェックボックス*/
 input[type=radio], input[type=checkbox] {
   display: none;
@@ -907,7 +910,10 @@ input[type=checkbox]:checked + .checkbox:before {
     display: flex;
     justify-content: left;
     position: inherit;
-    padding-bottom: 25px
+    padding-top: 10px;
+}
+.tabContent__box ul.snsWrapper__btn li{
+    padding-left: 0;
 }
 .tabContent__box__tw{
     background: linear-gradient(transparent 90%, #1da1f2 50%);
