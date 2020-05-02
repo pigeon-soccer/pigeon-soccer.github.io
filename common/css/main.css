@@ -187,7 +187,7 @@ ul.globalNav__menu > li.current:before{
 	z-index: 0;
 }
 #about .topImage .topImage__img{
-    background-image: url(https://pigeon-soccer.github.io/common/images/index_mv_002.jpg);
+    background-image: url(https://pigeon-soccer.github.io/common/images/index_ph_002_mini.jpg);
     background-size: cover;
     height: 100%;
 }
@@ -514,12 +514,12 @@ ul.commonInner__solution > li dd{
 	padding-top:20px;
 }
 
-.commonSection-mission{
-    background-image: url("https://pigeon-soccer.github.io/common/images/index_ph_004_all.JPG");
+#about .commonSection-mission{
+    background-image: url("https://pigeon-soccer.github.io/common/images/index_ph_004_all.jpg");
     background-size: cover;
     color: white;
 }
-.commonSection-mission__wrapper{
+#about .commonSection-mission__wrapper{
     background-color: rgba(40, 20, 10, 0.3);
     backdrop-filter: blur(4px);
     height: 100%;
