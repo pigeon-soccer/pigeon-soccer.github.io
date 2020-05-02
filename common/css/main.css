@@ -231,7 +231,7 @@ ul.globalNav__menu > li.current:before{
 
 .mainVisual__img{
     box-sizing:content-box;
-    background-image: url(https://pigeon-soccer.github.io/common/images/index_mv_001.jpg);
+    background-image: url(https://pigeon-soccer.github.io/common/images/index_mv_001_mini.jpg);
     background-size: cover;
     height: 100%;
 }
@@ -515,7 +515,7 @@ ul.commonInner__solution > li dd{
 }
 
 .commonSection-mission{
-    background-image: url("https://pigeon-soccer.github.io/common/images/people_handShake.JPG");
+    background-image: url("https://pigeon-soccer.github.io/common/images/index_ph_004_all.JPG");
     background-size: cover;
     color: white;
 }
@@ -1000,7 +1000,7 @@ ul.snsWrapper__btn:before{
 	top:-63px;
 	width:270px;
 	height:60px;
-	background: url(../images/follow_me.png) no-repeat;
+	background: url(../images/sns/follow_me.png) no-repeat;
     background-size: 75%;
 }
 ul.snsWrapper__btn > li{
@@ -1048,14 +1048,14 @@ ul.snsWrapper__btn > li.snsBtn__tw a:before{
 	height:32px;
 	margin-top:-15px;
 	margin-left:-18px;
-	background:url(../images/index_ic-sns_001.png) no-repeat;
+	background:url(../images/sns/twitter.png) no-repeat;
 }
 ul.snsWrapper__btn > li.snsBtn__fb a:before{
 	width:22px;
 	height:44px;
 	margin-top:-22px;
 	margin-left:-12px;
-	background:url(../images/index_ic-sns_002.png) no-repeat;
+	background:url(../images/sns/facebook.png) no-repeat;
 }
 footer .footer-infomation{
 	color: white;
@@ -1336,7 +1336,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         max-height: 300px;
         object-fit: cover;
 */
-        background-image: url("https://pigeon-soccer.github.io/common/images/index_mv_001.jpg");
+        background-image: url("https://pigeon-soccer.github.io/common/images/index_mv_001_mini.jpg");
         background-size: cover;
     }
 	/* ▽ スクロール（down）ボタン ▽ */
