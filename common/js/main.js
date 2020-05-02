@@ -99,7 +99,7 @@ $(function() {
 });
 
 //-----SMP form-----
-if(document.location.pathname.match(/^\/form.*/)){
+if(document.location.pathname=="/contact/"){
     //SMPフォームの読み込みを判別
     var timer = setInterval(function(){
         //SMPフォームの読み込みが終わったときの処理
