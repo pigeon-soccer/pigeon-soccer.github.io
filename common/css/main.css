@@ -447,21 +447,21 @@ section.commonSection h2.summary__heading:before{
 	font-weight: normal;
 	z-index: -1;
 }
-section.commonSection .summary-personality h2.summary__heading:before{
-	content: "Personality";
+section.commonSection .summary-about h2.summary__heading:before{
+	content: "About";
 
 }
-section.commonSection .summary-individualAbility h2.summary__heading:before{
-	content: "Individual";
+section.commonSection .summary-activity h2.summary__heading:before{
+	content: "Activity";
 }
-section.commonSection .summary-continue h2.summary__heading:before{
-	content: "Continue";
+section.commonSection .summary-atomosphere h2.summary__heading:before{
+	content: "Atomosphere";
 }
 section.commonSection h2.summary__heading > span{
 	position:relative;
 }
-
-section.commonSection h2.summary__heading > span:before{
+/* 見出しのアンダーマーカー */
+/* section.commonSection h2.summary__heading > span:before{
 	content: "";
 	position: absolute;
 	bottom:-6px;
@@ -470,7 +470,7 @@ section.commonSection h2.summary__heading > span:before{
 	height: 8px;
 	background-color: #ffc2c4;
 	border-radius: 30px;
-}
+} */
 section.commonSection .summary .summary__img, .summary__snsWindow{
 	max-width: 46vw;
 	min-width: 500px;
@@ -1360,7 +1360,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 
 	/* ▽ セクション - 見出し ▽ */
-    section.commonSection .summary-individualAbility h2.summary__heading:before {
+    section.commonSection .summary-activity h2.summary__heading:before {
     content: "Individual";
     }
     section.commonSection h2.summary__heading {
@@ -1405,7 +1405,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	section.commonSection .summary .summary__txtWrapper{
 		order: 1;
 	}
-    section.commonSection .summary-continue .summary__txtWrapper{
+    section.commonSection .summary-atomosphere .summary__txtWrapper{
         order: 0;
 
     }
