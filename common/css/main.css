@@ -519,7 +519,12 @@ ul.commonInner__solution > li dt{
 ul.commonInner__solution > li dd{
 	padding-top:20px;
 }
-
+#about .commonSection-problem{
+	padding: 0 60px;
+}
+#about section.summary{
+	padding-top: 60px;
+}
 #about .commonSection-mission{
     background-image: url("https://pigeon-soccer.github.io/common/images/index_ph_004_all.jpg");
     background-size: cover;
