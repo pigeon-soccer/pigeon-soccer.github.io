@@ -472,10 +472,6 @@ section.commonSection h2.summary__heading > span{
 	border-radius: 30px;
 } */
 
-h3 .summary__heading{
-	margin-bottom: 40px;
-    font-size: 3.4rem;
-}
 
 section.commonSection .summary .summary__img, .summary__snsWindow{
 	max-width: 46vw;
@@ -518,6 +514,10 @@ ul.commonInner__solution > li dt{
 }
 ul.commonInner__solution > li dd{
 	padding-top:20px;
+}
+#about h3 .summary__heading{
+	margin-bottom: 40px;
+    font-size: 3.4rem;
 }
 #about .commonSection-problem{
 	padding: 0 60px;
