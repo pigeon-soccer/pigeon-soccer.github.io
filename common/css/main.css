@@ -519,7 +519,7 @@ ul.commonInner__solution > li dd{
 	margin-bottom: 40px;
     font-size: 3.4rem;
 }
-#about hr .commonLine-problem{
+#about hr.commonLine-problem{
 	margin: 25px 0;
 }
 #about .commonSection-problem{
