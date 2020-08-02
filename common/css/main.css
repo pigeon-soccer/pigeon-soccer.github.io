@@ -442,7 +442,7 @@ section.commonSection h2.summary__heading:before{
 	position: absolute;
 	top:15px;
 	right:-190px;
-	font-size: 5rem;
+	font-size: 4rem;
 	color: #fce2e3;
 	font-weight: normal;
 	z-index: -1;
@@ -471,6 +471,12 @@ section.commonSection h2.summary__heading > span{
 	background-color: #ffc2c4;
 	border-radius: 30px;
 } */
+
+h3 .summary__heading{
+	margin-bottom: 40px;
+    font-size: 3.4rem;
+}
+
 section.commonSection .summary .summary__img, .summary__snsWindow{
 	max-width: 46vw;
 	min-width: 500px;
