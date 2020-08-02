@@ -523,7 +523,7 @@ ul.commonInner__solution > li dd{
 	margin: 25px 0;
 }
 #about .commonSection-problem{
-	padding: 0 60px;
+	padding: 0 10vw;
 }
 #about section.subSummary{
 	padding-top: 60px;
@@ -1563,5 +1563,8 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
   footer .footer-infomation .pageTop-up a{
       background-color: #666666;
+  }
+  #about .commonSection-problem{
+	  padding: 0 20px;
   }
 }
