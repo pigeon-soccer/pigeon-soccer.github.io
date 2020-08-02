@@ -515,7 +515,7 @@ ul.commonInner__solution > li dt{
 ul.commonInner__solution > li dd{
 	padding-top:20px;
 }
-#about section p.summary__heading{
+#about section h3.subSummary__heading{
 	margin-bottom: 40px;
     font-size: 3.4rem;
 }
@@ -525,7 +525,7 @@ ul.commonInner__solution > li dd{
 #about .commonSection-problem{
 	padding: 0 60px;
 }
-#about section.summary{
+#about section.subSummary{
 	padding-top: 60px;
 }
 #about .commonSection-mission{
