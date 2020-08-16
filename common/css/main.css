@@ -588,18 +588,20 @@ ul.commonInner__solution > li dd{
 
 /*ボタン装飾*/
 .hidden_box label {
-    padding: 15px;
+    padding: 20px 90px;
     font-weight: bold;
     background: #efefef;
     border-radius: 5px;
     cursor :pointer;
-    transition: .5s;
+	transition: .5s;
+	font-size: 2.4rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
 /*アイコンを表示*/
 .hidden_box label:before {
     display: inline-block;
-    content: '▽';
+    content: '>';
     font-family: 'FontAwesome';
     padding-right: 5px;
     transition: 0.2s;
@@ -614,8 +616,8 @@ ul.commonInner__solution > li dd{
 .hidden_box input:checked ~ label:before {
      content: '×';
      -webkit-transform: rotate(360deg);
-     transform: rotate(360deg);
-     color: #668ad8;
+     transform: rotate(90deg);
+     color: #a6ca3a;
 }
 
 /*チェックは見えなくする*/
@@ -636,7 +638,12 @@ ul.commonInner__solution > li dd{
 .hidden_box input:checked ~ .hidden_show {
     padding: 10px 0;
     height: auto;
-    opacity: 1;
+	opacity: 1;
+	margin-top: inherit;
+}
+
+.hidden_show p {
+    margin-bottom: revert;
 }
 
 /* ▽ コンテンツ -【activity】▽ */
@@ -1441,7 +1448,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     section.commonSection h2.summary__heading {
     font-size: 2.4rem;
     margin-bottom: 20px;
-}
+	}
     section.commonSection h2.summary__heading:before {
         left: 120px;
         font-size: 4.4rem;
@@ -1557,6 +1564,12 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         width: 100%;
         float: left;
 	}
+
+	/* ▽ about ▽*/
+	.hidden_box label {
+		padding: 20px;
+	}
+	.hidden_box label
 	/* ▽ form ▽ */
     .tabContent > li{
         padding: 0px;
