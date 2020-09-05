@@ -725,7 +725,7 @@ ul.convey dl.convey__content > dd{
 	display: block;
 	width:400px;
 	padding: 10px 20px;
-	background-color: #ffffff;
+	background-color: #f1f1f1;
 	border-radius: 5px;
 	position: relative;
 }
