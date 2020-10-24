@@ -61,7 +61,7 @@ strong{
     max-width: 1250px;
     min-height: 100%;
 	margin: 0 auto;
-    padding: 150px 0;
+    padding: 100px 0;
 }
 .pcNone{
 	display: none;
@@ -1037,8 +1037,8 @@ li .checkMark:before{
     transform: rotate(50deg);
     width: 5px;
     height: 10px;
-    border-right: 3px solid #53b300;
-    border-bottom: 3px solid #53b300;
+    border-right: 3px solid #b2d83e;
+    border-bottom: 3px solid #b2d83e;
 }
 
 /* ======== footer ======== */
