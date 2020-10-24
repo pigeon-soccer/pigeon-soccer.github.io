@@ -717,23 +717,23 @@ ul.convey dl.convey__content > dd{
 }
 
 /* ▽ activity - 一日のスケジュール ▽ */
-.dailySchedule{
+.practiceMenus{
 	width:580px;
 	margin: 0 auto;
 }
-.dailySchedule > dl{
+.practiceMenus > dl{
 	display: flex;
 	justify-content: space-between;
 }
-.dailySchedule > dl:not(:first-child){
+.practiceMenus > dl:not(:first-child){
 	margin-top:30px;
 }
-.dailySchedule > dl dt{
+.practiceMenus > dl dt{
 	padding-left:70px;
 	padding-top:10px;
 	position: relative;
 }
-.dailySchedule > dl dt:before{
+.practiceMenus > dl dt:before{
 	content: "";
 	position: absolute;
 	top:50%;
@@ -743,7 +743,7 @@ ul.convey dl.convey__content > dd{
 	height:50px;
 	background: url(../images/index_ic_005.png) no-repeat;
 }
-.dailySchedule > dl dd{
+.practiceMenus > dl dd{
 	display: block;
 	width:400px;
 	padding: 10px 20px;
@@ -751,7 +751,7 @@ ul.convey dl.convey__content > dd{
 	border-radius: 5px;
 	position: relative;
 }
-.dailySchedule > dl:not(:last-child) dd:before{
+.practiceMenus > dl:not(:last-child) dd:before{
 	content: "";
 	position: absolute;
 	bottom:-32px;
@@ -976,6 +976,7 @@ input[type=checkbox]:checked + .checkbox:before {
 	border-top:2px solid #b2d83e;
 	border-right:2px solid #b2d83e;
 	border-left:2px solid #b2d83e;
+	border-color: #f1f1f1;
 	font-weight: bold;
 }
 .tab > li.select{
@@ -985,15 +986,7 @@ input[type=checkbox]:checked + .checkbox:before {
 	border-right:2px solid #b2d83e;
 	border-left:2px solid #b2d83e;
 	margin-bottom:-2px;
-	font-size: 2rem;
 }
-.tab > li:not(:first-child){
-	margin-left:20px;
-}
-/* .tab > li:last-child{ */
-	 /* 余った余白調整 */
-	/* margin-left:21px; */
-/* } */
 .tab > li:hover{
 	cursor: pointer;
 
@@ -1297,8 +1290,8 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     /* ▽ width指定解除 ▽ */
 	ul.commonInner__solution > li,
 	ul.convey > li,
-	.dailySchedule,
-	.dailySchedule > dl dd,
+	.practiceMenus,
+	.practiceMenus > dl dd,
 	.commonInner__introduce > dl,
 	.eventOutline,
 	.formWrapper,
@@ -1567,7 +1560,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.episode > dl:not(:first-child){
 		margin-top:40px;
 	}
-	.dailySchedule > dl dt {
+	.practiceMenus > dl dt {
 		min-width: 120px;
 		padding-left: 34px;
 		padding-top: 10px;
@@ -1576,7 +1569,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.convey LI:not(:first-child){
 		margin-top:20px;
 	}
-	.dailySchedule > dl dt:before {
+	.practiceMenus > dl dt:before {
 		content: "";
 		position: absolute;
 		top: 50%;
@@ -1589,12 +1582,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.tab > li{
 		padding: 5px;
 		font-size: 1.4rem;
-	}
-	.tab > li:not(:first-child) {
-	  margin-left: 6px;
-	}
-	.tab > li.select {
-	  font-size: 1.6rem;
 	}
 	.eventOutline > dl dd {
 		width: 80%;
