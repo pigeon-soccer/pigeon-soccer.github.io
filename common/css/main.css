@@ -130,7 +130,7 @@ ul.globalNav__menu > li a{
 }
 	ul.globalNav__menu > li a:hover{
 	display: block;
-	height: 100%;
+	height: 100%; #これにより
 	color:#444444;
 	font-weight: 500;
 	position: relative;
@@ -145,7 +145,7 @@ ul.globalNav__menu > li a:before{
 	    background: url(../images/index_ic_001.png) no-repeat 0 0/13px 20px;
 	    left: -0.5vw;
 }
-ul.globalNav__menu > li a:hover:after{
+ul > li.menu__parent > a:hover:after{
 	content: "";
 	position: absolute;
 	bottom:0;
@@ -153,7 +153,6 @@ ul.globalNav__menu > li a:hover:after{
 	width:100%;
 	height:1vw;
 	background: #ef454a;
-	transition: 0.3s;
 }
 ul.globalNav__menu > li.current{
 	display: block;
@@ -175,6 +174,23 @@ ul.globalNav__menu > li.current:before{
 	width:13px;
 	height:20px;
 	background: url(../images/index_ic_002.png) no-repeat 0 0/13px 20px;
+}
+
+li.menu__parent {
+    position: relative;
+}
+li.menu__parent:hover ul.menu__child {
+    visibility: visible;
+    opacity: 1;
+}
+ul.menu__child {
+    position: absolute;
+	width: 100%;
+	transition: all .2s ease;
+	visibility: hidden;
+}
+ul > li.menu__parent > ul.menu__child li > a {
+    color: white;
 }
 
 /* ======== main ======== */
