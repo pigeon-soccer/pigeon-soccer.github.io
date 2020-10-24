@@ -49,15 +49,16 @@ $(document).on('click','.globalNav__btn', function() {
     }, 200);
 });
 
-//流入時のタブ切り替え
+//流入別のタブ切り替え
 $(function () {
-    $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
-    $('.tab > li.tab__label').removeClass('select'); 
     var url = location.search;
     if (url.match(/type=shool/)) visibleForm(0);
-    if (url.match(/type=support/)) visibleForm(1);
-    if (url.match(/type=sns/)) visibleForm(2);
+    else if (url.match(/type=support/)) visibleForm(1);
+    else if (url.match(/type=sns/)) visibleForm(2);
+    else if (document.location.pathname.match(/\/contact\//)) visibleForm(1);
     function visibleForm(i){
+        $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
+        $('.tab > li.tab__label').removeClass('select'); 
         $('.tabContent__box').eq(i).css('display', 'block');
         $(".tab > li:nth-child("+(i+1)+")").addClass('select')
     }
