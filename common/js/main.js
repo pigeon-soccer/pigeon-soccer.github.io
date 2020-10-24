@@ -49,23 +49,30 @@ $(document).on('click','.globalNav__btn', function() {
     }, 200);
 });
 
-$(function() {
-    //クリックしたときのファンクションをまとめて指定
-    $('.tab > li.tab__label').click(function() {
-        //.index()を使いクリックされたタブが何番目かを調べ、
-        //indexという変数に代入します。
-        var index = $('.tab > li.tab__label').index(this);
-        //コンテンツを一度すべて非表示にし、
-        $('.tabContent__box').css('display','none');
-        //クリックされたタブと同じ順番のコンテンツを表示します。
-        $('.tabContent__box').eq(index).css('display','block');
- 		//一度タブについているクラスselectを消し、
-        $('.tab > li.tab__label').removeClass('select');
-        //クリックされたタブのみにクラスselectをつけます。
-        $(this).addClass('select')
-    });
+//流入時のタブ切り替え
+$(function () {
+    $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
+    $('.tab > li.tab__label').removeClass('select'); 
+    var url = location.search;
+    if (url.match(/type=shool/)) visibleForm(0);
+    if (url.match(/type=support/)) visibleForm(1);
+    if (url.match(/type=sns/)) visibleForm(2);
+    function visibleForm(i){
+        $('.tabContent__box').eq(i).css('display', 'block');
+        $(".tab > li:nth-child("+(i+1)+")").addClass('select')
+    }
 });
 
+//クリックしたときのタブ切り替え
+$(function() {
+    $('.tab > li.tab__label').click(function() {
+        var index = $('.tab > li.tab__label').index(this); //クリックされたタブが何番目かを調べてindexに代入
+        $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
+        $('.tab > li.tab__label').removeClass('select'); //すべてのタブをクリックされていない状態にする
+        $('.tabContent__box').eq(index).css('display', 'block'); //クリックされたタブと同じ順番のコンテンツを表示
+        $(this).addClass('select') //クリックされたタブにクラスselectを付与
+    });
+});
 
 //SMP Form 関連
 //フォームURLの場合、SMPフォームの読み込みを待ってからデザインの修正処理をする
