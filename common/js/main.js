@@ -80,8 +80,8 @@ $(function() {
 if (document.location.pathname == "/contact/"){
         var set_interval_id = setInterval(SMPFormTrigger, 1000);
         function SMPFormTrigger() {
-            var smp_form = document.querySelector(".smpForm");
-            if (smp_form) {
+            var form_button = document.querySelector(".smpForm form input[type=button]");
+            if (form_button) {
                 clearInterval(set_interval_id);
                 window.dataLayer.push({ "event": "find_smpForm" });
                 customizeSMPFormHTML();
