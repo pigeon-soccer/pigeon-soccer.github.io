@@ -968,9 +968,10 @@ input[type=checkbox]:checked + .checkbox:before {
 .tab > li:not(:first-child){
 	margin-left:20px;
 }
-.tab > li:last-child{ /*余った余白調整*/
-	margin-left:21px;
-}
+/* .tab > li:last-child{ */
+	 /* 余った余白調整 */
+	/* margin-left:21px; */
+/* } */
 .tab > li:hover{
 	cursor: pointer;
 
@@ -1021,7 +1022,23 @@ input[type=checkbox]:checked + .checkbox:before {
     height: 60px;
 }
 
-
+li .checkMark{
+	position: relative;
+    padding-left: 15px;
+}
+li .checkMark:before{
+    content: "";
+    position: absolute;
+    top: .1em;
+    left: 0;
+    -webkit-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
+    width: 5px;
+    height: 10px;
+    border-right: 3px solid #53b300;
+    border-bottom: 3px solid #53b300;
+}
 
 /* ======== footer ======== */
 footer{
