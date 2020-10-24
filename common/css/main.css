@@ -986,9 +986,10 @@ input[type=checkbox]:checked + .checkbox:before {
 	display: block;
 }
 .tabContent__box h3{
-	text-align:center;
-	font-weight: bold;
-	font-size: 2.4rem;
+	text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 30px 0px;
 }
 .tabContent__box ul.snsWrapper__btn {
     display: flex;
