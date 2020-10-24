@@ -70,28 +70,24 @@ $(function() {
 //SMP Form 関連
 //フォームURLの場合、SMPフォームの読み込みを待ってからデザインの修正処理をする
 if (document.location.pathname == "/contact/"){
-    $(function () {
-        var set_interval_id = setInterval(findCartButton, 1000);
-        function findCartButton() {
-            var cart_button = document.querySelector(".smpForm");
-            if (cart_button) {
+        var set_interval_id = setInterval(SMPFormTrigger, 1000);
+        function SMPFormTrigger() {
+            var smp_form = document.querySelector(".smpForm");
+            if (smp_form) {
                 clearInterval(set_interval_id);
                 window.dataLayer.push({ "event": "find_smpForm" });
                 customizeSMPFormHTML();
             }
         }
-    });
 }
 
 //SMPの埋め込みFormのHTMLを上書きするための関数
 function customizeSMPFormHTML(){
     //読み込み中の文言を非表示化、および非表示というワードが含まれる項目を非表示化する
-    $(function () {
-        var loading_elms = document.querySelectorAll(".loadingWrap");
-        var display_none_attribute_elms = Array.from(document.querySelectorAll(".ss_form_title")).filter(function (elm) { return elm.innerText.match(/非表示/) });
-        Array.from(loading_elms).map(function (elm) { return elm.style.display = "none"; });
-        Array.from(display_none_attribute_elms).map(function (elm) { return elm.parentNode.style.display = "none"; });
-    });
+    var loading_elm_list = Array.from(document.querySelectorAll(".loadingWrap"));
+    var display_none_elm_list = Array.from(document.querySelectorAll(".ss_form_title")).filter(function (elm) { return elm.innerText.match(/非表示/) });
+    loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
+    display_none_elm_list.map(function (elm) { return elm.parentNode.style.display = "none"; });
 
     /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
       そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
@@ -119,15 +115,13 @@ function customizeSMPFormHTML(){
     }
 
     //フォームの入力サンプルを表示
-    $(function () {
-        sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
-        sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
-        sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']", "ご入力ください");
-        function sampleInput(selector, text) {
-            var elms = document.querySelectorAll(selector);
-            Array.from(elms).map(function (elm) { return elm.placeholder = text });
-        }
-    });
+    sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
+    sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
+    sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']", "ご入力ください");
+    function sampleInput(selector, text) {
+        var elms = document.querySelectorAll(selector);
+        Array.from(elms).map(function (elm) { return elm.placeholder = text });
+    }
 
     //ボタン文言の修正
     Array.from(document.getElementsByName("smpSubmit")).map(function (elm) { elm.value = "連絡する" })
