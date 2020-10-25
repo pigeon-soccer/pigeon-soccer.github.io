@@ -575,9 +575,13 @@ section.commonSection h2.summary__heading > span{
 } */
 
 
-section.commonSection .summary .summary__img, .summary__snsWindow{
+section.commonSection .summary .summary__img{
 	max-width: 46vw;
 	min-width: 500px;
+}
+.summary__snsWindow {
+    width: 300px;
+    border: inset;
 }
 
 /* ▽ ボタン【部分】 ▽ */
@@ -1475,11 +1479,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         font-size: 4vw;
     }
     .mainVisual__img img{
-/*
-        max-width: 300%;
-        max-height: 300px;
-        object-fit: cover;
-*/
         background-image: url("https://pigeon-soccer.github.io/common/images/index_mv_001_mini.jpg");
         background-size: cover;
     }
