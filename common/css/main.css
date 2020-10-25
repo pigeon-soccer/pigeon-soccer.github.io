@@ -714,9 +714,6 @@ ul.convey dl.convey__content > dd{
     background-size: cover;
     height: 100%;
 }
-#activity .topImage__wrapper {
-	backdrop-filter: blur(5px);
-}
 
 /* ▽ activity - エピソード ▽ */
 .episode > dl{
