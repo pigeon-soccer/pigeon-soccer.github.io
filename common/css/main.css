@@ -1063,12 +1063,12 @@ li .checkMark:before{
     border-bottom: 3px solid #b2d83e;
 }
 
+dd.summaryInfo__staffTarget {
+	display: -webkit-box;
+}
 img.summaryInfo-__staffTarget-img {
     max-width: 30%;
     margin-left: 5vw;
-}
-dd.summaryInfo__staffTarget {
-    display: -webkit-box;
 }
 
 #join #mainContent {
