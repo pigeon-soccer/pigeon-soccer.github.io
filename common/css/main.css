@@ -566,8 +566,7 @@ section.commonSection h2.summary__heading > span{
 /* 見出しのアンダーマーカー */
 
 section.commonSection .summary .summary__img{
-	max-width: 46vw;
-	min-width: 500px;
+	width: 450px;
 }
 
 /* ▽ ボタン【部分】 ▽ */
