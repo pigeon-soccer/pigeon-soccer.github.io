@@ -476,18 +476,20 @@ section.commonSection section:not(:first-of-type){
 }
 .paragraph label:after {
 	line-height: 2.5rem;
-	position: absolute;
-	z-index: 2;
-	bottom: 20px;
-	left: 50%;
-	width: 16rem;
-	font-family: FontAwesome;
-	content: '続きをよむ';
-	transform: translate(-50%, 0);
-	letter-spacing: 0.05em;
-	color: #ffffff;
-	border-radius: 20px;
-	background-color: #6dab21;
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left: 50%;
+    width: 16rem;
+    font-family: FontAwesome;
+    content: '続きをよむ';
+    transform: translate(-50%, 0);
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #6dab21;
+    height: 35px;
+    padding-top: 5px;
 }
 .paragraph input {
 	display: none;
