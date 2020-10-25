@@ -140,7 +140,6 @@ function customizeSMPFormHTML(){
     Array.from(document.getElementsByName("smpSubmit")).map(function (elm) { elm.value = "連絡する" })
 }
 
-
 function SMPFormIsCustomized() {
     /*念のため処理タイミングのズレにより未処理のものがないか（非表示扱いの項目がまだ表示されていないか）をチェックし、
     完了していればtrue、そうでなければfalseを返す*/
