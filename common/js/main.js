@@ -16,8 +16,8 @@ $(function(){
     });
 });
 
-// ▼スムーススクロール
 $(function(){
+  // スムーススクロール
   $('a[href^="#"]').click(function(){
     var speed = 500;
     var href= $(this).attr("href");
@@ -29,8 +29,8 @@ $(function(){
 });
 
 
-// ▼ハンバーガーメニュー
 $(document).on('click','.globalNav__btn', function() {
+    //ハンバーガーメニュー
     console.log("fired on-click") //test
     // ハンバーガーメニューの位置を設定
     var rightVal = 0;
@@ -49,8 +49,8 @@ $(document).on('click','.globalNav__btn', function() {
     }, 200);
 });
 
-//流入別のタブ切り替え
 $(function () {
+    //流入別のタブ切り替え
     var url = location.search;
     if (url.match(/type=shool/)) visibleForm(0);
     else if (url.match(/type=support/)) visibleForm(1);
@@ -64,8 +64,8 @@ $(function () {
     }
 });
 
-//クリックしたときのタブ切り替え
 $(function() {
+    //クリックしたときのタブ切り替え
     $('.tab > li.tab__label').click(function() {
         var index = $('.tab > li.tab__label').index(this); //クリックされたタブが何番目かを調べてindexに代入
         $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
@@ -76,21 +76,26 @@ $(function() {
 });
 
 //SMP Form 関連
-//フォームURLの場合、SMPフォームの読み込みを待ってからデザインの修正処理をする
 if (document.location.pathname == "/contact/"){
-        var set_interval_id = setInterval(SMPFormTrigger, 1000);
+    //フォームURLの場合、SMPフォームの読み込みを待ってからデザインの修正処理をする
+    window.addEventListener('load', (event) => {
+        var set_interval_id = setInterval(SMPFormTrigger, 500);
         function SMPFormTrigger() {
             var form_button = document.querySelector(".smpForm form input[type=button]");
             if (form_button) {
-                clearInterval(set_interval_id);
                 window.dataLayer.push({ "event": "find_smpForm" });
                 customizeSMPFormHTML();
+                if (SMPFormIsCustomized()){
+                    clearInterval(set_interval_id);
+                }
             }
         }
+    });
 }
 
-//SMPの埋め込みFormのHTMLを上書きするための関数
 function customizeSMPFormHTML(){
+    //SMPの埋め込みFormのHTMLを上書きするための関数
+
     //読み込み中の文言を非表示化、および非表示というワードが含まれる項目を非表示化する
     var loading_elm_list = Array.from(document.querySelectorAll(".loadingWrap"));
     var display_none_elm_list = Array.from(document.querySelectorAll(".ss_form_title")).filter(function (elm) { return elm.innerText.match(/非表示/) });
@@ -133,4 +138,13 @@ function customizeSMPFormHTML(){
 
     //ボタン文言の修正
     Array.from(document.getElementsByName("smpSubmit")).map(function (elm) { elm.value = "連絡する" })
+}
+
+
+function SMPFormIsCustomized() {
+    /*念のため処理タイミングのズレにより未処理のものがないか（非表示扱いの項目がまだ表示されていないか）をチェックし、
+    完了していればtrue、そうでなければfalseを返す*/
+    var display_none_elm_list = Array.from(document.querySelectorAll(".ss_form_title")).filter(function (elm) { return elm.innerText.match(/非表示/) });
+    var display_none_elm_visibles = display_none_elm_list.filter(function (elm) { return elm.parentNode.style.display != "none"; });
+    return Boolean(display_none_elm_visibles.length)
 }
