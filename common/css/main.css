@@ -1066,7 +1066,7 @@ li .checkMark:before{
 dd.summaryInfo__staffTarget {
 	display: -webkit-box;
 }
-img.summaryInfo-__staffTarget-img {
+img.summaryInfo__staffTarget-img {
     max-width: 30%;
     margin-left: 5vw;
 }
@@ -1635,7 +1635,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	dd.summaryInfo__staffTarget {
     	display: block;
 	}
-	img.summaryInfo-__staffTarget-img {
+	img.summaryInfo__staffTarget-img {
 		max-width: 100%;
 		margin-left: 0vw;
 		margin-top: 5px;
