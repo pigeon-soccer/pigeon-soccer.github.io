@@ -91,10 +91,6 @@ strong{
 	display:none;
 }
 
-.commonDetailBtn__sp{
-	display: none;
-}
-
 /* ======== header ======== */
 header{
 	background-color: #ffffff;
@@ -1366,30 +1362,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 	.commonInner {
 		width: 100%;
-/*        margin-top: 100px;*/
-
-	}
-	.commonDetailBtn{
-		display: none;
-	}
-	.commonDetailBtn__sp{
-		display: block;
-	}
-	.commonDetailBtn__sp {
-		text-align: center;
-		width: 100%;
-	}
-	.commonDetailBtn__sp a{
-		display: block;
-		width: 80%;
-		background-color:#ef454a;
-		color:#ffffff;
-		text-align:center;
-		padding:10px;
-		font-size: 18px;
-		border-radius: 40px;
-    margin: auto;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 	}
     .sp_display{
         display: none;
@@ -1559,15 +1531,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	section.commonSection .summary .summary__txtWrapper .txtWrapper__txt{
 		padding-top:20px;
 	}
-	section.commonSection .summary .commonDetailBtn__sp {
-		margin-top: 20px;
-	}
-    section.commonSection .summary .commonDetailBtn__sp a:hover{
-        color:#ef454a;
-        border: 2px solid #ef454a;
-        background:none;
-        background-color: #ffffff;
-    }
 	section.commonSection .summary .summary__txtWrapper{
 		order: 1;
 	}
