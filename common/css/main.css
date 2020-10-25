@@ -714,6 +714,9 @@ ul.convey dl.convey__content > dd{
     background-size: cover;
     height: 100%;
 }
+#activity .convey__img img {
+    height: 190px;
+}
 
 /* ▽ activity - エピソード ▽ */
 .episode > dl{
@@ -1646,7 +1649,10 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		/* background-size: cover; */
 		/* height: 100%; */
 	}
-
+	/* ▽ activity ▽ */
+	#activity ul.convey{
+		flex-wrap: wrap;
+	}
 	/* ▽ form ▽ */
     .tabContent > li{
         padding: 0px;
