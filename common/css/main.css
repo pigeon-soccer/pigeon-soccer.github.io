@@ -24,6 +24,16 @@ body {
 .wrap{
     overflow: hidden;
 }
+h2 {
+	margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: xx-large;
+    font-weight: 600;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+}
 h3 {
     font-weight: bold;
     font-size: x-large;
@@ -351,11 +361,10 @@ section.commonSection section:not(:first-of-type){
 	background-color:#ffffff;
 }
 /* ▽ 大見出し ▽ */
-#join .sectionContent > h1 {
+#join .sectionContent h1 {
     font-size: xxx-large;
     line-height: 1;
     margin-bottom: 60px;
-    text-align: center;
     font-weight: bold;
 }
 #join .sectionContent h2 {
@@ -825,6 +834,21 @@ ul.convey dl.convey__content > dd{
 }
 
 /* ▽ コンテンツ -【trial】▽ */
+#contact h1 {
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: xx-large;
+    font-weight: 600;
+    position: relative;
+    z-index: 100;
+}
+
+.commonInner.sectionContent .sectionContent-header {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
 .formWrapper{
 	width: 1100px;
 	margin:0 auto;
