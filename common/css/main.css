@@ -366,7 +366,8 @@ section.commonSection section:not(:first-of-type){
 #join .sectionContent h2 {
     font-size: xx-large;
     line-height: 1;
-    margin-bottom: 60px;
+	margin-bottom: 60px;
+	margin-top: 25px;
     text-align: center;
     font-weight: bold;
 }
@@ -563,17 +564,6 @@ section.commonSection h2.summary__heading > span{
 	position:relative;
 }
 /* 見出しのアンダーマーカー */
-/* section.commonSection h2.summary__heading > span:before{
-	content: "";
-	position: absolute;
-	bottom:-6px;
-	left:0;
-	width:100%;
-	height: 8px;
-	background-color: #ffc2c4;
-	border-radius: 30px;
-} */
-
 
 section.commonSection .summary .summary__img{
 	max-width: 46vw;
