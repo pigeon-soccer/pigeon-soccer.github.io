@@ -83,9 +83,9 @@ if (document.location.pathname == "/contact/"){
         function SMPFormTrigger() {
             var form_button = document.querySelector(".smpForm form input[type=button]");
             if (form_button) {
-                window.dataLayer.push({ "event": "find_smpForm" });
                 customizeSMPFormHTML();
                 if (SMPFormIsCustomized()){
+                    window.dataLayer.push({ "event": "find_smpForm" });
                     clearInterval(set_interval_id);
                 }
             }
