@@ -867,6 +867,8 @@ ul.convey dl.convey__content > dd{
 .commonInner.sectionContent .sectionContent-header {
 	text-align: center;
 	margin-bottom: 25px;
+    padding-left: 20px;
+	padding-right: 20px;
 }
 .formWrapper{
 	width: 1100px;
