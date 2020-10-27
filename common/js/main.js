@@ -55,7 +55,7 @@ $(function () {
     if (url.match(/type=shool/)) visibleForm(0);
     else if (url.match(/type=support/)) visibleForm(1);
     else if (url.match(/type=sns/)) visibleForm(2);
-    else if (document.location.pathname.match(/\/contact\//)) visibleForm(1);
+    else if (document.location.pathname.match(/\/contact\//)) visibleForm(0);
     function visibleForm(i){
         $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
         $('.tab > li.tab__label').removeClass('select'); 
