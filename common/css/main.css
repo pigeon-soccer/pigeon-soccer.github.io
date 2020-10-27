@@ -1041,7 +1041,7 @@ input[type=checkbox]:checked + .checkbox:before {
 }
 .tab > li:hover{
     cursor: pointer;
-    box-shadow: 3px 3px 6px #eeeeee, -3px -3px 6px #fff;
+    box-shadow: 3px -15px 6px #eeeeee, -3px -3px 6px #fff;
     border: .0625rem solid transparent;
 }
 .tabContent > li{
