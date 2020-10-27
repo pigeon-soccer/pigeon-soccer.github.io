@@ -52,7 +52,6 @@ a{
 	text-decoration: none;
 	color:#444444;
 }
-
 a > img{
 	transition: 0.2s;
 }
@@ -90,7 +89,6 @@ strong{
 .br-sp{
 	display:none;
 }
-
 /* ------ TOOL TIP ------ */
 /* 表示文字の装飾 */
 div.tooltip{
@@ -160,19 +158,19 @@ header{
 header.hide{
     transform: translateY(-100%);
 }
-
+.header-logoOnly nav.globalNav {
+    display: none;
+}
 .navWrapper .navWrapper__logo{
 	float: left;
     max-width: 29vw;
     padding: 5px;
 }
-
 .navWrapper__logo:hover {
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     border-radius: .55rem;
     border: .0625rem solid transparent;
 }
-
 .navWrapper .snsWrapper{
 	display: none;
 }
@@ -202,7 +200,7 @@ ul.globalNav__menu > li a{
 }
 ul.globalNav__menu > li a:hover{
 	display: block;
-	height: 100%; #これにより
+	height: 100%;
 	color:#444444;
 	font-weight: 500;
 	position: relative;
@@ -247,7 +245,6 @@ ul.globalNav__menu > li.current:before{
 	height:20px;
 	background: url(../images/index_ic_002.png) no-repeat 0 0/13px 20px;
 }
-
 li.menu__parent {
     position: relative;
 }
@@ -268,8 +265,6 @@ ul.menu__child > li {
 ul > li.menu__parent > ul.menu__child li > a {
 	padding: 20px 0px;
 }
-
-
 /* ======== main ======== */
 
 /* ▽ メインビジュアル ▽ */
@@ -380,13 +375,11 @@ ul > li.menu__parent > ul.menu__child li > a {
     transform: rotate(-45deg) translate(0, 0);
   }
 }
-
 /* ======== main -content- ======== */
 /* ▽ セクション ▽ */
 #mainContent .commonSection{
     min-height: 100%;
 }
-
 #mainContent > section:nth-of-type(odd){ /* 共通 */
 	background-color:#f1f1f1;
 }
@@ -400,7 +393,6 @@ section.commonSection section:not(:first-of-type){
 #about #mainContent > section:nth-of-type(3){ /* aboutのみ */
     background-color: #86c4635e;
 }
-
 #about  #mainContent > section:nth-of-type(5){ /* aboutのみ */
 	background-color:#ffffff;
 }
@@ -432,7 +424,6 @@ section.commonSection section:not(:first-of-type){
 	text-align: center;
 	padding: 0 20px 20px 20px;
 }
-
 /* ▽ ボタン ▽ */
 
 .commonDetailBtn a,button.formSendBtn{
@@ -556,9 +547,9 @@ section.commonSection section:not(:first-of-type){
 	height: 150px; /* 開く前に見えている部分の高さ */
 	transition: all 0.5s;
 }
-.paragraph input:checked + label {
-	/* display: none ; 閉じるボタンを消す場合解放 */
-}
+/* .paragraph input:checked + label {
+	display: none ; 閉じるボタンを消す場合解放
+} */
 .paragraph input:checked + label:after {
 	font-family: FontAwesome;
 	content: '閉じる';
@@ -568,7 +559,6 @@ section.commonSection section:not(:first-of-type){
 	padding-bottom: 80px; /* 閉じるボタンのbottomからの位置 */
 	transition: all 0.5s;
 }
-
 section.commonSection .summary__content{
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -627,7 +617,6 @@ section.commonSection h2.summary__heading > span{
 section.commonSection .summary .summary__img{
 	width: 450px;
 }
-
 /* ▽ ボタン【部分】 ▽ */
 section.commonSection section.summary .commonDetailBtn{
 	margin-top: 60px;
@@ -684,7 +673,6 @@ ul.commonInner__solution > li dd{
     backdrop-filter: blur(5px);
     height: 100%;
 }
-
 .commonInner__history > dl{
 	border-bottom:1px solid #cccccc;
 	display: flex;
@@ -693,7 +681,6 @@ ul.commonInner__solution > li dd{
 .commonInner__history > dl dd{
 	margin-left:80px;
 }
-
 .commonInner__introduce{
 	display: flex;
 	justify-content: space-between;
@@ -724,7 +711,6 @@ ul.commonInner__solution > li dd{
 	margin-top:60px;
 }
 
-
 /* ▽ コンテンツ -【activity】▽ */
 
 /* ▽ activity - 練習を通して何を伝えるか ▽ */
@@ -749,7 +735,6 @@ ul.convey dl.convey__content > dt{
 ul.convey dl.convey__content > dd{
 	padding-top:10px;
 }
-
 #activity .topImage .topImage__txt{ /* ※indexのみ */
 	color:#ffffff;
 }
@@ -761,7 +746,6 @@ ul.convey dl.convey__content > dd{
 #activity .convey__img img {
     height: 190px;
 }
-
 /* ▽ activity - エピソード ▽ */
 .episode > dl{
 	padding:20px 0 20px 200px;
@@ -782,7 +766,6 @@ ul.convey dl.convey__content > dd{
 	font-size: 20px;
 	padding-bottom:10px;
 }
-
 /* ▽ activity - 一日のスケジュール ▽ */
 .practiceMenus{
 	width:580px;
@@ -876,13 +859,11 @@ ul.convey dl.convey__content > dd{
 	width:1000px;
 	height:400px;
 }
-
 /* ▽ コンテンツ -【trial】▽ */
 .commonInner.sectionContent .sectionContent-header {
 	text-align: center;
 	margin-bottom: 25px;
 }
-
 .formWrapper{
 	width: 1100px;
 	margin:0 auto;
@@ -904,7 +885,6 @@ input[type="text"]{
     -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
     box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
 }
-
 
 textarea{
 	padding: 10px;
@@ -928,7 +908,6 @@ table.form td{
 	background-color: #a6ca3a;
     margin-right: 20px;
 }
-
 /*formのラジオボタン・チェックボックス*/
 input[type=radio], input[type=checkbox] {
   display: none;
@@ -954,7 +933,6 @@ border-radius: 50%;
 .row2 .form__checkList{
 	display: flex;
 }
-
 .radio:hover, .checkbox:hover {
   background-color: #e2edd7;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
@@ -1017,7 +995,6 @@ input[type=radio]:checked + .radio:before {
 input[type=checkbox]:checked + .checkbox:before {
   opacity: 1;
 }
-
 .row2.radio{
     float: left;
 }
@@ -1031,7 +1008,6 @@ input[type=checkbox]:checked + .checkbox:before {
 .contact + p{
 	text-align: right;
 }
-
 /* ▽ コンテンツ -【join.html】▽ */
 .tab{
 	margin-top:40px;
@@ -1109,7 +1085,6 @@ input[type=checkbox]:checked + .checkbox:before {
     width: 60px;
     height: 60px;
 }
-
 li .checkMark{
 	position: relative;
     padding-left: 15px;
@@ -1127,7 +1102,6 @@ li .checkMark:before{
     border-right: 3px solid #b2d83e;
     border-bottom: 3px solid #b2d83e;
 }
-
 dd.summaryInfo__staffTarget {
 	display: -webkit-box;
 }
@@ -1135,15 +1109,10 @@ img.summaryInfo__staffTarget-img {
     max-width: 30%;
     margin-left: 5vw;
 }
-
 #join #mainContent {
     margin-top: 5vw;
 }
-
 /* ======== footer ======== */
-footer{
-
-}
 footer .footer-action{
 	padding: 40px 0 30px;
 	background-color: #eeeeee;
@@ -1231,8 +1200,6 @@ ul.snsWrapper__btn .snsBtn__tw a{
 ul.snsWrapper__btn .snsBtn__fb a{
     background: -webkit-linear-gradient(left, steelblue 0%,steelblue 100%);
 }
-
-
 ul.snsWrapper__btn > li a:hover{
 	width:60px;
 	height:60px;
@@ -1243,7 +1210,6 @@ footer .footer-action .questionBtn a:hover {
     color: #444444;
     font-weight: bold;
 }
-
 ul.snsWrapper__btn > li a:before{
 	content: "";
 	position: absolute;
@@ -1312,7 +1278,6 @@ footer .copyright{
     left: 215px;
     text-align: left;
 }
-
 /* ▽ transition ▽ */
 /* ul.globalNav__menu > li a,
 ul.globalNav__menu > li a:before,
@@ -1327,7 +1292,6 @@ footer .footer-action .questionBtn a:before,
 footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPrivateQuestion img:hover{
 	transition: 0.3s;
 }
-
 /* ▽ clearfix ▽ */
 .navWrapper:after{
 	content: "";
@@ -1339,10 +1303,10 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 
 /* ▼▼▼ 600px～ PC only ▼▼▼
 ================================*/
-@media screen and (min-width: 600px), print {
+/* @media screen and (min-width: 600px), print {
 	.sample {
 	}
-}
+} */
 /* ▲▲▲ 600px～ PC only end ▲▲▲ */
 
 
@@ -1359,7 +1323,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		width: 7vw;
     height: 7vw;
 	}
-
 	/* ▽ float解除 ▽ */
 	.navWrapper .navWrapper__logo,
 	.globalNav{
@@ -1423,7 +1386,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		display: flex;
 		justify-content: center;
 	}
-
 	/* ▽ グローバルナビゲーション ▽ */
 	.navWrapper nav.globalNav {
 		position: fixed;
@@ -1497,7 +1459,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.navWrapper .globalNav__btn.open span {
 		background: #fff;
 	}
-
 	/* ======== main ======== */
 
 	/* ▽ メインビジュアル ▽ */
@@ -1522,7 +1483,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		bottom:-100px;
 		margin-left:-10px;
 	}
-
 	/* ▽ セクション ▽ */
 	#mainContent .commonInner {
 		padding: 60px 0;
@@ -1530,7 +1490,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	section.commonSection section:not(:first-of-type) {
   		padding-top: 60px;
 	}
-
 	/* ▽ セクション - 見出し ▽ */
     section.commonSection .summary-activity h2.summary__heading:before {
     content: "Individual";
@@ -1543,7 +1502,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         left: 120px;
         font-size: 4.4rem;
     }
-
     section.commonSection .summary h3.summary__heading {
 		margin-bottom: 20px;
 		font-size: 2.4rem;
@@ -1557,7 +1515,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		font-weight: normal;
 		z-index: 200;
 	}
-
 	/* ▽ contents ▽ */
 	section.commonSection .summary .summary__txtWrapper {
 	  	width: 100%;
@@ -1581,7 +1538,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	ul.commonInner__solution > li dd{
 		text-align:left;
 	}
-
 	.commonInner__history > dl {
     flex-wrap: wrap;
 	}
@@ -1639,12 +1595,10 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         width: 100%;
         float: left;
 	}
-
 	.summary__snsWindow {
 		width: 300px;
 		border: inset;
 	}
-
 
 	/* ▽ about ▽*/
 	#about .topImage .topImage__img {
@@ -1679,7 +1633,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		margin-left: 0vw;
 		margin-top: 5px;
 	}
-
 	/* ======== footer ======== */
 	.questionBtn a {
 		display: block;
