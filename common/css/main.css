@@ -1594,7 +1594,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		font-size: 1.4rem;
 	}
 	.summaryInfo > dl dd {
-		width: 80%;
+		width: 100%;
 	}
 	th.form__label,
 	table.form th, table.form td{
@@ -1617,21 +1617,20 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	#activity ul.convey{
 		flex-wrap: wrap;
 	}
-	/* ▽ form ▽ */
-    .tabContent > li{
-        padding: 0px;
-    }
-    .radio, .checkbox{
-        margin:0;
-    }
-    .sectionContent .commonDetailBtn, button.formSendBtn,textarea{
-        width: 100%;
-    }
-    .tabContent .contactSns{
-        padding: 25px;
-	}
 	
 	/* ▽ join ▽ */
+	.tabContent > li{
+		padding: 0px;
+	}
+	.radio, .checkbox{
+		margin:0;
+	}
+	.sectionContent .commonDetailBtn, button.formSendBtn,textarea{
+		width: 100%;
+	}
+	.tabContent .contactSns{
+		padding: 25px;
+	}
 	dd.summaryInfo__staffTarget {
     	display: block;
 	}
@@ -1640,6 +1639,10 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		margin-left: 0vw;
 		margin-top: 5px;
 	}
+	#join .summaryInfo {
+		padding-left: 20px;
+		padding-right: 20px;
+	}	
 	/* ======== footer ======== */
 	.questionBtn a {
 		display: block;
