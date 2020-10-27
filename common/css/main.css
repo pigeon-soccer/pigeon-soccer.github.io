@@ -1446,8 +1446,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		margin-left:-15px;
 		background: #ffffff;
 		border-radius: 10px;
-		/* -webkit-transition: all 400ms;
-		transition: all 400ms; */
 	}
 	.navWrapper .globalNav__btn span:nth-child(1) {
 		top: 10px;
@@ -1463,6 +1461,10 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 	.navWrapper .globalNav__btn.open span {
 		background: #fff;
+	}
+	li.menu__parent:hover ul.menu__child {
+		visibility: hidden;
+    	opacity: 0;
 	}
 	/* ======== main ======== */
 
