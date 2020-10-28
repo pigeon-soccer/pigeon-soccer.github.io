@@ -24,6 +24,10 @@ body {
 .wrap{
     overflow: hidden;
 }
+h1 {
+    font-size: small;
+    font-weight: normal;
+}
 h2 {
 	margin-bottom: 40px;
     margin-left: 20px;
