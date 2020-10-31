@@ -144,6 +144,6 @@ function SMPFormIsCustomized() {
     /*念のため処理タイミングのズレにより未処理のものがないか（非表示扱いの項目がまだ表示されていないか）をチェックし、
     完了していればtrue、そうでなければfalseを返す*/
     var display_none_target_elms = Array.from(document.querySelectorAll(".ss_form_title")).filter(function (elm) { return elm.innerText.match(/非表示/) });
-    var display_none_elms = display_none_elm_list.filter(function (elm) { return elm.parentNode.style.display == "none"; });
+    var display_none_elms = display_none_target_elms.filter(function (elm) { return elm.parentNode.style.display == "none"; });
     return Boolean(display_none_target_elms.length == display_none_elms.length)
 }
