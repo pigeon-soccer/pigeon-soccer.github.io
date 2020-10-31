@@ -1018,6 +1018,17 @@ input[type=checkbox]:checked + .checkbox:before {
 .contact + p{
 	text-align: right;
 }
+
+.complete .questionBtn {
+    display: none;
+}
+.complete .footer-action {
+    padding-bottom: 100px;
+}
+.complete main#contact {
+    height: fit-content;
+}
+
 /* ▽ コンテンツ -【join.html】▽ */
 .tab{
 	margin-top:40px;

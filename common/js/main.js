@@ -84,10 +84,8 @@ if (document.location.pathname == "/contact/"){
             var form_button = document.querySelector(".smpForm form input[type=button]");
             if (form_button) {
                 customizeSMPFormHTML();
-                if (SMPFormIsCustomized()){
-                    window.dataLayer.push({ "event": "find_smpForm" });
-                    clearInterval(set_interval_id);
-                }
+                clearInterval(set_interval_id);
+                window.dataLayer.push({ "event": "find_smpForm" });
             }
         }
     });
@@ -95,12 +93,6 @@ if (document.location.pathname == "/contact/"){
 
 function customizeSMPFormHTML(){
     //SMPの埋め込みFormのHTMLを上書きするための関数
-
-    //読み込み中の文言を非表示化、および非表示というワードが含まれる項目を非表示化する
-    var loading_elm_list = Array.from(document.querySelectorAll(".loadingWrap"));
-    var display_none_elm_list = Array.from(document.querySelectorAll(".ss_form_title")).filter(function (elm) { return elm.innerText.match(/非表示/) });
-    loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
-    display_none_elm_list.map(function (elm) { return elm.parentNode.style.display = "none"; });
 
     /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
       そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
@@ -138,12 +130,4 @@ function customizeSMPFormHTML(){
 
     //ボタン文言の修正
     Array.from(document.getElementsByName("smpSubmit")).map(function (elm) { elm.value = "連絡する" })
-}
-
-function SMPFormIsCustomized() {
-    /*念のため処理タイミングのズレにより未処理のものがないか（非表示扱いの項目がまだ表示されていないか）をチェックし、
-    完了していればtrue、そうでなければfalseを返す*/
-    var display_none_target_elms = Array.from(document.querySelectorAll(".ss_form_title")).filter(function (elm) { return elm.innerText.match(/非表示/) });
-    var display_none_elms = display_none_target_elms.filter(function (elm) { return elm.parentNode.style.display == "none"; });
-    return Boolean(display_none_target_elms.length == display_none_elms.length)
 }
