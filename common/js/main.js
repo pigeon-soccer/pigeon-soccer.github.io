@@ -94,6 +94,10 @@ if (document.location.pathname == "/contact/"){
 function customizeSMPFormHTML(){
     //SMPの埋め込みFormのHTMLを上書きするための関数
 
+    //不要な要素を非表示にする
+    var loading_elm_list = Array.from(document.querySelectorAll(".loadingWrap"));
+    loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
+
     /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
       そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
     setInputLebelTag("td input[type='radio']");
