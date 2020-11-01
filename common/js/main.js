@@ -52,7 +52,7 @@ $(document).on('click','.globalNav__btn', function() {
 $(function () {
     //流入別のタブ切り替え
     var url = location.search;
-    if (url.match(/type=shool/)) visibleForm(0);
+    if (url.match(/type=school/)) visibleForm(0);
     else if (url.match(/type=support/)) visibleForm(1);
     else if (url.match(/type=sns/)) visibleForm(2);
     else if (document.location.pathname.match(/\/contact\//)) visibleForm(0);
