@@ -126,6 +126,7 @@ function customizeSMPFormHTML(){
     //フォームの入力サンプルを表示
     sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
     sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
+    sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name2']", "例 - 太郎");
     sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']", "ご入力ください");
     function sampleInput(selector, text) {
         var elms = document.querySelectorAll(selector);
