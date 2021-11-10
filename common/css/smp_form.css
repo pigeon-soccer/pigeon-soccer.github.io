@@ -234,3 +234,10 @@ ss_warning_label{
         padding: 0px;
     }
 }
+
+/* 2021.11.10.nagamine. */
+.ss_input{
+  display: inline-block;
+}
+
+
