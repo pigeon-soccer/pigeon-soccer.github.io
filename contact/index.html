@@ -55,12 +55,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div id="emb420252c2-ce34-4147-bdcf-07e183bf4925" class="smpForm"></div>
 						<script>
 							const formOpt = {
-									submitWord: "資料請求する",
+									submitWord: "連絡する",
 								};
 								const callbackOpt = {
 									executionTiming: "onCompleted",
 								callbackFunc: function() {
-									external_method("test1", "test2");
+									dataLayer.push({'event': 'form_completed'})
 								}
 							};
 						smpform.loadForm('emb420252c2-ce34-4147-bdcf-07e183bf4925', 'https://pigeon.smktg.jp', formOpt, callbackOpt);
@@ -88,19 +88,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</section>
 	</div>
 </main><!-- /main -->
-<!-- <script>
-	// test code
+<script>
+	// SMPフォームの表示を検知。コールバック関数が用意されていないかつ処理タイミングが難しいためここに記述する。
 	(function () {
 		const target_elms = document.querySelectorAll(".smpForm");
 		const mo = new MutationObserver(function () {
-			console.log('observe!');
+			dataLayer.push({ 'event': 'form_view' })
+			clearInterval(set_interval_id);
 		});
 		const config = {
 			childList: true
 		};
 		Array.from(target_elms).map(elm => mo.observe(elm, config));
 	}())
-</script> -->
+</script>
 <footer id="footer">
 </footer><!-- /footer -->
 </div>

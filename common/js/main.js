@@ -132,7 +132,4 @@ function customizeSMPFormHTML(){
         var elms = document.querySelectorAll(selector);
         Array.from(elms).map(function (elm) { return elm.placeholder = text });
     }
-
-    //ボタン文言の修正
-    Array.from(document.getElementsByName("smpSubmit")).map(function (elm) { elm.value = "連絡する" })
 }
