@@ -136,3 +136,15 @@ function customizeSMPFormHTML(){
     //ボタン文言の修正
     Array.from(document.getElementsByName("smpSubmit")).map(function (elm) { elm.value = "連絡する" })
 }
+
+// test code
+(function(){
+    const target_elms = document.querySelectorAll(".ss_form_title");
+    const mo = new MutationObserver(function () {
+        console.log('observe!');
+    });
+    const config = {
+        childList: true
+    };
+    Array.from(target_elms).map(elm => mo.observe(elm, config));
+}())
