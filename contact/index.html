@@ -53,7 +53,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<!-- <script src="https://pigeon.smktg.jp/static/js/embedded_form.js" charset="utf-8"></script>
 						<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/smp_form.css"> -->
 						<div id="emb420252c2-ce34-4147-bdcf-07e183bf4925" class="smpForm"></div>
-						<script>smpform.loadForm('emb420252c2-ce34-4147-bdcf-07e183bf4925', 'https://pigeon.smktg.jp');</script>
+						<script>
+							const formOpt = {
+									submitWord: "資料請求する",
+								};
+								const callbackOpt = {
+									executionTiming: "onCompleted",
+								callbackFunc: function() {
+									external_method("test1", "test2");
+								}
+							};
+						smpform.loadForm('emb420252c2-ce34-4147-bdcf-07e183bf4925', 'https://pigeon.smktg.jp', formOpt, callbackOpt);
+							
+						</script>
 						<div class="loadingWrap">
 							<span class="loadingWrap__text">読み込み中です。<span class="spNone">数秒お待ちください</span><span></span></span>
 						</div>
