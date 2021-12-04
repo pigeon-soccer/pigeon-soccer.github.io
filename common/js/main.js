@@ -30,8 +30,6 @@ $(function(){
 
 
 $(document).on('click','.globalNav__btn', function() {
-    //ハンバーガーメニュー
-    console.log("fired on-click") //test
     // ハンバーガーメニューの位置を設定
     var rightVal = 0;
     if($(this).hasClass("open")) {
