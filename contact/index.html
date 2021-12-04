@@ -91,15 +91,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>
 	// SMPフォームの表示を検知。コールバック関数が用意されていないかつ処理タイミングが難しいためここに記述する。
 	(function () {
-		const target_elms = document.querySelectorAll(".smpForm");
+		const target_elm = document.querySelector(".smpForm");
 		const mo = new MutationObserver(function () {
 			dataLayer.push({ 'event': 'form_view' })
 			clearInterval(set_interval_id);
+			customizeSMPFormHTML();
 		});
 		const config = {
 			childList: true
 		};
-		Array.from(target_elms).map(elm => mo.observe(elm, config));
+		target_elm.map(elm => mo.observe(elm, config));
+
+		function customizeSMPFormHTML() {
+			//SMPの埋め込みFormのHTMLを上書きするための関数
+
+			//不要な要素を非表示にする
+			var loading_elm_list = Array.from(document.querySelectorAll(".loadingWrap"));
+			loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
+
+			/*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
+			  そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
+			setInputLebelTag("td input[type='radio']");
+			setInputLebelTag("td input[type='checkbox']");
+			function setInputLebelTag(selector_text) {
+				var old_input_nodes = document.querySelectorAll(selector_text);
+				Array.from(old_input_nodes).map(function (old_input_node, index) {
+					//inputタグのテキストをlabelタグで囲んだ要素を準備する
+					var td_tag_elm = old_input_node.parentNode;
+					var input_tag_text = td_tag_elm.childNodes[1]; //inputタグ内のテキスト情報を取得
+					var new_input_node = document.createElement('label')
+					new_input_node.textContent = input_tag_text.textContent //"input_tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
+
+					//inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
+					var input_tag = td_tag_elm.childNodes[0]
+					var tag_label_id = input_tag.name + "_" + index;
+					input_tag.setAttribute('id', tag_label_id);
+					new_input_node.htmlFor = tag_label_id
+
+					//実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
+					var target_node = input_tag_text.parentNode;
+					target_node.replaceChild(new_input_node, input_tag_text);
+				});
+			}
+
+			//フォームの入力サンプルを表示
+			sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
+			sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
+			sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name2']", "例 - 太郎");
+			sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']", "ご入力ください");
+			function sampleInput(selector, text) {
+				var elms = document.querySelectorAll(selector);
+				Array.from(elms).map(function (elm) { return elm.placeholder = text });
+			}
+		}
 	}())
 </script>
 <footer id="footer">
