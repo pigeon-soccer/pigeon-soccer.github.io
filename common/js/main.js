@@ -138,3 +138,19 @@ function customizeSMPFormHTML(){
 }
 
 // test code
+(function(){
+    var set_interval_id = setInterval(SMPFormTrigger, 500);
+    function SMPFormTrigger(){
+        const target_elms = document.querySelectorAll(".smpForm");
+        if (target_elms){
+            clearInterval(set_interval_id);
+        }
+        const mo = new MutationObserver(function () {
+            console.log('observe!');
+        });
+        const config = {
+            childList: true
+        };
+        Array.from(target_elms).map(elm => mo.observe(elm, config));
+    }
+}())
