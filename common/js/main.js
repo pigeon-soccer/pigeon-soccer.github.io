@@ -139,12 +139,14 @@ function customizeSMPFormHTML(){
 
 // test code
 (function(){
-    const target_elms = document.querySelectorAll(".smpForm");
-    const mo = new MutationObserver(function () {
-        console.log('observe!');
+    window.addEventListener('load', (event) => {
+        const target_elms = document.querySelectorAll(".smpForm");
+        const mo = new MutationObserver(function () {
+            console.log('observe!');
+        });
+        const config = {
+            childList: true
+        };
+        Array.from(target_elms).map(elm => mo.observe(elm, config));
     });
-    const config = {
-        childList: true
-    };
-    Array.from(target_elms).map(elm => mo.observe(elm, config));
 }())
