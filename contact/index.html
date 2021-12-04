@@ -100,7 +100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		const config = {
 			childList: true
 		};
-		target_elm.map(elm => mo.observe(elm, config));
+		mo.observe(target_elm, config);
 
 		function customizeSMPFormHTML() {
 			//SMPの埋め込みFormのHTMLを上書きするための関数
