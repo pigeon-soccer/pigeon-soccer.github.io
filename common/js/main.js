@@ -49,90 +49,33 @@ $(document).on('click','.globalNav__btn', function() {
     }, 200);
 });
 
+
 $(function () {
     //流入別のタブ切り替え
-    var url = location.search;
-    if (url.match(/type=school/)) visibleForm(0);
-    else if (url.match(/type=support/)) visibleForm(1);
-    else if (url.match(/type=sns/)) visibleForm(2);
-    else if (document.location.pathname.match(/\/contact\//)) visibleForm(0);
+    const url = location.search;
+    const contact_type_map = ['student', 'support', 'sns'];
     function visibleForm(i){
         $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
         $('.tab > li.tab__label').removeClass('select'); 
         $('.tabContent__box').eq(i).css('display', 'block');
         $(".tab > li:nth-child("+(i+1)+")").addClass('select')
     }
-});
-
-$(function() {
-    //クリックしたときのタブ切り替え
-    $('.tab > li.tab__label').click(function() {
-        var index = $('.tab > li.tab__label').index(this); //クリックされたタブが何番目かを調べてindexに代入
-        $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
-        $('.tab > li.tab__label').removeClass('select'); //すべてのタブをクリックされていない状態にする
-        $('.tabContent__box').eq(index).css('display', 'block'); //クリックされたタブと同じ順番のコンテンツを表示
-        $(this).addClass('select') //クリックされたタブにクラスselectを付与
-    });
-});
-
-//SMP Form 関連
-if (document.location.pathname == "/contact/"){
-    //フォームURLの場合、SMPフォームの読み込みを待ってからデザインの修正処理をする
-    window.addEventListener('load', (event) => {
-        var set_interval_id = setInterval(SMPFormTrigger, 500);
-        function SMPFormTrigger() {
-            var form_button = document.querySelector(".smpForm form input[type=button]");
-            if (form_button) {
-                customizeSMPFormHTML();
-                clearInterval(set_interval_id);
-                window.dataLayer.push({ "event": "find_smpForm" });
-            }
-        }
-    });
-}
-
-function customizeSMPFormHTML(){
-    //SMPの埋め込みFormのHTMLを上書きするための関数
-
-    //不要な要素を非表示にする
-    var loading_elm_list = Array.from(document.querySelectorAll(".loadingWrap"));
-    loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
-
-    /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
-      そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
-    setInputLebelTag("td input[type='radio']");
-    setInputLebelTag("td input[type='checkbox']");
-    function setInputLebelTag(selector_text) {
-        var old_input_nodes = document.querySelectorAll(selector_text);
-        Array.from(old_input_nodes).map(function (old_input_node, index) {
-            //inputタグのテキストをlabelタグで囲んだ要素を準備する
-            var td_tag_elm = old_input_node.parentNode;
-            var input_tag_text = td_tag_elm.childNodes[1]; //inputタグ内のテキスト情報を取得
-            var new_input_node = document.createElement('label')
-            new_input_node.textContent = input_tag_text.textContent //"input_tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
-
-            //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
-            var input_tag = td_tag_elm.childNodes[0]
-            var tag_label_id = input_tag.name + "_" + index;
-            input_tag.setAttribute('id', tag_label_id);
-            new_input_node.htmlFor = tag_label_id
-
-            //実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
-            var target_node = input_tag_text.parentNode;
-            target_node.replaceChild(new_input_node, input_tag_text);
+    function contact_visible(i){
+        visibleForm(i);
+        dataLayer.push({ event: 'form_page_view', contact_type: contact_type_map[i] });
+    }
+    function tab_visible_switch_by_click(){
+        $('.tab > li.tab__label').click(function() {
+            var clicked_tab_index = $('.tab > li.tab__label').index(this);
+            contact_visible(clicked_tab_index);
         });
     }
-
-    //フォームの入力サンプルを表示
-    sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
-    sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
-    sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name2']", "例 - 太郎");
-    sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']", "ご入力ください");
-    function sampleInput(selector, text) {
-        var elms = document.querySelectorAll(selector);
-        Array.from(elms).map(function (elm) { return elm.placeholder = text });
+    function tab_visible_switch_by_url_query(){
+        if (url.match(/type=school/)) contact_visible(0);
+        else if (url.match(/type=support/)) contact_visible(1);
+        else if (url.match(/type=sns/)) contact_visible(2);
+        else if (document.location.pathname.match(/\/contact\//)) contact_visible(0);
     }
-
-    //ボタン文言の修正
-    Array.from(document.getElementsByName("smpSubmit")).map(function (elm) { elm.value = "連絡する" })
-}
+    tab_visible_switch_by_url_query();
+    tab_visible_switch_by_click();
+});
