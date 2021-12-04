@@ -111,7 +111,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	(function () {
 		const target_elm = document.querySelector(".smpForm");
 		const mo = new MutationObserver(function () {
-			dataLayer.push({ event: 'form_view' })
+			dataLayer.push({ event: 'form_view' });
 			customizeSMPFormHTML();
 		});
 		const config = {
