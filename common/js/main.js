@@ -51,26 +51,30 @@ $(document).on('click','.globalNav__btn', function() {
 
 $(function () {
     //流入別のタブ切り替え
-    var url = location.search;
-    if (url.match(/type=school/)) visibleForm(0);
-    else if (url.match(/type=support/)) visibleForm(1);
-    else if (url.match(/type=sns/)) visibleForm(2);
-    else if (document.location.pathname.match(/\/contact\//)) visibleForm(0);
+    const url = location.search;
+    const contact_type_map = ['student', 'support', 'sns'];
     function visibleForm(i){
         $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
         $('.tab > li.tab__label').removeClass('select'); 
         $('.tabContent__box').eq(i).css('display', 'block');
         $(".tab > li:nth-child("+(i+1)+")").addClass('select')
     }
-});
+    function contact_visible(n){
+        visibleForm(n);
+        dataLayer.push({ event: 'form_page_view', contact_type: contact_type_map[n] });
+    }
+    if (url.match(/type=school/)) contact_visible(0);
+    else if (url.match(/type=support/)) contact_visible(1);
+    else if (url.match(/type=sns/)) contact_visible(2);
+    else if (document.location.pathname.match(/\/contact\//)) contact_visible(0);
 
-$(function() {
     //クリックしたときのタブ切り替え
     $('.tab > li.tab__label').click(function() {
         var index = $('.tab > li.tab__label').index(this); //クリックされたタブが何番目かを調べてindexに代入
-        $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
-        $('.tab > li.tab__label').removeClass('select'); //すべてのタブをクリックされていない状態にする
-        $('.tabContent__box').eq(index).css('display', 'block'); //クリックされたタブと同じ順番のコンテンツを表示
-        $(this).addClass('select') //クリックされたタブにクラスselectを付与
+        // $('.tabContent__box').css('display', 'none'); //すべてのコンテンツを非表示にする
+        // $('.tab > li.tab__label').removeClass('select'); //すべてのタブをクリックされていない状態にする
+        // $('.tabContent__box').eq(index).css('display', 'block'); //クリックされたタブと同じ順番のコンテンツを表示
+        // $(this).addClass('select') //クリックされたタブにクラスselectを付与
+        contact_visible(index);
     });
 });
