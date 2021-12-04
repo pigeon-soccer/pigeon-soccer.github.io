@@ -123,7 +123,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			hide_useless_elms();
 			setInputLabel();
 			display_sample_input();
-
+			display_sending_message();
 			function hide_useless_elms(){
 				const loading_elm_list = Array.from(document.querySelectorAll(".loadingWrap"));
 				loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
@@ -163,6 +163,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					const elms = document.querySelectorAll(selector);
 					Array.from(elms).map(function (elm) { return elm.placeholder = text });
 				}
+			}
+			function display_sending_message(){
+				const form_complete_buttons = document.querySelectorAll('input[name=smpSubmit]');
+				Array.from(form_complete_buttons).forEach(function (elm) {
+					elm.addEventListener('click', function () {
+						elm.value = '送信中...少々お待ちください。';
+					});
+				});
 			}
 		}
 	}())
