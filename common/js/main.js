@@ -139,7 +139,7 @@ function customizeSMPFormHTML(){
 
 // test code
 (function(){
-    const target_elms = document.querySelectorAll(".ss_form_title");
+    const target_elms = document.querySelectorAll(".smpForm");
     const mo = new MutationObserver(function () {
         console.log('observe!');
     });
