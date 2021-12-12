@@ -228,6 +228,10 @@ ss_warning_label{
     .ss_btnArea{
         margin: 30px 0px;
     }
+    /* 2021.12.12.nagamine. */
+    .ss_privacy .ss_grid{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 600px), print {
     .tabContent > li {
