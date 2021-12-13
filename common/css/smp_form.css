@@ -230,7 +230,7 @@ ss_warning_label{
     }
     /* 2021.12.12.nagamine. */
     .ss_privacy .ss_grid{
-        width: 100%;
+        width: 100% !important;
     }
 }
 @media screen and (max-width: 600px), print {
