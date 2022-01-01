@@ -228,6 +228,10 @@ ss_warning_label{
     .ss_btnArea{
         margin: 30px 0px;
     }
+    /* 2021.12.12.nagamine. */
+    .ss_privacy .ss_grid{
+        width: 100% !important;
+    }
 }
 @media screen and (max-width: 600px), print {
     .tabContent > li {
@@ -239,4 +243,13 @@ ss_warning_label{
   display: inline-block;
 }
 
+/* 2021.12.10.nagamine. */
+.ss_privacy .ss_grid{
+    display: inline-block;
+    width: 700px;
+    font-size: 16px;
+    height: 150px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
 
