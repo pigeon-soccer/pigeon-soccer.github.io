@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+/*SMP 埋め込みForm用*/
+/*
+.ss_input, .ss_form_title, form td, input[type="text"],input[type="email"],textarea{
+    width: 300px;
+}
+*/
+div#emb3554ffa6-efc5-4c8e-9344-d27543ad2baa, div#emb420252c2-ce34-4147-bdcf-07e183bf4925 {
+    margin-left: 0vw;
+    margin-top: 0vw;
+    height: auto!important;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    border-style: none;
+    background-color: #f6f7f8;
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-ordinal-group: 1;
+    order: 1;
+}
+table {
+    width: auto;
+}
+.ss_form_title {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #a6ca3a;
+    float: left;
+    margin-right: 20px;
+}
+.ss_user_notnull{
+    display: none;
+}
+td{
+    display: inline;
+}
+label {
+    box-sizing: border-box;
+    -webkit-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 8px 0;
+    padding: 10px 10px 10px 40px;
+    border-radius: 8px;
+    background-color: #f6f7f8;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+label:before {
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    display: block;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #53b300;
+    content: '';
+    opacity: 0;
+}
+label:after {
+    -webkit-transition: border-color 0.2s linear;
+    transition: border-color 0.2s linear;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    display: block;
+    margin-top: -10px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #bbb;
+    border-radius: 6px;
+    content: '';
+}
+label:hover {
+    background-color: #e2edd7;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    height: 100%;
+}
+label:hover:after {
+    border-color: #53b300;
+}
+input[type=radio], input[type=checkbox] {
+    display: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-radius: 50%;
+}
+input[type=radio]:checked + label:before {
+    opacity: 1;
+}
+
+input[type="text"],input[type="email"] {
+    padding: 15px;
+    border-style: none;
+    background-color: #f6f7f8;
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-ordinal-group: 1;
+    order: 1;
+}
+input[type="text"]:hover, input[type="email"]:hover, textarea:hover {
+    background-color: #e2edd7;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #53b300;
+}
+.ss_rightComment,.ss_leftComment,.ss_rightComment,.ss_bottomComment,.ss_topComment{
+    -webkit-box-ordinal-group: 2;
+    order: 2;
+    margin-top: 3px;
+    color: #777777;
+    font-size: 12px;
+}
+.ss_error_msg{
+    -webkit-box-ordinal-group: 3;
+    order: 3;
+}
+
+.ss_field:nth-child(odd){
+    background-color: white;
+}
+.ss_contents fieldset {
+    border: 0px;
+}
+.ss_input{
+    flex-wrap: wrap;
+}
+ss_warning_label{
+    display: none;
+}
+
+.ss_warning_label {
+  background-color: #f89406;
+  border-radius: 3px;
+  vertical-align: top;
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  line-height: 12px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+.ss_error_msg, .errorMsg {
+  vertical-align: top;
+  margin-left: 3px;
+  font-size: 12px;
+  color: #F89406;
+}
+.ss_input:hover{
+  background-color: #f5f5f5;
+}
+.ss_field + .ss_field, .ss_enquete_form fieldset{
+  margin-top: 20px;
+}
+.ss_btnArea{
+    margin: 30px 100px;
+}
+.ss_btnArea input{
+    display: block;
+    padding: 10px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 2px solid #ef454a;
+    position: relative;
+    transition: 0.3s;
+    color: #ffffff;
+    text-decoration: none;
+    background: #ff6c4a url(../images/index_bg_001.png) repeat-y;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    -webkit-tap-highlight-color: transparent;
+    width: 80%
+}
+.ss_btnArea input:hover {
+    color: #ef454a;
+    border: 2px solid #ef454a;
+    background: none;
+    background-color: #ffffff;
+    cursor: hand;
+}
+.loadingWrap{
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+.loadingWrap__text span{
+    display: inline-block;
+    width: 80px;
+    height: 2px;
+    background-size: 4px 100%;
+    background-image: linear-gradient(to right,transparent 2px,#000 4px);
+}
+
+@media screen and (max-width: 800px), print {
+    input[type="text"], input[type="email"],.ss_form_title, textarea,table,.ss_btnArea input{
+        width: 100%;
+    }
+    div#emb3554ffa6-efc5-4c8e-9344-d27543ad2baa {
+        margin-left: 0vw;
+    }
+    table{
+        text-align: center;
+    }
+    .ss_warning_label{
+        display: inherit;
+    }
+    .ss_btnArea{
+        margin: 30px 0px;
+    }
+    /* 2021.12.12.nagamine. */
+    .ss_privacy .ss_grid{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 600px), print {
+    .tabContent > li {
+        padding: 0px;
+    }
+}
+/* 2021.11.10.nagamine. */
+.ss_input{
+  display: inline-block;
+}
+
+/* 2021.12.10.nagamine. */
+.ss_privacy .ss_grid{
+    display: inline-block;
+    width: 700px;
+    font-size: 16px;
+    height: 150px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
