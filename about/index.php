@@ -5,7 +5,7 @@
 <meta name="description" content="2010年4月以来東京で活動するサッカークラブ「Pigeon」の沿革・理念を紹介。障がいのある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指します。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="https://pigeon-soccer.github.io/common/images/logo/favicon_pigeon.ico"/>
+<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -13,9 +13,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
 <!-- End Google Tag Manager -->
-<script src="https://pigeon-soccer.github.io/common/js/main.js"></script>
-<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/reset.css">
-<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/main.css">
+<script src="/common/js/main.js"></script>
+<link rel="stylesheet" href="/common/css/reset.css">
+<link rel="stylesheet" href="/common/css/main.css">
 </head>
 
 <body id="top">
@@ -124,7 +124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</dl>
 					</li>
 				</ul>
-				<p class="commonDetailBtn"><a href="https://pigeon-soccer.github.io/activity/">教室で何をする？</a></p>
+				<p class="commonDetailBtn"><a href="/activity/">教室で何をする？</a></p>
 			</div>
 		</section>
 		<section class="commonSection commonSection-history">
@@ -159,7 +159,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<h2 id="representative">代表の紹介</h2>
 				<div class="commonInner__introduce">
 					<dl class="introduce__profile">
-                        <img src="https://pigeon-soccer.github.io/common/images/staff/index_ph_001.png">
+                        <img src="/common/images/staff/index_ph_001.png">
 						<dt>
 							<p class="introduce__position">代表理事</p>
 							<p class="introduce__name">武藤 太智（Muto Taichi）</p>
@@ -167,7 +167,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<dd class="introduce__career">日本サッカー協会公認ライセンス取得<br>現在、A.C ammaliatoreの小学生と社会人チームでの監督も兼任中<br>その他、中学生・高校生チームの監督経験あり</dd>
 					</dl>
 					<dl class="introduce__profile">
-                        <img src="https://pigeon-soccer.github.io/common/images/staff/index_ph_002.png">
+                        <img src="/common/images/staff/index_ph_002.png">
 						<dt>
 							<p class="introduce__position">副理事</p>
 							<p class="introduce__name">鈴木 祐揮（Suzuki Yuuki）</p>

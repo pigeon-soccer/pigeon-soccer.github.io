@@ -5,7 +5,7 @@
 <meta name="description" content="障がい児のためのサッカークラブ「Pigeon」の練習コンセプトとメニューを紹介。練習を通してよく笑うこと・協調することを子どもたちに伝えます。障がいの内容と発育状況を加味して練習に取り組みます。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="https://pigeon-soccer.github.io/common/images/logo/favicon_pigeon.ico"/>
+<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -13,9 +13,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
 <!-- End Google Tag Manager -->
-<script src="https://pigeon-soccer.github.io/common/js/main.js"></script>
-<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/reset.css">
-<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/main.css">
+<script src="/common/js/main.js"></script>
+<link rel="stylesheet" href="/common/css/reset.css">
+<link rel="stylesheet" href="/common/css/main.css">
 </head>
 
 <body id="top">
@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<h2 id="development">練習で育むもの</h2>
 				<ul class="convey">
 					<li>
-						<figure class="convey__img"><img src="https://pigeon-soccer.github.io/common/images/index_ph_003.jpg" alt=""/></figure>
+						<figure class="convey__img"><img src="/common/images/index_ph_003.jpg" alt=""/></figure>
 						<dl class="convey__content">
 							<dt>ココロ - 感受性</dt>
 							<dd>子どもたちは、みんなでサッカーをすることの楽しさや、うまくシュートできたときの嬉しさ、できなかった悔しさを経験します。
@@ -49,7 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</dl>
 					</li>
 					<li>
-						<figure class="convey__img"><img src="https://pigeon-soccer.github.io/common/images/index_ph_001.jpg" alt=""/></figure>
+						<figure class="convey__img"><img src="/common/images/index_ph_001.jpg" alt=""/></figure>
 						<dl class="convey__content">
 							<dt>カラダ - 自己管理（+体力向上）</dt>
 							<dd>障がいをもった子どもたちは、体調を崩しやすい傾向があります。
@@ -59,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</dl>
 					</li>
 					<li>
-						<figure class="convey__img"><img src="https://pigeon-soccer.github.io/common/images/activity_cooperative.jpg" alt=""/></figure>
+						<figure class="convey__img"><img src="/common/images/activity_cooperative.jpg" alt=""/></figure>
 						<dl class="convey__content">
 							<dt>ヒト - 協調性</dt>
 							<dd>活動や試合の開始・終了時に挨拶をすること、練習のときにコーチの話を聞く姿勢のあること、
@@ -79,7 +79,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
 					</dl>
 				</div>
-				<p class="commonDetailBtn"><a href="https://pigeon-soccer.github.io/contact/">スタッフとお話してみる</a></p>
+				<p class="commonDetailBtn"><a href="/contact/">スタッフとお話してみる</a></p>
 			</div>
 		</section> -->
 		<section class="commonSection">
@@ -161,7 +161,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<h2 id="shoolTrial">体験方法</h2>
 				<p>以下のフォームにて随時受け付けておりますので、お気軽にお申し込みください！<br>
 					また、ご不明点がありましたら同フォームよりご質問くださいませ。</p>
-				<p class="commonDetailBtn"><a href="https://pigeon-soccer.github.io/contact/">実際に教室に行ってみる</a></p>
+				<p class="commonDetailBtn"><a href="/contact/">実際に教室に行ってみる</a></p>
 			</div>
 		</section>
 

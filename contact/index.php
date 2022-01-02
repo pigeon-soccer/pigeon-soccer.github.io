@@ -4,7 +4,7 @@
 <title>相談・体験の連絡 | 障がい児のためのサッカークラブPigeon</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="https://pigeon-soccer.github.io/common/images/logo/favicon_pigeon.ico"/>
+<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -12,10 +12,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
 <!-- End Google Tag Manager -->
-<script src="https://pigeon-soccer.github.io/common/js/main.js"></script>
+<script src="/common/js/main.js"></script>
 <script src="https://pigeon.smktg.jp/static/js/embedded_form.js" charset="utf-8"></script>
-<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/reset.css">
-<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/main.css">
+<link rel="stylesheet" href="/common/css/reset.css">
+<link rel="stylesheet" href="/common/css/main.css">
 </head>
 <body id="top">
 <div class="wrap">
@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<li class="tabContent__box">
 						<p class='formDescription formDescription-student'>お子さんのクラブ活動にご関心のある保護者の方は、こちらからお問い合わせください。</p>
 						<script src="https://pigeon.smktg.jp/static/js/embedded_form.js" charset="utf-8"></script>
-                        <link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/smp_form.css">
+                        <link rel="stylesheet" href="/common/css/smp_form.css">
 						<div id="emb3554ffa6-efc5-4c8e-9344-d27543ad2baa" class="smpForm"></div>
 						<script>
 							(function(){

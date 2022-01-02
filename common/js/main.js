@@ -1,6 +1,6 @@
 $(function(){
- 	$("#header").load("https://pigeon-soccer.github.io/header.html");
- 	$("#footer").load("https://pigeon-soccer.github.io/footer.html");
+ 	$("#header").load("/header.html");
+ 	$("#footer").load("/footer.html");
 });
 
 $(function(){

@@ -283,7 +283,7 @@ ul > li.menu__parent > ul.menu__child li > a {
 	z-index: 0;
 }
 #about .topImage .topImage__img{
-    background-image: url(https://pigeon-soccer.github.io/common/images/index_ph_002_mini.jpg);
+    background-image: url(/common/images/index_ph_002_mini.jpg);
     background-size: cover;
     height: 100%;
 }
@@ -328,7 +328,7 @@ ul > li.menu__parent > ul.menu__child li > a {
 }
 .mainVisual__img{
     box-sizing:content-box;
-    background-image: url(https://pigeon-soccer.github.io/common/images/index_mv_001_mini.jpg);
+    background-image: url(/common/images/index_mv_001_mini.jpg);
     background-size: cover;
     height: 100%;
 }
@@ -672,7 +672,7 @@ ul.commonInner__solution > li dd{
 	padding-top: 30px;
 }
 #about .commonSection-mission{
-    background-image: url("https://pigeon-soccer.github.io/common/images/index_ph_004_all.jpg");
+    background-image: url("/common/images/index_ph_004_all.jpg");
     background-size: cover;
     color: white;
 }
@@ -747,7 +747,7 @@ ul.convey dl.convey__content > dd{
 	color:#ffffff;
 }
 #activity .topImage .topImage__img {
-    background-image: url(https://pigeon-soccer.github.io/common/images/activity_mv.jpg);
+    background-image: url(/common/images/activity_mv.jpg);
     background-size: cover;
     height: 100%;
 }
@@ -1499,7 +1499,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         font-size: 4vw;
     }
     .mainVisual__img img{
-        background-image: url("https://pigeon-soccer.github.io/common/images/index_mv_001_mini.jpg");
+        background-image: url("/common/images/index_mv_001_mini.jpg");
         background-size: cover;
     }
 	/* ▽ スクロール（down）ボタン ▽ */
@@ -1626,7 +1626,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 
 	/* ▽ about ▽*/
 	#about .topImage .topImage__img {
-		background-image: url(https://pigeon-soccer.github.io/common/images/index_ph_002_mini_sp.jpg);
+		background-image: url(/common/images/index_ph_002_mini_sp.jpg);
 		/* background-size: cover; */
 		/* height: 100%; */
 	}

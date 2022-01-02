@@ -5,7 +5,7 @@
 <meta name="description" content="NPO「Pigeon」ではボランティアコーチの仲間を募集中。よく笑うこと・子どもとサッカーができる方を大歓迎。サッカー未経験OK。性別や単発稼働など問いません。お気軽にご連絡ください！">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="https://pigeon-soccer.github.io/common/images/logo/favicon_pigeon.ico"/>
+<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -13,9 +13,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
 <!-- End Google Tag Manager -->
-<script src="https://pigeon-soccer.github.io/common/js/main.js"></script>
-<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/reset.css">
-<link rel="stylesheet" href="https://pigeon-soccer.github.io/common/css/main.css">
+<script src="/common/js/main.js"></script>
+<link rel="stylesheet" href="/common/css/reset.css">
+<link rel="stylesheet" href="/common/css/main.css">
 </head>
 <body id="top">
 <div class="wrap">
@@ -24,7 +24,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <main id="join">
 	<!-- <div class="topImage">
 		<p class="topImage__txt">テキストが入ります</p>
-		<div class="topImage__img"><img src="https://pigeon-soccer.github.io/common/images/index_mv_005.jpg" alt=""/></div>
+		<div class="topImage__img"><img src="/common/images/index_mv_005.jpg" alt=""/></div>
 	</div> -->
 
 	<div id="mainContent">
@@ -57,7 +57,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										<dt>歓迎</dt>
 										<dd class="summaryInfo__staffTarget">
 											<ul>
-												<li class="checkMark"><a href="https://pigeon-soccer.github.io/about/">ミッション</a>に共感してくれた人</li>
+												<li class="checkMark"><a href="/about/">ミッション</a>に共感してくれた人</li>
 												<li class="checkMark">福祉・非営利活動に関心がある人</li>
 												<li class="checkMark">明るい人／優しく接してくれる人</li>
 												<li class="checkMark">年齢・性別は一切問いません</li>
@@ -108,13 +108,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 													</span>
 												</div>
 											</ul>
-											<img class="summaryInfo__staffTarget-img" src="https://pigeon-soccer.github.io/common/images/staff_recruit_mini.jpg">
+											<img class="summaryInfo__staffTarget-img" src="/common/images/staff_recruit_mini.jpg">
 										</dd>
 									</dl>
 									<dl>
 										<dt>内容</dt>
 										<dd><p>
-											「<a href="https://pigeon-soccer.github.io/activity/" target="_blank">教室で何する？</a>」に記載のメニューを実施するので、生徒の練習に付き添ってあげてください。<br>
+											「<a href="/activity/" target="_blank">教室で何する？</a>」に記載のメニューを実施するので、生徒の練習に付き添ってあげてください。<br>
 											※メニューの進行はベテランコーチが行うのでご安心ください。スタッフ1人あたり生徒1～2人です。
 										</p></dd>
 									</dl>
@@ -147,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								</div>
 							</div>
 						</section>
-						<p class="commonDetailBtn summaryInfo"><a href="https://pigeon-soccer.github.io/contact/?type=support">コーチになってみる</a></p>
+						<p class="commonDetailBtn summaryInfo"><a href="/contact/?type=support">コーチになってみる</a></p>
 					</li>
 				</ul>
 			</div>
