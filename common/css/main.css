@@ -1695,6 +1695,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         width:54px;
         height: 54px;
     }
+	footer {
+		font-size: small;
+	}
     footer .footer-action__btnWrapper{
         padding-top: 80px;
     }
