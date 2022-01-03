@@ -152,7 +152,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<dd class="history__summary">教室を『Pigeon(ピジョン)』に改名して活動を活発化。サイトとSNSを公開</dd>
 					</dl>
 					<dl>
-						<dt class="history__year">2021年12月</dt>
+						<dt class="history__year">2021年10月</dt>
 						<dd class="history__summary">NPO法人化</dd>
 					</dl>
 				</div>
@@ -179,9 +179,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<dd class="introduce__career">障害者スポーツ指導員のライセンス取得<br>小学生・幼児のカテゴリーを指導経験あり</dd>
 					</dl>
 				</div>
-                <!-- <p class="txtLink">
-                    <a href="" target="_blank">NPOの詳細な開示情報はこちら<span class="spNone">をご覧ください。</span></a>
-                </p> -->
+                <p class="txtLink">
+                    <a href="https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013788.html" target="_blank">NPOの認定/開示情報はこちら<span class="spNone">をご覧ください。</span></a>
+                </p>
 			</div>
 		</section>
 	</div>
