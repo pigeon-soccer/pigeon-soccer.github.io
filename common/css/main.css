@@ -1187,6 +1187,10 @@ footer .footer-action .snsWrapper{
     top: 1px;
 	right:7%;
 }
+footer a {
+    color: white;
+    text-decoration: underline;
+}
 ul.snsWrapper__btn{
 	display: flex;
 	justify-content: space-between;
