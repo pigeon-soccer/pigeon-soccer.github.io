@@ -71,7 +71,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							</div>
 						</div>
 						<div class="summary__snsWindow">
-							<a class="twitter-timeline" data-height="666" href="https://twitter.com/PigeonSoccer?ref_src=twsrc%5Etfw">Tweets by PigeonSoccer</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							<a class="twitter-timeline" data-height="666" href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Tweets by PigeonSoccer</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 						</div>
 					</div>
 				</section>
