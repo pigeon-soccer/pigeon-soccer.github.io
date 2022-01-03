@@ -39,7 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<!--タブを切り替えて表示するコンテンツ-->
 				<ul class="tabContent">
 					<li class="tabContent__box">
-						<p class='formDescription formDescription-student'>お子さんのクラブ活動にご関心のある保護者の方は、こちらからお問い合わせください。</p>
+						<p class='formDescription formDescription-student'>～お子さんのクラブ活動に関するお問い合わせ～</p>
 						<script src="https://pigeon.smktg.jp/static/js/embedded_form.js" charset="utf-8"></script>
                         <link rel="stylesheet" href="/common/css/smp_form.css">
 						<div id="emb3554ffa6-efc5-4c8e-9344-d27543ad2baa" class="smpForm"></div>
@@ -69,7 +69,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
 					</li>
 					<li class="tabContent__box">
-						<p class='formDescription formDescription-support'>ボランティアや情報交換、寄付に関するお問い合わせは、こちらのフォームをご利用ください。</p>
+						<p class='formDescription formDescription-support'>～ボランティアや情報交換、寄付に関するお問い合わせ～</p>
 						<div id="emb420252c2-ce34-4147-bdcf-07e183bf4925" class="smpForm"></div>
 						<script>
 							(function(){
