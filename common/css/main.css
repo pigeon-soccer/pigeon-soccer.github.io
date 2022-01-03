@@ -636,7 +636,7 @@ section.commonSection section.summary .commonDetailBtn{
 
 /* ▽ コンテンツ -【about】▽ */
 
-/* ▽ about - ピジョンができること ▽ */
+/* ▽ about - NPO法人ピジョンができること ▽ */
 ul.commonInner__solution{
 	display: flex;
 	justify-content: space-between;
@@ -1303,11 +1303,13 @@ footer .footer-infomation .footer-infomation__logo{
 	width:200px;
 }
 footer .copyright{
-    font-size: 14px;
-    margin-top: -50px;
+    /* font-size: 14px;
     position: absolute;
-    left: 215px;
-    text-align: left;
+    left: 25px;
+    text-align: left; */
+	/* ロゴを追加する場合は下記スタイルを使う */
+    /* margin-top: -50px; */
+    /* left: 215px; */
 }
 /* ▽ transition ▽ */
 /* ul.globalNav__menu > li a,
@@ -1696,16 +1698,17 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     footer .footer-action__btnWrapper{
         padding-top: 80px;
     }
-    .copyright{
+	/* ロゴをfooterに追加する場合は適用する */
+    /* .copyright{
         display: none;
-    }
+    } */
 	footer .footer-infomation {
-		padding: 5px;
+		/* padding: 5px; */
 		text-align:center;
-        height: 110px;
+        /* height: 110px; */
         background-color: #666666;
 	}
-	footer .footer-infomation .footer-infomation__logo{
+	/* footer .footer-infomation .footer-infomation__logo{
 		width:60%;
 		margin: auto;
         padding-top:10px;
@@ -1713,7 +1716,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	footer .footer-infomation__logo + p {
 		margin-top: 0;
 		padding-top:10px;
-	}
+	} */
 	footer .footer-action{
     	padding: 40px 0 20px
 	}

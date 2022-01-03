@@ -1,7 +1,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>仲間募集の情報 | 障がい児のサッカースクール ピジョン</title>
+<title>仲間募集の情報 | 障がい児のサッカースクール NPO法人ピジョン</title>
 <meta name="description" content="NPO「ピジョン」ではボランティアコーチの仲間を募集中。よく笑うこと・子どもとサッカーができる方を大歓迎。サッカー未経験OK。性別や単発稼働など問いません。お気軽にご連絡ください！">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

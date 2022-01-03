@@ -1,7 +1,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>ミッションと沿革 | 障がい児のサッカースクール ピジョン</title>
+<title>ミッションと沿革 | 障がい児のサッカースクール NPO法人ピジョン</title>
 <meta name="description" content="2010年4月以来東京で活動するサッカースクール「ピジョン」の沿革・理念を紹介。障がいのある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指します。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -132,24 +132,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<h2 id="history">沿革</h2>
 				<div class="commonInner__history">
 					<dl>
-						<dt class="history__year">2011年4月</dt>
+						<dt class="history__year">2011年04月</dt>
 						<dd class="history__summary">団体設立。「NPO法人えこお」と共に筑波大学附属大塚特別支援学校で障がい児サッカー教室の運営と指導を開始</dd>
 					</dl>
 					<dl>
-						<dt class="history__year">2015年4月</dt>
-						<dd class="history__summary">「NPO法人えこお」から独立し、目白台フットサル場で活動を継続。障がい児のサッカースクール『Pigeon(ピジョン)』を発足</dd>
+						<dt class="history__year">2015年04月</dt>
+						<dd class="history__summary">「NPO法人えこお」から独立し、目白台フットサル場で活動を継続。発足した団体を『A.C ammaliatore stella(アンマリアトーレ ステラ)』と命名</dd>
 					</dl>
 					<dl>
 						<dt class="history__year">2018年12月</dt>
 						<dd class="history__summary">「同仁美登里幼稚園」の休日園庭開放で障がい児が健常児と一緒に活動するサッカー教室を不定期的に活動開始</dd>
 					</dl>
 					<dl>
-						<dt class="history__year">2019年3月</dt>
+						<dt class="history__year">2019年03月</dt>
 						<dd class="history__summary">JFAグラスルーツ推進・賛同パートナー認定を取得</dd>
 					</dl>
 					<dl>
-						<dt class="history__year">2020年~</dt>
-						<dd class="history__summary">NPO法人化に向けて準備中</dd>
+						<dt class="history__year">2020年02月</dt>
+						<dd class="history__summary">教室を『Pigeon(ピジョン)』に改名して活動を活発化。サイトとSNSを公開</dd>
+					</dl>
+					<dl>
+						<dt class="history__year">2021年12月</dt>
+						<dd class="history__summary">NPO法人化</dd>
 					</dl>
 				</div>
 			</div>
