@@ -1,8 +1,8 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>活動の内容 | 障がい児のためのサッカークラブPigeon</title>
-<meta name="description" content="障がい児のためのサッカークラブ「Pigeon」の練習コンセプトとメニューを紹介。練習を通してよく笑うこと・協調することを子どもたちに伝えます。障がいの内容と発育状況を加味して練習に取り組みます。">
+<title>活動の内容 | 障がい児のサッカースクール ピジョン</title>
+<meta name="description" content="障がい児のサッカースクール「ピジョン」の練習コンセプトとメニューを紹介。練習を通してよく笑うこと・協調することを子どもたちに伝えます。障がいの内容と発育状況を加味して練習に取り組みます。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
@@ -55,7 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<dd>障がいをもった子どもたちは、体調を崩しやすい傾向があります。
 								そのため「<strong>自分の体調を管理して伝えること</strong>」を身に着けることが大切になります。
 								どういう状況で体調を崩しやすいのか、前触れは何か、カラダの不調にどう対応するべきかということを、
-								練習の中で（Pigeonスタッフ自身が客観的に理解するとともに）子ども達にも伝えていきます。</dd>
+								練習の中で（ピジョンスタッフ自身が客観的に理解するとともに）子ども達にも伝えていきます。</dd>
 						</dl>
 					</li>
 					<li>
@@ -63,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<dl class="convey__content">
 							<dt>ヒト - 協調性</dt>
 							<dd>活動や試合の開始・終了時に挨拶をすること、練習のときにコーチの話を聞く姿勢のあること、
-								試合のときに仲間と協力してゴールに向かうことは、Pigeonが最も大切にすることのひとつです。
+								試合のときに仲間と協力してゴールに向かうことは、ピジョンが最も大切にすることのひとつです。
 								これら「<strong>挨拶すること</strong>」「<strong>聞くこと</strong>」「<strong>協力すること</strong>」は、人間関係をつくるうえで最も基礎となることだからです。</dd>
 						</dl>
 					</li>

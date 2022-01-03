@@ -1,8 +1,8 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>TOPページ | 障がい児のためのサッカークラブPigeon</title>
-<meta name="description" content="知的障がい/発達障がいのある子供のためのサッカークラブ。東京都にて隔週で活動中。チームスポーツを通して子供たちがチャレンジ精神・思いやり・基礎体力を楽しく身につけていく環境を提供。">
+<title>TOPページ | 障がい児のサッカースクール ピジョン</title>
+<meta name="description" content="知的障がい/発達障がいのある子供のためのサッカースクール。東京都にて隔週で活動中。チームスポーツを通して子供たちがチャレンジ精神・思いやり・基礎体力を楽しく身につけていく環境を提供。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="summary__content">
 						<div class="summary__txtWrapper">
 							<div class="txtWrapper__txt">
-								<p>障がいのある子どものためのサッカークラブ「Pigeon」。2010年4月から東京都を拠点に活動する非営利団体です。子どもの本来の姿であるわんぱくな活動の場を提供するとともに、チームスポーツを通して基礎体力はもちろん、思いやりの心、人との繋がりを育んでいきます。こうした活動に込めたPigeonの思い、そして私たち自身について、ご紹介します。</p>
+								<p>障がいのある子どものためのサッカースクール「ピジョン」。2010年4月から東京都を拠点に活動する非営利団体です。子どもの本来の姿であるわんぱくな活動の場を提供するとともに、チームスポーツを通して基礎体力はもちろん、思いやりの心、人との繋がりを育んでいきます。こうした活動に込めたピジョンの思い、そして私たち自身について、ご紹介します。</p>
 							</div>
 							<p class="commonDetailBtn"><a href="/about/">団体を詳しく見る</a></p>
 						</div>

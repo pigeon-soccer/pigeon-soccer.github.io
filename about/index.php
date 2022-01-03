@@ -1,8 +1,8 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>ミッションと沿革 | 障がい児のためのサッカークラブPigeon</title>
-<meta name="description" content="2010年4月以来東京で活動するサッカークラブ「Pigeon」の沿革・理念を紹介。障がいのある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指します。">
+<title>ミッションと沿革 | 障がい児のサッカースクール ピジョン</title>
+<meta name="description" content="2010年4月以来東京で活動するサッカースクール「ピジョン」の沿革・理念を紹介。障がいのある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指します。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
@@ -29,7 +29,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="topImage__txt">
 					<h1>どんな団体？</h1>
 					<hr>
-					<p>障がいのある子たちが<br class="spNone">笑顔になれる居場所であり、<br class="spNone">学び場としてあり続るサッカークラブ</p>
+					<p>障がいのある子たちが<br class="spNone">笑顔になれる居場所であり、<br class="spNone">学び場としてあり続るサッカースクール</p>
 				</div>
             </div>
         </div>
@@ -39,7 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<section class="commonSection commonSection-problem">
 			<div class="commonInner sectionContent commonInner-problem">
 				<h2 id="problem">課題感</h2>
-				<p>私たち「Pigeon」は活動を始めてから、３つの課題感を持ちました。</p>
+				<p>私たち「ピジョン」は活動を始めてから、３つの課題感を持ちました。</p>
 				<section class="subSummary subSummary-connection">
 					<h3>１．居場所と経験の不足</h3>
 					<div class="paragraph">
@@ -47,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<label for="paragraph-01"></label>
 						<div class="paragraph-content">
 							<h4>「本当は、サッカーじゃなくても良かった」</h4>
-							<p>Pigeon設立から一年経ったころ、ある生徒のお母さんがそう言いました。障がいのある子どもの習いごととしてはよく、水泳や太鼓など個人でやるものが挙げられます。これに対して彼女は、お子さんが人と関わるなかで成長していくことを願い、町のクラブチームを探していました。しかし、野球にせよテニスにせよ、障がいをもった子どもを受け入れてくれるチームがなかなか見つかりません。サッカーチームも溢れるほど存在するのに、そういったチームは当時ほぼありませんでした。つまり、スポーツ種目を選ぶほどの選択肢もない＝圧倒的に経験の機会が不足しているということです。また、行政では障がいをもった子ども向けにイベントを開催することがあります。しかしそれらは年に1,2回しかありません。障がいをもった子どものなかには、時間をよくかけなければ定着しない子がいます。したがって、継続して何かを経験する機会がもっと必要なのです。</p>
+							<p>ピジョン設立から一年経ったころ、ある生徒のお母さんがそう言いました。障がいのある子どもの習いごととしてはよく、水泳や太鼓など個人でやるものが挙げられます。これに対して彼女は、お子さんが人と関わるなかで成長していくことを願い、町のクラブチームを探していました。しかし、野球にせよテニスにせよ、障がいをもった子どもを受け入れてくれるチームがなかなか見つかりません。サッカーチームも溢れるほど存在するのに、そういったチームは当時ほぼありませんでした。つまり、スポーツ種目を選ぶほどの選択肢もない＝圧倒的に経験の機会が不足しているということです。また、行政では障がいをもった子ども向けにイベントを開催することがあります。しかしそれらは年に1,2回しかありません。障がいをもった子どものなかには、時間をよくかけなければ定着しない子がいます。したがって、継続して何かを経験する機会がもっと必要なのです。</p>
 							<h4>「居場所があるだけでも十分」</h4>
 							<p>親御さんは、体験にお子さんを連れてきたときの話もしてくれました。「普段（その子は）大勢の人の中に入ることができず、すぐに帰ってしまいます。そしてもう『行きたくない』と言い、行かなくなってしまいます。でも、ここには『たまたま』居ることができました。体験したときは佇んでいただけですが、居れるだけでも十分だと思いました。」私たちはこれを聞いて、そうした子どもが居場所となれる環境は限られてしまうのだということが分かりました。</p>
 						</div>
@@ -78,7 +78,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div class="paragraph-content">
 							<h4>「レッテル」</h4>
 							<p>人は一人では生きていくことはできません。しかし、大多数の健康な子どもたちは、障がいとは物理的にも心理的にも関わり合いのないところで過ごし、社会に出ていきます。それゆえこの社会は、障がいをもった人への無理解・偏見につながりやすい構造になっています。
-							私たちPigeonは、「障がいをもった子どもたちのまっすぐさ、元気をくれる力」を目の当たりにしてきました。
+							私たちピジョンは、「障がいをもった子どもたちのまっすぐさ、元気をくれる力」を目の当たりにしてきました。
 							また、「スポーツを通して人と関わり、自己管理を習慣化することで、発達の遅い子も少しづつ心身が成長するという事実」も知っています。
 							この事実が広く認知されることで、障がいがあろうとなかろうと互いに尊重して関わる機会や、見切りをつけられず積極的に成長する機会が増える余地があるのではないかと考えています。</p>
 						</div>
@@ -90,7 +90,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="commonSection-mission__wrapper">
                 <div class="commonInner sectionContent">
                     <h2 id="mission" >ミッション</h2>
-                    <p>これら課題に対して私たちPigeonは、
+                    <p>これら課題に対して私たちピジョンは、
 						<br class="spNone">『障がいのある子たちが笑顔になれる居場所であり、学び場としてあり続けること』
 						<br class="spNone">ひいては、『障がい者も健常者も共に手を取り合って生きていける社会に変えていくこと』
 						<br class="spNone">をミッションとして掲げています。</p>
@@ -137,7 +137,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</dl>
 					<dl>
 						<dt class="history__year">2015年4月</dt>
-						<dd class="history__summary">「NPO法人えこお」から独立し、目白台フットサル場で活動を継続。障がい児のためのサッカークラブ『Pigeon(ピジョン)』を発足</dd>
+						<dd class="history__summary">「NPO法人えこお」から独立し、目白台フットサル場で活動を継続。障がい児のサッカースクール『Pigeon(ピジョン)』を発足</dd>
 					</dl>
 					<dl>
 						<dt class="history__year">2018年12月</dt>

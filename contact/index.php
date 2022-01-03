@@ -1,7 +1,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>相談・体験の連絡 | 障がい児のためのサッカークラブPigeon</title>
+<title>相談・体験の連絡 | 障がい児のサッカースクール ピジョン</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
@@ -27,7 +27,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="commonInner sectionContent">
 				<div class="sectionContent-header">
 					<h1>相談・体験する</h1>
-					<p>私たちPigeonはいつでもご相談・ご質問をお待ちしております。<br class="sp_display">ご質問だけの場合、SNSでの気軽なやりとりも可能です。</p>
+					<p>私たちピジョンはいつでもご相談・ご質問をお待ちしております。<br class="sp_display">ご質問だけの場合、SNSでの気軽なやりとりも可能です。</p>
 				</div>
 
 				<ul class="tab">
