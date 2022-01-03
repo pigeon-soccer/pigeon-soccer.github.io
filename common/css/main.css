@@ -1187,7 +1187,7 @@ footer .footer-action .snsWrapper{
     top: 1px;
 	right:7%;
 }
-footer a {
+footer .footer-infomation a {
     color: white;
     text-decoration: underline;
 }
