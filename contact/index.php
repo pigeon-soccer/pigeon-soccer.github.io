@@ -1,7 +1,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>相談・体験の連絡 | 障がい児のサッカースクール ピジョン</title>
+<title>相談・体験の連絡 | 障がい児のサッカースクール NPO法人ピジョン</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
