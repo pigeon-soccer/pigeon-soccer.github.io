@@ -1019,6 +1019,11 @@ input[type=checkbox]:checked + .checkbox:before {
 	text-align: right;
 }
 
+#contact .tabContent p.formDescription {
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
 .complete .questionBtn {
     display: none;
 }
