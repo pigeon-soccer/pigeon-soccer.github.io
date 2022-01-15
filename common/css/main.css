@@ -755,6 +755,9 @@ ul.convey dl.convey__content > dd{
     height: 190px;
 }
 /* ▽ activity - エピソード ▽ */
+.episode {
+	padding: 20px;
+}
 .episode > dl{
 	padding:20px 0 20px 200px;
 	position: relative;
