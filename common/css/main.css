@@ -1360,9 +1360,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     height: 7vw;
 	}
 	/* ▽ float解除 ▽ */
-  .navWrapper .navWrapper__logo {
-      max-width: none;
-  }
+
 	.navWrapper .navWrapper__logo,
 	.globalNav{
 		float: initial;
@@ -1415,9 +1413,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.navWrapper{
 		font-size: 1.8vw;
 	}
-	.navWrapper .navWrapper__logo {
+	/* .navWrapper .navWrapper__logo {
 	  	width: 200px;
-	}
+	} */
 	.navWrapper .snsWrapper{
 		display: block;
 		margin-top:100px;
