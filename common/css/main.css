@@ -44,11 +44,11 @@ h3 {
 }
 h4 {
     font-weight: bold;
-	margin: 15px 0 10px 0;
+	  margin: 15px 0 10px 0;
 }
 img {
 	max-width: 100%;
-	height: auto;
+  height: 100%;
 	vertical-align: bottom;
 	-ms-interpolation-mode: bicubic;
 }
@@ -171,8 +171,7 @@ header.hide{
 }
 .navWrapper .navWrapper__logo{
 	float: left;
-    max-width: 29vw;
-    padding: 5px;
+  margin: 0px 5px;
 }
 .navWrapper__logo:hover {
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
