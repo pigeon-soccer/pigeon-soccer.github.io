@@ -1416,6 +1416,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
   .navWrapper .navWrapper__logo img{
 	  	padding: 0px;
+      width: 90%;
 	}
 	.navWrapper .snsWrapper{
 		display: block;
