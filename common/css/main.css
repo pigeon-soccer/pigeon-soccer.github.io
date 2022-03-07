@@ -44,11 +44,11 @@ h3 {
 }
 h4 {
     font-weight: bold;
-	  margin: 15px 0 10px 0;
+	margin: 15px 0 10px 0;
 }
 img {
 	max-width: 100%;
-  height: 100%;
+	height: auto;
 	vertical-align: bottom;
 	-ms-interpolation-mode: bicubic;
 }
@@ -171,8 +171,8 @@ header.hide{
 }
 .navWrapper .navWrapper__logo{
 	float: left;
-  max-width: 29vw; /* ヘッダー崩れ阻止 */
-  /* margin: 0px 5px; */
+    max-width: 29vw;
+    padding: 5px;
 }
 .navWrapper__logo:hover {
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
@@ -1360,12 +1360,10 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     height: 7vw;
 	}
 	/* ▽ float解除 ▽ */
-
 	.navWrapper .navWrapper__logo,
 	.globalNav{
 		float: initial;
-		max-width: 60vw;
-    padding: 0px 10px;
+		max-width: 50vw
 	}
 	/* ▽ display:flex解除 ▽ */
 	ul.commonInner__solution,
@@ -1413,9 +1411,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.navWrapper{
 		font-size: 1.8vw;
 	}
-	/* .navWrapper .navWrapper__logo {
+	.navWrapper .navWrapper__logo {
 	  	width: 200px;
-	} */
+	}
 	.navWrapper .snsWrapper{
 		display: block;
 		margin-top:100px;
@@ -1435,7 +1433,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		background:#ffffff;
 		font-size: 16px;
 		box-sizing: border-box;
-		/* z-index: 2; */
+		z-index: 2;
 	}
 	.navWrapper nav.globalNav ul.globalNav__menu{
 		display: block;
