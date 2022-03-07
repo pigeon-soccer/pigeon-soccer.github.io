@@ -171,6 +171,7 @@ header.hide{
 }
 .navWrapper .navWrapper__logo{
 	float: left;
+  max-width: 29vw; /* ヘッダー崩れ阻止 */
   margin: 0px 5px;
 }
 .navWrapper__logo:hover {
