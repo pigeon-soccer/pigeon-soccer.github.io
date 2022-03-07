@@ -1414,6 +1414,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	.navWrapper .navWrapper__logo {
 	  	width: 200px;
 	}
+  .navWrapper .navWrapper__logo img{
+	  	padding: 0px;
+	}
 	.navWrapper .snsWrapper{
 		display: block;
 		margin-top:100px;
