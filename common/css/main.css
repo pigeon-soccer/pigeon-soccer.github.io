@@ -171,8 +171,12 @@ header.hide{
 }
 .navWrapper .navWrapper__logo{
 	float: left;
-    max-width: 29vw;
-    padding: 5px;
+  max-width: 29vw;
+  padding: 5px;
+}
+img.navWrapper__logo_img{
+  margin-top: 10px;
+  height: 70%;
 }
 .navWrapper__logo:hover {
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
@@ -1410,13 +1414,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 	.navWrapper{
 		font-size: 1.8vw;
-	}
-	.navWrapper .navWrapper__logo {
-	  	width: 200px;
-	}
-  .navWrapper .navWrapper__logo img{
-	  	padding: 0px;
-      width: 90%;
 	}
 	.navWrapper .snsWrapper{
 		display: block;
