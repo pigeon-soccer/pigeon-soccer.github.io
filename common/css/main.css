@@ -1437,7 +1437,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		background:#ffffff;
 		font-size: 16px;
 		box-sizing: border-box;
-		z-index: 2;
+		/* z-index: 2; */
 	}
 	.navWrapper nav.globalNav ul.globalNav__menu{
 		display: block;
