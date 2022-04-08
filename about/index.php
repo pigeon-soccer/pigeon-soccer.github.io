@@ -180,7 +180,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</dl>
 				</div>
                 <p class="txtLink">
-                    <a href="https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013788.html" target="_blank">NPOの認定/開示情報はこちら<span class="spNone">をご覧ください。</span></a>
+                    <a href="https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013788.html" target="_blank">NPO法人の開示情報はこちら<span class="spNone">をご覧ください。</span></a>
                 </p>
 			</div>
 		</section>
