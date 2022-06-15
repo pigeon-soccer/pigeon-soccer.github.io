@@ -93,8 +93,13 @@ label:hover {
 label:hover:after {
     border-color: #53b300;
 }
-input[type=radio], input[type=checkbox] {
+input[type=radio] {
     display: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-radius: 50%;
+}
+input[type=checkbox] {
     border-radius: 0;
     box-shadow: none;
     border-radius: 50%;
