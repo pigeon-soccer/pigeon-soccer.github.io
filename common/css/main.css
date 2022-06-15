@@ -933,7 +933,7 @@ box-shadow: none;
 border-radius: 50%;
 }
 input[type=radio]{
-  display: none;
+display: none;
 border-radius: 0;
 box-shadow: none;
 border-radius: 50%;
