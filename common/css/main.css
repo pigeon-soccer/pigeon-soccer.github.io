@@ -931,7 +931,17 @@ input[type=radio], input[type=checkbox] {
 border-radius: 0;
 box-shadow: none;
 border-radius: 50%;
-
+}
+input[type=radio]{
+  display: none;
+border-radius: 0;
+box-shadow: none;
+border-radius: 50%;
+}
+input[type=checkbox] {
+border-radius: 0;
+box-shadow: none;
+border-radius: 50%;
 }
 .radio, .checkbox {
   box-sizing: border-box;
