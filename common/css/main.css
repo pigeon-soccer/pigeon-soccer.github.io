@@ -927,7 +927,7 @@ table.form td{
 }
 /*formのラジオボタン・チェックボックス*/
 input[type=radio], input[type=checkbox] {
-  display: none;
+display: none;
 border-radius: 0;
 box-shadow: none;
 border-radius: 50%;
