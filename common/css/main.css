@@ -100,18 +100,18 @@ div.tooltip{
     display: inline-block;                        /* インライン要素化 */
     border-bottom:dashed 1px #555;    /* 下線を引く */
 }
- 
+
 /* ツールチップ部分を隠す */
 div.tooltip span {
     display: none;
 }
- 
+
 /* マウスオーバー */
 div.tooltip:hover {
     position: relative;
     color: #333;
 }
- 
+
 /* マウスオーバー時にツールチップを表示 */
 div.tooltip:hover span {
     display: block;                  /* ボックス要素にする */
@@ -127,20 +127,20 @@ div.tooltip:hover span {
 }
 div.tooltip:hover span td{
     color: #fff;
-} 
+}
 
 /* フキダシ部分を作成 */
 div.tooltip span:before{
-    content:''; 
-    display:block; 
+    content:'';
+    display:block;
     position:absolute;                         /* relativeからの絶対位置 */
-    height:0; 
-    width:0; 
-    top:-13px; 
+    height:0;
+    width:0;
+    top:-13px;
     left:15px;
-    border:13px transparent solid; 
-    border-right-width:0; 
-    border-left-color:#88b35a; 
+    border:13px transparent solid;
+    border-right-width:0;
+    border-left-color:#88b35a;
     transform:rotate(270deg);            /* 傾きをつける */
     -webkit-transform:rotate(270deg);
     -o-transform:rotate(270deg);
@@ -933,7 +933,7 @@ box-shadow: none;
 border-radius: 50%;
 }
 input[type=radio]{
-  display: none;
+display: none;
 border-radius: 0;
 box-shadow: none;
 border-radius: 50%;
@@ -1659,7 +1659,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	#activity ul.convey{
 		flex-wrap: wrap;
 	}
-	
+
 	/* ▽ join ▽ */
 	.tabContent > li{
 		padding: 0px;
@@ -1684,7 +1684,7 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	#join .summaryInfo {
 		padding-left: 20px;
 		padding-right: 20px;
-	}	
+	}
 	/* ======== footer ======== */
 	.questionBtn a {
 		display: block;
