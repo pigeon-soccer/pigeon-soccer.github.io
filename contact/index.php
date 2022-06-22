@@ -135,8 +135,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			function setInputLabel(){
 				/*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
 				  そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
-				setInputLebelTag("td input[type='radio']");
-				setInputLebelTag("td input[type='checkbox']");
+				setInputLebelTag("input[type='radio']");
+				setInputLebelTag("input[type='checkbox']");
 				function setInputLebelTag(selector_text) {
 					const old_input_nodes = document.querySelectorAll(selector_text);
 					Array.from(old_input_nodes).map(function (old_input_node, index) {
