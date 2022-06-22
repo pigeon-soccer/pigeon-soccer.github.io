@@ -141,33 +141,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           let new_tag = document.createElement('label')
           new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
       }
+      function setInputLebelTag(tag, index) {
+        //inputタグのテキストをlabelタグで囲んだ要素を準備する
+        let parent_tag = tag.parentNode;
 
-      function setInputLebelTag(selector_text) {
-        const old_tags = document.querySelectorAll(selector_text);
-        Array.from(old_tags).map(function (old_tag, index) {
-          //inputタグのテキストをlabelタグで囲んだ要素を準備する
-          let parent_tag = old_tag.parentNode;
+        let tag_text = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
+        let new_tag = document.createElement('label')
+        new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
+
+        //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
+        let input_tag = parent_tag.childNodes[0]
+        let label_id = input_tag.name + "_" + index;
+        input_tag.setAttribute('id', label_id);
+        new_tag.htmlFor = label_id
+
+        //実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
+        let target_tag = tag_text.parentNode;
+        target_tag.replaceChild(new_tag, tag_text);
+      }
+      function setInputLebelTagsAll(selector_text) {
+        const target_tags = document.querySelectorAll(selector_text);
+        Array.from(target_tags).map(function (target_tag, index) {
+          // //inputタグのテキストをlabelタグで囲んだ要素を準備する
+          // let parent_tag = target_tag.parentNode;
 
           // let tag_text = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
           // let new_tag = document.createElement('label')
           // new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
-          generateNewTagText(parent_tag);
 
-          //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
-          let input_tag = parent_tag.childNodes[0]
-          let label_id = input_tag.name + "_" + index;
-          input_tag.setAttribute('id', label_id);
-          new_tag.htmlFor = label_id
+          // //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
+          // let input_tag = parent_tag.childNodes[0]
+          // let label_id = input_tag.name + "_" + index;
+          // input_tag.setAttribute('id', label_id);
+          // new_tag.htmlFor = label_id
 
-          //実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
-          let target_tag = tag_text.parentNode;
-          target_tag.replaceChild(new_tag, tag_text);
+          // //実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
+          // let target_tag = tag_text.parentNode;
+          // target_tag.replaceChild(new_tag, tag_text);
+          setInputLebelTag(target_tag, index);
         });
       }
       /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
         そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
-      setInputLebelTag("input[type='radio']");
-      setInputLebelTag("input[type='checkbox']");
+      setInputLebelTagsAll("input[type='radio']");
+      setInputLebelTagsAll("input[type='checkbox']");
 
     }
     function display_sample_input(){
