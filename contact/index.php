@@ -116,12 +116,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     const target_elm = document.querySelector(".smpForm");
     const mo = new MutationObserver(function () {
       dataLayer.push({ event: 'form_view' });
-      customizeSMPFormHTML();
+      repeatFunc = setInterval(RepeatCustomizeSMPFormHTML, 1000);
     });
     const config = {
       childList: true
     };
     mo.observe(target_elm, config);
+    
+    function RepeatCustomizeSMPFormHTML(){
+      let cnt = 0;
+      if (cnt<3) {
+        customizeSMPFormHTML();
+        cnt++;
+      } else {
+        clearInterval(repeatFunc);
+      }
+    }
 
     function customizeSMPFormHTML() {
       hideUselessElms(selector=".loadingWrap");
