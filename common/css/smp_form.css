@@ -210,9 +210,6 @@ ss_warning_label{
     background-size: 4px 100%;
     background-image: linear-gradient(to right,transparent 2px,#000 4px);
 }
-form {
-  text-align: center;
-}
 .ss_container {
   max-width: 500px;
   margin: auto;
@@ -246,6 +243,8 @@ form {
 /* 2021.11.10.nagamine. */
 .ss_input{
   display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 /* 2021.12.10.nagamine. */
