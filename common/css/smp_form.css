@@ -12,7 +12,7 @@ div#emb3554ffa6-efc5-4c8e-9344-d27543ad2baa, div#emb420252c2-ce34-4147-bdcf-07e1
     height: auto!important;
 }
 input[type="text"], input[type="email"], textarea {
-    width: 300px;
+    width: 100%;
     height: auto;
     padding: 15px;
     border-style: none;
@@ -27,7 +27,7 @@ table {
     width: auto;
 }
 .ss_form_title {
-    width: 300px;
+    width: 100%;
     padding: 10px;
     text-align: center;
     font-weight: bold;
