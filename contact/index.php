@@ -124,59 +124,61 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		mo.observe(target_elm, config);
 
 		function customizeSMPFormHTML() {
-			hide_useless_elms();
+			hide_useless_elms(selector=".loadingWrap");
 			setInputLabel();
 			display_sample_input();
 			display_sending_message();
-			function hide_useless_elms(){
-				const loading_elm_list = Array.from(document.querySelectorAll(".loadingWrap"));
-				loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
-			}
-			function setInputLabel(){
-				/*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
-				  そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
-				setInputLebelTag("input[type='radio']");
-				setInputLebelTag("input[type='checkbox']");
-				function setInputLebelTag(selector_text) {
-					const old_input_nodes = document.querySelectorAll(selector_text);
-					Array.from(old_input_nodes).map(function (old_input_node, index) {
-						//inputタグのテキストをlabelタグで囲んだ要素を準備する
-						let td_tag_elm = old_input_node.parentNode;
-						let input_tag_text = td_tag_elm.childNodes[1]; //inputタグ内のテキスト情報を取得
-						let new_input_node = document.createElement('label')
-						new_input_node.textContent = input_tag_text.textContent //"input_tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
-	
-						//inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
-						let input_tag = td_tag_elm.childNodes[0]
-						let tag_label_id = input_tag.name + "_" + index;
-						input_tag.setAttribute('id', tag_label_id);
-						new_input_node.htmlFor = tag_label_id
-	
-						//実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
-						let target_node = input_tag_text.parentNode;
-						target_node.replaceChild(new_input_node, input_tag_text);
-					});
-				}
-			}
-			function display_sample_input(){
-				sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
-				sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
-				sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name2']", "例 - 太郎");
-				sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']", "ご入力ください");
-				function sampleInput(selector, text) {
-					const elms = document.querySelectorAll(selector);
-					Array.from(elms).map(function (elm) { return elm.placeholder = text });
-				}
-			}
-			function display_sending_message(){
-				const form_complete_buttons = document.querySelectorAll('input[name=smpSubmit]');
-				Array.from(form_complete_buttons).forEach(function (elm) {
-					elm.addEventListener('click', function () {
-						elm.value = '送信中...少々お待ちください。';
-					});
-				});
-			}
 		}
+
+    function hide_useless_elms(selector){
+      const loading_elm_list = Array.from(document.querySelectorAll(selector));
+      loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
+    }
+    function setInputLabel(){
+      /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
+        そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
+      setInputLebelTag("input[type='radio']");
+      setInputLebelTag("input[type='checkbox']");
+
+      function setInputLebelTag(selector_text) {
+        const old_tags = document.querySelectorAll(selector_text);
+        Array.from(old_tags).map(function (old_tag, index) {
+          //inputタグのテキストをlabelタグで囲んだ要素を準備する
+          let parent_tag = old_tag.parentNode;
+          let tag_text = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
+          let new_tag = document.createElement('label')
+          new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
+
+          //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
+          let input_tag = parent_tag.childNodes[0]
+          let label_id = input_tag.name + "_" + index;
+          input_tag.setAttribute('id', label_id);
+          new_tag.htmlFor = label_id
+
+          //実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
+          let target_tag = tag_text.parentNode;
+          target_tag.replaceChild(new_tag, tag_text);
+        });
+      }
+    }
+    function display_sample_input(){
+      sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
+      sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
+      sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name2']", "例 - 太郎");
+      sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']", "ご入力ください");
+      function sampleInput(selector, text) {
+        const elms = document.querySelectorAll(selector);
+        Array.from(elms).map(function (elm) { return elm.placeholder = text });
+      }
+    }
+    function display_sending_message(){
+      const form_complete_buttons = document.querySelectorAll('input[name=smpSubmit]');
+      Array.from(form_complete_buttons).forEach(function (elm) {
+        elm.addEventListener('click', function () {
+          elm.value = '送信中...少々お待ちください。';
+        });
+      });
+    }
 	}())
 </script>
 <footer id="footer">
