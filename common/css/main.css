@@ -175,8 +175,8 @@ header.hide{
   padding: 5px;
 }
 img.navWrapper__logo_img{
-  margin-top: 10px;
-  height: 70%;
+  margin-top: 5%;
+  height: 60%;
 }
 .navWrapper__logo:hover {
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
@@ -1314,14 +1314,11 @@ footer .footer-infomation .pageTop-up a:before{
 footer .footer-infomation .footer-infomation__logo{
 	width:200px;
 }
+footer .portraitright {
+  font-size: small;
+}
 footer .copyright{
-    /* font-size: 14px;
-    position: absolute;
-    left: 25px;
-    text-align: left; */
-	/* ロゴを追加する場合は下記スタイルを使う */
-    /* margin-top: -50px; */
-    /* left: 215px; */
+  font-size: small;
 }
 /* ▽ transition ▽ */
 /* ul.globalNav__menu > li a,
