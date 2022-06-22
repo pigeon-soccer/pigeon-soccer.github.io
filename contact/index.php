@@ -111,43 +111,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 </main><!-- /main -->
 <script>
-	// SMPフォームの表示を検知。コールバック関数が用意されていないかつ処理タイミングが難しいためここに記述する。
-	(function () {
-		const target_elm = document.querySelector(".smpForm");
-		const mo = new MutationObserver(function () {
-			dataLayer.push({ event: 'form_view' });
-			customizeSMPFormHTML();
-		});
-		const config = {
-			childList: true
-		};
-		mo.observe(target_elm, config);
+  // SMPフォームの表示を検知。コールバック関数が用意されていないかつ処理タイミングが難しいためここに記述する。
+  (function () {
+    const target_elm = document.querySelector(".smpForm");
+    const mo = new MutationObserver(function () {
+      dataLayer.push({ event: 'form_view' });
+      customizeSMPFormHTML();
+    });
+    const config = {
+      childList: true
+    };
+    mo.observe(target_elm, config);
 
-		function customizeSMPFormHTML() {
-			hide_useless_elms(selector=".loadingWrap");
-			setInputLabel();
-			display_sample_input();
-			display_sending_message();
-		}
+    function customizeSMPFormHTML() {
+      hide_useless_elms(selector=".loadingWrap");
+      setInputLabel();
+      display_sample_input();
+      display_sending_message();
+    }
 
     function hide_useless_elms(selector){
       const loading_elm_list = Array.from(document.querySelectorAll(selector));
       loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
     }
     function setInputLabel(){
-      /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
-        そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
-      setInputLebelTag("input[type='radio']");
-      setInputLebelTag("input[type='checkbox']");
+
+      function generateNewTagText(tag) {
+          let tag_text = tag.childNodes[1]; //inputタグ内のテキスト情報を取得
+          let new_tag = document.createElement('label')
+          new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
+      }
 
       function setInputLebelTag(selector_text) {
         const old_tags = document.querySelectorAll(selector_text);
         Array.from(old_tags).map(function (old_tag, index) {
           //inputタグのテキストをlabelタグで囲んだ要素を準備する
           let parent_tag = old_tag.parentNode;
-          let tag_text = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
-          let new_tag = document.createElement('label')
-          new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
+
+          // let tag_text = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
+          // let new_tag = document.createElement('label')
+          // new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
+          generateNewTagText(parent_tag);
 
           //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
           let input_tag = parent_tag.childNodes[0]
@@ -160,6 +164,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           target_tag.replaceChild(new_tag, tag_text);
         });
       }
+      /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
+        そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
+      setInputLebelTag("input[type='radio']");
+      setInputLebelTag("input[type='checkbox']");
+
     }
     function display_sample_input(){
       sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
