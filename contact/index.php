@@ -22,93 +22,93 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <header id="header" class="header-logoOnly">
 </header>
 <main id="contact">
-	<div id="mainContent">
-		<section class="commonSection">
-			<div class="commonInner sectionContent">
-				<div class="sectionContent-header">
-					<h1>相談・体験する</h1>
-					<p>私たちピジョンはいつでもご相談・ご質問をお待ちしております。<br class="sp_display">ご質問だけの場合、SNSでの気軽なやりとりも可能です。</p>
-				</div>
+  <div id="mainContent">
+    <section class="commonSection">
+      <div class="commonInner sectionContent">
+        <div class="sectionContent-header">
+          <h1>相談・体験する</h1>
+          <p>私たちピジョンはいつでもご相談・ご質問をお待ちしております。<br class="sp_display">ご質問だけの場合、SNSでの気軽なやりとりも可能です。</p>
+        </div>
 
-				<ul class="tab">
-					<li class="tab__label">保護者用フォーム</li>
-					<li class="tab__label">協力者用フォーム</li>
-					<li class="tab__label">SNSでやりとり</li>
-				</ul>
+        <ul class="tab">
+          <li class="tab__label">保護者用フォーム</li>
+          <li class="tab__label">協力者用フォーム</li>
+          <li class="tab__label">SNSでやりとり</li>
+        </ul>
 
-				<!--タブを切り替えて表示するコンテンツ-->
-				<ul class="tabContent">
-					<li class="tabContent__box">
-						<p class='formDescription formDescription-student'>～お子さんのクラブ活動に関するお問い合わせ～</p>
-						<script src="https://pigeon.smktg.jp/static/js/embedded_form.js" charset="utf-8"></script>
+        <!--タブを切り替えて表示するコンテンツ-->
+        <ul class="tabContent">
+          <li class="tabContent__box">
+            <p class='formDescription formDescription-student'>～お子さんのクラブ活動に関するお問い合わせ～</p>
+            <script src="https://pigeon.smktg.jp/static/js/embedded_form.js" charset="utf-8"></script>
                         <link rel="stylesheet" href="/common/css/smp_form.css">
-						<div id="emb3554ffa6-efc5-4c8e-9344-d27543ad2baa" class="smpForm"></div>
-						<script>
-							(function(){
-								const formOpt = {
-									submitWord: "連絡する",
-									showPolicy: true,
-									policyText: "attribute1",
-								};
-								const callbackOpt = {
-									executionTiming: "onCompleted",
-									callbackFunc: function () {
-										dataLayer.push({
-											event: 'form_completed',
-											contact_type: 'student'
-										});
-										document.querySelector('formDescription-student').style.display = 'none';
-									}
-								};
-								smpform.loadForm('emb3554ffa6-efc5-4c8e-9344-d27543ad2baa', 'https://pigeon.smktg.jp', formOpt, callbackOpt);
-							}())
+            <div id="emb3554ffa6-efc5-4c8e-9344-d27543ad2baa" class="smpForm"></div>
+            <script>
+              (function(){
+                const formOpt = {
+                  submitWord: "連絡する",
+                  showPolicy: true,
+                  policyText: "attribute1",
+                };
+                const callbackOpt = {
+                  executionTiming: "onCompleted",
+                  callbackFunc: function () {
+                    dataLayer.push({
+                      event: 'form_completed',
+                      contact_type: 'student'
+                    });
+                    document.querySelector('formDescription-student').style.display = 'none';
+                  }
+                };
+                smpform.loadForm('emb3554ffa6-efc5-4c8e-9344-d27543ad2baa', 'https://pigeon.smktg.jp', formOpt, callbackOpt);
+              }())
 
-						</script>
-                        <div class="loadingWrap">
-                            <span class="loadingWrap__text">読み込み中です。<span class="spNone">数秒お待ちください</span><span></span></span>
-                        </div>
-					</li>
-					<li class="tabContent__box">
-						<p class='formDescription formDescription-support'>～ボランティアや情報交換、寄付に関するお問い合わせ～</p>
-						<div id="emb420252c2-ce34-4147-bdcf-07e183bf4925" class="smpForm"></div>
-						<script>
-							(function(){
-								const formOpt = {
-										submitWord: "連絡する",
-										showPolicy: true,
-										policyText: "attribute1",
-									};
-								const callbackOpt = {
-									executionTiming: "onCompleted",
-									callbackFunc: function() {
-										dataLayer.push({
-											event: 'form_completed',
-											contact_type: 'support'
-										});
-										document.querySelector('formDescription-support').style.display = 'none';
-									}
-								};
-								smpform.loadForm('emb420252c2-ce34-4147-bdcf-07e183bf4925', 'https://pigeon.smktg.jp', formOpt, callbackOpt);
-							}())
-						</script>
-						<div class="loadingWrap">
-							<span class="loadingWrap__text">読み込み中です。<span class="spNone">数秒お待ちください</span><span></span></span>
-						</div>
-					</li>
-					<li class="tabContent__box contactSns">
-						<p><span class="tabContent__box__tw">Twitter</span><span class="tabContent__box__fb">Facebook</span></p>
-						<p>DMによるご質問を受け付けております。</p>
-						<div class="snsWrapper">
-						    <ul class="snsWrapper__btn">
-									<li class="snsBtn__tw"><a href="https://twitter.com/PigeonSoccerNPO"></a></li>
-									<li class="snsBtn__fb"><a href="https://www.facebook.com/pigeon.soccer/"></a></li>
-						    </ul>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</section>
-	</div>
+            </script>
+            <div class="loadingWrap">
+                <span class="loadingWrap__text">読み込み中です。<span class="spNone">数秒お待ちください</span><span></span></span>
+            </div>
+          </li>
+          <li class="tabContent__box">
+            <p class='formDescription formDescription-support'>～ボランティアや情報交換、寄付に関するお問い合わせ～</p>
+            <div id="emb420252c2-ce34-4147-bdcf-07e183bf4925" class="smpForm"></div>
+            <script>
+              (function(){
+                const formOpt = {
+                    submitWord: "連絡する",
+                    showPolicy: true,
+                    policyText: "attribute1",
+                  };
+                const callbackOpt = {
+                  executionTiming: "onCompleted",
+                  callbackFunc: function() {
+                    dataLayer.push({
+                      event: 'form_completed',
+                      contact_type: 'support'
+                    });
+                    document.querySelector('formDescription-support').style.display = 'none';
+                  }
+                };
+                smpform.loadForm('emb420252c2-ce34-4147-bdcf-07e183bf4925', 'https://pigeon.smktg.jp', formOpt, callbackOpt);
+              }())
+            </script>
+            <div class="loadingWrap">
+              <span class="loadingWrap__text">読み込み中です。<span class="spNone">数秒お待ちください</span><span></span></span>
+            </div>
+          </li>
+          <li class="tabContent__box contactSns">
+            <p><span class="tabContent__box__tw">Twitter</span><span class="tabContent__box__fb">Facebook</span></p>
+            <p>DMによるご質問を受け付けております。</p>
+            <div class="snsWrapper">
+                <ul class="snsWrapper__btn">
+                  <li class="snsBtn__tw"><a href="https://twitter.com/PigeonSoccerNPO"></a></li>
+                  <li class="snsBtn__fb"><a href="https://www.facebook.com/pigeon.soccer/"></a></li>
+                </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </main><!-- /main -->
 <script>
   // SMPフォームの表示を検知。コールバック関数が用意されていないかつ処理タイミングが難しいためここに記述する。
@@ -176,15 +176,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       setInputLebelTagsAll("input[type='radio']");
       setInputLebelTagsAll("input[type='checkbox']");
     }
+
+    function sampleInput(selector, text) {
+      const elms = document.querySelectorAll(selector);
+      Array.from(elms).map(function (elm) { return elm.placeholder = text });
+    }
     function displaySampleInput(){
       sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
       sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
       sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name2']", "例 - 太郎");
       sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_VisitorData.attribute36']", "ご入力ください");
-      function sampleInput(selector, text) {
-        const elms = document.querySelectorAll(selector);
-        Array.from(elms).map(function (elm) { return elm.placeholder = text });
-      }
     }
     function displaySendingMessage(){
       const form_complete_buttons = document.querySelectorAll('input[name=smpSubmit]');
