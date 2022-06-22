@@ -41,7 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <li class="tabContent__box">
             <p class='formDescription formDescription-student'>～お子さんのクラブ活動に関するお問い合わせ～</p>
             <script src="https://pigeon.smktg.jp/static/js/embedded_form.js" charset="utf-8"></script>
-                        <link rel="stylesheet" href="/common/css/smp_form.css">
             <div id="emb3554ffa6-efc5-4c8e-9344-d27543ad2baa" class="smpForm"></div>
             <script>
               (function(){
@@ -207,6 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
 	}())
 </script>
+<link rel="stylesheet" href="/common/css/smp_form.css">
 <footer id="footer">
 </footer><!-- /footer -->
 </div>
