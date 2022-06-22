@@ -124,55 +124,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     mo.observe(target_elm, config);
 
     function customizeSMPFormHTML() {
-      hide_useless_elms(selector=".loadingWrap");
+      hideUselessElms(selector=".loadingWrap");
       setInputLabel();
-      display_sample_input();
-      display_sending_message();
+      displaySampleInput();
+      displaySendingMessage();
     }
 
-    function hide_useless_elms(selector){
+    function hideUselessElms(selector){
       const loading_elm_list = Array.from(document.querySelectorAll(selector));
       loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
     }
-    function setInputLabel(){
-      function setNewTagId(parent_tag) {
+
+    class InputLabel {
+      constructor(target_tag, index) {
+        this.new_tag = document.createElement('label');
+        this.tag = target_tag;
+        this.index = index;
+          
+      }
+      __setNewTagId(parent_tag) {
         //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
         let input_tag = parent_tag.childNodes[0];
-        let label_id = input_tag.name + "_" + index;
+        let label_id = input_tag.name + "_" + this.index;
         input_tag.setAttribute('id', label_id);
         return label_id;
       }
-      function setInputLebelTag(tag, index) {
+      setInputLebelTag() {
         //inputタグのテキストをlabelタグで囲んだ要素を準備する
-        let parent_tag = tag.parentNode;
-        // //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
-        // let input_tag = parent_tag.childNodes[0]
-        // let label_id = input_tag.name + "_" + index;
-        // input_tag.setAttribute('id', label_id);
-        let label_id = setNewTagId(parent_tag);
+        let parent_tag = this.tag.parentNode;
+        let label_id = this.__setNewTagId(parent_tag);
         let text_content = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
-
-        let new_tag = document.createElement('label');
-        new_tag.htmlFor = label_id;
-        new_tag.textContent = text_content.textContent; //"text_content"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
-
+    
+        this.new_tag.htmlFor = label_id;
+        this.new_tag.textContent = text_content.textContent; //"text_content"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
+    
         //実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
         let target_tag = text_content.parentNode;
-        target_tag.replaceChild(new_tag, text_content);
+        target_tag.replaceChild(this.new_tag, text_content);
       }
-      function setInputLebelTagsAll(selector_text) {
-        const target_tags = document.querySelectorAll(selector_text);
-        Array.from(target_tags).map(function (target_tag, index) {
-          setInputLebelTag(target_tag, index);
-        });
-      }
+    }
+    function setInputLebelTagsAll(selector_text) {
+      const target_tags = document.querySelectorAll(selector_text);
+      Array.from(target_tags).map(function (tag, index) {
+          let input = new InputLabel(tag, index);
+          input.setInputLebelTag();
+      });
+    }
+    function setInputLabel(){
       /*元々のソースコードは、inputタグの選択肢のテキストに<label>タグがないため、特定のCSSが適用しにくい状態。
         そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
       setInputLebelTagsAll("input[type='radio']");
       setInputLebelTagsAll("input[type='checkbox']");
-
     }
-    function display_sample_input(){
+    function displaySampleInput(){
       sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_email']", "例 - sample@pigeon.com");
       sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name1']", "例 - 山田");
       sampleInput("[name='Public::EmbeddedApplication::User_D__P__D_name2']", "例 - 太郎");
@@ -182,7 +186,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         Array.from(elms).map(function (elm) { return elm.placeholder = text });
       }
     }
-    function display_sending_message(){
+    function displaySendingMessage(){
       const form_complete_buttons = document.querySelectorAll('input[name=smpSubmit]');
       Array.from(form_complete_buttons).forEach(function (elm) {
         elm.addEventListener('click', function () {
