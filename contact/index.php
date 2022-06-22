@@ -135,49 +135,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       loading_elm_list.map(function (elm) { return elm.style.display = "none"; });
     }
     function setInputLabel(){
-
-      function generateNewTagText(tag) {
-          let tag_text = tag.childNodes[1]; //inputタグ内のテキスト情報を取得
-          let new_tag = document.createElement('label')
-          new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
+      function setNewTagId(parent_tag) {
+        //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
+        let input_tag = parent_tag.childNodes[0];
+        let label_id = input_tag.name + "_" + index;
+        input_tag.setAttribute('id', label_id);
+        return label_id;
       }
       function setInputLebelTag(tag, index) {
         //inputタグのテキストをlabelタグで囲んだ要素を準備する
         let parent_tag = tag.parentNode;
+        // //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
+        // let input_tag = parent_tag.childNodes[0]
+        // let label_id = input_tag.name + "_" + index;
+        // input_tag.setAttribute('id', label_id);
+        let label_id = setNewTagId(parent_tag);
+        let text_content = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
 
-        let tag_text = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
-        let new_tag = document.createElement('label')
-        new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
-
-        //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
-        let input_tag = parent_tag.childNodes[0]
-        let label_id = input_tag.name + "_" + index;
-        input_tag.setAttribute('id', label_id);
-        new_tag.htmlFor = label_id
+        let new_tag = document.createElement('label');
+        new_tag.htmlFor = label_id;
+        new_tag.textContent = text_content.textContent; //"text_content"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
 
         //実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
-        let target_tag = tag_text.parentNode;
-        target_tag.replaceChild(new_tag, tag_text);
+        let target_tag = text_content.parentNode;
+        target_tag.replaceChild(new_tag, text_content);
       }
       function setInputLebelTagsAll(selector_text) {
         const target_tags = document.querySelectorAll(selector_text);
         Array.from(target_tags).map(function (target_tag, index) {
-          // //inputタグのテキストをlabelタグで囲んだ要素を準備する
-          // let parent_tag = target_tag.parentNode;
-
-          // let tag_text = parent_tag.childNodes[1]; //inputタグ内のテキスト情報を取得
-          // let new_tag = document.createElement('label')
-          // new_tag.textContent = tag_text.textContent //"tag_text"だけでは[object Text]が返るので中身を取り出してからlabelで囲う
-
-          // //inputタグのID属性とlabelタグのfor属性に値を付与。値にはinputタグのname属性の値に加え、選択肢を識別するためにindexも使う
-          // let input_tag = parent_tag.childNodes[0]
-          // let label_id = input_tag.name + "_" + index;
-          // input_tag.setAttribute('id', label_id);
-          // new_tag.htmlFor = label_id
-
-          // //実際のHTMLで指定のテキスト要素をlabelタグで囲まれた要素に更新する
-          // let target_tag = tag_text.parentNode;
-          // target_tag.replaceChild(new_tag, tag_text);
           setInputLebelTag(target_tag, index);
         });
       }
