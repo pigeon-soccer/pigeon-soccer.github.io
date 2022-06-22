@@ -125,7 +125,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     function RepeatCustomizeSMPFormHTML(){
       let cnt = 0;
-      if (cnt<3) {
+      if (cnt<5) {
         customizeSMPFormHTML();
         cnt++;
       } else {
