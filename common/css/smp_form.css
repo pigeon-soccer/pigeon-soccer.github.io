@@ -101,7 +101,9 @@ border-radius: 50%;
 input[type=radio]:checked + label:before {
     opacity: 1;
 }
-
+input[type=checkbox]:checked+label:before {
+  opacity: 1;
+}
 input[type="text"],input[type="email"] {
     padding: 15px;
     border-style: none;
