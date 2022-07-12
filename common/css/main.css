@@ -938,6 +938,11 @@ border-radius: 0;
 box-shadow: none;
 border-radius: 50%;
 }
+
+input[type=checkbox] + label {
+ left: 175px;
+}
+
 .radio, .checkbox {
   box-sizing: border-box;
   -webkit-transition: background-color 0.2s linear;
@@ -1034,6 +1039,7 @@ input[type=checkbox]:checked + .checkbox:before {
 #contact .tabContent p.formDescription {
     font-size: medium;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .complete .questionBtn {
