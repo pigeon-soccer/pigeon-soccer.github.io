@@ -115,16 +115,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     const target_elm = document.querySelector(".smpForm");
     const mo = new MutationObserver(function () {
       dataLayer.push({ event: 'form_view' });
-      repeatFunc = setInterval(RepeatCustomizeSMPFormHTML, 1000);
+      repeatFunc = setInterval(RepeatCustomizeSMPFormHTML, 1500);
     });
     const config = {
       childList: true
     };
     mo.observe(target_elm, config);
-    
+
+    let cnt = 0;
     function RepeatCustomizeSMPFormHTML(){
-      let cnt = 0;
-      if (cnt<5) {
+      if (cnt<4) {
         customizeSMPFormHTML();
         cnt++;
       } else {
@@ -184,6 +184,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         そのため、全てのinputタグの選択肢のテキストを<label>タグで囲う処理を行う */
       setInputLebelTagsAll("input[type='radio']");
       setInputLebelTagsAll("input[type='checkbox']");
+      /*
+      エラー時に例外的なデザイン崩れが起きるので対処する
+      そのままだとチェックボックスがつぶれる
+      →SMPで選択肢を縦3列に設定するとつぶれなくなる
+      →左寄せになるため中央寄せに変更する
+      */
+      document.querySelector('input[type="checkbox"]').nextElementSibling.style.left = '175px'
     }
 
     function sampleInput(selector, text) {

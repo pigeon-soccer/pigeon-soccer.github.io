@@ -179,7 +179,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</section>
 		<section class="commonSection">
 			<div class="commonInner sectionContent">
-				<h2 id="shoolTrial">体験方法</h2>
+				<h2 id="schoolTrial">体験方法</h2>
 				<p>以下のフォームにて随時受け付けておりますので、お気軽にお申し込みください！<br>
 					また、ご不明点がありましたら同フォームよりご質問くださいませ。</p>
 				<p class="commonDetailBtn"><a href="/contact/">実際に教室に行ってみる</a></p>
