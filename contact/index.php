@@ -121,10 +121,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       childList: true
     };
     mo.observe(target_elm, config);
+    let cnt = 0;
 
     function RepeatCustomizeSMPFormHTML(){
       if (cnt<4) {
-        let cnt = 0;
         customizeSMPFormHTML();
         console.log(`update: ${cnt}`)
         cnt++;
