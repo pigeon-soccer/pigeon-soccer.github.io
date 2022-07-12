@@ -122,10 +122,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     };
     mo.observe(target_elm, config);
 
-    let cnt = 0;
     function RepeatCustomizeSMPFormHTML(){
+      let cnt = 0;
       if (cnt<4) {
         customizeSMPFormHTML();
+        console.log(`update: ${cnt}`)
         cnt++;
       } else {
         clearInterval(repeatFunc);
