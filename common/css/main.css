@@ -940,7 +940,11 @@ border-radius: 50%;
 }
 
 input[type=checkbox] + label {
- left: 175px;
+  /* エラー時に例外的なデザイン崩れが起きるので対処する
+  そのままだとチェックボックスがつぶれる
+  →SMPで選択肢を縦3列に設定するとつぶれなくなる
+  →左寄せになるため中央寄せに変更する */
+  left: 175px;
 }
 
 .radio, .checkbox {
@@ -1683,6 +1687,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+  input[type=checkbox]+label {
+    left: 0;
+  }
 	/* ======== footer ======== */
 	.questionBtn a {
 		display: block;
