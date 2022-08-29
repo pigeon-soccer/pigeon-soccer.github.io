@@ -1,7 +1,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>仲間募集の情報 | 障がい児のサッカースクール NPO法人ピジョン</title>
+<title>ボランティア募集の情報 | 障がい児のサッカースクール NPO法人ピジョン</title>
 <meta name="description" content="NPO「ピジョン」ではボランティアコーチの仲間を募集中。よく笑うこと・子どもとサッカーができる方を大歓迎。サッカー未経験OK。性別や単発稼働など問いません。お気軽にご連絡ください！">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -31,7 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<section class="commonSection">
 			<div class="commonInner sectionContent">
 				<div class="sectionContent-header">
-					<h1>仲間になる</h1>
+					<h1>ボランティア募集</h1>
 					<p>
 						私たちピジョンは一緒に活動できる仲間、支援してくれる仲間をいつでもお待ちしております。<br class="br-pc">
 						障がいのある子どもたちの居場所と成長の場を、一緒に作っていきませんか？</p>
@@ -45,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<li class="tabContent__box">
 						<h2>コーチの募集</h2>
 						<p>
-						私たちは、障がいのある子どもたちに「より多く関わっていくこと」「より深く関わっていくこと」を目指しています。 
+						私たちは、障がいのある子どもたちに「より多く関わっていくこと」「より深く関わっていくこと」を目指しています。
 						しかし、生徒の数や活動の量を増やそうにも、そのために活動できる仲間（ボランティアコーチ)が現状、足りていません。
 						ですので、少しでもご興味がありましたら、お気軽にご連絡いただければ幸いです。
 						</p>
