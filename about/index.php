@@ -9,6 +9,7 @@
       {
         "@context": "https://schema.org",
         "@type": "NGO",
+        "subOrganization": "EducationalOrganization",
         "name": "NPO法人ピジョン",
         "funder": "武藤太一",
         "address":{
