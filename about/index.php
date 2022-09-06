@@ -139,7 +139,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</dl>
 					<dl>
 						<dt class="history__year">2015年04月</dt>
-						<dd class="history__summary">「NPO法人えこお」から独立し、東京都文京区目白台フットサル場で活動を継続。発足した団体を「A.C ammaliatore stella(アンマリアトーレ ステラ)」と命名</dd>
+						<dd class="history__summary">「NPO法人えこお」から独立し、東京都文京区目白台フットサル場で活動を継続。発足した団体を「アンマリアトーレ stella(アンマリアトーレ ステラ)」と命名</dd>
 					</dl>
 					<dl>
 						<dt class="history__year">2018年12月</dt>
@@ -170,7 +170,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<p class="introduce__position">代表理事</p>
 							<p class="introduce__name">武藤 太智（Muto Taichi）</p>
 						</dt>
-						<dd class="introduce__career">日本サッカー協会公認ライセンス取得<br>現在、NPO法人ピジョンとは別に福祉業界に従事する傍ら、小学生と社会人チーム「A.C ammaliatore」で監督を兼任中<br>その他の中学生・高校生チームの監督経験も多数あり</dd>
+						<dd class="introduce__career">日本サッカー協会公認ライセンス取得<br>現在、NPO法人ピジョンとは別に福祉業界に従事する傍ら、小学生と社会人チーム「アンマリアトーレ」で監督を兼任中<br>その他の中学生・高校生チームの監督経験も多数あり</dd>
 					</dl>
 					<dl class="introduce__profile">
                         <img src="/common/images/staff/index_ph_002.png" loading="lazy">
@@ -178,7 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<p class="introduce__position">副理事</p>
 							<p class="introduce__name">鈴木 祐揮（Suzuki Yuuki）</p>
 						</dt>
-						<dd class="introduce__career">障害者スポーツ指導員のライセンス取得<br>NPO法人ピジョンの教室でコーチリーダーを務めているほか、小学生と社会人チーム「A.C ammaliatore」にて小学生・幼児の指導経験あり</dd>
+						<dd class="introduce__career">障害者スポーツ指導員のライセンス取得<br>NPO法人ピジョンの教室でコーチリーダーを務めているほか、小学生と社会人チーム「アンマリアトーレ」にて小学生・幼児の指導経験あり</dd>
 					</dl>
 				</div>
                 <p class="txtLink">
