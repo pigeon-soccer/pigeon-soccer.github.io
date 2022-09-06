@@ -46,7 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							</div>
 							<p class="commonDetailBtn"><a href="/about/">団体を詳しく見る</a></p>
 						</div>
-						<figure class="summary__img"><img src="/common/images/index_ph_002_thumbnail.jpg" alt=""/></figure>
+						<figure class="summary__img"><img src="/common/images/index_ph_002_thumbnail.jpg" alt="優しい笑顔の武藤監督の写真 - 障がい児のためのサッカースクール" loading="lazy"/></figure>
 					</div>
 				</section><!--/summary summary-about-->
 
@@ -59,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							</div>
 							<p class="commonDetailBtn"><a href="/activity/">教室を詳しく見る</a></p>
 						</div>
-						<figure class="summary__img"><img src="/common/images/activity_thumbnail.jpg" alt=""/></figure>
+						<figure class="summary__img"><img src="/common/images/activity_thumbnail.jpg" alt="生徒とサッカーの練習をする鈴木ゆうきコーチの写真 - 障がい児のためのサッカースクール" loading="lazy"/></figure>
 					</div>
 				</section>
 

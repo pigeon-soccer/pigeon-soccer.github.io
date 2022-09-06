@@ -103,13 +103,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																	<td>10代</td>
 																	<td>なし</td>
 																</tr>
-												
 															</tbody>
 														</table>
 													</span>
 												</div>
 											</ul>
-											<img class="summaryInfo__staffTarget-img" src="/common/images/staff_recruit_mini.jpg">
+											<img class="summaryInfo__staffTarget-img" src="/common/images/staff_recruit_mini.jpg" loading="lazy" alt="ボランティアスタッフとの練習風景 - 障がい児のためのサッカースクール">
 										</dd>
 									</dl>
 									<dl>
@@ -144,7 +143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<div class="eventMap">
 									<iframe
 										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7535.3248462493675!2d139.7196493782341!3d35.71475609472042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0ff3338571%3A0xa1a34f42e3d026a0!2z55uu55m95Y-w6YGL5YuV5YWs5ZyS44OV44OD44OI44K144Or44Kz44O844OI!5e0!3m2!1sen!2sjp!4v1603529118854!5m2!1sen!2sjp"
-										frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+										frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 								</div>
 							</div>
 						</section>

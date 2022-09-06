@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<h2 id="development">練習で育むもの</h2>
 				<ul class="convey">
 					<li>
-						<figure class="convey__img"><img src="/common/images/index_ph_003.jpg" alt=""/></figure>
+						<figure class="convey__img"><img src="/common/images/index_ph_003.jpg" alt="子どもの笑顔を引き出すイメージ画像 - 障がい児のためのサッカースクール"/></figure>
 						<dl class="convey__content">
 							<dt>ココロ - 感受性</dt>
 							<dd>子どもたちは、みんなでサッカーをすることの楽しさや、うまくシュートできたときの嬉しさ、できなかった悔しさを経験します。
@@ -50,7 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</dl>
 					</li>
 					<li>
-						<figure class="convey__img"><img src="/common/images/index_ph_001.jpg" alt=""/></figure>
+						<figure class="convey__img"><img src="/common/images/index_ph_001.jpg" alt="自己管理能力を高める練習風景の写真 - 障がい児のためのサッカースクール"/></figure>
 						<dl class="convey__content">
 							<dt>カラダ - 自己管理（+体力向上）</dt>
 							<dd>障がいをもった子どもたちは、体調を崩しやすい傾向があります。
@@ -60,7 +60,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</dl>
 					</li>
 					<li>
-						<figure class="convey__img"><img src="/common/images/activity_cooperative.jpg" alt=""/></figure>
+						<figure class="convey__img"><img src="/common/images/activity_cooperative.jpg" alt="鈴木ゆうきコーチのお話をよく聞く生徒たちの写真 - 障がい児のためのサッカースクール"/></figure>
 						<dl class="convey__content">
 							<dt>ヒト - 協調性</dt>
 							<dd>活動や試合の開始・終了時に挨拶をすること、練習のときにコーチの話を聞く姿勢のあること、

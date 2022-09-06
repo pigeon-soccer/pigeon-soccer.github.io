@@ -87,7 +87,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</section>
 			</div>
 		</section>
-		<section class="commonSection commonSection-mission">
+		<section class="commonSection commonSection-mission" loading="lazy">
             <div class="commonSection-mission__wrapper">
                 <div class="commonInner sectionContent">
                     <h2 id="mission" >ミッション</h2>
@@ -164,7 +164,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<h2 id="representative">代表の紹介</h2>
 				<div class="commonInner__introduce">
 					<dl class="introduce__profile">
-                        <img src="/common/images/staff/index_ph_001.png">
+            <img src="/common/images/staff/index_ph_001.png" loading="lazy">
 						<dt>
 							<p class="introduce__position">代表理事</p>
 							<p class="introduce__name">武藤 太智（Muto Taichi）</p>
@@ -172,7 +172,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<dd class="introduce__career">日本サッカー協会公認ライセンス取得<br>現在、A.C ammaliatoreの小学生と社会人チームでの監督も兼任中<br>その他、中学生・高校生チームの監督経験あり</dd>
 					</dl>
 					<dl class="introduce__profile">
-                        <img src="/common/images/staff/index_ph_002.png">
+                        <img src="/common/images/staff/index_ph_002.png" loading="lazy">
 						<dt>
 							<p class="introduce__position">副理事</p>
 							<p class="introduce__name">鈴木 祐揮（Suzuki Yuuki）</p>
