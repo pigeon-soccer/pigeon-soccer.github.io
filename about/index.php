@@ -2,6 +2,7 @@
 <head>
 <meta charset="utf-8">
 <title>ミッションと沿革 | 障がい児のサッカースクール NPO法人ピジョン</title>
+<link rel="canonical" href="https://soccer.pigeon-handicap.org/about/">
 <meta name="description" content="2010年4月以来東京で活動するサッカースクール「ピジョン」の沿革・理念を紹介。障がいのある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指します。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

@@ -2,6 +2,7 @@
 <head>
 <meta charset="utf-8">
 <title>TOPページ | 障がい児のサッカースクール NPO法人ピジョン</title>
+<link rel="canonical" href="https://soccer.pigeon-handicap.org/">
 <meta name="description" content="知的障がい/発達障がいのある子供のためのサッカースクール。東京都にて隔週で活動中。チームスポーツを通して子供たちがチャレンジ精神・思いやり・基礎体力を楽しく身につけていく環境を提供。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
