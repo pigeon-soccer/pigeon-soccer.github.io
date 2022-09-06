@@ -135,11 +135,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="commonInner__history">
 					<dl>
 						<dt class="history__year">2011年04月</dt>
-						<dd class="history__summary">団体設立。「NPO法人えこお」と共に東京都文京区の筑波大学附属大塚特別支援学校で障がい児サッカー教室の運営・指導を開始</dd>
+						<dd class="history__summary">団体設立。「NPO法人えこお」と共に東京都文京区の筑波大学附属大塚特別支援学校で障がい児サッカースクール（教室）の運営・指導を開始</dd>
 					</dl>
 					<dl>
 						<dt class="history__year">2015年04月</dt>
-						<dd class="history__summary">「NPO法人えこお」から独立し、東京都文京区目白台フットサル場で活動を継続。発足した団体を「アンマリアトーレ stella(アンマリアトーレ ステラ)」と命名</dd>
+						<dd class="history__summary">「NPO法人えこお」から独立し、東京都文京区目白台フットサル場で活動を継続。発足した団体を「アンマリアトーレ ステラ」と命名</dd>
 					</dl>
 					<dl>
 						<dt class="history__year">2018年12月</dt>
