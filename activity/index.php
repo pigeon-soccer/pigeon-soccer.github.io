@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <title>活動の内容 | 障がい児のサッカースクール NPO法人ピジョン</title>
 <link rel="canonical" href="https://soccer.pigeon-handicap.org/activity/">
-<meta name="description" content="障がい児のサッカースクール「ピジョン」の練習コンセプトとメニューを紹介。練習を通してよく笑うこと・協調することを子どもたちに伝えます。障がいの内容と発育状況を加味して練習に取り組みます。">
+<meta name="description" content="障がい児のサッカースクール「ピジョン」の練習コンセプトとメニューを紹介。練習を通してよく笑うこと・協調することを子どもたちに伝えます。発達障害/知的障害/身体障害といった障がいの内容と発育状況を加味して練習に取り組みます。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>

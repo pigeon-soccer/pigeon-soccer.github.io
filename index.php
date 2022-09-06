@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <title>TOPページ | 障がい児のサッカースクール NPO法人ピジョン</title>
 <link rel="canonical" href="https://soccer.pigeon-handicap.org/">
-<meta name="description" content="知的障がい/発達障がいのある子供のためのサッカースクール。東京都にて隔週で活動中。チームスポーツを通して子供たちがチャレンジ精神・思いやり・基礎体力を楽しく身につけていく環境を提供。">
+<meta name="description" content="発達障害/知的障害/身体障害のある子供のためのサッカースクール（教室）。東京都文京区を拠点として、自閉症やダウン症など障害のある生徒が数多く所属。チームスポーツを通して子供たちがチャレンジ精神・思いやり・基礎体力を楽しく身につけていく環境を提供。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
@@ -42,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="summary__content">
 						<div class="summary__txtWrapper">
 							<div class="txtWrapper__txt">
-								<p>障がいのある子どものためのサッカースクール「NPO法人ピジョン」。2010年4月から東京都を拠点に活動する非営利団体です。子どもの本来の姿であるわんぱくな活動の場を提供するとともに、チームスポーツを通して基礎体力はもちろん、思いやりの心、人との繋がりを育んでいきます。こうした活動に込めたピジョンの思い、そして私たち自身について、ご紹介します。</p>
+								<p>障がいのある子どものためのサッカースクール「NPO法人ピジョン」。2010年4月から東京都文京区を拠点に活動する非営利団体です。子どもの本来の姿であるわんぱくな活動の場を提供するとともに、チームスポーツを通して基礎体力はもちろん、思いやりの心、人との繋がりを育んでいきます。こうした活動に込めたピジョンの思い、そして私たち自身について、ご紹介します。</p>
 							</div>
 							<p class="commonDetailBtn"><a href="/about/">団体を詳しく見る</a></p>
 						</div>
@@ -55,7 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="summary__content">
 						<div class="summary__txtWrapper">
 							<div class="txtWrapper__txt">
-								<p>子どもたちの抱える心や体の課題の種類とレベルはそれぞれです。多動症、自閉症、ダウン症、身体障害などなど。なかなか喋らない子もいれば、お喋りが好きで止まらない子もいます。ボールを送り出すのが精一杯な子もいれば、大人顔負けのシュートを放つ子もいます。そうした中でコーチはもちろん、子どもたちはお互いに尊重し、時に助け合い、時に笑い合います。そんな教室の練習内容や場所・日時をご紹介します。
+								<p>子どもたちのもつ心や体の症状の種類とレベルはそれぞれです。私たちの団体にも、発達障害や身体障害 ― 具体的には、自閉症、ダウン症、脳性まひ、多動症など様々な生徒がいます。なかなか喋らない子もいれば、お喋りが好きで止まらない子もいます。ボールを送り出すのが精一杯な子もいれば、大人顔負けのシュートを放つ子もいます。そうした中でコーチはもちろん、子どもたちはお互いに尊重し、時に助け合い、時に笑い合います。そんな教室の練習内容や場所・日時をご紹介します。
 							</div>
 							<p class="commonDetailBtn"><a href="/activity/">教室を詳しく見る</a></p>
 						</div>

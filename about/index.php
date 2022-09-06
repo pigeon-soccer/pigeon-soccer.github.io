@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <title>ミッションと沿革 | 障がい児のサッカースクール NPO法人ピジョン</title>
 <link rel="canonical" href="https://soccer.pigeon-handicap.org/about/">
-<meta name="description" content="2010年4月以来東京で活動するサッカースクール「ピジョン」の沿革・理念を紹介。障がいのある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指します。">
+<meta name="description" content="東京文京区で2010年4月から活動するサッカースクール「ピジョン」の沿革・理念。自閉症やダウン症といった症状がある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指す。">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
@@ -78,25 +78,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<label for="paragraph-03"></label>
 						<div class="paragraph-content">
 							<h4>「レッテル」</h4>
-							<p>人は一人では生きていくことはできません。しかし、大多数の健康な子どもたちは、障がいとは物理的にも心理的にも関わり合いのないところで過ごし、社会に出ていきます。それゆえこの社会は、障がいをもった人への無理解・偏見につながりやすい構造になっています。
-							私たちピジョンは、「障がいをもった子どもたちのまっすぐさ、元気をくれる力」を目の当たりにしてきました。
-							また、「スポーツを通して人と関わり、自己管理を習慣化することで、発達の遅い子も少しづつ心身が成長するという事実」も知っています。
-							この事実が広く認知されることで、障がいがあろうとなかろうと互いに尊重して関わる機会や、見切りをつけられず積極的に成長する機会が増える余地があるのではないかと考えています。</p>
+							<p>人は一人では生きていくことはできません。しかし、大多数の健康な子どもたちは、自閉症やダウン症などの障がいとは物理的にも心理的にも関わり合いのないところで過ごし、社会に出ていきます。
+                それゆえこの社会は、障がいをもった人への無理解・偏見につながりやすい構造になっています。
+                私たちピジョンは、「障がいをもった子どもたちのまっすぐさ、元気をくれる力」を目の当たりにしてきました。
+                また、「スポーツを通して人と関わり、自己管理を習慣化することで、発達の遅い子も少しづつ心身が成長するという事実」も知っています。
+                この事実が広く認知されることで、障がいがあろうとなかろうと互いに尊重して関わる機会や、見切りをつけられず積極的に成長する機会が増える余地があるのではないかと考えています。</p>
 						</div>
 					</div>
 				</section>
 			</div>
 		</section>
 		<section class="commonSection commonSection-mission" loading="lazy">
-            <div class="commonSection-mission__wrapper">
-                <div class="commonInner sectionContent">
-                    <h2 id="mission" >ミッション</h2>
-                    <p>これら課題に対して私たちピジョンは、
-						<br class="spNone">『障がいのある子たちが笑顔になれる居場所であり、学び場としてあり続けること』
-						<br class="spNone">ひいては、『障がい者も健常者も共に手を取り合って生きていける社会に変えていくこと』
-						<br class="spNone">をミッションとして掲げています。</p>
-                </div>
-            </div>
+      <div class="commonSection-mission__wrapper">
+        <div class="commonInner sectionContent">
+          <h2 id="mission" >ミッション</h2>
+          <p>これら課題に対して私たちピジョンは、
+          <br class="spNone">『障がいのある子たちが笑顔になれる居場所であり、学び場としてあり続けること』
+          <br class="spNone">ひいては、『障がい者も健常者も共に手を取り合って生きていける社会に変えていくこと』
+          <br class="spNone">をミッションとして掲げています。</p>
+          </div>
+      </div>
 		</section>
 		<section class="commonSection commonSection-solution">
 			<div class="commonInner sectionContent commonInner-solution">
@@ -134,11 +135,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="commonInner__history">
 					<dl>
 						<dt class="history__year">2011年04月</dt>
-						<dd class="history__summary">団体設立。「NPO法人えこお」と共に筑波大学附属大塚特別支援学校で障がい児サッカー教室の運営と指導を開始</dd>
+						<dd class="history__summary">団体設立。「NPO法人えこお」と共に東京都文京区の筑波大学附属大塚特別支援学校で障がい児サッカー教室の運営・指導を開始</dd>
 					</dl>
 					<dl>
 						<dt class="history__year">2015年04月</dt>
-						<dd class="history__summary">「NPO法人えこお」から独立し、目白台フットサル場で活動を継続。発足した団体を『A.C ammaliatore stella(アンマリアトーレ ステラ)』と命名</dd>
+						<dd class="history__summary">「NPO法人えこお」から独立し、東京都文京区目白台フットサル場で活動を継続。発足した団体を「A.C ammaliatore stella(アンマリアトーレ ステラ)」と命名</dd>
 					</dl>
 					<dl>
 						<dt class="history__year">2018年12月</dt>
@@ -150,7 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</dl>
 					<dl>
 						<dt class="history__year">2020年02月</dt>
-						<dd class="history__summary">教室を『Pigeon(ピジョン)』に改名して活動を活発化。サイトとSNSを公開</dd>
+						<dd class="history__summary">教室を「Pigeon(ピジョン)」に改名して活動を活発化。サイトとSNSを公開</dd>
 					</dl>
 					<dl>
 						<dt class="history__year">2021年10月</dt>
@@ -169,7 +170,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<p class="introduce__position">代表理事</p>
 							<p class="introduce__name">武藤 太智（Muto Taichi）</p>
 						</dt>
-						<dd class="introduce__career">日本サッカー協会公認ライセンス取得<br>現在、A.C ammaliatoreの小学生と社会人チームでの監督も兼任中<br>その他、中学生・高校生チームの監督経験あり</dd>
+						<dd class="introduce__career">日本サッカー協会公認ライセンス取得<br>現在、NPO法人ピジョンとは別に福祉業界に従事する傍ら、小学生と社会人チーム「A.C ammaliatore」で監督を兼任中<br>その他の中学生・高校生チームの監督経験も多数あり</dd>
 					</dl>
 					<dl class="introduce__profile">
                         <img src="/common/images/staff/index_ph_002.png" loading="lazy">
@@ -177,7 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<p class="introduce__position">副理事</p>
 							<p class="introduce__name">鈴木 祐揮（Suzuki Yuuki）</p>
 						</dt>
-						<dd class="introduce__career">障害者スポーツ指導員のライセンス取得<br>小学生・幼児のカテゴリーを指導経験あり</dd>
+						<dd class="introduce__career">障害者スポーツ指導員のライセンス取得<br>NPO法人ピジョンの教室でコーチリーダーを務めているほか、小学生と社会人チーム「A.C ammaliatore」にて小学生・幼児の指導経験あり</dd>
 					</dl>
 				</div>
                 <p class="txtLink">
