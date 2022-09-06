@@ -1,22 +1,76 @@
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>活動の内容 | 障がい児のサッカースクール NPO法人ピジョン</title>
-<link rel="canonical" href="https://soccer.pigeon-handicap.org/activity/">
-<meta name="description" content="障がい児のサッカースクール「ピジョン」の練習コンセプトとメニューを紹介。練習を通してよく笑うこと・協調することを子どもたちに伝えます。発達障害/知的障害/身体障害といった障がいの内容と発育状況を加味して練習に取り組みます。">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
-<!-- End Google Tag Manager -->
-<script src="/common/js/main.js"></script>
-<link rel="stylesheet" href="/common/css/reset.css">
-<link rel="stylesheet" href="/common/css/main.css">
+  <meta charset="utf-8">
+  <title>活動の内容 | 障がい児のサッカースクール NPO法人ピジョン</title>
+  <link rel="canonical" href="https://soccer.pigeon-handicap.org/activity/">
+  <meta name="description" content="障がい児のサッカースクール「ピジョン」の練習コンセプトとメニューを紹介。練習を通してよく笑うこと・協調することを子どもたちに伝えます。発達障害/知的障害/身体障害といった障がいの内容と発育状況を加味して練習に取り組みます。">
+  <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "NGO",
+        "name": "NPO法人ピジョン",
+        "funder": "武藤太一",
+        "address":{
+          "@type":"PostalAddress",
+          "streetAddress":"目白台",
+          "addressLocality":"文京区",
+          "addressRegion":"東京都",
+          "postalCode":"112-0015",
+          "addressCountry":"JP"
+        },
+        "url": "https://soccer.pigeon-handicap.org/",
+        "logo": "https://soccer.pigeon-handicap.org/common/images/logo/pigeon_logo.png",
+        "sameAs": [
+          "https://twitter.com/PigeonSoccerNPO",
+          "https://www.facebook.com/pigeon.soccer/"
+          ],
+        "email": "share@pigeon-handicap.org",
+        "alternateName": "障がい児のためのサッカースクール",
+        "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
+        "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
+        "url":"https://soccer.pigeon-handicap.org/"
+      }, {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "NPO法人ピジョン",
+        "sport": "Soccer",
+        "subOrganization": "SportsClub",
+        "coach": {
+          "@type": "Person",
+          "name": "鈴木祐揮"
+        },
+        "address":{
+          "@type":"PostalAddress",
+          "streetAddress":"目白台",
+          "addressLocality":"文京区",
+          "addressRegion":"東京都",
+          "postalCode":"112-0015",
+          "addressCountry":"JP"
+        },
+        "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
+        "url":"https://soccer.pigeon-handicap.org/"
+      }, {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://soccer.pigeon-handicap.org/",
+        "creator": "江俣真人"
+      }
+    ]
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
+  <!-- End Google Tag Manager -->
+  <script src="/common/js/main.js"></script>
+  <link rel="stylesheet" href="/common/css/reset.css">
+  <link rel="stylesheet" href="/common/css/main.css">
 </head>
 
 <body id="top">
