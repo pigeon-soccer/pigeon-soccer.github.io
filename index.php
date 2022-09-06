@@ -20,16 +20,15 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "url": "https://soccer.pigeon-handicap.org/",
-        "logo": "https://soccer.pigeon-handicap.org/common/images/logo/pigeon_logo.png",
         "sameAs": [
           "https://twitter.com/PigeonSoccerNPO",
           "https://www.facebook.com/pigeon.soccer/"
           ],
-        "email": "share@pigeon-handicap.org",
-        "alternateName": "障がい児のためのサッカースクール",
-        "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-        "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
+          "email": "share@pigeon-handicap.org",
+          "alternateName": "障がい児のためのサッカースクール",
+          "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
+          "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
+          "logo": "https://soccer.pigeon-handicap.org/common/images/logo/pigeon_logo.png",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
