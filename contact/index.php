@@ -82,7 +82,7 @@
     <section class="commonSection">
       <div class="commonInner sectionContent">
         <div class="sectionContent-header">
-          <h1>相談・体験する</h1>
+          <h1>相談/体験する</h1>
           <p>私たちピジョンはいつでもご相談・ご質問をお待ちしております。<br class="sp_display">ご質問だけの場合、SNSでの気軽なやりとりも可能です。</p>
         </div>
 
