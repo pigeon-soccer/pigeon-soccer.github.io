@@ -2,6 +2,7 @@
 <head>
 <meta charset="utf-8">
   <title>相談・体験の連絡 | 障がい児のサッカースクール NPO法人ピジョン</title>
+  <link rel="canonical" href="https://soccer.pigeon-handicap.org/contact/">
   <script type="application/ld+json">
     [
       {
