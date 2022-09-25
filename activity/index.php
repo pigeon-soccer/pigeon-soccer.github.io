@@ -155,7 +155,7 @@
 						</dd>
 					</dl>
 				</div>
-				<p class="commonDetailBtn"><a href="/contact/">保護者同士でお話してみる</a></p>
+				<p class="commonDetailBtn"><a href="/contact/common.php">保護者同士でお話してみる</a></p>
 			</div>
 		</section>
 		<section class="commonSection">
@@ -237,7 +237,7 @@
 				<h2 id="schoolTrial">体験方法</h2>
 				<p>以下のフォームにて随時受け付けておりますので、お気軽にお申し込みください！<br>
 					また、ご不明点がありましたら同フォームよりご質問くださいませ。</p>
-				<p class="commonDetailBtn"><a href="/contact/">実際に教室に行ってみる</a></p>
+				<p class="commonDetailBtn"><a href="/contact/common.php">実際に教室に行ってみる</a></p>
 			</div>
 		</section>
 

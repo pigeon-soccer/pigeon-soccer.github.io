@@ -1040,12 +1040,6 @@ input[type=checkbox]:checked + .checkbox:before {
 	text-align: right;
 }
 
-#contact .tabContent p.formDescription {
-    font-size: medium;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .complete .questionBtn {
     display: none;
 }
@@ -1088,40 +1082,7 @@ input[type=checkbox]:checked + .checkbox:before {
     box-shadow: 3px -15px 6px #eeeeee, -3px -3px 6px #fff;
     border: .0625rem solid transparent;
 }
-.tabContent > li{
-	padding:60px;
-	background-color: #ffffff;
-	display: none;
-	border: 2px solid #b2d83e;
-}
-.tabContent > li:first-child{
-	display: block;
-}
-.tabContent__box h3{
-	text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-    padding: 30px 0px;
-}
-.tabContent__box ul.snsWrapper__btn {
-    display: flex;
-    justify-content: left;
-    position: inherit;
-    padding-top: 10px;
-}
-.tabContent__box ul.snsWrapper__btn li{
-    padding-left: 0;
-}
-.tabContent__box__tw{
-    background: linear-gradient(transparent 90%, #1da1f2 50%);
-}
-.tabContent__box__fb{
-    background: linear-gradient(transparent 90%, steelblue 50%);
-    margin-left: 10px;
-}
-.tabContent__box__PrivateQuestion{
-    background: linear-gradient(transparent 90%, sandybrown 50%);
-}
+
 .snsPrivateQuestion{
     padding-left:40px;
 }
@@ -1663,17 +1624,11 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	}
 
 	/* ▽ join ▽ */
-	.tabContent > li{
-		padding: 0px;
-	}
 	.radio, .checkbox{
 		margin:0;
 	}
 	.sectionContent .commonDetailBtn, button.formSendBtn,textarea{
 		width: 100%;
-	}
-	.tabContent .contactSns{
-		padding: 25px;
 	}
 	dd.summaryInfo__staffTarget {
     	display: block;
@@ -1751,4 +1706,9 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 	#about .commonSection-problem{
 	padding: 0 20px;
   	}
+}
+
+
+#contact #mainContent>section:nth-of-type(odd){
+  background-color: white;
 }
