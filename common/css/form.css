@@ -63,3 +63,6 @@ h2.mb-3.mt-5, label.form-label{
 .form-control:focus{
   border-color: #6dab21;
 }
+.modal-footer .btn-primary {
+  background: #6dab21;
+}
