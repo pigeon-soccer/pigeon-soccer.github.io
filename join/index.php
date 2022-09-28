@@ -201,7 +201,7 @@
 								</div>
 							</div>
 						</section>
-						<p class="commonDetailBtn summaryInfo"><a href="/contact/?type=support">コーチになってみる</a></p>
+						<p class="commonDetailBtn summaryInfo"><a href="/contact/volunteer.php">コーチになってみる</a></p>
 					</li>
 				</ul>
 			</div>

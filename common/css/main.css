@@ -291,6 +291,11 @@ ul > li.menu__parent > ul.menu__child li > a {
     background-size: cover;
     height: 100%;
 }
+#join .topImage .topImage__img {
+  background-image: url(/common/images/activity_mv.jpg);
+  background-size: cover;
+  height: 100%;
+}
 .topImage__wrapper{
     height: 100%;
     background-color: rgba(40, 20, 10, 0.3);
