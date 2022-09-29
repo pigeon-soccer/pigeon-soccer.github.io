@@ -108,7 +108,7 @@
         <li><a class="nav-link" href="/">サイトTOP</a></li>
         <li><a class="nav-link" href="#whyVolunteer">なぜボランティア？</a></li>
         <li><a class="nav-link" href="#about">募集の情報</a></li>
-        <li><a class="nav-link" href="#portfolio">仲間になる</a></li>
+        <li><a class="nav-link" href="#portfolio">アルバム写真</a></li>
         <li><a class="nav-link" href="#contact">相談・体験する</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
