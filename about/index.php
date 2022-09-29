@@ -27,8 +27,8 @@
           "email": "share@pigeon-handicap.org",
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-handicap.org/assets/images/snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/assets/images/logo/pigeon_logo.png",
+          "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "logo": "https://soccer.pigeon-handicap.org/assets/img/logo/pigeon_logo.png",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
@@ -48,7 +48,7 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "image":"https://soccer.pigeon-handicap.org/assets/images/snapshot/heading-practice-throwing-ball-mini.jpg",
+        "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
@@ -60,7 +60,7 @@
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/images/logo/favicon_pigeon.ico"/>
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico"/>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -219,7 +219,7 @@
 				<h2 id="representative">代表の紹介</h2>
 				<div class="commonInner__introduce">
 					<dl class="introduce__profile">
-            <img src="/assets/images/staff/profile-muto.png" loading="lazy">
+            <img src="/assets/img/staff/profile-muto.png" loading="lazy">
 						<dt>
 							<p class="introduce__position">代表理事</p>
 							<p class="introduce__name">武藤 太智（Muto Taichi）</p>
@@ -227,7 +227,7 @@
 						<dd class="introduce__career">日本サッカー協会公認ライセンス取得<br>現在、NPO法人ピジョンとは別に福祉業界に従事する傍ら、小学生と社会人サッカーチーム「アンマリアトーレ」で監督を兼任中<br>その他の中学生・高校生チームの監督経験も多数あり</dd>
 					</dl>
 					<dl class="introduce__profile">
-                        <img src="/assets/images/staff/profile-suzuki.png" loading="lazy">
+                        <img src="/assets/img/staff/profile-suzuki.png" loading="lazy">
 						<dt>
 							<p class="introduce__position">副理事</p>
 							<p class="introduce__name">鈴木 祐揮（Suzuki Yuuki）</p>

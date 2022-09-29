@@ -162,7 +162,7 @@
 													</span>
 												</div>
 											</ul>
-											<img class="summaryInfo__staffTarget-img" src="/assets/img/snapshot/snapshot/staff-inagon.jpg" loading="lazy" alt="ボランティアスタッフとの練習風景 - 障がい児のためのサッカースクール">
+											<img class="summaryInfo__staffTarget-img" src="../assets/img/snapshot/staff-inagon-art.png" loading="lazy" alt="ボランティアスタッフとの練習風景 - 障がい児のためのサッカースクール">
 										</dd>
 									</dl>
 									<dl>

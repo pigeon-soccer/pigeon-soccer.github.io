@@ -27,8 +27,8 @@
           "email": "share@pigeon-handicap.org",
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-handicap.org/assets/images/activity_thumbnail.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/assets/images/logo/pigeon_logo.png",
+          "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "logo": "https://soccer.pigeon-handicap.org/assets/img/logo/pigeon_logo.png",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
@@ -48,7 +48,7 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "image":"https://soccer.pigeon-handicap.org/assets/images/activity_thumbnail.jpg",
+        "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
@@ -60,7 +60,7 @@
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/images/logo/favicon_pigeon.ico"/>
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico"/>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -100,7 +100,7 @@
 							</div>
 							<p class="commonDetailBtn"><a href="/about/">団体を詳しく見る</a></p>
 						</div>
-						<figure class="summary__img"><img src="/assets/images/index_ph_002_thumbnail.jpg" alt="優しい笑顔の武藤監督の写真 - 障がい児のためのサッカースクール" loading="lazy"/></figure>
+						<figure class="summary__img"><img src="/assets/img/snapshot/smiling-general-coach.jpg" alt="優しい笑顔の武藤監督の写真 - 障がい児のためのサッカースクール" loading="lazy"/></figure>
 					</div>
 				</section><!--/summary summary-about-->
 
@@ -113,7 +113,7 @@
 							</div>
 							<p class="commonDetailBtn"><a href="/activity/">教室を詳しく見る</a></p>
 						</div>
-						<figure class="summary__img"><img src="/assets/images/activity_thumbnail.jpg" alt="生徒とサッカーの練習をする鈴木ゆうきコーチの写真 - 障がい児のためのサッカースクール" loading="lazy"/></figure>
+						<figure class="summary__img"><img src="/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg" alt="生徒とサッカーの練習をする鈴木ゆうきコーチの写真 - 障がい児のためのサッカースクール" loading="lazy"/></figure>
 					</div>
 				</section>
 
