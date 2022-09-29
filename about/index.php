@@ -11,7 +11,7 @@
         "@type": "NGO",
         "subOrganization": "EducationalOrganization",
         "name": "NPO法人ピジョン",
-        "funder": "武藤太一",
+        "funder": "武藤太一(むとうたいち)",
         "address":{
           "@type":"PostalAddress",
           "streetAddress":"目白台",
@@ -27,8 +27,8 @@
           "email": "share@pigeon-handicap.org",
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/common/images/logo/pigeon_logo.png",
+          "image":"https://soccer.pigeon-handicap.org/assets/images/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "logo": "https://soccer.pigeon-handicap.org/assets/images/logo/pigeon_logo.png",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
@@ -38,7 +38,7 @@
         "subOrganization": "SportsClub",
         "coach": {
           "@type": "Person",
-          "name": "鈴木祐揮"
+          "name": "鈴木祐揮(すずきゆうき)"
         },
         "address":{
           "@type":"PostalAddress",
@@ -48,19 +48,19 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
+        "image":"https://soccer.pigeon-handicap.org/assets/images/snapshot/heading-practice-throwing-ball-mini.jpg",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "url": "https://soccer.pigeon-handicap.org/",
-        "creator": "江俣真人"
+        "creator": "江俣真人(えまたまさと)"
       }
     ]
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/images/logo/favicon_pigeon.ico"/>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -68,9 +68,9 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
   <!-- End Google Tag Manager -->
-  <script src="/common/js/main.js"></script>
-  <link rel="stylesheet" href="/common/css/reset.css">
-  <link rel="stylesheet" href="/common/css/main.css">
+  <script src="/assets/js/main.js"></script>
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body id="top">
@@ -219,7 +219,7 @@
 				<h2 id="representative">代表の紹介</h2>
 				<div class="commonInner__introduce">
 					<dl class="introduce__profile">
-            <img src="/common/images/staff/index_ph_001.png" loading="lazy">
+            <img src="/assets/images/staff/profile-muto.png" loading="lazy">
 						<dt>
 							<p class="introduce__position">代表理事</p>
 							<p class="introduce__name">武藤 太智（Muto Taichi）</p>
@@ -227,7 +227,7 @@
 						<dd class="introduce__career">日本サッカー協会公認ライセンス取得<br>現在、NPO法人ピジョンとは別に福祉業界に従事する傍ら、小学生と社会人サッカーチーム「アンマリアトーレ」で監督を兼任中<br>その他の中学生・高校生チームの監督経験も多数あり</dd>
 					</dl>
 					<dl class="introduce__profile">
-                        <img src="/common/images/staff/index_ph_002.png" loading="lazy">
+                        <img src="/assets/images/staff/profile-suzuki.png" loading="lazy">
 						<dt>
 							<p class="introduce__position">副理事</p>
 							<p class="introduce__name">鈴木 祐揮（Suzuki Yuuki）</p>

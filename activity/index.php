@@ -11,7 +11,7 @@
         "@type": "NGO",
         "subOrganization": "EducationalOrganization",
         "name": "NPO法人ピジョン",
-        "funder": "武藤太一",
+        "funder": "武藤太一(むとうたいち)",
         "address":{
           "@type":"PostalAddress",
           "streetAddress":"目白台",
@@ -27,8 +27,8 @@
           "email": "share@pigeon-handicap.org",
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/common/images/logo/pigeon_logo.png",
+          "image":"https://soccer.pigeon-handicap.org/assets/images/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "logo": "https://soccer.pigeon-handicap.org/assets/images/logo/pigeon_logo.png",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
@@ -38,7 +38,7 @@
         "subOrganization": "SportsClub",
         "coach": {
           "@type": "Person",
-          "name": "鈴木祐揮"
+          "name": "鈴木祐揮(すずきゆうき)"
         },
         "address":{
           "@type":"PostalAddress",
@@ -48,19 +48,19 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
+        "image":"https://soccer.pigeon-handicap.org/assets/images/snapshot/heading-practice-throwing-ball-mini.jpg",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "url": "https://soccer.pigeon-handicap.org/",
-        "creator": "江俣真人"
+        "creator": "江俣真人(えまたまさと)"
       }
     ]
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/images/logo/favicon_pigeon.ico"/>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -68,9 +68,9 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
   <!-- End Google Tag Manager -->
-  <script src="/common/js/main.js"></script>
-  <link rel="stylesheet" href="/common/css/reset.css">
-  <link rel="stylesheet" href="/common/css/main.css">
+  <script src="/assets/js/main.js"></script>
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body id="top">
@@ -95,7 +95,7 @@
 				<h2 id="development">練習で育むもの</h2>
 				<ul class="convey">
 					<li>
-						<figure class="convey__img"><img src="/common/images/index_ph_003.jpg" alt="子どもの笑顔を引き出すイメージ画像 - 障がい児のためのサッカースクール"/></figure>
+						<figure class="convey__img"><img src="/assets/images/snapshot/smiling-children.jpg" alt="子どもの笑顔を引き出すイメージ画像 - 障がい児のためのサッカースクール"/></figure>
 						<dl class="convey__content">
 							<dt>ココロ - 感受性</dt>
 							<dd>子どもたちは、みんなでサッカーをすることの楽しさや、うまくシュートできたときの嬉しさ、できなかった悔しさを経験します。
@@ -104,7 +104,7 @@
 						</dl>
 					</li>
 					<li>
-						<figure class="convey__img"><img src="/common/images/index_ph_001.jpg" alt="自己管理能力を高める練習風景の写真 - 障がい児のためのサッカースクール"/></figure>
+						<figure class="convey__img"><img src="/assets/images/snapshot/practice-game.jpg" alt="自己管理能力を高める練習風景の写真 - 障がい児のためのサッカースクール"/></figure>
 						<dl class="convey__content">
 							<dt>カラダ - 自己管理（+体力向上）</dt>
 							<dd>障がいをもった子どもたちは、体調を崩しやすい傾向があります。
@@ -114,7 +114,7 @@
 						</dl>
 					</li>
 					<li>
-						<figure class="convey__img"><img src="/common/images/activity_cooperative.jpg" alt="鈴木ゆうきコーチのお話をよく聞く生徒たちの写真 - 障がい児のためのサッカースクール"/></figure>
+						<figure class="convey__img"><img src="/assets/images/snapshot/listen-to-the-coach.jpg" alt="鈴木ゆうきコーチのお話をよく聞く生徒たちの写真 - 障がい児のためのサッカースクール"/></figure>
 						<dl class="convey__content">
 							<dt>ヒト - 協調性</dt>
 							<dd>活動や試合の開始・終了時に挨拶をすること、練習のときにコーチの話を聞く姿勢のあること、

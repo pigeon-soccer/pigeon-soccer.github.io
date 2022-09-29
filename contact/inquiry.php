@@ -10,7 +10,7 @@
         "@type": "NGO",
         "subOrganization": "EducationalOrganization",
         "name": "NPO法人ピジョン",
-        "funder": "武藤太一",
+        "funder": "武藤太一(むとうたいち)",
         "address":{
           "@type":"PostalAddress",
           "streetAddress":"目白台",
@@ -26,8 +26,8 @@
           "email": "share@pigeon-handicap.org",
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/common/images/logo/pigeon_logo.png",
+          "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "logo": "https://soccer.pigeon-handicap.org/assets/img/logo/pigeon_logo.png",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
@@ -37,7 +37,7 @@
         "subOrganization": "SportsClub",
         "coach": {
           "@type": "Person",
-          "name": "鈴木祐揮"
+          "name": "鈴木祐揮(すずきゆうき)"
         },
         "address":{
           "@type":"PostalAddress",
@@ -47,18 +47,18 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "image":"https://soccer.pigeon-handicap.org/common/images/activity_thumbnail.jpg",
+        "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "url": "https://soccer.pigeon-handicap.org/",
-        "creator": "江俣真人"
+        "creator": "江俣真人(えまたまさと)"
       }
     ]
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/common/images/logo/favicon_pigeon.ico"/>
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico"/>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -67,11 +67,11 @@
   })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
   <!-- End Google Tag Manager -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="/common/js/main.js"></script>
-  <script src="/common/js/form.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/form.js"></script>
   <script src="https://sdk.form.run/js/v2/formrun.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="/common/css/form.css">
+  <link rel="stylesheet" href="/assets/css/form.css">
 </head>
 <body id="top">
 <div class="wrap container-md">
