@@ -134,6 +134,7 @@
             大学生・社会人・女性など幅広く在籍
         </figcaption>
       </figure>
+      <a class="mt-5" href="#contact"><button type="button" class="btn btn-outline-primary greenBkButton">見学・体験を申し込む</button></a>
       <a href="#whyVolunteer" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
   </section><!-- End Hero -->
@@ -174,7 +175,7 @@
             <img src="../assets/img/snapshot/staff-rina-and-student-girl-art.png" class="figure-img img-fluid rounded" alt="..." loading="lazy">
             <figcaption class="figure-caption">初参加りなコーチとパスの練習</figcaption>
           </figure>
-          <a href="#about"><button type="button" class="btn btn-outline-primary">→ 募集情報に進む</button></a>
+          <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
           <p>
             <br>
             <br>私がピジョンの活動に初参加したのは、社会人になり数年経ったころです。
@@ -183,38 +184,35 @@
             <br>もともと<span class="enrichText">サッカーは未経験</span>であり、<span class="enrichText">子どもも不得意</span>でした。
             <br>ですが、各々の個性を持った彼らの率直な感情表現に触れることは、とても楽しく、学びになり、充足感のある体験でした。
             <br>
-            <br>その日の活動の終わり、生徒たちと一緒にご飯を食べているとき、母親から「一緒にいてくれてありがとう」と声をかけていただきました。
-            <br>
+            <br>その日の活動の終わり、生徒たちと一緒にご飯を食べているとき、母親から
+          </p>
+            <blockquote class="blockquoteDecoration normalFontWSize">
+              <p>一緒にいてくれてありがとう</p>
+            </blockquote>
+            <p>
+            と声をかけていただきました。
             <br>私がこの体験を通して受けた印象は「<span class="enrichText">何ができるか以上に、その場に存在すること自体、価値がある</span>」 ということでした。
-            <br>そして、価値があるのは私たちにとっての生徒の存在、社会にとっての生徒の存在も同じだと思うのです。
+            <br>そして、今では価値があるのは私たちにとっての生徒の存在、社会にとっての生徒の存在も同じだと考えています。
             <br>
             <br>下のスタッフの体験談は、それを表しています。
           </p>
-          <div>
-            <blockquote class="blockquoteDecoration normalFontWSize">
-              <p>以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。しかし今では、そんな人こそ参加してみて欲しいと感じます。なぜなら子供達の笑顔で1週間の疲れが吹っ飛びますし、その壁のない挨拶から人として大切なことを学べるからです。彼ら彼女らの成長を助けることは、結果的に履歴書に残らない自分の成長、大切な体験となり返ってきました。</p>
-              <cite>
-                社会人 女性
-              </cite>
-            </blockquote>
-          </div>
-          <div>
-            <figure>
-              <blockquote class="blockquoteDecoration normalFontWSize">
-                <p>
-                  初めて参加したとき、「思いのほか普通の生徒たちだった」と思いましたが、次第にこれは誤りだと気づくようになりました。
-                  例えば暑い事を自覚し伝えるのが難しい生徒がいれば、熱中症の兆候がないか常に注意を払う必要がある。
-                  このように生徒には認知すべき障害が現実としてあり、それに合わせた配慮が求められるからです。
-                  つまり生徒のより良い生活は、生徒自身の成長だけでなく、社会が「障害」を認知・理解して取り除く事で初めて実現するのです。
-                </p>
-                <cite>
-                  大学生 男性
-                </cite>
-              </blockquote>
-            </figure>
-
-          </div>
-
+          <blockquote class="blockquoteDecoration normalFontWSize">
+            <p>以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。しかし今では、そんな人こそ参加してみて欲しいと感じます。なぜなら子供達の笑顔で1週間の疲れが吹っ飛びますし、その壁のない挨拶から人として大切なことを学べるからです。彼ら彼女らの成長を助けることは、結果的に履歴書に残らない自分の成長、大切な体験となり返ってきました。</p>
+            <cite>
+              社会人 女性
+            </cite>
+          </blockquote>
+          <blockquote class="blockquoteDecoration normalFontWSize">
+            <p>
+              初めて参加したとき、「思いのほか普通の生徒たちだった」と思いましたが、次第にこれは誤りだと気づくようになりました。
+              例えば暑い事を自覚し伝えるのが難しい生徒がいれば、熱中症の兆候がないか常に注意を払う必要がある。
+              このように生徒には認知すべき障害が現実としてあり、それに合わせた配慮が求められるからです。
+              つまり生徒のより良い生活は、生徒自身の成長だけでなく、社会が「障害」を認知・理解して取り除く事で初めて実現するのです。
+            </p>
+            <cite>
+              大学生 男性
+            </cite>
+          </blockquote>
           <p>
             私たち自身も目の前の子どもたちと一緒にいることで感受性が豊かになり、試行錯誤するなかで成長します。
             <br>それは結果的に社会の理解と貢献につながると考えています。
@@ -262,19 +260,32 @@
                     <i class="bi bi-book" style="color: #E05126"></i>
                     <span>内容</span>
                     <p>
-                      「教室で何する？」に記載のメニューを実施するので、生徒の練習に付き添ってあげてください。
+                      <a class="smallIconLink" target="_blank" href="../activity/#practiceMenu">
+                        <i class="bi bi-box-arrow-up-right"></i>
+                        <span>「教室で何する？」に記載の練習メニュー</span>
+                      </a>
+                      を実施するので、生徒の練習に付き添ってあげてください。
                       メニューの進行はベテランコーチが行うのでご安心ください。スタッフ1人あたり生徒1～2人です。</p>
                   </div>
                 </div>
-
-
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-geo-alt" style="color: #943B21;"></i>
+                    <i class="bi bi-geo-alt" style="color: #f3a200;"></i>
                     <span>場所</span>
                     <p>
-                      - 東京都文京区目白台「目白台運動公園」<br>
-                      - 東京都文京区後楽飯「文京盲学校」</p>
+                      - 東京都文京区目白台「目白台運動公園」
+                      <a class="smallIconLink" target="_blank" href="https://goo.gl/maps/9yXU7qkZARed2HPi7">
+                        <i class="bi bi-box-arrow-up-right"></i>
+                        <span>地図を開く</span>
+                      </a>
+                    </p>
+                    <p>
+                      - 東京都文京区後楽飯「文京盲学校」
+                      <a class="smallIconLink" target="_blank" href="https://goo.gl/maps/E65gSuvqQv7URDAL9">
+                        <i class="bi bi-box-arrow-up-right"></i>
+                        <span>地図を開く</span>
+                      </a>
+                    </p>
                   </div>
                 </div>
 
@@ -328,7 +339,7 @@
                       <td>なし</td>
                     </tr>
                     <tr>
-                      <td>大学生</td>
+                      <td>大学生（サッカー部員）</td>
                       <td>男性</td>
                       <td>20代</td>
                       <td>あり</td>
@@ -340,7 +351,7 @@
                       <td>なし</td>
                     </tr>
                     <tr>
-                      <td>高校生</td>
+                      <td>高校生（福祉施設に従事）</td>
                       <td>男性</td>
                       <td>10代</td>
                       <td>なし</td>
@@ -351,7 +362,7 @@
 
             </div><!-- End .content-->
 
-            <a class="mt-5" href="#contact"><button type="button" class="btn btn-outline-primary">→ 見学・体験申し込み／ご相談に進む</button></a>
+            <a class="mt-5" href="#contact"><button type="button" class="btn btn-outline-primary">見学・体験を申し込む</button></a>
 
           </div>
         </div>

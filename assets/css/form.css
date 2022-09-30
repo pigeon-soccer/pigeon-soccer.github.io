@@ -61,6 +61,10 @@ h2.mb-3.mt-5, label.form-label{
   border-width: 2.5px;
   display: block;
   width: 230px;
+  cursor: pointer;
+}
+select {
+  cursor: pointer;
 }
 .form-control:focus{
   border-color: #6dab21;

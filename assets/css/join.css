@@ -82,3 +82,34 @@ p {
 .blockquoteDecoration.normalFontWSize {
   font-size: medium;
 }
+.greenBkButton {
+  background-color: #5D9A1F;
+  border-color: transparent;
+  color: white;
+}
+
+.greenBkButton:hover{
+    background: #f3a200!important;
+    color: #fff!important;
+    border-color: transparent!important;
+  }
+
+a.smallIconLink {
+  margin-top: 0px!important;;
+}
+
+a.smallIconLink i::before{
+  font-size: 14px!important;
+  margin-top: 6px;
+}
+a.smallIconLink .bi-box-arrow-up-right::before {
+  font-size: 23px;
+  color: #5d6a75;
+}
+
+a.smallIconLink span {
+  display: inline!important;
+  font-size: 14px !important;
+  line-height: 0px!important;
+  margin-left: 5px!important;
+}
