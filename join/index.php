@@ -149,15 +149,13 @@
           <p></p>
         </div>
         <div class="row">
-          <figure>
-            <blockquote class="blockquote">
-              <p>「一緒にいてくれてありがとうございます。」<br>
-              「外であんないい顔の我が子を初めて見ました。奇跡です。」</p>
-            </blockquote>
-            <figcaption class="blockquote-footer">
+          <blockquote class="blockquote blockquoteDecoration">
+            <p>一緒にいてくれてありがとうございます。<br>
+            外であんないい顔の我が子を初めて見ました、奇跡です。</p>
+            <cite>
               保護者様より
-            </figcaption>
-          </figure>
+            </cite>
+          </blockquote>
           <p>
             このページに辿りついていただき、ありがとうございます。
             <br>あなたがボランティアを募集するこのページに辿りついたのは、なぜでしょうか？
@@ -193,32 +191,26 @@
             <br>下のスタッフの体験談は、それを表しています。
           </p>
           <div>
-            <i class="bi bi-person float-start blockquotePerson"></i>
-            <figure>
-              <blockquote>
-                <p>「以前の私は心のゆとりがなくて『慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい』と思っていました。しかし今では、そんな人こそ参加してみて欲しいと感じます。なぜなら子供達の笑顔で1週間の疲れが吹っ飛びますし、その壁のない挨拶から人として大切なことを学べるからです。彼ら彼女らの成長を助けることは、結果的に履歴書に残らない自分の成長、大切な体験となり返ってきました。」</p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
+            <blockquote class="blockquoteDecoration normalFontWSize">
+              <p>以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。しかし今では、そんな人こそ参加してみて欲しいと感じます。なぜなら子供達の笑顔で1週間の疲れが吹っ飛びますし、その壁のない挨拶から人として大切なことを学べるからです。彼ら彼女らの成長を助けることは、結果的に履歴書に残らない自分の成長、大切な体験となり返ってきました。</p>
+              <cite>
                 社会人 女性
-              </figcaption>
-            </figure>
+              </cite>
+            </blockquote>
           </div>
-
           <div>
-            <i class="bi bi-person float-start blockquotePerson"></i>
             <figure>
-              <blockquote>
+              <blockquote class="blockquoteDecoration normalFontWSize">
                 <p>
-                  「初めて参加したとき、『思いのほか普通の生徒たちだった』と思いましたが、次第にこれは誤りだと気づくようになりました。
+                  初めて参加したとき、「思いのほか普通の生徒たちだった」と思いましたが、次第にこれは誤りだと気づくようになりました。
                   例えば暑い事を自覚し伝えるのが難しい生徒がいれば、熱中症の兆候がないか常に注意を払う必要がある。
                   このように生徒には認知すべき障害が現実としてあり、それに合わせた配慮が求められるからです。
-                  つまり生徒のより良い生活は、生徒自身の成長だけでなく、社会が『障害』を認知・理解して取り除く事で初めて実現するのです。
-                  」
+                  つまり生徒のより良い生活は、生徒自身の成長だけでなく、社会が「障害」を認知・理解して取り除く事で初めて実現するのです。
                 </p>
+                <cite>
+                  大学生 男性
+                </cite>
               </blockquote>
-              <figcaption class="blockquote-footer">
-                大学生 男性
-              </figcaption>
             </figure>
 
           </div>
