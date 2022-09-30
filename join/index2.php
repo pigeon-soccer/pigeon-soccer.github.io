@@ -77,136 +77,136 @@
 <header id="header">
 </header>
 <main id="join">
-	<!-- <div class="topImage">
-		<p class="topImage__txt">テキストが入ります</p>
-		<div class="topImage__img"><img src="/assets/img/index_mv_005.jpg" alt=""/></div>
-	</div> -->
+  <!-- <div class="topImage">
+    <p class="topImage__txt">テキストが入ります</p>
+    <div class="topImage__img"><img src="/assets/img/index_mv_005.jpg" alt=""/></div>
+  </div> -->
 
-	<div id="mainContent">
-		<section class="commonSection">
-			<div class="commonInner sectionContent">
-				<div class="sectionContent-header">
-					<h1>ボランティア募集</h1>
-					<p>
-						私たちピジョンは一緒に活動できる仲間、支援してくれる仲間をいつでもお待ちしております。<br class="br-pc">
-						障がいのある子どもたちの居場所と成長の場を、一緒に作っていきませんか？</p>
-				</div>
-				<!-- <ul class="tab">
-					<li class="tab__label select">コーチの募集</li>
-					<li class="tab__label">NPOの活動に寄付する</li>
-				</ul> -->
-				<!--タブを切り替えて表示するコンテンツ-->
-				<ul class="tabContent">
-					<li class="tabContent__box">
-						<h2>コーチの募集</h2>
-						<p>
-						私たちは、障がいのある子どもたちに「より多く関わっていくこと」「より深く関わっていくこと」を目指しています。
-						しかし、生徒の数や活動の量を増やそうにも、そのために活動できる仲間（ボランティアコーチ)が現状、足りていません。
-						ですので、少しでもご興味がありましたら、お気軽にご連絡いただければ幸いです。
-						</p>
-						<section class="commonSection">
-							<div class="commonInner sectionContent">
-								<!-- <h3>募集要項</h3> -->
-								<div class="summaryInfo">
-									<dl>
-										<dt>歓迎</dt>
-										<dd class="summaryInfo__staffTarget">
-											<ul>
-												<li class="checkMark"><a href="/about/">ミッション</a>に共感してくれた人</li>
-												<li class="checkMark">福祉・非営利活動に関心がある人</li>
-												<li class="checkMark">明るい人／優しく接してくれる人</li>
-												<li class="checkMark">年齢・性別は一切問いません</li>
-												<li class="checkMark">サッカー・ボランティア未経験でも大歓迎</li>
-												<div class="tooltip">過去のスタッフ例はこちら
-													<span>
-														<table>
-															<tbody>
-																<tr>
-																	<td>職業</td>
-																	<td>性別</td>
-																	<td>年代</td>
-																	<td>サッカー経験</td>
-																</tr>
-																<tr>
-																	<td>社会人 小学校教員</td>
-																	<td>男性</td>
-																	<td>30代</td>
-																	<td>あり</td>
-																</tr>
-																<tr>
-																	<td>社会人 映像製作</td>
-																	<td>女性</td>
-																	<td>20代</td>
-																	<td>なし</td>
-																</tr>
-																<tr>
-																	<td>社会人 ITエンジニア</td>
-																	<td>男性</td>
-																	<td>20代</td>
-																	<td>あり</td>
-																</tr>
-																<tr>
-																	<td>社会人 事務</td>
-																	<td>女性</td>
-																	<td>40代</td>
-																	<td>なし</td>
-																</tr>
-																<tr>
-																	<td>高校生</td>
-																	<td>男性</td>
-																	<td>10代</td>
-																	<td>なし</td>
-																</tr>
-															</tbody>
-														</table>
-													</span>
-												</div>
-											</ul>
-											<img class="summaryInfo__staffTarget-img" src="../assets/img/snapshot/staff-inagon-art.png" loading="lazy" alt="ボランティアスタッフとの練習風景 - 障がい児のためのサッカースクール">
-										</dd>
-									</dl>
-									<dl>
-										<dt>内容</dt>
-										<dd><p>
-											「<a href="/activity/" target="_blank">教室で何する？</a>」に記載のメニューを実施するので、生徒の練習に付き添ってあげてください。<br>
-											※メニューの進行はベテランコーチが行うのでご安心ください。スタッフ1人あたり生徒1～2人です。
-										</p></dd>
-									</dl>
-									<dl>
-										<dt>時間</dt>
-										<dd>
-											<p>
-												隔週 土曜日 10:00～12:30<br>
-												※参加は任意
-											</p>
-										</dd>
-									</dl>
-									<dl>
-										<dt>回数</dt>
-										<dd>
-											<p>単発での参加も歓迎します！</p>
-										</dd>
-									</dl>
-									<dl>
-										<dt>場所</dt>
-										<dd>
-											<p>東京都文京区の目白／飯田橋近辺のフットサルコート</p>
-										</dd>
-									</dl>
-								</div>
-								<div class="eventMap">
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7535.3248462493675!2d139.7196493782341!3d35.71475609472042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0ff3338571%3A0xa1a34f42e3d026a0!2z55uu55m95Y-w6YGL5YuV5YWs5ZyS44OV44OD44OI44K144Or44Kz44O844OI!5e0!3m2!1sen!2sjp!4v1603529118854!5m2!1sen!2sjp"
-										frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-								</div>
-							</div>
-						</section>
-						<p class="commonDetailBtn summaryInfo"><a href="/contact/volunteer.php">コーチになってみる</a></p>
-					</li>
-				</ul>
-			</div>
-		</section>
-	</div>
+  <div id="mainContent">
+    <section class="commonSection">
+      <div class="commonInner sectionContent">
+        <div class="sectionContent-header">
+          <h1>ボランティア募集</h1>
+          <p>
+            私たちピジョンは一緒に活動できる仲間、支援してくれる仲間をいつでもお待ちしております。<br class="br-pc">
+            障がいのある子どもたちの居場所と成長の場を、一緒に作っていきませんか？</p>
+        </div>
+        <!-- <ul class="tab">
+          <li class="tab__label select">コーチの募集</li>
+          <li class="tab__label">NPOの活動に寄付する</li>
+        </ul> -->
+        <!--タブを切り替えて表示するコンテンツ-->
+        <ul class="tabContent">
+          <li class="tabContent__box">
+            <h2>コーチの募集</h2>
+            <p>
+            私たちは、障がいのある子どもたちに「より多く関わっていくこと」「より深く関わっていくこと」を目指しています。
+            しかし、生徒の数や活動の量を増やそうにも、そのために活動できる仲間（ボランティアコーチ)が現状、足りていません。
+            ですので、少しでもご興味がありましたら、お気軽にご連絡いただければ幸いです。
+            </p>
+            <section class="commonSection">
+              <div class="commonInner sectionContent">
+                <!-- <h3>募集要項</h3> -->
+                <div class="summaryInfo">
+                  <dl>
+                    <dt>歓迎</dt>
+                    <dd class="summaryInfo__staffTarget">
+                      <ul>
+                        <li class="checkMark"><a href="/about/">ミッション</a>に共感してくれた人</li>
+                        <li class="checkMark">福祉・非営利活動に関心がある人</li>
+                        <li class="checkMark">明るい人／優しく接してくれる人</li>
+                        <li class="checkMark">年齢・性別は一切問いません</li>
+                        <li class="checkMark">サッカー・ボランティア未経験でも大歓迎</li>
+                        <div class="tooltip">過去のスタッフ例はこちら
+                          <span>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td>職業</td>
+                                  <td>性別</td>
+                                  <td>年代</td>
+                                  <td>サッカー経験</td>
+                                </tr>
+                                <tr>
+                                  <td>社会人 小学校教員</td>
+                                  <td>男性</td>
+                                  <td>30代</td>
+                                  <td>あり</td>
+                                </tr>
+                                <tr>
+                                  <td>社会人 映像製作</td>
+                                  <td>女性</td>
+                                  <td>20代</td>
+                                  <td>なし</td>
+                                </tr>
+                                <tr>
+                                  <td>社会人 ITエンジニア</td>
+                                  <td>男性</td>
+                                  <td>20代</td>
+                                  <td>あり</td>
+                                </tr>
+                                <tr>
+                                  <td>社会人 事務</td>
+                                  <td>女性</td>
+                                  <td>40代</td>
+                                  <td>なし</td>
+                                </tr>
+                                <tr>
+                                  <td>高校生</td>
+                                  <td>男性</td>
+                                  <td>10代</td>
+                                  <td>なし</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </span>
+                        </div>
+                      </ul>
+                      <img class="summaryInfo__staffTarget-img" src="../assets/img/snapshot/staff-inagon-art.png" loading="lazy" alt="ボランティアスタッフとの練習風景 - 障がい児のためのサッカースクール">
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt>内容</dt>
+                    <dd><p>
+                      「<a href="/activity/" target="_blank">教室で何する？</a>」に記載のメニューを実施するので、生徒の練習に付き添ってあげてください。<br>
+                      ※メニューの進行はベテランコーチが行うのでご安心ください。スタッフ1人あたり生徒1～2人です。
+                    </p></dd>
+                  </dl>
+                  <dl>
+                    <dt>時間</dt>
+                    <dd>
+                      <p>
+                        隔週 土曜日 10:00～12:30<br>
+                        ※参加は任意
+                      </p>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt>回数</dt>
+                    <dd>
+                      <p>単発での参加も歓迎します！</p>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt>場所</dt>
+                    <dd>
+                      <p>東京都文京区の目白／飯田橋近辺のフットサルコート</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="eventMap">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7535.3248462493675!2d139.7196493782341!3d35.71475609472042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0ff3338571%3A0xa1a34f42e3d026a0!2z55uu55m95Y-w6YGL5YuV5YWs5ZyS44OV44OD44OI44K144Or44Kz44O844OI!5e0!3m2!1sen!2sjp!4v1603529118854!5m2!1sen!2sjp"
+                    frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+            </section>
+            <p class="commonDetailBtn summaryInfo"><a href="/contact/volunteer.php">コーチになってみる</a></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </main><!-- /main -->
 
 <footer id="footer">
