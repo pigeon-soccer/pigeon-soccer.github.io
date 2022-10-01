@@ -106,7 +106,7 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link" href="/">サイトTOP</a></li>
-        <li><a class="nav-link" href="#whyVolunteer">ボランティアの価値</a></li>
+        <li><a class="nav-link" href="#whyVolunteer">なぜボランティア？</a></li>
         <li><a class="nav-link" href="#about">募集の情報</a></li>
         <li><a class="nav-link" href="#portfolio">アルバム写真</a></li>
         <li><a class="nav-link" href="#contact">相談・体験する</a></li>
@@ -145,8 +145,8 @@
       <div class="container">
 
         <div class="whyVolunteerSectionTitle section-title">
-          <span>ボランティアの価値</span>
-          <h2>ボランティアの価値</h2>
+          <span>なぜ、ボランティアか？</span>
+          <h2>なぜ、ボランティアか？</h2>
           <p></p>
         </div>
         <div class="row">
@@ -164,46 +164,40 @@
             <br>社会の役に立ちたいからでしょうか？
             <br>それとも、自らの成長のためでしょうか？
             <br>それとも、大学の講義の一環としてでしょうか？
-          </p>
-          <hr>
-          <p>
-            はじめまして、「NPO法人 ピジョン」運営の江俣と申します。
+            <br>
+            <br>はじめまして、「NPO法人 ピジョン」運営の江俣と申します。
+            <br>ピジョンの活動の体験について紹介させてください。
             <br>この教室の目的は、サッカーというチームスポーツを通して、
             <br><span class="enrichText">障がいのある子どもが笑顔になる居場所、学ぶ場としてあり続けること</span>です。
+            <br>
           </p>
           <figure class="figure">
             <img src="../assets/img/snapshot/staff-rina-and-student-girl-art.png" class="figure-img img-fluid rounded" alt="..." loading="lazy">
-            <figcaption class="figure-caption">初参加「りなコーチ」とパスの練習</figcaption>
+            <figcaption class="figure-caption">初参加りなコーチとパスの練習</figcaption>
           </figure>
           <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
-          <h3 class="mt-5">サッカー未経験、子どもも不得意</h3>
           <p>
-            私がピジョンの活動に初参加したのは、社会人になり数年経ったころです。
+            <br>
+            <br>私がピジョンの活動に初参加したのは、社会人になり数年経ったころです。
             <br>仕事でもそれ以外でも、自分に何ができるかを模索していました。
             <br>そんな折り友人の鈴木に誘われて、ピジョンの活動を始めました。
             <br>もともと<span class="enrichText">サッカーは未経験</span>であり、<span class="enrichText">子どもも不得意</span>でした。
             <br>ですが、各々の個性を持った彼らの率直な感情表現に触れることは、とても楽しく、学びになり、充足感のある体験でした。
             <br>
-            <br>その日の活動の終わり、生徒たちと一緒にご飯を食べているとき、生徒の母親から
+            <br>その日の活動の終わり、生徒たちと一緒にご飯を食べているとき、母親から
           </p>
-          <blockquote class="blockquoteDecoration normalFontWSize">
-            <p>一緒にいてくれてありがとう</p>
-          </blockquote>
-          <p>
+            <blockquote class="blockquoteDecoration normalFontWSize">
+              <p>一緒にいてくれてありがとう</p>
+            </blockquote>
+            <p>
             と声をかけていただきました。
             <br>私がこの体験を通して受けた印象は「<span class="enrichText">何ができるか以上に、その場に存在すること自体、価値がある</span>」 ということでした。
             <br>そして、今では価値があるのは私たちにとっての生徒の存在、社会にとっての生徒の存在も同じだと考えています。
+            <br>
+            <br>下のスタッフの体験談は、それを表しています。
           </p>
-          <figure class="figure">
-            <img src="../assets/img/snapshot/handshake-art.png" class="figure-img img-fluid rounded" alt="...">
-            <figcaption class="figure-caption">試合前に生徒と握手する「むとうコーチ」（手前左）</figcaption>
-          </figure>
-          <p>下のスタッフの体験談は、それを表しています。</p>
-          <h3 class="mt-5">スタッフの体験談</h3>
           <blockquote class="blockquoteDecoration normalFontWSize">
-            <p>以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。
-              しかし今では、そんな人こそ参加してみて欲しいと感じます。なぜなら子供達の笑顔で1週間の疲れが吹っ飛びますし、その壁のない挨拶から人として大切なことを学べるからです。
-              彼ら彼女らの成長を助けることは、結果的に履歴書に残らないけれども、自分の成長、大切な体験となり返ってきました。</p>
+            <p>以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。しかし今では、そんな人こそ参加してみて欲しいと感じます。なぜなら子供達の笑顔で1週間の疲れが吹っ飛びますし、その壁のない挨拶から人として大切なことを学べるからです。彼ら彼女らの成長を助けることは、結果的に履歴書に残らない自分の成長、大切な体験となり返ってきました。</p>
             <cite>
               社会人 女性
             </cite>
@@ -219,7 +213,6 @@
               大学生 男性
             </cite>
           </blockquote>
-          <h3 class="mt-5">力を貸してください</h3>
           <p>
             私たち自身も目の前の子どもたちと一緒にいることで感受性が豊かになり、試行錯誤するなかで成長します。
             <br>それは結果的に社会の理解と貢献につながると考えています。
@@ -227,7 +220,7 @@
             <br>したがってピジョンでは目の前の子どもたちに「より深く関わっていくこと」を目指すとともに、それを通して身につけたノウハウを各地に波及して「より多く関わっていくこと」を目指しています。
             <br>
             <br>しかし、生徒の数や活動の量を増やそうにも、現状そのために活動できる<span class="enrichText">仲間＝ボランティア(スタッフ)メンバーが足りていません</span>。
-            <br>ですので少しでも興味があれば、活動に参加してみてください！
+            <br>ですので、少しでもご興味がありましたら、お気軽にご連絡いただければ幸いです！
           </p>
         </div>
       </div>
@@ -394,14 +387,21 @@
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
               <img src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.png" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">試合の前に気合を入れる「えまコーチ」（左）と生徒たち</figcaption>
+              <figcaption class="figure-caption">試合の前に気合を入れるえまコーチ（左）と生徒たち</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
+            <figure class="figure">
+              <img src="../assets/img/snapshot/handshake-art.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">試合前に生徒と握手するむとうコーチ（手前左）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
               <img src="../assets/img/snapshot/staff-inagon-art.png" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">ボールを受け止める生徒と、試合の補助をする「いなごんコーチ」（右）</figcaption>
+              <figcaption class="figure-caption">ボールを受け止める生徒と、試合の補助をするいなごんコーチ（右）</figcaption>
             </figure>
           </div>
 
@@ -409,28 +409,28 @@
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
               <img src="../assets/img/snapshot/staff-digda-and-minako-coach-art.png" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">ハロウィン当日の「りなコーチ」（手前）と「みなこコーチ」（奥）</figcaption>
+              <figcaption class="figure-caption">ハロウィン当日のりなコーチ（手前）とみなこコーチ（奥）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
               <img src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">生徒にボールを渡す「はやとコーチ」</figcaption>
+              <figcaption class="figure-caption">生徒にボールを渡すはやとコーチ</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
               <img src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">生徒に指示する「ゆうきコーチ」（左）、生徒たち（中）</figcaption>
+              <figcaption class="figure-caption">生徒に指示するゆうきコーチ（左）、生徒たち（中）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
               <img src="../assets/img/snapshot/staff-todai-ashiki-club.png" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち</figcaption>
+              <figcaption class="figure-caption">活躍する東大ア式部員たち</figcaption>
             </figure>
           </div>
 
