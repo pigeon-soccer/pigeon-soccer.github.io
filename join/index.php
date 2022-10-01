@@ -163,7 +163,7 @@
             <br>
             <br>社会の役に立ちたいからでしょうか？
             <br>それとも、自らの成長のためでしょうか？
-            <br>それとも、大学の講義の一環としてでしょうか？
+            <br>または、大学における福祉の講義の一環でしょうか？
           </p>
           <hr>
           <p>
@@ -303,7 +303,7 @@
                     <p>
                         - サッカー／ボランティア未経験者<br>
                         - 女性、学生・大学生、社会人<br>
-                        - 児童・福祉・非営利活動に関心がある人<br>
+                        - 児童・福祉・NPO(非営利)活動に関心がある人<br>
                         - 子ども達に優しく接してくれる人
                     </p>
                   </div>
@@ -405,7 +405,6 @@
             </figure>
           </div>
 
-
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
               <img src="../assets/img/snapshot/staff-digda-and-minako-coach-art.png" class="figure-img img-fluid rounded" alt="...">
@@ -415,15 +414,15 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">生徒にボールを渡す「はやとコーチ」</figcaption>
+              <img src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">生徒に指示する「ゆうきコーチ」（左）、生徒たち（中）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">生徒に指示する「ゆうきコーチ」（左）、生徒たち（中）</figcaption>
+              <img src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">生徒にボールを渡す「はやとコーチ」</figcaption>
             </figure>
           </div>
 
