@@ -383,6 +383,7 @@ h6 {
 @media (max-width: 575px) {
   #hero {
     background: url("../img/snapshot/heading-practice-2-student-art.jpg") top right;
+    height: 660px;
   }
   #hero h1 {
     font-size: 40px;
