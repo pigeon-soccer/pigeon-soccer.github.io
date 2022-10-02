@@ -33,7 +33,7 @@
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
           "image":"https://soccer.pigeon-handicap.org/assets/img//snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/assets/img//logo/pigeon_logo.png",
+          "logo": "https://soccer.pigeon-handicap.org/assets/img//logo/pigeon_logo.jpg",
         "url":"https://soccer.pigeon-handicap.org/"
       }, {
         "@context": "https://schema.org",
@@ -172,7 +172,7 @@
             <br><span class="enrichText">障がいのある子どもが笑顔になる居場所、学ぶ場としてあり続けること</span>です。
           </p>
           <figure class="figure">
-            <img src="../assets/img/snapshot/staff-rina-and-student-girl-art.png" class="figure-img img-fluid rounded" alt="..." loading="lazy">
+            <img src="../assets/img/snapshot/staff-rina-and-student-girl-art.jpg" class="figure-img img-fluid rounded" alt="..." loading="lazy">
             <figcaption class="figure-caption">初参加「りなコーチ」とパスの練習</figcaption>
           </figure>
           <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
@@ -195,7 +195,7 @@
             <br>そして、今では価値があるのは私たちにとっての生徒の存在、社会にとっての生徒の存在も同じだと考えています。
           </p>
           <figure class="figure">
-            <img src="../assets/img/snapshot/handshake-art.png" class="figure-img img-fluid rounded" alt="...">
+            <img src="../assets/img/snapshot/handshake-art.jpg" class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">試合前に生徒と握手する「むとうコーチ」（手前左）</figcaption>
           </figure>
           <p>下のスタッフの体験談は、それを表しています。</p>
@@ -245,7 +245,7 @@
         <div class="row">
           <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
                         <figure class="figure">
-              <img src="../assets/img/snapshot/general-coach-half-art.png" class="figure-img img-fluid rounded" alt="..." loading="lazy">
+              <img src="../assets/img/snapshot/general-coach-half-art.jpg" class="figure-img img-fluid rounded" alt="..." loading="lazy">
               <figcaption class="figure-caption">むとう監督の笑顔</figcaption>
             </figure>
           </div>
@@ -390,24 +390,27 @@
 
 
         <div class="row portfolio-container">
-
+          
+          <picture>
+            <source media="(min-width: 599px)" srcset="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.webp" type="image/webp">
+          </picture>
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.png" class="figure-img img-fluid rounded" alt="...">
+              <img src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">試合の前に気合を入れる「えまコーチ」（左）と生徒たち</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-inagon-art.png" class="figure-img img-fluid rounded" alt="...">
+              <img src="../assets/img/snapshot/staff-inagon-art.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">ボールを受け止める生徒と、試合の補助をする「いなごんコーチ」（右）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-digda-and-minako-coach-art.png" class="figure-img img-fluid rounded" alt="...">
+              <img src="../assets/img/snapshot/staff-digda-and-minako-coach-art.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">ハロウィン当日の「りなコーチ」（手前）と「みなこコーチ」（奥）</figcaption>
             </figure>
           </div>
@@ -428,7 +431,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-todai-ashiki-club.png" class="figure-img img-fluid rounded" alt="...">
+              <img src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち</figcaption>
             </figure>
           </div>
