@@ -46,3 +46,14 @@ $(document).on('click','.globalNav__btn', function() {
         right: rightVal
     }, 200);
 });
+
+$(function () {
+  // 沿革の年数表示
+  function calcPassedYear() {
+    var date = new Date();
+    var thisYear = date.getFullYear();
+    return thisYear - 2011;
+  }
+  console.log(calcPassedYear());
+  document.querySelector("#passedYeaer").innerText = calcPassedYear() + '年の'
+});

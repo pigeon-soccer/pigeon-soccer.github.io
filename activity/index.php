@@ -97,7 +97,7 @@
           <li>
             <figure class="convey__img"><img src="/assets/img/snapshot/smiling-children.jpg" alt="子どもの笑顔を引き出すイメージ画像 - 障がい児のためのサッカースクール"/></figure>
             <dl class="convey__content">
-              <dt>ココロ - 感受性</dt>
+              <dt>①ココロ&mdash;感受性</dt>
               <dd>子どもたちは、みんなでサッカーをすることの楽しさや、うまくシュートできたときの嬉しさ、できなかった悔しさを経験します。
                 私たちはそうしたなかで、特に「<strong>よく笑うこと</strong>」を強く推奨しています。
                 明るいココロを持つことで、人から愛されるようになることが、社会進出の第一歩だと考えているからです。</dd>
@@ -106,7 +106,7 @@
           <li>
             <figure class="convey__img"><img src="/assets/img/snapshot/practice-game.jpg" alt="自己管理能力を高める練習風景の写真 - 障がい児のためのサッカースクール"/></figure>
             <dl class="convey__content">
-              <dt>カラダ - 自己管理（+体力向上）</dt>
+              <dt>②カラダ&mdash;自己管理／体力</dt>
               <dd>障がいをもった子どもたちは、体調を崩しやすい傾向があります。
                 そのため「<strong>自分の体調を管理して伝えること</strong>」を身に着けることが大切になります。
                 どういう状況で体調を崩しやすいのか、前触れは何か、カラダの不調にどう対応するべきかということを、
@@ -116,7 +116,7 @@
           <li>
             <figure class="convey__img"><img src="/assets/img/snapshot/listen-to-the-coach.jpg" alt="鈴木ゆうきコーチのお話をよく聞く生徒たちの写真 - 障がい児のためのサッカースクール"/></figure>
             <dl class="convey__content">
-              <dt>ヒト - 協調性</dt>
+              <dt>③ヒト&mdash;協調性</dt>
               <dd>活動や試合の開始・終了時に挨拶をすること、練習のときにコーチの話を聞く姿勢のあること、
                 試合のときに仲間と協力してゴールに向かうことは、ピジョンが最も大切にすることのひとつです。
                 これら「<strong>挨拶すること</strong>」「<strong>聞くこと</strong>」「<strong>協力すること</strong>」は、人間関係をつくるうえで最も基礎となることだからです。</dd>

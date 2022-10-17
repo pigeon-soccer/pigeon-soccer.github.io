@@ -93,7 +93,7 @@
   <div id="mainContent">
     <section class="commonSection commonSection-problem">
       <div class="commonInner sectionContent commonInner-problem">
-        <h2 id="problem">課題感</h2>
+        <h2 id="problem">3つの課題感</h2>
         <p>私たち「ピジョン」は活動を始めてから、３つの課題感を持ちました。</p>
         <section class="subSummary subSummary-connection">
           <h3>１．居場所と経験の不足</h3>
@@ -145,7 +145,7 @@
     <section class="commonSection commonSection-mission" loading="lazy">
       <div class="commonSection-mission__wrapper">
         <div class="commonInner sectionContent">
-          <h2 id="mission" >ミッション</h2>
+          <h2 id="mission">2つのミッション</h2>
           <p>これら課題に対して私たちピジョンは、
           <br class="spNone">『障がいのある子たちが笑顔になれる居場所であり、学び場としてあり続けること』
           <br class="spNone">ひいては、『障がい者も健常者も共に手を取り合って生きていける社会に変えていくこと』
@@ -155,7 +155,7 @@
     </section>
     <section class="commonSection commonSection-solution">
       <div class="commonInner sectionContent commonInner-solution">
-        <h2 id="solution">取り組み</h2>
+        <h2 id="solution">3つの取り組み</h2>
         <p>ミッションを実現するため、私たちは以下3つのことを継続的に取り組んでいきます。</p>
         <ul class="commonInner__solution">
           <li class="solution__list">
@@ -185,7 +185,7 @@
     </section>
     <section class="commonSection commonSection-history">
       <div class="commonInner sectionContent commonInner-history">
-        <h2 id="history">沿革</h2>
+        <h2 id="history"><span id="passedYeaer"></span>沿革</h2>
         <div class="commonInner__history">
           <dl>
             <dt class="history__year">2011年04月</dt>
@@ -216,7 +216,7 @@
     </section>
     <section class="commonSection commonSection-introduce">
       <div class="commonInner sectionContent commonInner-introduce">
-        <h2 id="representative">役員の紹介</h2>
+        <h2 id="representative">4人の役員</h2>
         <div class="commonInner__introduce">
           <dl class="introduce__profile">
             <img src="/assets/img/staff/profile-muto.png" loading="lazy">
