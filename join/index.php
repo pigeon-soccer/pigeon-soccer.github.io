@@ -81,7 +81,7 @@
   <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet" loading="lazy">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <!-- =======================================================
@@ -171,7 +171,7 @@
             <br><span class="enrichText">障がいのある子どもが笑顔になる居場所、学ぶ場としてあり続けること</span>です。
           </p>
           <figure class="figure">
-            <img src="../assets/img/snapshot/staff-rina-and-student-girl-art.jpg" class="figure-img img-fluid rounded" alt="..." loading="lazy">
+            <img loading="lazy" width=602px height=453px src="../assets/img/snapshot/staff-rina-and-student-girl-art.jpg" class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">初参加「りなコーチ」とパスの練習</figcaption>
           </figure>
           <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
@@ -194,7 +194,7 @@
             <br>そして、今では価値があるのは私たちにとっての生徒の存在、社会にとっての生徒の存在も同じだと考えています。
           </p>
           <figure class="figure">
-            <img src="../assets/img/snapshot/handshake-art.jpg" class="figure-img img-fluid rounded" alt="...">
+            <img loading="lazy" width=685px height=456px src="../assets/img/snapshot/handshake-art.jpg" class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">試合前に生徒と握手する「むとうコーチ」（手前左）</figcaption>
           </figure>
           <p>下のスタッフの体験談は、それを表しています。</p>
@@ -243,8 +243,8 @@
 
         <div class="row">
           <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
-                        <figure class="figure">
-              <img src="../assets/img/snapshot/general-coach-half-art.jpg" class="figure-img img-fluid rounded" alt="..." loading="lazy">
+            <figure class="figure">
+              <img loading="lazy" width="355.9 0px" height="583.854px" src="../assets/img/snapshot/general-coach-half-art.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">むとう監督の笑顔</figcaption>
             </figure>
           </div>
@@ -389,55 +389,51 @@
 
 
         <div class="row portfolio-container">
-
-          <picture>
-            <source media="(min-width: 599px)" srcset="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.webp" type="image/webp">
-          </picture>
-          <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="386.604px" src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">試合の前に気合を入れる「えまコーチ」（左）と生徒たち</figcaption>
             </figure>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-inagon-art.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="355.990px" src="../assets/img/snapshot/staff-inagon-art.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">ボールを受け止める生徒と、試合の補助をする「いなごんコーチ」（右）</figcaption>
             </figure>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-digda-and-minako-coach-art.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="474.646px" src="../assets/img/snapshot/staff-digda-and-minako-coach-art.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">ハロウィン当日の「りなコーチ」（手前）と「みなこコーチ」（奥）</figcaption>
             </figure>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="246.594px" src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">生徒に指示する「ゆうきコーチ」（左）、生徒たち（中）</figcaption>
             </figure>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="277.938px" src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">生徒にボールを渡す「はやとコーチ」</figcaption>
             </figure>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="423.479px" src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち</figcaption>
             </figure>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item" loading="lazy">
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img src="../assets/img/snapshot/event-hollowin.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="213.781px" src="../assets/img/snapshot/event-hollowin.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">ハロウィンの残骸</figcaption>
             </figure>
           </div>
@@ -448,7 +444,7 @@
     </section><!-- End My Portfolio Section -->
 
     <!-- ======= Contact Me Section ======= -->
-    <section id="contact" class="contact" loading="lazy">
+    <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
@@ -485,7 +481,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" loading="lazy">
+  <footer id="footer">
     <div class="container">
       <h3>NPO法人ピジョン</h3>
       <p>ココロをつなぐ、パスをする<br>――障がい者も健常者も共に手を取り合って生きていける社会に向けて。</p>
