@@ -389,7 +389,7 @@
 
 
         <div class="row portfolio-container">
-          
+
           <picture>
             <source media="(min-width: 599px)" srcset="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.webp" type="image/webp">
           </picture>

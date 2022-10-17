@@ -1717,3 +1717,8 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 #contact #mainContent>section:nth-of-type(odd){
   background-color: white;
 }
+
+
+#__next>div>div>div>div.css-1dbjc4n.r-140t1nj.r-qklmqi.r-1cbz2o1>a>div>a>span {
+  color: red;
+}
