@@ -65,12 +65,7 @@ a:hover{
 a:hover > img{ /* 画像リンク⇒ホバー時に透過 */
   opacity: 0.8;
 }
-.txtLink a{
-  text-decoration:underline;
-}
-.txtLink a:hover{
-  text-decoration: none;
-}
+
 p.noticeTxt{ /* 文頭に"※"等がつく注意書き */
   padding-left: 1em;
   text-indent: -1em;
@@ -487,32 +482,6 @@ section.commonSection section:not(:first-of-type){
     margin-bottom: 40px;
 }
 /* △ ボタン △ */
-
-/* ▽ テキストリンク ▽ */
-.txtLink a{
-  position: relative;
-  padding:0 26px;
-}
-.txtLink a:before{
-  content: "";
-  position: absolute;
-  top:0;
-  left:0;
-  width:13px;
-  height:20px;
-  background: url(../img/icon/index_ic_001.png) no-repeat 0 0 /13px 20px;
-}
-.txtLink a:after{
-  content: "";
-  position: absolute;
-  top:0;
-  right:0;
-  width:20px;
-  height:20px;
-  background: url(../img/icon/index_ic_004.png) no-repeat 0 0 /20px 20px;
-}
-/* △ テキストリンク △ */
-
 
 
 /* ▽ コンテンツ -【index】▽ */
@@ -1722,3 +1691,38 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 #__next>div>div>div>div.css-1dbjc4n.r-140t1nj.r-qklmqi.r-1cbz2o1>a>div>a>span {
   color: red;
 }
+
+.txtLink a {
+  text-decoration: underline;
+}
+
+.txtLink a:hover {
+  text-decoration: none;
+}
+/* ▽ テキストリンク ▽ */
+.txtLink a {
+  position: relative;
+  padding: 0 26px;
+}
+
+.txtLink a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13px;
+  height: 20px;
+  background: url(../img/icon/index_ic_001.png) no-repeat 0 0 /13px 20px;
+}
+
+.txtLink a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: url(../img/icon/index_ic_004.png) no-repeat 0 0 /20px 20px;
+}
+
+/* △ テキストリンク △ */

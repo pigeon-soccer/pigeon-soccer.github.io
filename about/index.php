@@ -225,11 +225,13 @@
               <p class="introduce__name">武藤 太智<br>(Muto Taichi)</p>
             </dt>
             <dd class="introduce__career">
-              日本サッカー協会公認ライセンス取得。
-              NPO法人ピジョンにて指導方式の策定や指導のフィードバックなど教育を監督。
-              また、福祉業界に従事する傍ら、
-              幼児・小学生・社会人のサッカークラブ「アンマリアトーレ」で監督を兼任中。
-              その他の中学生・高校生チームの監督経験も多数あり。
+              <p class="txtLink">
+                日本サッカー協会公認ライセンス取得。
+                NPO法人ピジョンにて指導方式の策定や指導のフィードバックなど教育を監督。
+                また、福祉業界に従事する傍ら、
+                幼児・小学生・社会人のサッカークラブ「<a href="http://ammaliatore.com/">アンマリアトーレ</a>」で監督を兼任中。
+                その他の中学生・高校生チームの監督経験も多数あり。
+              </p>
               </dd>
           </dl>
           <dl class="introduce__profile">
@@ -239,10 +241,12 @@
               <p class="introduce__name">鈴木 祐揮<br>(Suzuki Yuuki)</p>
             </dt>
             <dd class="introduce__career">
-              障害者スポーツ指導員のライセンス取得。
-              NPO法人ピジョンの教室でコーチのリーダーを務めるとともに、事務局を主管。
-              サッカークラブ「アンマリアトーレ」にて小学生・幼児の指導経験あり。
-              本職では営業職に従事。
+              <p class="txtLink">
+                障害者スポーツ指導員のライセンス取得。
+                NPO法人ピジョンの教室でコーチのリーダーを務めるとともに、事務局を主管。
+                サッカークラブ「アンマリアトーレ」にて小学生・幼児の指導経験あり。
+                本職では営業職に従事。
+              </p>
               </dd>
           </dl>
         </div>
@@ -254,6 +258,9 @@
               <p class="introduce__name">江俣 真人<br>(Emata Masato)</p>
             </dt>
             <dd class="introduce__career">
+              <p>
+
+              </p>
               事業展開のためにサイトや会員サービスなど仕組みの企画・構築、およびマーケティングの企画・施策を主管。本職ではITエンジニアとして従事。
           </dl>
           <dl class="introduce__profile">
@@ -263,6 +270,9 @@
               <p class="introduce__name">氏森 政利<br>(Ujimori Masatoshi)</p>
             </dt>
             <dd class="introduce__career">
+              <p>
+
+              </p>
               法的手続きや規約などのアドバイザーとして参画。本職では弁護士として従事。
           </dl>
         </div>
