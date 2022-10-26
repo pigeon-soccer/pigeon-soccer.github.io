@@ -93,6 +93,7 @@
           <h2 class="mb-3 mt-5">内容</h2>
           <div id="attribute_about"></div>
           <div id="attribute_agerange"></div>
+          <div id="attribute_symptom"></div>
           <div id="attribute_detail"></div>
           <div id="attribute_privacy"></div>
           <div class="mt-5">

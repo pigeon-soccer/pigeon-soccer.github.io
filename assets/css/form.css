@@ -72,3 +72,7 @@ select {
 .modal-footer .btn-primary {
   background: #6dab21;
 }
+input::-webkit-calendar-picker-indicator {
+  display: none;
+  opacity: 0;
+}

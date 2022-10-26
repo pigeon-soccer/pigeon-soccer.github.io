@@ -6,6 +6,7 @@ $(function(){
   $("#attribute_email").load("../components/attribute_email.html");
   $("#attribute_detail").load("../components/attribute_detail.html");
   $("#attribute_about").load("../components/attribute_about.html");
+  $("#attribute_symptom").load("../components/attribute_symptom.html");
   $("#attribute_privacy").load("../components/attribute_privacy.html");
   $("#attribute_submit").load("../components/attribute_submit.html");
 });
