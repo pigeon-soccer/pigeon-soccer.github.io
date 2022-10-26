@@ -126,7 +126,8 @@
               </div>
             </div>
             <div class="summary__snsWindow">
-              <a class="twitter-timeline" data-height="666" href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Tweets by PigeonSoccerNPO</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-height="666" href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Tweets</a>
+              <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
           </div>
         </section>

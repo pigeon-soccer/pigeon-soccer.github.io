@@ -1582,8 +1582,10 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
         float: left;
   }
   .summary__snsWindow {
-    width: 300px;
+    width: 350px;
     border: inset;
+    height: 660px;
+    margin: auto;
   }
 
   /* ▽ about ▽*/
