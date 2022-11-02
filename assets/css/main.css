@@ -1287,7 +1287,12 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 }
 /* ▲▲▲ Resposive Version ～PC First～ end ▲▲▲ */
 
-
+.summary__snsWindow {
+  width: 350px;
+  border: inset;
+  height: 660px;
+  margin: auto;
+}
 /* ▼▼▼ 600px～ PC only ▼▼▼
 ================================*/
 /* @media screen and (min-width: 600px), print {
@@ -1580,12 +1585,6 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
     border-style: none;
         width: 100%;
         float: left;
-  }
-  .summary__snsWindow {
-    width: 350px;
-    border: inset;
-    height: 660px;
-    margin: auto;
   }
 
   /* ▽ about ▽*/
