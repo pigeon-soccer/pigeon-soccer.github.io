@@ -127,7 +127,7 @@
     </section>
     <section class="commonSection">
       <div class="commonInner sectionContent">
-        <h2>体験エピソード</h2>
+        <h2 id="episode">保護者の体験談</h2>
         <div class="episode">
           <dl class="episode__elm">
             <dt>保護者Sさん<br>(お子さん:7歳、脳性麻痺)</dt>
