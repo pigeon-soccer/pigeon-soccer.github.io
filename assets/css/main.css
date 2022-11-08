@@ -558,11 +558,9 @@ section.commonSection .summary__content{
   flex-wrap: wrap;
 }
 section.commonSection section.summary .summary__txtWrapper{
-  width: 550px;
   line-height: 1.8;
-    margin-left: 20px;
-    margin-right: 20px;
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 section.commonSection h2.summary__heading{
   display: inline-block;
@@ -1728,3 +1726,15 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 
 /* △ テキストリンク △ */
 
+
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.width550 {
+  width: 550px;
+}
+.height750 {
+  height: 750px;
+}
