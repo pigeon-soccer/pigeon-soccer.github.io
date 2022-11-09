@@ -145,7 +145,7 @@
                     <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                       <div class="count-box">
                         <i class="bi bi-book" style="color: #E05126"></i>
-                        <p class="txtLink"><a href="/activity/#episode" target="_blank">スタッフのアルバム</a></p>
+                        <p class="txtLink"><a href="/join/#portfolio" target="_blank">スタッフのアルバム</a></p>
                         <p>
                           <i class="bi bi-box-arrow-up-right"></i>
                           <p>活動を支える現地のスタッフや生徒達の写真掲載しています(生徒の写真はプライバシー保護のためあまり充実させておりません)。</p>
@@ -155,7 +155,7 @@
                     <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                       <div class="count-box">
                         <i class="bi bi-geo-alt" style="color: #f3a200;"></i>
-                        <p class="txtLink"><a href="/activity/#episode" target="_blank">インタビュー動画</a></p>
+                        <p class="txtLink"><a href="https://www.youtube.com/embed/QlHb1P33YLU" target="_blank">インタビュー動画</a></p>
                         <p>株式会社IR Robotics様の「Japan Stock Channel」に取材いただいた、代表・副代表理事のインタビュー動画です</p>
                         <iframe width="344" height="315" src="https://www.youtube.com/embed/QlHb1P33YLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
@@ -163,7 +163,7 @@
                     <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch height750">
                       <div class="count-box">
                         <i class="bi bi-geo-alt" style="color: #f3a200;"></i>
-                        <p class="txtLink"><a href="/activity/#episode" target="_blank">SNS</a></p>
+                        <p class="txtLink"><a href="https://twitter.com/PigeonSoccerNPO" target="_blank">SNS</a></p>
                         <p>日々の活動の内容やスタッフの気づきを報告しています。</p>
                         <a class="twitter-timeline" data-height="666" href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Twitter読み込み中...</a>
                         <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
