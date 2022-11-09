@@ -208,6 +208,10 @@
             <dd class="history__summary">教室を「Pigeon(ピジョン)」に改名して活動を活発化。サイトとSNSを公開</dd>
           </dl>
           <dl>
+            <dt class="history__year">2020年12月</dt>
+            <dd class="history__summary">東京大学ア式蹴球部(サッカー部)による支援（文京区における地域支援）が開始</dd>
+          </dl>
+          <dl>
             <dt class="history__year">2021年10月</dt>
             <dd class="history__summary">NPO法人化</dd>
           </dl>
