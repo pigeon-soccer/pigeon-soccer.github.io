@@ -232,7 +232,7 @@
               <p class="txtLink txtLinkInline">
                 日本サッカー協会公認ライセンス取得。
                 NPO法人ピジョンにて指導方式の策定や指導のフィードバックなど教育を監督。
-                また、福祉業界に従事する傍ら、幼児・小学生・社会人のサッカークラブ「<a href="http://ammaliatore.com/" target="_blank">アンマリアトーレ</a>」
+                また、福祉業界に従事する傍ら、幼児・小学生から社会人まで対応のサッカークラブ「<a href="http://ammaliatore.com/" target="_blank">アンマリアトーレ</a>」（埼玉県川口市）
                 で監督を兼任中。その他の中学生・高校生チームの監督経験も多数あり。
                 インタビュー記事は<a href="https://thefocus-on.com/muto_taichi/" target="_blank">こちら</a>
               </p>
