@@ -156,7 +156,7 @@
                       <div class="count-box">
                         <i class="bi bi-geo-alt" style="color: #f3a200;"></i>
                         <p class="txtLink txtLinkEmphasis"><a href="https://www.youtube.com/embed/QlHb1P33YLU" target="_blank">インタビュー動画</a></p>
-                        <p>株式会社IR Robotics様の「Japan Stock Channel」に取材いただいた、代表・副代表理事のインタビュー動画です</p>
+                        <p>株式会社IR Robotics様の「Japan Stock Channel」に取材いただいた、代表理事・武藤、副代表・鈴木のインタビュー動画です</p>
                         <iframe width="344" height="315" src="https://www.youtube.com/embed/QlHb1P33YLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
