@@ -209,7 +209,7 @@
           </dl>
           <dl>
             <dt class="history__year">2020年12月</dt>
-            <dd class="history__summary">東京大学ア式蹴球部(サッカー部)による支援（文京区における地域支援）が開始</dd>
+            <dd class="history__summary"><p class="txtLink txtLinkInline"><a href="https://todai-soccer.com/" target="_blank">東京大学ア式蹴球部(サッカー部)</a>による支援（文京区における地域支援）が開始</p></dd>
           </dl>
           <dl>
             <dt class="history__year">2021年10月</dt>
