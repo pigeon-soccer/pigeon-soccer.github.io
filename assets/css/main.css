@@ -1701,10 +1701,12 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
 /* ▽ テキストリンク ▽ */
 .txtLink a {
   position: relative;
+}
+.txtLinkEmphasis a {
   padding: 0 26px;
 }
 
-.txtLink a:before {
+.txtLinkEmphasis a:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1723,7 +1725,12 @@ footer .footer-infomation .pageTop-up a,ul.snsWrapper__btn > li a:hover,.snsPriv
   height: 20px;
   background: url(../img/icon/index_ic_004.png) no-repeat 0 0 /20px 20px;
 }
-
+.txtLinkInline a {
+  padding-left: 26px;
+}
+.txtLinkInline a:after {
+   left: 0;
+ }
 /* △ テキストリンク △ */
 
 

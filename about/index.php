@@ -229,11 +229,10 @@
               <p class="introduce__name">武藤 太智<br>(Muto Taichi)</p>
             </dt>
             <dd class="introduce__career">
-              <p class="txtLink">
+              <p class="txtLink txtLinkInline">
                 日本サッカー協会公認ライセンス取得。
                 NPO法人ピジョンにて指導方式の策定や指導のフィードバックなど教育を監督。
-                また、福祉業界に従事する傍ら、幼児・小学生・社会人のサッカークラブ
-                「<a href="http://ammaliatore.com/" target="_blank">アンマリアトーレ</a>」
+                また、福祉業界に従事する傍ら、幼児・小学生・社会人のサッカークラブ「<a href="http://ammaliatore.com/" target="_blank">アンマリアトーレ</a>」
                 で監督を兼任中。その他の中学生・高校生チームの監督経験も多数あり。
                 インタビュー記事は<a href="https://thefocus-on.com/muto_taichi/" target="_blank">こちら</a>
               </p>
@@ -246,7 +245,7 @@
               <p class="introduce__name">鈴木 祐揮<br>(Suzuki Yuuki)</p>
             </dt>
             <dd class="introduce__career">
-              <p class="txtLink">
+              <p class="txtLink txtLinkInline">
                 障害者スポーツ指導員のライセンス取得。
                 NPO法人ピジョンの教室でコーチのリーダーを務めるとともに、事務局を主管。
                 サッカークラブ「アンマリアトーレ」にて小学生・幼児の指導経験あり。
@@ -264,10 +263,9 @@
               <p class="introduce__name">江俣 真人<br>(Emata Masato)</p>
             </dt>
             <dd class="introduce__career">
-              <p>
-
+              <p class="txtLink txtLinkInline">
+                事業展開のために本サイトや会員サービスなど仕組みの企画・構築、およびマーケティングの企画・施策を主管。本職ではITエンジニアとして従事。
               </p>
-              事業展開のために本サイトや会員サービスなど仕組みの企画・構築、およびマーケティングの企画・施策を主管。本職ではITエンジニアとして従事。
           </dl>
           <dl class="introduce__profile">
             <img src="/assets/img/icon/index_im_001.png" loading="lazy">
@@ -276,14 +274,13 @@
               <p class="introduce__name">氏森 政利<br>(Ujimori Masatoshi)</p>
             </dt>
             <dd class="introduce__career">
-              <p class="txtLink">
-                法的手続きや規約などのアドバイザーとして参画。本職では弁護士(東京弁護士会)として従事。
-                <br>「<a href="https://sashiireya.com/bengoshi/lawyer_37749.php" target="_blank">氏森総合法律事務所</a>」
+              <p class="txtLink txtLinkInline">
+                法的手続きや規約などのアドバイザーとして参画。本職では弁護士(東京弁護士会)として従事。「<a href="https://sashiireya.com/bengoshi/lawyer_37749.php" target="_blank">氏森総合法律事務所</a>」
                 代表
               </p>
           </dl>
         </div>
-        <p class="txtLink">
+        <p class="txtLink txtLinkEmphasis">
             <a href="https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013788.html" target="_blank">NPO法人の開示情報はこちら<span class="spNone">をご覧ください。</span></a>
         </p>
       </div>
