@@ -222,7 +222,7 @@ ul.globalNav__menu > li a:before{
       background: url(../img/icon/index_ic_001.png) no-repeat 0 0/13px 20px;
       left: -0.5vw;
 }
-ul > li.menu__parent > a:hover:after{
+ul > li.menu__parent > a:hover:after {
   content: "";
   position: absolute;
   bottom:0;

@@ -108,7 +108,7 @@
         <li><a class="nav-link" href="#whyVolunteer">ボランティアの価値</a></li>
         <li><a class="nav-link" href="#about">募集の情報</a></li>
         <li><a class="nav-link" href="#portfolio">アルバム写真</a></li>
-        <li><a class="nav-link" href="#contact">相談・体験する</a></li>
+        <li><a class="nav-link" href="https://pigeon.smktg.jp/public/application/add/263">相談・体験する</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -133,7 +133,7 @@
             大学生・社会人・女性など幅広く在籍
         </figcaption>
       </figure>
-      <a class="mt-5" href="#contact"><button type="button" class="btn btn-outline-primary greenBkButton">見学・体験を申し込む</button></a>
+      <a class="mt-5" href="https://pigeon.smktg.jp/public/application/add/263"><button type="button" class="btn btn-outline-primary greenBkButton">見学・体験を申し込む</button></a>
       <a href="#whyVolunteer" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
   </section><!-- End Hero -->
@@ -368,7 +368,7 @@
 
             </div><!-- End .content-->
 
-            <a class="mt-5" href="#contact"><button type="button" class="btn btn-outline-primary">見学・体験を申し込む</button></a>
+            <a class="mt-5" href="https://pigeon.smktg.jp/public/application/add/263"><button type="button" class="btn btn-outline-primary">見学・体験を申し込む</button></a>
 
           </div>
         </div>
@@ -448,12 +448,16 @@
       <div class="container">
 
         <div class="section-title">
-          <span>相談・体験する</span>
-          <h2>相談・体験する</h2>
-          <p>いつでもご連絡や見学・体験の申し込みを心待ちにしております。</p>
+          <!-- <span>相談・体験する</span> -->
+          <!-- <h2>相談・体験する</h2> -->
+          <h4 class="text-center">
+            <a type="submit" href="https://pigeon.smktg.jp/public/application/add/263" class="submitButton">連絡して、参加する</a>
+          </h4>
+          <figcaption class="figure-caption">
+            いつでもご連絡を心待ちにしております。見学・体験がご不安な方は先に相談いただいても構いません。</figcaption>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
 
 
           <div>
@@ -473,7 +477,7 @@
             </form>
           </div>
 
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End Contact Me Section -->
@@ -506,7 +510,7 @@
 
   <!-- Template Main JS File -->
   <script defer src="../assets/js/join.js" defer></script>
-  <script defer src="../assets/js/form.js" defer></script>
+  <!-- <script defer src="../assets/js/form.js" defer></script> -->
   <!-- Vendor JS Files -->
   <script defer src="../assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
   <script defer src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
@@ -514,8 +518,8 @@
   <script defer src="../assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
   <script defer src="../assets/vendor/swiper/swiper-bundle.min.js" defer></script>
   <script defer src="../assets/vendor/waypoints/noframework.waypoints.js" defer></script>
-  <script defer src="../assets/vendor/php-email-form/validate.js" defer></script>
-  <script defer src="https://sdk.form.run/js/v2/formrun.js" defer></script>
+  <!-- <script defer src="../assets/vendor/php-email-form/validate.js" defer></script> -->
+  <!-- <script defer src="https://sdk.form.run/js/v2/formrun.js" defer></script> -->
 
 
 </body>
