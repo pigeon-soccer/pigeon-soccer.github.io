@@ -190,14 +190,13 @@
           </blockquote>
           <p>
             と声をかけていただきました。
-            <br>この体験を通して受けた印象があります。それは、私が「<span class="enrichText">何をできるか以上に、その場に存在すること自体、価値がある</span>」 ということです。
-            <br>そして価値があるのは「ボランティア参加者にとっての生徒の存在」「社会にとっての生徒の存在」も同じだと考えています。
+            <br>この体験で受けた印象は私が「<span class="enrichText">何をできるか以上に、その場に存在すること自体、価値がある</span>」 ということです。
+            <br>そして価値があるのは「ボランティア参加者(そして社会)にとっての生徒の存在」も同じだと考えています。
           </p>
           <figure class="figure">
             <img loading="lazy" width=685px height=456px src="../assets/img/snapshot/handshake-art.jpg" class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">試合前に生徒と握手する「むとうコーチ」（手前左）</figcaption>
           </figure>
-          <p>スタッフの体験談は、活動により双方向の成長が促されることを表しています。</p>
           <h3 class="mt-5">スタッフの体験談</h3>
           <blockquote class="blockquoteDecoration normalFontWSize">
             <p>以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。
@@ -218,6 +217,12 @@
               大学生 男性
             </cite>
           </blockquote>
+
+          <figure class="figure">
+              <img loading="lazy" width="355.9px" height="423.479px" src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち。成蹊大学、東洋大学、武蔵野大学などから定期的に参加してくれる大学生が増えています。</figcaption>
+          </figure>
+
           <h3 class="mt-5">力を貸してください</h3>
           <p>
             私たち自身も目の前の生徒と過ごすなかで、感受性が豊かになります。
@@ -389,7 +394,6 @@
           <p>スタッフ紹介を兼ねて全員ではありませんが、一部写真を掲載します。<br>スタッフ、生徒みんな和気あいあいとしています。<br>最近は大学生の方が増えてきました。</p>
         </div>
 
-
         <div class="row portfolio-container">
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
@@ -416,13 +420,6 @@
             <figure class="figure">
               <img loading="lazy" width="355.9px" height="246.594px" src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">生徒に指示する「ゆうきコーチ」（左）、生徒たち（中）</figcaption>
-            </figure>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <figure class="figure">
-              <img loading="lazy" width="355.9px" height="423.479px" src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち</figcaption>
             </figure>
           </div>
 
