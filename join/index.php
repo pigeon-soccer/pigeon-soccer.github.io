@@ -166,8 +166,8 @@
           </p>
           <hr>
           <p>
-            はじめまして、「NPO法人 ピジョン」運営の江俣と申します。
-            <br>この教室の目的は、サッカーというチームスポーツを通して、
+            はじめまして、「NPO法人 ピジョン」の運営に携わっている江俣と申します。
+            <br>この教室の目的は、チームスポーツであるサッカーを通して、
             <br><span class="enrichText">障がいのある子どもが笑顔になる居場所、学ぶ場としてあり続けること</span>です。
           </p>
           <figure class="figure">
@@ -177,27 +177,27 @@
           <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
           <h3 class="mt-5">サッカー未経験、子どもも不得意</h3>
           <p>
-            私がピジョンの活動に初参加したのは、社会人になり数年経ったころです。
-            <br>仕事でもそれ以外でも、自分に何ができるかを模索していました。
-            <br>そんな折り友人の鈴木に誘われて、ピジョンの活動を始めました。
-            <br>もともと<span class="enrichText">サッカーは未経験</span>であり、<span class="enrichText">子どもも不得意</span>でした。
-            <br>ですが、各々の個性を持った彼らの率直な感情表現に触れることは、とても楽しく、学びになり、充足感のある体験でした。
+            私がピジョンの活動に初参加したのは、社会人になったばかりの頃です。
+            <br>仕事でもそれ以外でも、何が自分にできるかを模索していました。
+            <br>そんな折り団体副代表の鈴木に誘われ、まずは活動を体験しました。
+            <br>もともと<span class="enrichText">サッカーは未経験</span>。<span class="enrichText">子どもも不得意</span>でした。
+            <br>ですが、個性ある彼らの率直な感情表現に触れることは、とても楽しく、充足感があり、学びになる体験でした。
             <br>
-            <br>その日の活動の終わり、生徒たちと一緒にご飯を食べているとき、生徒の母親から
+            <br>初めての活動の終わり、生徒たちとファミレスでご飯を食べました。そのとき、生徒の母親から
           </p>
           <blockquote class="blockquoteDecoration normalFontWSize">
             <p>一緒にいてくれてありがとう</p>
           </blockquote>
           <p>
             と声をかけていただきました。
-            <br>私がこの体験を通して受けた印象は「<span class="enrichText">何ができるか以上に、その場に存在すること自体、価値がある</span>」 ということでした。
-            <br>そして、今では価値があるのは私たちにとっての生徒の存在、社会にとっての生徒の存在も同じだと考えています。
+            <br>この体験を通して受けた印象があります。それは、私が「<span class="enrichText">何をできるか以上に、その場に存在すること自体、価値がある</span>」 ということです。
+            <br>そして価値があるのは「ボランティア参加者にとっての生徒の存在」「社会にとっての生徒の存在」も同じだと考えています。
           </p>
           <figure class="figure">
             <img loading="lazy" width=685px height=456px src="../assets/img/snapshot/handshake-art.jpg" class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">試合前に生徒と握手する「むとうコーチ」（手前左）</figcaption>
           </figure>
-          <p>下のスタッフの体験談は、それを表しています。</p>
+          <p>スタッフの体験談がそれを表しています。</p>
           <h3 class="mt-5">スタッフの体験談</h3>
           <blockquote class="blockquoteDecoration normalFontWSize">
             <p>以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。
@@ -220,10 +220,12 @@
           </blockquote>
           <h3 class="mt-5">力を貸してください</h3>
           <p>
-            私たち自身も目の前の子どもたちと一緒にいることで感受性が豊かになり、試行錯誤するなかで成長します。
-            <br>それは結果的に社会の理解と貢献につながると考えています。
+            私たち自身も目の前の生徒と過ごすなかで、感受性が豊かになります。
+            <br>教育の質を高めるための試行錯誤を経て、団体としても成長します。
+            <br>それは結果的に、社会の理解と貢献につながると考えています。
             <br>
-            <br>したがってピジョンでは目の前の子どもたちに「より深く関わっていくこと」を目指すとともに、それを通して身につけたノウハウを各地に波及して「より多く関わっていくこと」を目指しています。
+            <br>そのためにピジョンは、まずは目の前の子どもたちに「より深く関わっていくこと」を目指しています。
+            <br>それとともに、活動で得られたノウハウを他の地域に波及して「より多く関わっていくこと」を目指しています。
             <br>
             <br>しかし、生徒の数や活動の量を増やそうにも、現状そのために活動できる<span class="enrichText">仲間＝ボランティア(スタッフ)メンバーが足りていません</span>。
             <br>ですので少しでも興味があれば、活動に参加してみてください！
@@ -304,10 +306,10 @@
                         - 女性、学生・大学生、社会人<br>
                         - 児童・福祉・NPO(非営利)活動に関心がある人<br>
                         - 子ども達に優しく接してくれる人
+                        - 向上心のある人
                     </p>
                   </div>
                 </div>
-
               </div>
 
               <div class="mt-4">
@@ -419,15 +421,15 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="277.938px" src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">生徒にボールを渡す「はやとコーチ」</figcaption>
+              <img loading="lazy" width="355.9px" height="423.479px" src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="423.479px" src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち</figcaption>
+              <img loading="lazy" width="355.9px" height="277.938px" src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">生徒にボールを渡す「はやとコーチ」</figcaption>
             </figure>
           </div>
 
