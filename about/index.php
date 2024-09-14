@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
   <title>ミッションと沿革 | 障がい児のサッカースクール NPO法人ピジョン</title>
-  <link rel="canonical" href="https://soccer.pigeon-handicap.org/about/">
+  <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/about/">
   <meta name="description" content="東京文京区で2010年4月から活動するサッカースクール「ピジョン」の沿革・理念。自閉症やダウン症といった症状がある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指す。">
   <script type="application/ld+json">
     [
@@ -24,12 +24,12 @@
           "https://twitter.com/PigeonSoccerNPO",
           "https://www.facebook.com/pigeon.soccer/"
           ],
-          "email": "share@pigeon-handicap.org",
+          "email": "share@pigeon-2ndplace.org",
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/assets/img/logo/pigeon_logo.png",
-        "url":"https://soccer.pigeon-handicap.org/"
+          "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "logo": "https://soccer.pigeon-2ndplace.org/assets/img/logo/pigeon_logo.png",
+        "url":"https://soccer.pigeon-2ndplace.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "SportsTeam",
@@ -48,12 +48,12 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-        "url":"https://soccer.pigeon-handicap.org/"
+        "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+        "url":"https://soccer.pigeon-2ndplace.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "url": "https://soccer.pigeon-handicap.org/",
+        "url": "https://soccer.pigeon-2ndplace.org/",
         "creator": "江俣真人(えまたまさと)"
       }
     ]
