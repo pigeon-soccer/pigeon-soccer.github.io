@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
   <title>相談・体験の連絡 | 障がい児のサッカースクール NPO法人ピジョン</title>
-  <link rel="canonical" href="https://soccer.pigeon-handicap.org/contact/">
+  <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/contact/">
   <script type="application/ld+json">
     [
       {
@@ -23,12 +23,12 @@
           "https://twitter.com/PigeonSoccerNPO",
           "https://www.facebook.com/pigeon.soccer/"
           ],
-          "email": "share@pigeon-handicap.org",
+          "email": "share@pigeon-2ndplace.org",
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/assets/img/logo/pigeon_logo.png",
-        "url":"https://soccer.pigeon-handicap.org/"
+          "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "logo": "https://soccer.pigeon-2ndplace.org/assets/img/logo/pigeon_logo.png",
+        "url":"https://soccer.pigeon-2ndplace.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "SportsTeam",
@@ -47,17 +47,17 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "image":"https://soccer.pigeon-handicap.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-        "url":"https://soccer.pigeon-handicap.org/"
+        "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+        "url":"https://soccer.pigeon-2ndplace.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "url": "https://soccer.pigeon-handicap.org/",
+        "url": "https://soccer.pigeon-2ndplace.org/",
         "creator": "江俣真人(えまたまさと)"
       }
     ]
   </script>
-  <link rel="canonical" href="https://soccer.pigeon-handicap.org/contact/">
+  <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/contact/">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico"/>
   <!-- Google Tag Manager -->

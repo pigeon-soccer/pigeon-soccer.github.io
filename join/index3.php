@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>ボランティア募集の情報 | 障がい児のサッカースクール NPO法人ピジョン</title>
-  <link rel="canonical" href="https://soccer.pigeon-handicap.org/join/">
+  <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/join/">
   <meta name="description" content="ボランティアスタッフのメンバー募集。児童・福祉・非営利活動に関心がある人、サッカー／ボランティア未経験者・女性・大学生・社会人など幅広く歓迎！">
   <meta content="ボランティア募集,児童,福祉,未経験歓迎,大学生,社会人,女性,文京区,東京" name="keywords">
 
@@ -29,12 +29,12 @@
           "https://twitter.com/PigeonSoccerNPO",
           "https://www.facebook.com/pigeon.soccer/"
           ],
-          "email": "share@pigeon-handicap.org",
+          "email": "share@pigeon-2ndplace.org",
           "alternateName": "障がい児のためのサッカースクール",
           "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-handicap.org/assets/img//snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-handicap.org/assets/img//logo/pigeon_logo.png",
-        "url":"https://soccer.pigeon-handicap.org/"
+          "image":"https://soccer.pigeon-2ndplace.org/assets/img//snapshot/heading-practice-throwing-ball-mini.jpg",
+          "logo": "https://soccer.pigeon-2ndplace.org/assets/img//logo/pigeon_logo.png",
+        "url":"https://soccer.pigeon-2ndplace.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "SportsTeam",
@@ -53,12 +53,12 @@
           "postalCode":"112-0015",
           "addressCountry":"JP"
         },
-        "image":"https://soccer.pigeon-handicap.org/assets/img//snapshot/heading-practice-throwing-ball-mini.jpg",
-        "url":"https://soccer.pigeon-handicap.org/"
+        "image":"https://soccer.pigeon-2ndplace.org/assets/img//snapshot/heading-practice-throwing-ball-mini.jpg",
+        "url":"https://soccer.pigeon-2ndplace.org/"
       }, {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "url": "https://soccer.pigeon-handicap.org/",
+        "url": "https://soccer.pigeon-2ndplace.org/",
         "creator": "江俣真人(えまたまさと)"
       }
     ]
