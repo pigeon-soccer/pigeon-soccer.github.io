@@ -3,14 +3,13 @@ RewriteEngine On
 # 変数の設定
 SetEnvIf Host ^soccer\.pigeon-handicap\.org$ OLD_DOMAIN [NC,OR]
 SetEnvIf Host ^www\.soccer\.pigeon-handicap\.org$ OLD_DOMAIN [NC]
-SetEnv NEW_DOMAIN soccer.pigeon-2ndplace.org
 
 # 古いドメインへのリクエストを新しいドメインにリダイレクト (HTTP -> HTTPSも含む)
 RewriteCond %{ENV:OLD_DOMAIN} !=""
 RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
 RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{ENV:NEW_DOMAIN}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://soccer.pigeon-2ndplace.org%{REQUEST_URI} [L,R=301]
 
 # www付きの新しいドメインへのリクエストをwwwなしにリダイレクト
-RewriteCond %{HTTP_HOST} ^www\.%{ENV:NEW_DOMAIN}$ [NC]
-RewriteRule ^ https://%{ENV:NEW_DOMAIN}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.soccer\.pigeon-2ndplace\.org$ [NC]
+RewriteRule ^ https://soccer.pigeon-2ndplace.org%{REQUEST_URI} [L,R=301]
