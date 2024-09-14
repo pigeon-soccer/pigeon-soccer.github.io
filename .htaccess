@@ -1,6 +1,7 @@
 RewriteEngine On
 
-# ensure https
+### リクエストされたホストが旧ドメインかつHTTPSでない場合に新しいドメインのHTTPSにリダイレクトする ###
+RewriteCond %{HTTP_HOST} ^(www\.)?soccer\.pigeon-handicap\.org$ [NC]
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://soccer.pigeon-2ndplace.org%{REQUEST_URI} [L,R=301]
