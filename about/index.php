@@ -179,8 +179,8 @@
       <div class="commonSection-mission__wrapper">
         <div class="commonInner sectionContent">
           <h2 id="mission">ミッション</h2>
-          <p>こうした課題から、私たちは次のミッションを掲げることにしました。</p>
           <p>
+            こうした課題から、私たちは次のミッションを掲げることにしました。<br>
             障がいのある子どもたちに継続的な居場所と養育機会を提供し、自立を支援すること。<br class="spNone">
             それとともに、社会全体の偏見や無理解を解消すること。<br class="spNone">
             ひいては、障がい者も健常者も共に手を取り合って生きていける社会に変えていくこと。
