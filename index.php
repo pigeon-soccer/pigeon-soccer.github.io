@@ -93,13 +93,14 @@
       <div class="commonInner sectionContent">
 
         <section class="summary summary-about">
-          <h2 class="summary__heading">どんな団体？</h2>
+          <h2 class="summary__heading">ピジョンとは？</h2>
           <div class="summary__content">
             <div class="summary__txtWrapper width550">
+            <h3>仲間と繋がる、安心の居場所</h3>
               <div class="txtWrapper__txt">
-                <p>障がいのある子どものためのサッカースクール「NPO法人ピジョン」。2010年4月から東京都文京区を拠点に活動する非営利団体です。子どもの本来の姿であるわんぱくな活動の場を提供するとともに、チームスポーツを通して基礎体力はもちろん、思いやりの心、人との繋がりを育んでいきます。こうした活動に込めたピジョンの思い、そして私たち自身について、ご紹介します。</p>
+                <p>NPO法人ピジョンは、2010年4月から東京都文京区で活動する、障がいのある子どもたちのためのサッカースクールです。サッカーを通じて多様な仲間と繋がりながら、笑顔と自信、社会性、基礎体力を育む場を提供しています。お子さま、そして保護者さまも安心して通える継続的な居場所として、共に成長をサポートします。</p>
               </div>
-              <p class="commonDetailBtn"><a href="/about/">団体を詳しく見る</a></p>
+              <p class="commonDetailBtn"><a href="/about/">団体の思いと沿革</a></p>
             </div>
             <figure class="summary__img"><img src="/assets/img/snapshot/smiling-general-coach.jpg" alt="優しい笑顔の武藤監督の写真 - 障がい児のためのサッカースクール" loading="lazy"/></figure>
           </div>
@@ -109,10 +110,17 @@
           <h2 class="summary__heading">教室で何をする？</h2>
           <div class="summary__content">
             <div class="summary__txtWrapper width550">
+              <h3>個性が輝く、楽しいサッカー体験</h3>
               <div class="txtWrapper__txt">
-                <p>子どもたちのもつ心や体の症状の種類とレベルはそれぞれです。私たちの団体にも、発達障害や身体障害に関する様々な症状の生徒がいます（自閉症、ダウン症、脳性まひ、多動症など）。なかなか喋らない子もいれば、お喋りが好きで止まらない子もいます。ボールを送り出すのが精一杯な子もいれば、大人顔負けのシュートを放つ子もいます。そうした中でコーチはもちろん、子どもたちはお互いに尊重し、時に助け合い、時に笑い合います。そんな教室の練習内容や場所・日時をご紹介します。
+                <p>
+                  子どもたちの持つ心や体の症状は、一人ひとり異なります。
+                  私たちの教室には、自閉症、ダウン症、発達障がい、脳性まひ、多動症など、さまざまな障がいを持つお子さまが参加しています。
+                  なかなか話さない子もいれば、おしゃべりが大好きな子もいます。
+                  ボールを蹴るのが精一杯な子もいれば、大人顔負けのシュートを決める子もいます。
+                  そんな多様な子どもたちが、一人ひとりの特性に合わせたサポートを受けながら、サッカーの楽しさを感じています。
+                  コーチや子どもたちはお互いを尊重し、時に助け合い、時に笑い合いながら、協調性や自己管理能力を育んでいます。
               </div>
-              <p class="commonDetailBtn"><a href="/activity/">教室を詳しく見る</a></p>
+              <p class="commonDetailBtn"><a href="/activity/">詳しい練習内容</a></p>
             </div>
             <figure class="summary__img"><img src="/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg" alt="生徒とサッカーの練習をする鈴木ゆうきコーチの写真 - 障がい児のためのサッカースクール" loading="lazy"/></figure>
           </div>
@@ -124,10 +132,11 @@
             <div class="summary__txtWrapper">
               <div class="txtWrapper__txt">
                 <p>
-                  現場では、元気いっぱいな生徒の声とスタッフの声が響いています。<br>
-                  人見知りな子も、リレーやパス、試合をするなかで溶け込み、徐々に笑顔を見せてくれます。<br>
-                  本サイトでは、保護者の声や、活動を支えるスタッフの写真・動画、SNSでの報告を掲載。<br>
-                  活動の明るい雰囲気を知ることができるので、ぜひご覧ください。</p>
+                  現場では、元気いっぱいの子どもたちとスタッフの笑顔があふれています。
+                  人見知りのお子さまも、リレーやパス、試合を通して自然と溶け込み、笑顔になっていきます。
+                  保護者の声や活動の様子は、写真・動画やSNSでご覧いただけます。
+                  ぜひ、ピジョンの温かい雰囲気を感じてみてください。
+                </p>
               </div>
               <div class="col-lg-8 d-flex flex-column align-items-stretch">
                 <div class="content ps-lg-4 d-flex flex-column justify-content-center">
