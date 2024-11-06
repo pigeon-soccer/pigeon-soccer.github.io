@@ -1,9 +1,9 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-  <title>ミッションと沿革 | 障がい児のサッカースクール NPO法人ピジョン</title>
+  <title>ミッションと沿革 | 自立を支援する障がい児サッカースクール NPO法人ピジョン</title>
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/about/">
-  <meta name="description" content="東京文京区で2010年4月から活動するサッカースクール「ピジョン」の沿革・理念。自閉症やダウン症といった症状がある子どもの明るい性格と協調性を育むとともに、健常者の先入観を無くすことで、人間関係や就学・就職など将来的な課題の解消を目指す。">
+  <meta name="description" content="2010年から東京都文京区で活動するNPO法人ピジョンのミッションと沿革。自閉症、ダウン症、発達障がいなどの子どもたちに、サッカーを通じて明るい心と社会性を育む場を提供。保護者・学校と連携し、一人ひとりの未来をサポートします。">
   <script type="application/ld+json">
     [
       {
