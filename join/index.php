@@ -144,8 +144,8 @@
       <div class="container">
 
         <div class="whyVolunteerSectionTitle section-title">
-          <span>ボランティアの価値</span>
-          <h2>ボランティアの価値</h2>
+          <span>あなたの存在</span>
+          <h2>あなたの存在が子どもの笑顔をつくる</h2>
           <p></p>
         </div>
         <div class="row">
