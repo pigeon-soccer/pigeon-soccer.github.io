@@ -98,7 +98,7 @@
   <link href="../assets/css/laura.css" rel="stylesheet">
   <link href="../assets/css/form.css" rel="stylesheet">
   <link href="../assets/css/join.css" rel="stylesheet">
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script defer src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
 
 </head>
 

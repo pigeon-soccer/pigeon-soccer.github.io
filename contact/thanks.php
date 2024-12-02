@@ -1,6 +1,7 @@
 <html lang="ja">
+
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
   <title>相談・体験の連絡 | 障がい児のサッカースクール NPO法人ピジョン</title>
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/contact/">
   <script type="application/ld+json">
@@ -57,37 +58,44 @@
       }
     ]
   </script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico"/>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico" />
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MBJJ9KL');</script>
   <!-- End Google Tag Manager -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
   <script src="/assets/js/form.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/assets/css/form.css">
 </head>
-<body id="top">
-<div class="wrap container-md">
-<main id="contact" >
-  <div id="mainContent">
-    <section class="commonSection">
-      <div class="commonInner sectionContent">
-        <div class="sectionContent-header">
-          <h1>相談/体験する</h1>
-          <p>お問い合わせいただきありがとうございます！<br> 事務局にて確認後、ご連絡いたしますので少々お待ちください。</p>
-        </div>
 
+<body id="top">
+  <div class="wrap container-md">
+    <main id="contact">
+      <div id="mainContent">
+        <section class="commonSection">
+          <div class="commonInner sectionContent">
+            <div class="sectionContent-header">
+              <h1>相談/体験する</h1>
+              <p>お問い合わせいただきありがとうございます！<br> 事務局にて確認後、ご連絡いたしますので少々お待ちください。</p>
+            </div>
+
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
-</main><!-- /main -->
-<!-- <footer id="footer">
+    </main><!-- /main -->
+    <!-- <footer id="footer">
 </footer> -->
-</div>
+  </div>
 </body>
+
 </html>

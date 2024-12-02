@@ -62,7 +62,7 @@
   </script>
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico" />
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
@@ -182,9 +182,7 @@
                             </p>
                           </div>
                         </div>
-                        <div class="col-md-6 mt-5 d-md-
-<!-- @import " [TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-                          flex align-items-md-stretch">
+                        <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                           <div class="count-box">
                             <i class="bi bi-geo-alt" style="color: #f3a200;"></i>
                             <p class="txtLink txtLinkEmphasis"><a href="https://www.youtube.com/embed/QlHb1P33YLU"

@@ -65,17 +65,22 @@
   </script>
 
   <!-- Favicons -->
-  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/../assets/img/logo/favicon_pigeon.ico"/>
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/../assets/img/logo/favicon_pigeon.ico" />
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MBJJ9KL');</script>
   <!-- End Google Tag Manager -->
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -94,7 +99,7 @@
   <link href="../assets/css/laura.css" rel="stylesheet">
   <link href="../assets/css/form.css" rel="stylesheet">
   <link href="../assets/css/join.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+  <script src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js" defer></script>
 
 </head>
 
@@ -128,13 +133,14 @@
           障がいのある子どものためのサッカースクール
         </figcaption>
         <figcaption class="heroBlockquote blockquote-footer">
-            サッカー／ボランティア未経験者の体験を歓迎
+          サッカー／ボランティア未経験者の体験を歓迎
         </figcaption>
         <figcaption class="heroBlockquote blockquote-footer">
-            大学生・社会人・女性など幅広く在籍
+          大学生・社会人・女性など幅広く在籍
         </figcaption>
       </figure>
-      <a class="mt-5" href="#contact"><button type="button" class="btn btn-outline-primary greenBkButton">見学・体験を申し込む</button></a>
+      <a class="mt-5" href="#contact"><button type="button"
+          class="btn btn-outline-primary greenBkButton">見学・体験を申し込む</button></a>
       <a href="#whyVolunteer" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
   </section><!-- End Hero -->
@@ -152,7 +158,7 @@
         <div class="row">
           <blockquote class="blockquote blockquoteDecoration">
             <p>一緒にいてくれてありがとうございます。<br>
-            外であんないい顔の我が子を初めて見ました、奇跡です。</p>
+              外であんないい顔の我が子を初めて見ました、奇跡です。</p>
             <cite>
               保護者様より
             </cite>
@@ -172,7 +178,8 @@
             <br>
           </p>
           <figure class="figure">
-            <img loading="lazy" src="../assets/img/snapshot/staff-rina-and-student-girl-art.png" class="figure-img img-fluid rounded" alt="...">
+            <img loading="lazy" src="../assets/img/snapshot/staff-rina-and-student-girl-art.png"
+              class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">初参加りなコーチとパスの練習</figcaption>
           </figure>
           <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
@@ -186,10 +193,10 @@
             <br>
             <br>その日の活動の終わり、生徒たちと一緒にご飯を食べているとき、母親から
           </p>
-            <blockquote class="blockquoteDecoration normalFontWSize">
-              <p>一緒にいてくれてありがとう</p>
-            </blockquote>
-            <p>
+          <blockquote class="blockquoteDecoration normalFontWSize">
+            <p>一緒にいてくれてありがとう</p>
+          </blockquote>
+          <p>
             と声をかけていただきました。
             <br>私がこの体験を通して受けた印象は「<span class="enrichText">何ができるか以上に、その場に存在すること自体、価値がある</span>」 ということでした。
             <br>そして、今では価値があるのは私たちにとっての生徒の存在、社会にとっての生徒の存在も同じだと考えています。
@@ -197,7 +204,9 @@
             <br>下のスタッフの体験談は、それを表しています。
           </p>
           <blockquote class="blockquoteDecoration normalFontWSize">
-            <p>以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。しかし今では、そんな人こそ参加してみて欲しいと感じます。なぜなら子供達の笑顔で1週間の疲れが吹っ飛びますし、その壁のない挨拶から人として大切なことを学べるからです。彼ら彼女らの成長を助けることは、結果的に履歴書に残らない自分の成長、大切な体験となり返ってきました。</p>
+            <p>
+              以前の私は心のゆとりがなくて「慈善事業なんてする暇があったら、履歴書に書くスキル、貯金に繋がることをしたい」と思っていました。しかし今では、そんな人こそ参加してみて欲しいと感じます。なぜなら子供達の笑顔で1週間の疲れが吹っ飛びますし、その壁のない挨拶から人として大切なことを学べるからです。彼ら彼女らの成長を助けることは、結果的に履歴書に残らない自分の成長、大切な体験となり返ってきました。
+            </p>
             <cite>
               社会人 女性
             </cite>
@@ -237,8 +246,9 @@
 
         <div class="row">
           <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
-                        <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/general-coach-half-art.png" class="figure-img img-fluid rounded" alt="...">
+            <figure class="figure">
+              <img loading="lazy" src="../assets/img/snapshot/general-coach-half-art.png"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">むとう監督の笑顔</figcaption>
             </figure>
           </div>
@@ -265,7 +275,8 @@
                         <span>「教室で何する？」に記載の練習メニュー</span>
                       </a>
                       を実施するので、生徒の練習に付き添ってあげてください。
-                      メニューの進行はベテランコーチが行うのでご安心ください。スタッフ1人あたり生徒1～2人です。</p>
+                      メニューの進行はベテランコーチが行うのでご安心ください。スタッフ1人あたり生徒1～2人です。
+                    </p>
                   </div>
                 </div>
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
@@ -294,10 +305,10 @@
                     <i class="bi bi-emoji-smile" style="color: #5D9A1F"></i>
                     <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1">歓迎</span>
                     <p>
-                        - サッカー／ボランティア未経験者<br>
-                        - 女性、学生・大学生、社会人<br>
-                        - 児童・福祉・非営利活動に関心がある人<br>
-                        - 子ども達に優しく接してくれる人
+                      - サッカー／ボランティア未経験者<br>
+                      - 女性、学生・大学生、社会人<br>
+                      - 児童・福祉・非営利活動に関心がある人<br>
+                      - 子ども達に優しく接してくれる人
                     </p>
                   </div>
                 </div>
@@ -362,7 +373,8 @@
 
             </div><!-- End .content-->
 
-            <a class="mt-5" href="#contact"><button type="button" class="btn btn-outline-primary">見学・体験を申し込む</button></a>
+            <a class="mt-5" href="#contact"><button type="button"
+                class="btn btn-outline-primary">見学・体験を申し込む</button></a>
 
           </div>
         </div>
@@ -386,21 +398,24 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.png" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.png"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">試合の前に気合を入れるえまコーチ（左）と生徒たち</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/handshake-art.png" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" src="../assets/img/snapshot/handshake-art.png" class="figure-img img-fluid rounded"
+                alt="...">
               <figcaption class="figure-caption">試合前に生徒と握手するむとうコーチ（手前左）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/staff-inagon-art.png" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" src="../assets/img/snapshot/staff-inagon-art.png" class="figure-img img-fluid rounded"
+                alt="...">
               <figcaption class="figure-caption">ボールを受け止める生徒と、試合の補助をするいなごんコーチ（右）</figcaption>
             </figure>
           </div>
@@ -408,35 +423,40 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/staff-digda-and-minako-coach-art.png" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" src="../assets/img/snapshot/staff-digda-and-minako-coach-art.png"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">ハロウィン当日のりなコーチ（手前）とみなこコーチ（奥）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" src="../assets/img/snapshot/staff-hayato-coach.jpg"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">生徒にボールを渡すはやとコーチ</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" src="../assets/img/snapshot/staff-listen-to-the-coach.jpg"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">生徒に指示するゆうきコーチ（左）、生徒たち（中）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/staff-todai-ashiki-club.png" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" src="../assets/img/snapshot/staff-todai-ashiki-club.png"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">活躍する東大ア式部員たち</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" src="../assets/img/snapshot/event-hollowin.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" src="../assets/img/snapshot/event-hollowin.jpg" class="figure-img img-fluid rounded"
+                alt="...">
               <figcaption class="figure-caption">ハロウィンの残骸</figcaption>
             </figure>
           </div>
@@ -471,7 +491,7 @@
               <div id="attribute_detail"></div>
               <div id="attribute_privacy"></div>
               <div class="mt-5">
-              <div id="attribute_submit"></div>
+                <div id="attribute_submit"></div>
               </div>
             </form>
           </div>
@@ -505,7 +525,8 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
