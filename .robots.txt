@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /contact/
+
+Sitemap: https://soccer.pigeon-2ndplace.org/sitemap.xml
