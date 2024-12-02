@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <title>活動内容 | サッカーで育む自立と笑顔 - NPO法人ピジョン</title>
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/activity/">
-  <meta name="description" content="東京都文京区で行う活動内容をご紹介。自閉症、発達障がい、知的障がいなどの子どもたちが、個々の症状と発達状況に合わせた練習メニューでサッカーを楽しみながら成長。社会性や自己管理能力を育み、自立への一歩をサポートします。">
+  <meta name="description" content="東京都文京区で行う活動内容をご紹介。自閉症、発達障害、知的障害などの子どもたちが、個々の症状と発達状況に合わせた練習メニューでサッカーを楽しみながら成長。社会性や自己管理能力を育み、自立への一歩を支援します。">
   <script type="application/ld+json">
     [
       {
