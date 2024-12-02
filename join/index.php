@@ -65,13 +65,16 @@
   </script>
 
   <!-- Favicons -->
-  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/../assets/img/logo/favicon_pigeon.ico"/>
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/../assets/img/logo/favicon_pigeon.ico" />
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBJJ9KL');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MBJJ9KL');</script>
   <!-- End Google Tag Manager -->
 
   <!-- Vendor CSS Files -->
@@ -81,7 +84,9 @@
   <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+    rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <!-- =======================================================
@@ -127,13 +132,14 @@
           障がいのある子どものためのサッカースクール
         </figcaption>
         <figcaption class="heroBlockquote blockquote-footer">
-            サッカー／ボランティア未経験者の体験を歓迎
+          サッカー／ボランティア未経験者の体験を歓迎
         </figcaption>
         <figcaption class="heroBlockquote blockquote-footer">
-            大学生・社会人・女性など幅広く在籍
+          大学生・社会人・女性など幅広く在籍
         </figcaption>
       </figure>
-      <a class="mt-5" href="https://pigeon.smktg.jp/public/application/add/263"><button type="button" class="btn btn-outline-primary greenBkButton">見学・体験を申し込む</button></a>
+      <a class="mt-5" href="https://pigeon.smktg.jp/public/application/add/263"><button type="button"
+          class="btn btn-outline-primary greenBkButton">見学・体験を申し込む</button></a>
       <a href="#whyVolunteer" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
   </section><!-- End Hero -->
@@ -151,7 +157,7 @@
         <div class="row">
           <blockquote class="blockquote blockquoteDecoration">
             <p>一緒にいてくれてありがとうございます。<br>
-            外であんないい顔の我が子を初めて見ました、奇跡です。</p>
+              外であんないい顔の我が子を初めて見ました、奇跡です。</p>
             <cite>
               保護者様より
             </cite>
@@ -171,7 +177,9 @@
             <br><span class="enrichText">障がいのある子どもが笑顔になる居場所、学ぶ場としてあり続けること</span>です。
           </p>
           <figure class="figure">
-            <img loading="lazy" width=602px height=453px src="../assets/img/snapshot/staff-rina-and-student-girl-art.jpg" class="figure-img img-fluid rounded" alt="...">
+            <img loading="lazy" width=602px height=453px
+              src="../assets/img/snapshot/staff-rina-and-student-girl-art.jpg" class="figure-img img-fluid rounded"
+              alt="...">
             <figcaption class="figure-caption">初参加「りなコーチ」とパスの練習</figcaption>
           </figure>
           <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
@@ -193,7 +201,8 @@
             <br>そして価値があるのは「ボランティア参加者(そして社会)にとっての生徒の存在」も同じだと考えています。
           </p>
           <figure class="figure">
-            <img loading="lazy" width=685px height=456px src="../assets/img/snapshot/handshake-art.jpg" class="figure-img img-fluid rounded" alt="...">
+            <img loading="lazy" width=685px height=456px src="../assets/img/snapshot/handshake-art.jpg"
+              class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">試合前に生徒と握手する「むとうコーチ」（手前左）</figcaption>
           </figure>
           <h3 class="mt-5">スタッフの体験談</h3>
@@ -218,8 +227,10 @@
           </blockquote>
 
           <figure class="figure">
-              <img loading="lazy" width="355.9px" height="423.479px" src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち。成蹊大学、東洋大学、武蔵野大学などから定期的に参加してくれる大学生が増えています。</figcaption>
+            <img loading="lazy" width="355.9px" height="423.479px"
+              src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち。成蹊大学、東洋大学、武蔵野大学などから定期的に参加してくれる大学生が増えています。
+            </figcaption>
           </figure>
 
           <h3 class="mt-5">力を貸してください</h3>
@@ -250,7 +261,8 @@
         <div class="row">
           <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
             <figure class="figure">
-              <img loading="lazy" width="355.9 0px" height="583.854px" src="../assets/img/snapshot/general-coach-half-art.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9 0px" height="583.854px"
+                src="../assets/img/snapshot/general-coach-half-art.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">むとう監督の笑顔</figcaption>
             </figure>
           </div>
@@ -277,7 +289,8 @@
                         <span>「教室で何する？」に記載の練習メニュー</span>
                       </a>
                       を実施するので、生徒の練習に付き添ってあげてください。
-                      メニューの進行はベテランコーチが行うのでご安心ください。スタッフ1人あたり生徒1～2人です。</p>
+                      メニューの進行はベテランコーチが行うのでご安心ください。スタッフ1人あたり生徒1～2人です。
+                    </p>
                   </div>
                 </div>
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
@@ -306,11 +319,11 @@
                     <i class="bi bi-emoji-smile" style="color: #5D9A1F"></i>
                     <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1">歓迎</span>
                     <p>
-                        - サッカー／ボランティア未経験者<br>
-                        - 女性、学生・大学生、社会人<br>
-                        - 児童・福祉・NPO(非営利)活動に関心がある人<br>
-                        - 子ども達に優しく接してくれる人
-                        - 向上心のある人
+                      - サッカー／ボランティア未経験者<br>
+                      - 女性、学生・大学生、社会人<br>
+                      - 児童・福祉・NPO(非営利)活動に関心がある人<br>
+                      - 子ども達に優しく接してくれる人
+                      - 向上心のある人
                     </p>
                   </div>
                 </div>
@@ -374,7 +387,8 @@
 
             </div><!-- End .content-->
 
-            <a class="mt-5" href="https://pigeon.smktg.jp/public/application/add/263"><button type="button" class="btn btn-outline-primary">見学・体験を申し込む</button></a>
+            <a class="mt-5" href="https://pigeon.smktg.jp/public/application/add/263"><button type="button"
+                class="btn btn-outline-primary">見学・体験を申し込む</button></a>
 
           </div>
         </div>
@@ -396,42 +410,51 @@
         <div class="row portfolio-container">
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="386.604px" src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="386.604px"
+                src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.jpg"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">試合の前に気合を入れる「えまコーチ」（左）と生徒たち</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="355.990px" src="../assets/img/snapshot/staff-inagon-art.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="355.990px" src="../assets/img/snapshot/staff-inagon-art.jpg"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">ボールを受け止める生徒と、試合の補助をする「いなごんコーチ」（右）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="474.646px" src="../assets/img/snapshot/staff-digda-and-minako-coach-art.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="474.646px"
+                src="../assets/img/snapshot/staff-digda-and-minako-coach-art.jpg" class="figure-img img-fluid rounded"
+                alt="...">
               <figcaption class="figure-caption">ハロウィン当日の「りなコーチ」（手前）と「みなこコーチ」（奥）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="246.594px" src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="246.594px"
+                src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded"
+                alt="...">
               <figcaption class="figure-caption">生徒に指示する「ゆうきコーチ」（左）、生徒たち（中）</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="277.938px" src="../assets/img/snapshot/staff-hayato-coach.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="277.938px" src="../assets/img/snapshot/staff-hayato-coach.jpg"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">生徒にボールを渡す「はやとコーチ」</figcaption>
             </figure>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="213.781px" src="../assets/img/snapshot/event-hollowin.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img loading="lazy" width="355.9px" height="213.781px" src="../assets/img/snapshot/event-hollowin.jpg"
+                class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">ハロウィンの残骸</figcaption>
             </figure>
           </div>
@@ -449,7 +472,8 @@
           <!-- <span>相談・体験する</span> -->
           <!-- <h2>相談・体験する</h2> -->
           <h4 class="text-center">
-            <a type="submit" href="https://pigeon.smktg.jp/public/application/add/263" class="submitButton">連絡して、参加する</a>
+            <a type="submit" href="https://pigeon.smktg.jp/public/application/add/263"
+              class="submitButton">連絡して、参加する</a>
           </h4>
           <figcaption class="figure-caption">
             いつでもご連絡を心待ちにしております。見学・体験がご不安な方は先に相談いただいても構いません。</figcaption>
@@ -504,7 +528,8 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Template Main JS File -->
   <script defer src="../assets/js/join.js" defer></script>

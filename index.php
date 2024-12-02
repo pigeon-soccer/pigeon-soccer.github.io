@@ -202,7 +202,7 @@
                             <p>日々の活動の内容やスタッフの気づきを報告しています。</p>
                             <a class="twitter-timeline" data-height="666"
                               href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Twitter読み込み中...</a>
-                            <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <script src="https://platform.twitter.com/widgets.js" charset="utf-8" defer></script>
                           </div>
                         </div>
                       </div><!-- End row-->
