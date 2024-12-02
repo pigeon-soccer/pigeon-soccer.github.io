@@ -80,10 +80,10 @@
 </header>
 <main id="index">
   <div class="mainVisual">
-    <div class="mainVisual__txt">
-      <p class="txt__main">ココロをつなぐ<br>パスをする</p>
+    <h1 class="mainVisual__txt">
+      <div class="txt__main">ココロをつなぐ<br>パスをする</div>
       <div class="txt__sub">障がいがあってもなくても、<br>スポーツを通して得られる<br>人との絆と成長があります。</div>
-    </div>
+    </h1>
     <p class="mainVisual__scroll-down"><a href="#mainContent">Scroll<span></span></a></p>
     <div class="mainVisual__img"></div>
   </div><!-- /mainVisual -->
