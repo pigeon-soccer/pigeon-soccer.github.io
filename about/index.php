@@ -340,8 +340,9 @@
               </dl>
             </div>
             <p class="txtLink txtLinkEmphasis">
+              NPO法人の開示情報<br>
               <a href="https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013788.html"
-                target="_blank">NPO法人の開示情報はこちら<span class="spNone">をご覧ください。</span></a>
+              target="_blank">東京都生活文化スポーツ局に掲載</a>
             </p>
           </div>
         </section>
