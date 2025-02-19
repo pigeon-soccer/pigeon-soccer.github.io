@@ -263,7 +263,10 @@
               </dl>
               <dl>
                 <dt class="history__year">2021年10月</dt>
-                <dd class="history__summary">NPO法人化</dd>
+                <dd class="history__summary txtLink txtLinkInline">NPO法人化
+                  （法人番号<a href="https://www.seikatubunka1.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013788.html" target="_blank">
+                  3011805003118
+                </a>）</dd>
               </dl>
             </div>
           </div>
