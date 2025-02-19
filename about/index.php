@@ -315,20 +315,24 @@
                 </dt>
                 <dd class="introduce__career">
                   <p class="txtLink txtLinkInline">
-                    事業展開のために本サイトや会員サービスなど仕組みの企画・構築、およびマーケティングの企画・施策を主管。本職ではITエンジニアとして従事。
+                    事業展開のために本サイトや会員サービスなど仕組みを企画・構築、およびマーケティングの施策を主管。本職ではITエンジニアとして従事。
                   </p>
               </dl>
               <dl class="introduce__profile">
-                <img src="/assets/img/icon/index_im_001.png" loading="lazy">
+                <a href="https://ujimori-law.jp/" target="_blank">
+                  <img src="/assets/img/logo/ujimori_logo.png" loading="lazy">
+                </a>
                 <dt>
                   <p class="introduce__position">監事</p>
                   <p class="introduce__name">氏森 政利<br>(Ujimori Masatoshi)</p>
                 </dt>
                 <dd class="introduce__career">
                   <p class="txtLink txtLinkInline">
-                    法的手続きや規約などのアドバイザーとして参画。本職では弁護士(東京弁護士会)として従事。「<a
-                      href="https://sashiireya.com/bengoshi/lawyer_37749.php" target="_blank">氏森総合法律事務所</a>」
-                    代表
+                    法的手続きや規約などのアドバイザー、スポンサーとして参画。
+                    東京大学文学部・明治大学法科大学院を卒業後、石原総合法律事務所パートナー・エジソン法律事務所パートナー等を経て、
+                    「<a
+                      href="https://ujimori-law.jp/" target="_blank">氏森総合法律事務所</a>」
+                    を設立。
                   </p>
               </dl>
             </div>
