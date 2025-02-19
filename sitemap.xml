@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://soccer.pigeon-2ndplace.org/</loc>
-    <lastmod>2024-12-02</lastmod>
+    <lastmod>2025-02-19</lastmod>
   </url>
   <url>
     <loc>https://soccer.pigeon-2ndplace.org/about/</loc>
-    <lastmod>2024-12-02</lastmod>
+    <lastmod>2025-02-19</lastmod>
   </url>
   <url>
     <loc>https://soccer.pigeon-2ndplace.org/activity/</loc>
-    <lastmod>2024-12-02</lastmod>
+    <lastmod>2025-02-19</lastmod>
   </url>
   <!-- 埋め込みフォームを実装する場合はURLパス`contact/`にページを用意する -->
   <!-- <url>
@@ -19,6 +19,6 @@
   </url> -->
   <url>
     <loc>https://soccer.pigeon-2ndplace.org/join/</loc>
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2025-02-19</lastmod>
   </url>
 </urlset>
