@@ -215,6 +215,55 @@
                 </div>
             </section>
 
+            <section class="summary summary-news">
+              <h2 class="summary__heading">お知らせ</h2>
+              <div class="commonInner__history">
+                <dl>
+                  <dt class="history__year">2025年04月01日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">日本女子大学の授業の受け入れ先としてピジョンが受け入れられました。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2025年3月23日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">子ども支援サイト「COMUGICO」にインタビュー記事を掲載していただきました（<a href="https://comugico.info/introduce/pigeon-2ndplace/" target="_blank">インタビュー記事のリンク</a>）。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2024年05月15日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">「<a href="https://souzoku-fudousan.jp/" target="_blank">相続不動産株式会社</a>」にピジョンの活動をご支援いただくことになりました。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2023年08月26日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">フランス🇫🇷メディア”FausseTouche”にピジョンが取り上げられました（<a href="https://faussetouche.com/pigeon-soccer-le-football-pour-lutter-contre-les-troubles-mentaux/" target="_blank">インタビュー記事のリンク</a>）。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2023年04月17日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">成蹊大学で行われた春のトークサロンで、副代表理事の鈴木祐揮が「ボランティアの意義」について講演しました（<a href="https://x.com/PigeonSoccerNPO/status/1647867377286266880" target="_blank">x.com投稿</a>）。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2022年12月01日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">成蹊大学の学生が延べ30名以上手伝いに来てくれました。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2022年10月22日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">Youtube「Japan Stock Channel」のSDGsチャンネル🎥に出演しました（<a href="youtu.be/QlHb1P33YLU" target="_blank">インタビュー動画リンク</a>）。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2021年12月03日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">東京大学サッカー部（東大ア式蹴球部）の部員が延べ30名以上手伝いに来てくれました（<a href="https://x.com/PigeonSoccerNPO/status/1388709620126937088" target="_blank">x.com投稿</a>）。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2021年09月28日</dt>
+                  <dd class="history__summary txtLink txtLinkInline">ピジョンがNPO法人「Ｐｉｇｅｏｎ」として登記されました（<a href="https://www.seikatubunka1.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013788.html" target="_blank">法人番号 3011805003118</a>）。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2021年09月18日</dt>
+                  <dd class="history__summary txtLink txtLinkInline"><a href="http://sh-spirit.com/" target="_blank">就労移行支援所Spirit大森センター</a>の就職を目指す方々にピジョンのスクール運営を手伝っていただきました（<a href="https://x.com/PigeonSoccerNPO/status/1439114243161264128" target="_blank">x.com投稿</a>）。</dd>
+                </dl>
+                <dl>
+                  <dt class="history__year">2021年09月02日</dt>
+                  <dd class="history__summary txtLink txtLinkInline"><a href="https://thefocus-on.com/muto_taichi/" target="_blank">The Focus</a> で 代表武藤が特集されました。</dd>
+                </dl>
+              </div>
+            </section>
 
         </section>
       </div><!--commonInner-->
