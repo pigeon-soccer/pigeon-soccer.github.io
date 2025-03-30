@@ -244,7 +244,7 @@
                 </dl>
                 <dl>
                   <dt class="history__year">2022年10月22日</dt>
-                  <dd class="history__summary txtLink txtLinkInline">Youtube「Japan Stock Channel」のSDGsチャンネル🎥に出演しました（<a href="youtu.be/QlHb1P33YLU" target="_blank">インタビュー動画リンク</a>）。</dd>
+                  <dd class="history__summary txtLink txtLinkInline">Youtube「Japan Stock Channel」のSDGsチャンネル🎥に出演しました（<a href="https://youtu.be/QlHb1P33YLU" target="_blank">インタビュー動画リンク</a>）。</dd>
                 </dl>
                 <dl>
                   <dt class="history__year">2021年12月03日</dt>
