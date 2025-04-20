@@ -253,16 +253,6 @@ ul.globalNav__menu>li a:before {
   left: -0.5vw;
 }
 
-ul>li.menu__parent>a:hover:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1vw;
-  background: #ef454a;
-}
-
 ul.globalNav__menu>li.current {
   display: block;
   height: 100px;
@@ -500,8 +490,7 @@ section.commonSection section:not(:first-of-type) {
 
 /* ▽ ボタン ▽ */
 
-.commonDetailBtn a,
-button.formSendBtn {
+.commonDetailBtn a {
   display: block;
   padding: 10px;
   max-width: 700px;
@@ -520,8 +509,7 @@ button.formSendBtn {
   -webkit-tap-highlight-color: transparent;
 }
 
-.commonDetailBtn a:before,
-button.formSendBtn:before {
+.commonDetailBtn a:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -532,21 +520,18 @@ button.formSendBtn:before {
   background: url(../img/icon/index_ic_002.png) no-repeat 0 0/13px 20px;
 }
 
-.commonDetailBtn a:hover,
-button.formSendBtn:hover {
+.commonDetailBtn a:hover {
   color: #ef454a;
   border: 2px solid #ef454a;
   background: none;
   background-color: var(--color-white);
 }
 
-.commonDetailBtn a:hover:before,
-button.formSendBtn:hover:before {
+.commonDetailBtn a:hover:before {
   background: url(../img/icon/index_ic_001.png) no-repeat 0 0/13px 20px;
 }
 
-.sectionContent .commonDetailBtn,
-button.formSendBtn {
+.sectionContent .commonDetailBtn {
   margin: 0 auto;
   width: 700px;
   margin-top: 40px;
@@ -1000,197 +985,6 @@ ul.convey dl.convey__content>dd {
   padding-right: 20px;
 }
 
-.formWrapper {
-  width: 1100px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-.formWrapper>div {
-  margin-top: 40px;
-}
-
-.formWrapper table.form {
-  width: 100%;
-  margin-top: 20px;
-}
-
-input[type="text"] {
-  width: 320px;
-  padding: 15px;
-  border-style: none;
-  background-color: #f6f7f8;
-  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
-}
-
-textarea {
-  padding: 10px;
-  border-style: none;
-  background-color: #f6f7f8;
-  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
-}
-
-table.form th,
-table.form td {
-  vertical-align: middle;
-  border-bottom: 20px solid var(--color-white);
-}
-
-.form__label {
-  width: 300px;
-  padding: 10px 40px;
-  text-align: center;
-  font-weight: bold;
-  color: var(--color-white);
-  background-color: #a6ca3a;
-  margin-right: 20px;
-}
-
-/*formのラジオボタン・チェックボックス*/
-input[type=radio],
-input[type=checkbox] {
-  display: none;
-  border-radius: 0;
-  box-shadow: none;
-  border-radius: 50%;
-}
-
-input[type=radio],
-input[type=checkbox] {
-  display: none;
-  border-radius: 0;
-  box-shadow: none;
-  border-radius: 50%;
-}
-
-input[type=checkbox]+label {
-  /* エラー時に例外的なデザイン崩れが起きるので対処する
-  そのままだとチェックボックスがつぶれる
-  →SMPで選択肢を縦3列に設定するとつぶれなくなる
-  →左寄せになるため中央寄せに変更する */
-  left: 175px;
-}
-
-.radio,
-.checkbox {
-  box-sizing: border-box;
-  -webkit-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
-  position: relative;
-  display: inline-block;
-  margin: 0 20px 8px 0;
-  padding: 12px 12px 12px 42px;
-  border-radius: 8px;
-  background-color: #f6f7f8;
-  vertical-align: middle;
-  cursor: pointer;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-}
-
-.row2 .form__checkList {
-  display: flex;
-}
-
-.radio:hover,
-.checkbox:hover {
-  background-color: #e2edd7;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-  -webkit-tap-highlight-color: transparent;
-
-}
-
-.radio:hover:after,
-.checkbox:hover:after {
-  border-color: #53b300;
-}
-
-.radio:after,
-.checkbox:after {
-  -webkit-transition: border-color 0.2s linear;
-  transition: border-color 0.2s linear;
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  display: block;
-  margin-top: -10px;
-  width: 16px;
-  height: 16px;
-  border: 2px solid #bbb;
-  border-radius: 6px;
-  content: '';
-}
-
-.radio:before {
-  -webkit-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-  position: absolute;
-  top: 50%;
-  left: 20px;
-  display: block;
-  margin-top: -5px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #53b300;
-  content: '';
-  opacity: 0;
-}
-
-input[type=radio]:checked+.radio:before {
-  opacity: 1;
-}
-
-.checkbox:before {
-  -webkit-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-  position: absolute;
-  top: 50%;
-  left: 21px;
-  display: block;
-  margin-top: -7px;
-  width: 5px;
-  height: 9px;
-  border-right: 3px solid #53b300;
-  border-bottom: 3px solid #53b300;
-  content: '';
-  opacity: 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-input[type=checkbox]:checked+.checkbox:before {
-  opacity: 1;
-}
-
-.row2.radio {
-  float: left;
-}
-
-/*end*/
-
-.form__title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-
-
-.complete .questionBtn {
-  display: none;
-}
-
-.complete .footer-action {
-  padding-bottom: 100px;
-}
-
-
-
 /* ▽ コンテンツ -【join.html】▽ */
 .tab {
   margin-top: 40px;
@@ -1544,9 +1338,7 @@ print {
   .practiceMenus>dl dd,
   .commonInner__introduce>dl,
   .summaryInfo,
-  .formWrapper,
-  th.form__label,
-  .formWrapper .address input,
+
   .eventMap iframe {
     width: 100%;
   }
@@ -1846,13 +1638,8 @@ print {
     width: 100%;
   }
 
-  th.form__label,
-  table.form th,
-  table.form td {
-    border-style: none;
-    width: 100%;
-    float: left;
-  }
+
+  
 
   /* ▽ about ▽*/
   #about .topImage .topImage__img {
@@ -1867,14 +1654,7 @@ print {
   }
 
   /* ▽ join ▽ */
-  .radio,
-  .checkbox {
-    margin: 0;
-  }
-
-  .sectionContent .commonDetailBtn,
-  button.formSendBtn,
-  textarea {
+  .sectionContent .commonDetailBtn {
     width: 100%;
   }
 
@@ -1893,9 +1673,7 @@ print {
     padding-right: 20px;
   }
 
-  input[type=checkbox]+label {
-    left: 0;
-  }
+
 
   /* ======== footer ======== */
   .questionBtn a {
