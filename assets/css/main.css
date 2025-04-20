@@ -752,15 +752,7 @@ ul.commonInner__solution>li dd {
   height: 100%;
 }
 
-.commonInner__history>dl {
-  border-bottom: 1px solid var(--color-gray-light);
-  display: flex;
-  padding: 30px 25px 30px 25px;
-}
 
-.commonInner__history>dl dd {
-  margin-left: 80px;
-}
 
 .commonInner__introduce {
   display: flex;
@@ -1328,7 +1320,7 @@ print {
   /* ▽ display:flex解除 ▽ */
   ul.commonInner__solution,
   .commonInner__introduce,
-  .commonInner__history>dl,
+
   ul.convey,
 
   /* ▽ width指定解除 ▽ */
