@@ -1,3 +1,5 @@
+@import 'variables.css';
+
 .whyVolunteerSectionTitle {
   text-align: left;
 }
@@ -7,47 +9,47 @@
 }
 
 .heroBlockquote {
-  color: white
+  color: var(--color-white);
 }
 
 .blockquote {
-  font-family: "游ゴシック", sans-serif;
+  font-family: var(--font-primary);
 }
 
 .memberTable thead {
-  color: white;
-  background-color: #5D9A1F;
-  border-color: #5D9A1F;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
   font-weight: lighter;
 }
 
 .blockquotePerson {
-  color: #5D9A1F;
+  color: var(--color-primary);
   font-size: 75px;
   margin-right: 10px;
 }
 
 .enrichText {
-  color: #5D9A1F;
-  font-weight: bolder;
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bolder);
   padding: 0;
   margin: 0;
 }
 
 .btn-outline-primary {
-  border-color: #E05126;
-  color: #E05126;
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .btn:first-child:hover,
 :not(.btn-check)+.btn:hover {
-  border-color: #E05126;
-  color: white;
-  background-color: #E05126;
+  border-color: var(--color-accent);
+  color: var(--color-white);
+  background-color: var(--color-accent);
 }
 
 main#main {
-  background: #F6F6E8;
+  background: var(--color-background);
 }
 
 p {
@@ -58,15 +60,15 @@ p {
 
 .blockquoteDecoration {
   position: relative;
-  border-left: 3px solid #5D9A1F;
+  border-left: 3px solid var(--color-primary);
   padding-left: 10px;
 }
 
 .blockquoteDecoration:before {
   position: absolute;
-  content: '“';
+  content: '"';
   font-size: 45px;
-  color: #5D9A1F;
+  color: var(--color-primary);
 }
 
 .blockquoteDecoration p {
@@ -76,8 +78,8 @@ p {
 
 .blockquoteDecoration cite {
   display: block;
-  font-size: 0.8rem;
-  color: #5D9A1F;
+  font-size: var(--font-size-smaller);
+  color: var(--color-primary);
   text-align: left;
 }
 
@@ -85,16 +87,17 @@ p {
   font-size: medium;
 }
 .greenBkButton {
-  background-color: #5D9A1F;
+  background-color: var(--color-primary);
   border-color: transparent;
-  color: white;
+  color: var(--color-white);
 }
 
-.greenBkButton:hover{
-    background: #f3a200!important;
-    color: #fff!important;
-    border-color: transparent!important;
-  }
+.greenBkButton:hover {
+  background: var(--color-primary-hover);
+  color: var(--color-white);
+  border-color: transparent;
+  transition: var(--transition-speed);
+}
 
 a.smallIconLink {
   margin-top: 0px!important;
@@ -106,7 +109,7 @@ a.smallIconLink i::before{
 }
 a.smallIconLink .bi-box-arrow-up-right::before {
   font-size: 23px;
-  color: #5d6a75;
+  color: var(--color-text-light);
 }
 
 a.smallIconLink span {
@@ -128,22 +131,22 @@ a.smallIconLink span {
   max-width: 550px; /* Set max-width instead of min-width */
   margin: 0 auto;
   padding: 10px;
-  background-color: #ef454a;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 500;
+  background-color: var(--color-cta);
+  color: var(--color-white);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
   text-align: center;
-  border-radius: 30px;
+  border-radius: var(--border-radius-button);
   position: relative;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-button);
   -webkit-tap-highlight-color: transparent;
   text-decoration: none;
+  transition: var(--transition-speed);
 }
 
 .submitButton:hover {
-  background-color: #eeeeee;
-  border: 2px solid #666666;
-  color: #444444;
-  font-weight: bold;
-  transition: 0.3s;
+  background-color: var(--color-gray-light);
+  border: 2px solid var(--color-gray-dark);
+  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
 }
