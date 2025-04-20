@@ -57,7 +57,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #444444;
+  color: var(--color-text);
 }
 
 a>img {
@@ -167,7 +167,7 @@ div.tooltip span:before {
 
 /* ======== header ======== */
 header {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   background: rgba(255, 255, 255, 0.8);
   height: 10vw;
   width: 100%;
@@ -231,7 +231,7 @@ ul.globalNav__menu>li {
 
 ul.globalNav__menu>li a {
   display: block;
-  color: #444444;
+  color: var(--color-text);
   font-weight: 500;
   position: relative;
   /* transition: 0.3s; */
@@ -242,7 +242,7 @@ ul.globalNav__menu>li a {
 ul.globalNav__menu>li a:hover {
   display: block;
   height: 100%;
-  color: #444444;
+  color: var(--color-text);
   font-weight: 500;
   position: relative;
   /* transition: 0.3s; */
@@ -274,7 +274,7 @@ ul.globalNav__menu>li.current {
   padding-top: 45px;
   padding-left: 20px;
   background-color: #ef454a;
-  color: #ffffff;
+  color: var(--color-white);
   font-weight: 500;
   position: relative;
 
@@ -350,7 +350,7 @@ ul>li.menu__parent>ul.menu__child li>a {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #ffffff;
+  color: var(--color-white);
   font-weight: 500;
   width: 100%
 }
@@ -401,7 +401,7 @@ ul>li.menu__parent>ul.menu__child li>a {
   padding-bottom: 1.5vw;
   text-decoration: none;
   /*  letter-spacing: 0.1rem;*/
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .mainVisual__scroll-down a:hover {
@@ -470,7 +470,7 @@ section.commonSection section:not(:first-of-type) {
 /* ▽ ※背景個別設定 ▽ */
 #index #mainContent>section:nth-of-type(1) {
   /* indexのみ */
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 #about #mainContent>section:nth-of-type(3) {
@@ -480,22 +480,22 @@ section.commonSection section:not(:first-of-type) {
 
 #about #mainContent>section:nth-of-type(5) {
   /* aboutのみ */
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 #trial #mainContent>section:nth-of-type(1) {
   /* trialのみ */
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 #activity #mainContent>section:nth-of-type(5) {
   /* trialのみ */
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 #join #mainContent>section:nth-of-type(1) {
   /* trialのみ */
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 /* ▽ 大見出し ▽ */
@@ -534,7 +534,7 @@ button.formSendBtn {
   border: 2px solid #ef454a;
   position: relative;
   transition: 0.3s;
-  color: #ffffff;
+  color: var(--color-white);
   text-decoration: none;
   background: #ff6c4a url(../img/effect/grazed_belt.png) repeat-y;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -558,7 +558,7 @@ button.formSendBtn:hover {
   color: #ef454a;
   border: 2px solid #ef454a;
   background: none;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .commonDetailBtn a:hover:before,
@@ -620,7 +620,7 @@ button.formSendBtn {
   content: '続きをよむ';
   transform: translate(-50%, 0);
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: var(--color-white);
   border-radius: 20px;
   background-color: #6dab21;
   height: 35px;
@@ -845,7 +845,7 @@ ul.convey {
 ul.convey>li {
   width: 410px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 ul.convey dl.convey__content {
@@ -865,7 +865,7 @@ ul.convey dl.convey__content>dd {
 
 #activity .topImage .topImage__txt {
   /* ※indexのみ */
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 #activity .topImage .topImage__img {
@@ -954,7 +954,7 @@ ul.convey dl.convey__content>dd {
   margin-left: -8px;
   width: auto;
   height: auto;
-  border-top: 16px solid #ffffff;
+  border-top: 16px solid var(--color-white);
   border-right: 16px solid transparent;
   border-bottom: 16px solid transparent;
   border-left: 16px solid transparent;
@@ -1059,7 +1059,7 @@ textarea {
 table.form th,
 table.form td {
   vertical-align: middle;
-  border-bottom: 20px solid #ffffff;
+  border-bottom: 20px solid var(--color-white);
 }
 
 .form__label {
@@ -1067,7 +1067,7 @@ table.form td {
   padding: 10px 40px;
   text-align: center;
   font-weight: bold;
-  color: #ffffff;
+  color: var(--color-white);
   background-color: #a6ca3a;
   margin-right: 20px;
 }
@@ -1225,7 +1225,7 @@ input[type=checkbox]:checked+.checkbox:before {
   padding: 10px;
   text-align: center;
   background-color: #b2d83e;
-  color: #ffffff;
+  color: var(--color-white);
   border-radius: 10px 10px 0 0;
   border-top: 2px solid #b2d83e;
   border-right: 2px solid #b2d83e;
@@ -1235,7 +1235,7 @@ input[type=checkbox]:checked+.checkbox:before {
 }
 
 .tab>li.select {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   color: #333333;
   border-top: 2px solid #b2d83e;
   border-right: 2px solid #b2d83e;
@@ -1317,7 +1317,7 @@ footer .footer-action .questionBtn a {
   margin: 0 auto;
   padding: 10px;
   background-color: #ef454a;
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 20px;
   font-weight: 500;
   text-align: center;
@@ -1330,7 +1330,7 @@ footer .footer-action .questionBtn a {
 footer .footer-action .questionBtn a:hover {
   background-color: #eeeeee;
   border: 2px solid #666666;
-  color: #444444;
+  color: var(--color-text);
   font-weight: bold;
   transition: 0.3s;
 }
@@ -1411,7 +1411,7 @@ ul.snsWrapper__btn>li a:hover {
 footer .footer-action .questionBtn a:hover {
   background-color: #eeeeee;
   border: 2px solid #666666;
-  color: #444444;
+  color: var(--color-text);
   font-weight: bold;
 }
 
@@ -1631,7 +1631,7 @@ print {
     width: 90%;
     height: 100%;
     padding-top: 0;
-    background: #ffffff;
+    background: var(--color-white);
     font-size: 16px;
     box-sizing: border-box;
     z-index: 2;
@@ -1656,7 +1656,7 @@ print {
     height: initial;
     padding: 14px 10px;
     text-decoration: none;
-    color: #444444;
+    color: var(--color-text);
   }
 
   .navWrapper .globalNav__btn {
@@ -1682,7 +1682,7 @@ print {
     top: 2px;
     left: 50%;
     margin-left: -15px;
-    background: #ffffff;
+    background: var(--color-white);
     border-radius: 10px;
   }
 
