@@ -1,0 +1,38 @@
+:root {
+  /* Colors */
+  --color-primary: #5D9A1F;
+  --color-primary-hover: #f3a200;
+  --color-text: #444444;
+  --color-white: #ffffff;
+  --color-background: #F6F6E8;
+  --color-header: rgba(25, 28, 31, 0.8);
+  
+  /* Font Families */
+  --font-primary: "游ゴシック", sans-serif;
+  
+  /* Font Sizes */
+  --font-size-base: 1.8rem;
+  --font-size-h1: 3.6rem;
+  --font-size-h2: 2.4rem;
+  --font-size-small: 1.4rem;
+  
+  /* Spacing */
+  --spacing-base: 1rem;
+  --spacing-large: 2rem;
+  --spacing-section: 6rem;
+  
+  /* Layout */
+  --max-width-content: 1250px;
+  --header-height: 10vw;
+  --header-height-scrolled: 60px;
+  
+  /* Transitions */
+  --transition-speed: 0.3s;
+  
+  /* Border Radius */
+  --border-radius-button: 30px;
+  --border-radius-small: 4px;
+  
+  /* Box Shadow */
+  --shadow-default: 0 0 30px rgba(214, 215, 216, 0.6);
+}

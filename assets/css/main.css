@@ -1,8 +1,7 @@
 @charset "utf-8";
+@import 'variables.css';
 
-/* ▼▼▼ Resposive Version ～PC First～ start ▼▼▼ */
-
-/* ======== base ======== */
+/* Base Styles */
 * {
   box-sizing: border-box;
 }
@@ -14,25 +13,25 @@ html {
 
 body {
   line-height: 1.6;
-  font-family: "游ゴシック", sans-serif;
-  font-size: 1.8rem;
-  color: #444444;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
 }
 
 .wrap {
   overflow: hidden;
 }
 
+/* Typography */
 h1 {
-  font-size: medium;
+  font-size: var(--font-size-base);
   font-weight: normal;
 }
 
 h2 {
-  margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: xx-large;
+  margin-block: 0 var(--spacing-large);
+  margin-inline: var(--spacing-large);
+  font-size: var(--font-size-h2);
   font-weight: 600;
   position: relative;
   z-index: 100;
