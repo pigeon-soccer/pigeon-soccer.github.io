@@ -1,17 +1,16 @@
 /* Contact Page Specific Styles */
-@import 'variables.css';
 
 /* Contact Section Layout */
 #contact .sectionContent h1 {
-  margin-bottom: var(--spacing-component);
+  margin-bottom: 30px;
 }
 
 #contact #mainContent>section:nth-of-type(odd) {
-  background: var(--color-white);
+  background: #fff;
 }
 
 .contact+p {
-  margin-top: var(--spacing-base);
+  margin-top: 20px;
 }
 
 .complete main#contact {
@@ -20,25 +19,25 @@
 
 /* Contact Info Box */
 .contact .info-box {
-  color: var(--color-text);
+  color: #444444;
   text-align: center;
-  box-shadow: var(--shadow-default);
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
-  margin-bottom: var(--spacing-component);
+  margin-bottom: 30px;
 }
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: var(--color-info);
-  border-radius: var(--border-radius-circle);
+  color: #34b7a7;
+  border-radius: 50%;
   padding: 15px;
-  background: var(--color-white);
+  background: #fff;
 }
 
 .contact .info-box h3 {
-  font-size: var(--font-size-h3);
-  color: var(--color-text-lighter);
-  font-weight: var(--font-weight-bolder);
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
   margin: 10px 0;
 }
 
@@ -59,42 +58,42 @@
 .contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: var(--color-text-light);
+  color: #687683;
   line-height: 1;
   margin: 0 8px;
-  transition: var(--transition-speed);
+  transition: 0.3s;
   padding: 14px;
-  border-radius: var(--border-radius-button);
-  border: 1px solid var(--color-gray);
+  border-radius: 50px;
+  border: 1px solid #dde1e4;
 }
 
 .contact .social-links a:hover {
-  color: var(--color-white);
-  border-color: var(--color-info);
-  background: var(--color-info);
+  color: #fff;
+  border-color: #34b7a7;
+  background: #34b7a7;
 }
 
 /* Contact Form */
 .contact .php-email-form {
-  box-shadow: var(--shadow-default);
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 27px;
 }
 
 .contact .php-email-form .validate {
   display: none;
-  color: var(--color-error);
+  color: red;
   margin: 0 0 15px 0;
-  font-weight: var(--font-weight-normal);
-  font-size: var(--font-size-smaller);
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .contact .php-email-form .error-message {
   display: none;
-  color: var(--color-white);
-  background: var(--color-error);
+  color: #fff;
+  background: #ed3c0d;
   text-align: left;
   padding: 15px;
-  font-weight: var(--font-weight-bold);
+  font-weight: 600;
 }
 
 .contact .php-email-form .error-message br+br {
@@ -103,11 +102,11 @@
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: var(--color-white);
-  background: var(--color-success);
+  color: #fff;
+  background: #18d26e;
   text-align: center;
   padding: 15px;
-  font-weight: var(--font-weight-bold);
+  font-weight: 600;
 }
 
 .contact .php-email-form .loading {
@@ -120,12 +119,12 @@
 .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
-  border-radius: var(--border-radius-circle);
+  border-radius: 50%;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid var(--color-success);
-  border-top-color: var(--color-gray-light);
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -138,7 +137,7 @@
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  background-color: var(--color-info);
+  background-color: #34b7a7;
 }
 
 .contact .php-email-form input {
@@ -150,16 +149,16 @@
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-info);
+  background: #34b7a7;
   border: 0;
   padding: 10px 24px;
-  color: var(--color-white);
-  transition: var(--transition-speed);
-  border-radius: var(--border-radius-small);
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: var(--color-info-hover);
+  background: #3dc8b7;
 }
 
 @keyframes animate-loading {
@@ -195,20 +194,20 @@
 .submitButton {
   max-width: 700px;
   width: 80%;
-  border-radius: var(--border-radius-button);
-  border: 2px solid var(--color-accent);
-  transition: var(--transition-speed);
-  color: var(--color-white);
-  background: var(--color-accent) url(../img/effect/grazed_belt.png) repeat-y!important;
-  box-shadow: var(--shadow-button);
+  border-radius: 30px;
+  border: 2px solid #E05126;
+  transition: 0.3s;
+  color: #ffffff;
+  background: #E05126 url(../img/effect/grazed_belt.png) repeat-y!important;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
   -webkit-tap-highlight-color: transparent;
 }
 
 .submitButton:hover {
-  color: var(--color-accent) !important;
-  border: 2px solid var(--color-accent) !important;
+  color: #E05126 !important;
+  border: 2px solid #E05126 !important;
   background: none !important;
-  background-color: var(--color-white) !important;
+  background-color: #ffffff !important;
 }
 
 .attribute1.form-check {
@@ -216,23 +215,23 @@
 }
 
 h2.mb-3.mt-5, label.form-label {
-  color: var(--color-primary-dark);
-  font-weight: var(--font-weight-bold);
+  color: #6dab21;
+  font-weight: bold;
 }
 
 .form-check-input:checked {
-  background-color: var(--color-primary-dark);
-  border-color: var(--color-primary-dark);
+  background-color: #6dab21;
+  border-color: #6dab21;
 }
 
 .btn-primary {
-  background-color: var(--color-primary-dark);
-  border-color: var(--color-primary-dark);
+  background-color: #6dab21;
+  border-color: #6dab21;
 }
 
 .privacy-note {
   border-bottom: solid;
-  border-color: var(--color-primary-dark);
+  border-color: #6dab21;
   border-width: 2.5px;
   display: block;
   width: 230px;
@@ -244,11 +243,11 @@ select {
 }
 
 .form-control:focus {
-  border-color: var(--color-primary-dark);
+  border-color: #6dab21;
 }
 
 .modal-footer .btn-primary {
-  background: var(--color-primary-dark);
+  background: #6dab21;
 }
 
 input::-webkit-calendar-picker-indicator {

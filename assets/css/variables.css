@@ -1,60 +1,25 @@
 :root {
-  /* Colors - Primary Palette */
+  /* Colors */
   --color-primary: #5D9A1F;
   --color-primary-hover: #f3a200;
-  --color-primary-light: #86c463;
-  --color-primary-dark: #6dab21;
-  
-  /* Colors - Accent/CTA */
-  --color-accent: #E05126;
-  --color-cta: #ef454a;
-  --color-cta-hover: #ff6c4a;
-  
-  /* Colors - Neutrals */
   --color-text: #444444;
-  --color-text-light: #5d6a75;
-  --color-text-lighter: #777777;
   --color-white: #ffffff;
   --color-background: #F6F6E8;
-  --color-background-light: #f1f1f1;
-  --color-gray-dark: #666666;
-  --color-gray: #dde1e4;
-  --color-gray-light: #eeeeee;
-  
-  /* Colors - UI States */
-  --color-success: #18d26e;
-  --color-error: #ed3c0d;
-  --color-info: #34b7a7;
-  --color-info-hover: #3dc8b7;
-  
-  /* Colors - Overlays & Transparencies */
   --color-header: rgba(25, 28, 31, 0.8);
-  --color-overlay-dark: rgba(40, 20, 10, 0.3);
-  --color-overlay-light: rgba(255, 255, 255, 0.8);
   
   /* Font Families */
   --font-primary: "游ゴシック", sans-serif;
-  --font-secondary: "Open Sans", sans-serif;
   
   /* Font Sizes */
   --font-size-base: 1.8rem;
   --font-size-h1: 3.6rem;
   --font-size-h2: 2.4rem;
-  --font-size-h3: 2.0rem;
   --font-size-small: 1.4rem;
-  --font-size-smaller: 1.3rem;
-  
-  /* Font Weights */
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-bold: 600;
-  --font-weight-bolder: 700;
   
   /* Spacing */
   --spacing-base: 1rem;
   --spacing-large: 2rem;
   --spacing-section: 6rem;
-  --spacing-component: 30px;
   
   /* Layout */
   --max-width-content: 1250px;
@@ -63,21 +28,11 @@
   
   /* Transitions */
   --transition-speed: 0.3s;
-  --transition-speed-fast: 0.2s;
-  --transition-speed-slow: 0.5s;
   
   /* Border Radius */
   --border-radius-button: 30px;
   --border-radius-small: 4px;
-  --border-radius-circle: 50%;
   
   /* Box Shadow */
   --shadow-default: 0 0 30px rgba(214, 215, 216, 0.6);
-  --shadow-button: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-  --shadow-card: 1px 1.5px 4px 1px rgba(0, 0, 0, 0.1);
-  
-  /* Z-index Layers */
-  --z-index-header: 999;
-  --z-index-modal: 1000;
-  --z-index-tooltip: 100;
 }
