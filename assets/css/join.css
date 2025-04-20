@@ -116,9 +116,16 @@ a.smallIconLink span {
   margin-left: 5px!important;
 }
 
+/* Fix for the contact button to be responsive */
+.section-title h4.text-center {
+  display: flex;
+  justify-content: center;
+}
+
 .submitButton {
   display: inline-block;
-  min-width: 550px;
+  width: 90%; /* Use percentage instead of fixed width */
+  max-width: 550px; /* Set max-width instead of min-width */
   margin: 0 auto;
   padding: 10px;
   background-color: #ef454a;

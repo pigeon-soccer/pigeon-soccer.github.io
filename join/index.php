@@ -95,7 +95,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <link href="../assets/css/laura.css" rel="stylesheet">
+  <link href="../assets/css/join-laura.css" rel="stylesheet">
   <link href="../assets/css/join.css" rel="stylesheet">
   <script defer src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
 
