@@ -229,23 +229,18 @@ ul.globalNav__menu>li {
   text-align: center;
 }
 
-ul.globalNav__menu>li a {
+ul.globalNav__menu>li a,
+ul.globalNav__menu>li a:hover {
   display: block;
   color: var(--color-text);
   font-weight: 500;
   position: relative;
   /* transition: 0.3s; */
-  padding-top: 5vw;
   height: 100%;
 }
 
-ul.globalNav__menu>li a:hover {
-  display: block;
-  height: 100%;
-  color: var(--color-text);
-  font-weight: 500;
-  position: relative;
-  /* transition: 0.3s; */
+ul.globalNav__menu>li a {
+  padding-top: 5vw;
 }
 
 ul.globalNav__menu>li a:before {
@@ -468,34 +463,18 @@ section.commonSection section:not(:first-of-type) {
 }
 
 /* ▽ ※背景個別設定 ▽ */
-#index #mainContent>section:nth-of-type(1) {
-  /* indexのみ */
+/* 背景個別設定 */
+#index #mainContent>section:nth-of-type(1),
+#about #mainContent>section:nth-of-type(5),
+#trial #mainContent>section:nth-of-type(1),
+#activity #mainContent>section:nth-of-type(5),
+#join #mainContent>section:nth-of-type(1) {
   background-color: var(--color-white);
 }
 
 #about #mainContent>section:nth-of-type(3) {
   /* aboutのみ */
   background-color: #86c4635e;
-}
-
-#about #mainContent>section:nth-of-type(5) {
-  /* aboutのみ */
-  background-color: var(--color-white);
-}
-
-#trial #mainContent>section:nth-of-type(1) {
-  /* trialのみ */
-  background-color: var(--color-white);
-}
-
-#activity #mainContent>section:nth-of-type(5) {
-  /* trialのみ */
-  background-color: var(--color-white);
-}
-
-#join #mainContent>section:nth-of-type(1) {
-  /* trialのみ */
-  background-color: var(--color-white);
 }
 
 /* ▽ 大見出し ▽ */
@@ -697,7 +676,6 @@ section.commonSection h2.summary__heading:before {
 
 section.commonSection .summary-about h2.summary__heading:before {
   content: "About";
-
 }
 
 section.commonSection .summary-activity h2.summary__heading:before {
@@ -1327,14 +1305,6 @@ footer .footer-action .questionBtn a {
   -webkit-tap-highlight-color: transparent;
 }
 
-footer .footer-action .questionBtn a:hover {
-  background-color: #eeeeee;
-  border: 2px solid #666666;
-  color: var(--color-text);
-  font-weight: bold;
-  transition: 0.3s;
-}
-
 footer .footer-action .questionBtn a:before {
   content: "";
   display: inline;
@@ -1345,6 +1315,14 @@ footer .footer-action .questionBtn a:before {
   width: 13px;
   height: 20px;
   background: url(../img/icon/index_ic_002.png) no-repeat 0 0/13px 20px;
+}
+
+footer .footer-action .questionBtn a:hover {
+  background-color: #eeeeee;
+  border: 2px solid #666666;
+  color: var(--color-text);
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 footer .footer-action .questionBtn a:hover:before {
@@ -1408,12 +1386,7 @@ ul.snsWrapper__btn>li a:hover {
   height: 60px;
 }
 
-footer .footer-action .questionBtn a:hover {
-  background-color: #eeeeee;
-  border: 2px solid #666666;
-  color: var(--color-text);
-  font-weight: bold;
-}
+/* This style is already defined above */
 
 ul.snsWrapper__btn>li a:before {
   content: "";
