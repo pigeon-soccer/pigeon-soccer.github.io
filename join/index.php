@@ -478,28 +478,6 @@
             いつでもご連絡を心待ちにしております。見学・体験がご不安な方は先に相談いただいても構いません。</figcaption>
         </div>
 
-        <!-- <div class="row">
-
-
-          <div>
-            <form class="formrun" action="https://form.run/api/v1/r/g7zj4f7d5powjqgcx0qnj7ej" method="post">
-              <input name="type" value="volunteer" type="text" hidden>
-              <div id="attribute_botblock"></div>
-              <h2 class="mb-3 mt-5">ご連絡先</h2>
-              <div id="attribute_name"></div>
-              <div id="attribute_email"></div>
-              <h2 class="mb-3 mt-5">内容</h2>
-              <div id="attribute_about"></div>
-              <div id="attribute_detail"></div>
-              <div id="attribute_privacy"></div>
-              <div class="mt-5">
-              <div id="attribute_submit"></div>
-              </div>
-            </form>
-          </div>
-
-        </div> -->
-
       </div>
     </section><!-- End Contact Me Section -->
 
