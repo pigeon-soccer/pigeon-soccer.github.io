@@ -192,15 +192,16 @@
                               style="width:344px;height:315px;"></lite-youtube>
                           </div>
                         </div>
-                        <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch height750">
+                        <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                           <div class="count-box">
                             <i class="bi bi-geo-alt" style="color: #f3a200;"></i>
                             <p class="txtLink txtLinkEmphasis"><a href="https://twitter.com/PigeonSoccerNPO"
                                 target="_blank">SNS</a></p>
                             <p>日々の活動の内容やスタッフの気づきを報告しています。</p>
-                            <a class="twitter-timeline" data-height="666"
+                            <!-- <a class="twitter-timeline" data-height="666"
                               href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Twitter読み込み中...</a>
-                            <script src="https://platform.twitter.com/widgets.js" charset="utf-8" defer></script>
+                            <script src="https://platform.twitter.com/widgets.js" charset="utf-8" defer></script> -->
+                            <!-- <a class="twitter-timeline" href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Tweets by PigeonSoccerNPO</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
                           </div>
                         </div>
                       </div><!-- End row-->

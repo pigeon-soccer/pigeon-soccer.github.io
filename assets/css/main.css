@@ -467,10 +467,6 @@ section.commonSection section:not(:first-of-type) {
   padding-top: 150px;
 }
 
-section.summary.summary-news {
-  padding-top: 0px !important;
-}
-
 /* ▽ ※背景個別設定 ▽ */
 #index #mainContent>section:nth-of-type(1) {
   /* indexのみ */
@@ -1751,11 +1747,6 @@ print {
   section.commonSection section:not(:first-of-type) {
     padding-top: 60px;
   }
-
-  section.summary.summary-news {
-    padding-top: 0px !important;
-  }
-
   /* ▽ セクション - 見出し ▽ */
   section.commonSection .summary-activity h2.summary__heading:before {
     content: "Individual";
@@ -2073,6 +2064,3 @@ print {
   width: 550px;
 }
 
-.height750 {
-  height: 750px;
-}
