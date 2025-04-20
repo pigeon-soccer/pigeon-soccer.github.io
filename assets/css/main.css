@@ -105,10 +105,10 @@ strong {
 /* ------ TOOL TIP ------ */
 /* 表示文字の装飾 */
 div.tooltip {
-  color: #555;
+  color: var(--color-text);
   display: inline-block;
   /* インライン要素化 */
-  border-bottom: dashed 1px #555;
+  border-bottom: dashed 1px var(--color-text);
   /* 下線を引く */
 }
 
@@ -120,7 +120,7 @@ div.tooltip span {
 /* マウスオーバー */
 div.tooltip:hover {
   position: relative;
-  color: #333;
+  color: var(--color-text-darker);
 }
 
 /* マウスオーバー時にツールチップを表示 */
@@ -131,8 +131,8 @@ div.tooltip:hover span {
   /* relativeからの絶対位置 */
   top: 25px;
   font-size: 90%;
-  color: #fff;
-  background-color: #88b35a;
+  color: var(--color-white);
+  background-color: var(--color-primary-alt-4);
   width: 375px;
   padding: 5px;
   border-radius: 3px;
@@ -140,7 +140,7 @@ div.tooltip:hover span {
 }
 
 div.tooltip:hover span td {
-  color: #fff;
+  color: var(--color-white);
 }
 
 /* フキダシ部分を作成 */
@@ -155,7 +155,7 @@ div.tooltip span:before {
   left: 15px;
   border: 13px transparent solid;
   border-right-width: 0;
-  border-left-color: #88b35a;
+  border-left-color: var(--color-primary-alt-4);
   transform: rotate(270deg);
   /* 傾きをつける */
   -webkit-transform: rotate(270deg);
@@ -202,7 +202,7 @@ img.navWrapper__logo_img {
 }
 
 .navWrapper__logo:hover {
-  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px var(--color-white);
   border-radius: .55rem;
   border: .0625rem solid transparent;
 }
@@ -258,7 +258,7 @@ ul.globalNav__menu>li.current {
   height: 100px;
   padding-top: 45px;
   padding-left: 20px;
-  background-color: #ef454a;
+  background-color: var(--color-accent);
   color: var(--color-white);
   font-weight: 500;
   position: relative;
@@ -445,7 +445,7 @@ ul>li.menu__parent>ul.menu__child li>a {
 
 #mainContent>section:nth-of-type(odd) {
   /* 共通 */
-  background-color: #f1f1f1;
+  background-color: var(--color-background-gray-light);
 }
 
 section.commonSection section:not(:first-of-type) {
@@ -464,7 +464,7 @@ section.commonSection section:not(:first-of-type) {
 
 #about #mainContent>section:nth-of-type(3) {
   /* aboutのみ */
-  background-color: #86c4635e;
+  background-color: var(--color-primary-light-2);
 }
 
 /* ▽ 大見出し ▽ */
@@ -499,12 +499,12 @@ section.commonSection section:not(:first-of-type) {
   font-size: 2rem;
   font-weight: 500;
   border-radius: 30px;
-  border: 2px solid #ef454a;
+  border: 2px solid var(--color-accent);
   position: relative;
   transition: 0.3s;
   color: var(--color-white);
   text-decoration: none;
-  background: #ff6c4a url(../img/effect/grazed_belt.png) repeat-y;
+  background: var(--color-accent-alt) url(../img/effect/grazed_belt.png) repeat-y;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   -webkit-tap-highlight-color: transparent;
 }
@@ -521,8 +521,8 @@ section.commonSection section:not(:first-of-type) {
 }
 
 .commonDetailBtn a:hover {
-  color: #ef454a;
-  border: 2px solid #ef454a;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
   background: none;
   background-color: var(--color-white);
 }
@@ -565,7 +565,7 @@ section.commonSection section:not(:first-of-type) {
   cursor: pointer;
   text-align: center;
   /* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
-  background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, #f1f1f1 90%);
+  background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, var(--color-background-gray-light) 90%);
 }
 
 .paragraph input:checked+label {
@@ -586,7 +586,7 @@ section.commonSection section:not(:first-of-type) {
   letter-spacing: 0.05em;
   color: var(--color-white);
   border-radius: 20px;
-  background-color: #6dab21;
+  background-color: var(--color-primary-alt-3);
   height: 35px;
   padding-top: 5px;
 }
@@ -706,10 +706,10 @@ ul.commonInner__solution {
 
 ul.commonInner__solution>li {
   align-content: space-between;
-  background: #fff;
+  background: var(--color-white);
   border-radius: 0;
   box-shadow: 1px 1.5px 4px 1px rgba(0, 0, 0, 0.1);
-  color: #4c4c4c;
+  color: var(--color-text);
   display: flex;
   flex-basis: 100%;
   flex-wrap: wrap;
@@ -753,7 +753,7 @@ ul.commonInner__solution>li dd {
 }
 
 .commonInner__history>dl {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid var(--color-gray-light);
   display: flex;
   padding: 30px 25px 30px 25px;
 }
@@ -774,7 +774,7 @@ ul.commonInner__solution>li dd {
   justify-content: space-around;
   margin: 8px;
   padding: 30px 20px;
-  background-color: #f1f1f1;
+  background-color: var(--color-background-gray-light);
   box-shadow: 1px 1.5px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -817,7 +817,7 @@ ul.convey dl.convey__content {
 
 ul.convey dl.convey__content>dt {
   padding-bottom: 10px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid var(--color-gray-light);
   font-weight: bold;
   font-size: 2rem;
 }
@@ -904,7 +904,7 @@ ul.convey dl.convey__content>dd {
   display: block;
   width: 400px;
   padding: 10px 20px;
-  background-color: #f1f1f1;
+  background-color: var(--color-background-gray-light);
   border-radius: 5px;
   position: relative;
 }
@@ -958,7 +958,7 @@ ul.convey dl.convey__content>dd {
   left: 0;
   width: 2em;
   height: 5px;
-  background-color: #b2d83e;
+  background-color: var(--color-primary-alt);
   border-radius: 20px;
 }
 
@@ -996,28 +996,28 @@ ul.convey dl.convey__content>dd {
   width: 100%;
   padding: 10px;
   text-align: center;
-  background-color: #b2d83e;
+  background-color: var(--color-primary-alt);
   color: var(--color-white);
   border-radius: 10px 10px 0 0;
-  border-top: 2px solid #b2d83e;
-  border-right: 2px solid #b2d83e;
-  border-left: 2px solid #b2d83e;
-  border-color: #f1f1f1;
+  border-top: 2px solid var(--color-primary-alt);
+  border-right: 2px solid var(--color-primary-alt);
+  border-left: 2px solid var(--color-primary-alt);
+  border-color: var(--color-background-gray-light);
   font-weight: bold;
 }
 
 .tab>li.select {
   background-color: var(--color-white);
-  color: #333333;
-  border-top: 2px solid #b2d83e;
-  border-right: 2px solid #b2d83e;
-  border-left: 2px solid #b2d83e;
+  color: var(--color-text-darker);
+  border-top: 2px solid var(--color-primary-alt);
+  border-right: 2px solid var(--color-primary-alt);
+  border-left: 2px solid var(--color-primary-alt);
   margin-bottom: -2px;
 }
 
 .tab>li:hover {
   cursor: pointer;
-  box-shadow: 3px -15px 6px #eeeeee, -3px -3px 6px #fff;
+  box-shadow: 3px -15px 6px var(--color-background-gray), -3px -3px 6px var(--color-white);
   border: .0625rem solid transparent;
 }
 
@@ -1071,7 +1071,7 @@ img.summaryInfo__staffTarget-img {
 /* ======== footer ======== */
 footer .footer-action {
   padding: 40px 0 30px;
-  background-color: #eeeeee;
+  background-color: var(--color-background-gray);
 }
 
 footer .footer-action__btnWrapper {
@@ -1088,7 +1088,7 @@ footer .footer-action .questionBtn a {
   min-width: 550px;
   margin: 0 auto;
   padding: 10px;
-  background-color: #ef454a;
+  background-color: var(--color-accent);
   color: var(--color-white);
   font-size: 20px;
   font-weight: 500;
@@ -1112,8 +1112,8 @@ footer .footer-action .questionBtn a:before {
 }
 
 footer .footer-action .questionBtn a:hover {
-  background-color: #eeeeee;
-  border: 2px solid #666666;
+  background-color: var(--color-background-gray);
+  border: 2px solid var(--color-gray);
   color: var(--color-text);
   font-weight: bold;
   transition: 0.3s;
@@ -1209,7 +1209,7 @@ footer .footer-infomation {
   color: white;
   padding: 20px 0;
   height: 100px;
-  background-color: #666666;
+  background-color: var(--color-gray);
   position: relative;
   text-align: center;
 }
@@ -1228,7 +1228,7 @@ footer .footer-infomation .pageTop-up a {
   min-width: 100px;
   min-height: 50px;
   color: white;
-  background-color: #666666 !important;
+  background-color: var(--color-gray) !important;
   border-radius: 50% 50% 0 0/100% 100% 0 0;
   position: relative;
 }
@@ -1436,7 +1436,7 @@ print {
     cursor: pointer;
     /* -webkit-transition: all 400ms;
     transition: all 400ms; */
-    background-color: #ef454a;
+    background-color: var(--color-accent);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   }
 
@@ -1464,11 +1464,11 @@ print {
   }
 
   .navWrapper .globalNav__btn.open {
-    background-color: #666666;
+    background-color: var(--color-gray);
   }
 
   .navWrapper .globalNav__btn.open span {
-    background: #fff;
+    background: var(--color-white);
   }
 
   li.menu__parent:hover ul.menu__child {
@@ -1721,7 +1721,7 @@ print {
     /* padding: 5px; */
     text-align: center;
     /* height: 110px; */
-    background-color: #666666;
+    background-color: var(--color-gray);
   }
 
   /* footer .footer-infomation .footer-infomation__logo{
@@ -1742,7 +1742,7 @@ print {
   }
 
   footer .footer-infomation .pageTop-up a {
-    background-color: #666666;
+    background-color: var(--color-gray);
   }
 
   #about .commonSection-problem {
