@@ -1,0 +1,256 @@
+/* Contact Page Specific Styles */
+
+/* Contact Section Layout */
+#contact .sectionContent h1 {
+  margin-bottom: 30px;
+}
+
+#contact #mainContent>section:nth-of-type(odd) {
+  background: #fff;
+}
+
+.contact+p {
+  margin-top: 20px;
+}
+
+.complete main#contact {
+  min-height: 100vh;
+}
+
+/* Contact Info Box */
+.contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  margin-bottom: 30px;
+}
+
+.contact .info-box i.bx {
+  font-size: 24px;
+  color: #34b7a7;
+  border-radius: 50%;
+  padding: 15px;
+  background: #fff;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* Social Links */
+.contact .social-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  color: #687683;
+  line-height: 1;
+  margin: 0 8px;
+  transition: 0.3s;
+  padding: 14px;
+  border-radius: 50px;
+  border: 1px solid #dde1e4;
+}
+
+.contact .social-links a:hover {
+  color: #fff;
+  border-color: #34b7a7;
+  background: #34b7a7;
+}
+
+/* Contact Form */
+.contact .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 27px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  background-color: #34b7a7;
+}
+
+.contact .php-email-form input {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #34b7a7;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #3dc8b7;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Form Styles */
+@import 'variables.css';
+
+.sectionContent-header {
+  margin-block-end: calc(var(--spacing-base) * 1.5);
+}
+
+.form-heading {
+  text-align: center;
+  font-size: var(--font-size-h1);
+  line-height: 1;
+  margin-block-end: calc(var(--spacing-base) * 3.75);
+  font-weight: bold;
+}
+
+/* Base Typography */
+.form-content * {
+  margin-block: 0 var(--spacing-base);
+  font-family: var(--font-primary);
+}
+
+.submitButton {
+  max-width: 700px;
+  width: 80%;
+  border-radius: 30px;
+  border: 2px solid #E05126;
+  transition: 0.3s;
+  color: #ffffff;
+  background: #E05126 url(../img/effect/grazed_belt.png) repeat-y!important;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.submitButton:hover {
+  color: #E05126 !important;
+  border: 2px solid #E05126 !important;
+  background: none !important;
+  background-color: #ffffff !important;
+}
+
+.attribute1.form-check {
+  padding-left: 0;
+}
+
+h2.mb-3.mt-5, label.form-label {
+  color: #6dab21;
+  font-weight: bold;
+}
+
+.form-check-input:checked {
+  background-color: #6dab21;
+  border-color: #6dab21;
+}
+
+.btn-primary {
+  background-color: #6dab21;
+  border-color: #6dab21;
+}
+
+.privacy-note {
+  border-bottom: solid;
+  border-color: #6dab21;
+  border-width: 2.5px;
+  display: block;
+  width: 230px;
+  cursor: pointer;
+}
+
+select {
+  cursor: pointer;
+}
+
+.form-control:focus {
+  border-color: #6dab21;
+}
+
+.modal-footer .btn-primary {
+  background: #6dab21;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+  opacity: 0;
+}
