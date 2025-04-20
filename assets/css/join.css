@@ -16,38 +16,38 @@
 
 .memberTable thead {
   color: white;
-  background-color: #5D9A1F;
-  border-color: #5D9A1F;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
   font-weight: lighter;
 }
 
 .blockquotePerson {
-  color: #5D9A1F;
+  color: var(--color-primary);
   font-size: 75px;
   margin-right: 10px;
 }
 
 .enrichText {
-  color: #5D9A1F;
+  color: var(--color-primary);
   font-weight: bolder;
   padding: 0;
   margin: 0;
 }
 
 .btn-outline-primary {
-  border-color: #E05126;
-  color: #E05126;
+  border-color: var(--color-accent-hover);
+  color: var(--color-accent-hover);
 }
 
 .btn:first-child:hover,
 :not(.btn-check)+.btn:hover {
-  border-color: #E05126;
+  border-color: var(--color-accent-hover);
   color: white;
-  background-color: #E05126;
+  background-color: var(--color-accent-hover);
 }
 
 main#main {
-  background: #F6F6E8;
+  background: var(--color-background);
 }
 
 p {
@@ -58,7 +58,7 @@ p {
 
 .blockquoteDecoration {
   position: relative;
-  border-left: 3px solid #5D9A1F;
+  border-left: 3px solid var(--color-primary);
   padding-left: 10px;
 }
 
@@ -66,7 +66,7 @@ p {
   position: absolute;
   content: '“';
   font-size: 45px;
-  color: #5D9A1F;
+  color: var(--color-primary);
 }
 
 .blockquoteDecoration p {
@@ -77,7 +77,7 @@ p {
 .blockquoteDecoration cite {
   display: block;
   font-size: 0.8rem;
-  color: #5D9A1F;
+  color: var(--color-primary);
   text-align: left;
 }
 
@@ -85,14 +85,14 @@ p {
   font-size: medium;
 }
 .greenBkButton {
-  background-color: #5D9A1F;
+  background-color: var(--color-primary);
   border-color: transparent;
   color: white;
 }
 
 .greenBkButton:hover{
-    background: #f3a200!important;
-    color: #fff!important;
+    background: var(--color-primary-hover)!important;
+    color: var(--color-white)!important;
     border-color: transparent!important;
   }
 
@@ -106,7 +106,7 @@ a.smallIconLink i::before{
 }
 a.smallIconLink .bi-box-arrow-up-right::before {
   font-size: 23px;
-  color: #5d6a75;
+  color: var(--color-text-medium);
 }
 
 a.smallIconLink span {
@@ -128,8 +128,8 @@ a.smallIconLink span {
   max-width: 550px; /* Set max-width instead of min-width */
   margin: 0 auto;
   padding: 10px;
-  background-color: #ef454a;
-  color: #ffffff;
+  background-color: var(--color-accent);
+  color: var(--color-white);
   font-size: 20px;
   font-weight: 500;
   text-align: center;
@@ -141,9 +141,9 @@ a.smallIconLink span {
 }
 
 .submitButton:hover {
-  background-color: #eeeeee;
-  border: 2px solid #666666;
-  color: #444444;
+  background-color: var(--color-background-gray);
+  border: 2px solid var(--color-gray);
+  color: var(--color-text);
   font-weight: bold;
   transition: 0.3s;
 }

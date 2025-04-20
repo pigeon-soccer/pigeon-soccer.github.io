@@ -1,11 +1,46 @@
 :root {
-  /* Colors */
+  /* Colors - Primary */
   --color-primary: #5D9A1F;
   --color-primary-hover: #f3a200;
+  --color-primary-light: #6b9a1f21;
+  --color-primary-light-2: #86c4635e;
+  --color-primary-alt: #b2d83e;
+  --color-primary-alt-2: #a6ca3a;
+  --color-primary-alt-3: #6dab21;
+  --color-primary-alt-4: #88b35a;
+  
+  /* Colors - Text */
   --color-text: #444444;
+  --color-text-dark: #3b434a;
+  --color-text-darker: #111111;
+  --color-text-medium: #5d6a75;
+  --color-text-light: #6c757d;
+  --color-text-lighter: #82909c;
+  
+  /* Colors - Accent */
+  --color-accent: #ef454a;
+  --color-accent-hover: #E05126;
+  --color-accent-alt: #ff6c4a;
+  --color-accent-yellow: #ffc85a;
+  --color-accent-yellow-light: #ffc550;
+  
+  /* Colors - Background */
   --color-white: #ffffff;
   --color-background: #F6F6E8;
+  --color-background-light: #f4f5f6;
+  --color-background-lighter: #eef0f2;
+  --color-background-warm: #fff4df;
+  --color-background-gray: #eeeeee;
+  --color-background-gray-light: #f1f1f1;
+  
+  /* Colors - Neutral */
+  --color-gray: #666666;
+  --color-gray-light: #eee;
+  --color-gray-lighter: #ddd;
+  
+  /* Colors - Transparent */
   --color-header: rgba(25, 28, 31, 0.8);
+  --color-overlay: rgba(40, 20, 10, 0.3);
   
   /* Font Families */
   --font-primary: "游ゴシック", sans-serif;

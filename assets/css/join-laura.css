@@ -5,21 +5,23 @@
 * License: https://bootstrapmade.com/license/
 */
 
+@import 'variables.css';
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "游ゴシック", sans-serif;
-  color: #444444;
+  font-family: var(--font-primary);
+  color: var(--color-text);
 }
 
 a {
-  color: #5D9A1F;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffc85a;
+  color: var(--color-accent-yellow);
   text-decoration: none;
 }
 
@@ -42,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5D9A1F;
+  background: var(--color-primary);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -51,13 +53,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: var(--color-white);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #ffc550;
-  color: #fff;
+  background: var(--color-accent-yellow-light);
+  color: var(--color-white);
 }
 
 .back-to-top.active {
@@ -72,7 +74,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   height: 80px;
-  background: rgba(25, 28, 31, 0.8);
+  background: var(--color-header);
 }
 
 #header.header-transparent {
@@ -81,7 +83,7 @@ h6 {
 
 #header.header-scrolled {
   height: 60px;
-  background: rgba(25, 28, 31, 0.8);
+  background: var(--color-header);
 }
 
 /*--------------------------------------------------------------
@@ -112,7 +114,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px;
-  color: #fff;
+  color: var(--color-white);
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
@@ -133,7 +135,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #b2d83e;
+  color: var(--color-primary-alt);
 }
 
 .navbar .dropdown ul {
@@ -146,7 +148,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: var(--color-white);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -161,7 +163,7 @@ h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 400;
-  color: #3b434a;
+  color: var(--color-text-dark);
   letter-spacing: 1px;
 }
 
@@ -208,7 +210,7 @@ h6 {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: var(--color-white);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -252,7 +254,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: var(--color-white);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -261,7 +263,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 14px;
-  color: #3b434a;
+  color: var(--color-text-dark);
 }
 
 .navbar-mobile a:hover,
@@ -283,7 +285,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: var(--color-white);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -347,11 +349,11 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-family: "游ゴシック", sans-serif;
-  color: #fff;
+  color: var(--color-white);
 }
 
 #hero h2 {
-  color: #eee;
+  color: var(--color-gray-light);
   margin-bottom: 50px;
   font-size: 13px;
   font-weight: 500;
@@ -437,7 +439,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #3b434a;
+  color: var(--color-text-dark);
   position: relative;
   z-index: 2;
 }
@@ -477,7 +479,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #f4f5f6;
+  background-color: var(--color-background-light);
   min-height: 40px;
   margin-top: 78px;
 }
@@ -516,7 +518,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6c757d;
+  color: var(--color-text-light);
   content: "/";
 }
 
@@ -540,7 +542,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #3b434a;
+  color: var(--color-text-dark);
   text-transform: uppercase;
 }
 
@@ -587,7 +589,7 @@ section {
   line-height: 30px;
   display: block;
   font-weight: 700;
-  color: #3b434a;
+  color: var(--color-text-dark);
   margin-left: 50px;
 }
 
@@ -596,21 +598,21 @@ section {
   margin: 0 0 0 50px;
   font-family: "游ゴシック", sans-serif;
   font-size: 14px;
-  color: #5d6a75;
+  color: var(--color-text-medium);
 }
 
 .about .content .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #5d6a75;
+  color: var(--color-text-medium);
   font-size: 15px;
   font-family: "游ゴシック", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .about .content .count-box a:hover {
-  color: #82909c;
+  color: var(--color-text-lighter);
 }
 
 .about .image {
@@ -628,13 +630,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #3b434a;
+  color: var(--color-text-dark);
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #82909c;
+  border-left: 2px solid var(--color-text-lighter);
   position: relative;
 }
 
@@ -649,7 +651,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #eef0f2;
+  background: var(--color-background-lighter);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -676,8 +678,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #82909c;
+  background: var(--color-white);
+  border: 2px solid var(--color-text-lighter);
 }
 
 /*--------------------------------------------------------------
@@ -687,7 +689,7 @@ section {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: var(--color-white);
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
@@ -702,7 +704,7 @@ section {
   border-radius: 50%;
   width: 72px;
   height: 72px;
-  background: #fff4df;
+  background: var(--color-background-warm);
 }
 
 .services .icon i {
@@ -718,7 +720,7 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: var(--color-text-darker);
   transition: 0.3s;
 }
 
@@ -729,7 +731,7 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #5D9A1F;
+  border-color: var(--color-primary);
 }
 
 .services .icon-box:hover .title a {
@@ -768,7 +770,7 @@ section {
 
 .testimonials .testimonial-item {
   text-align: center;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -782,12 +784,12 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #ddd;
+  color: var(--color-gray-lighter);
   margin: 0 0 15px 0;
 }
 
@@ -813,7 +815,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
-  color: #eee;
+  color: var(--color-gray-light);
 }
 
 .testimonials .swiper-pagination {
@@ -862,8 +864,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #f3a200;
-  border-color: #5D9A1F;
+  color: var(--color-primary-hover);
+  border-color: var(--color-primary);
 }
 
 .portfolio .portfolio-item {
@@ -892,9 +894,9 @@ section {
 
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #fff;
+  color: var(--color-white);
   font-weight: 600;
-  color: #fff;
+  color: var(--color-white);
   margin-bottom: 0px;
 }
 
@@ -910,7 +912,7 @@ section {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #fff;
+  color: var(--color-white);
   transition: 0.3s;
 }
 
@@ -950,7 +952,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: var(--color-white);
   opacity: 1;
   border: 1px solid #5D9A1F;
 }
@@ -1001,7 +1003,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #fff;
+  background: var(--color-white);
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
@@ -1071,11 +1073,11 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #5D9A1F;
+  background: var(--color-primary);
   display: inline-block;
   padding: 8px 35px;
   border-radius: 4px;
-  color: #fff;
+  color: var(--color-white);
   transition: none;
   font-size: 14px;
   font-weight: 400;
@@ -1089,8 +1091,8 @@ section {
 }
 
 .pricing .featured h3 {
-  color: #fff;
-  background: #5D9A1F;
+  color: var(--color-white);
+  background: var(--color-primary);
 }
 
 .pricing .advanced {
@@ -1102,8 +1104,8 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #5D9A1F;
-  color: #fff;
+  background: var(--color-primary);
+  color: var(--color-white);
 }
 
 /*--------------------------------------------------------------
@@ -1118,7 +1120,7 @@ section {
 #footer {
   background: url("../img/snapshot/handshake-footer-art.jpg") top center no-repeat;
   background-size: cover;
-  color: #fff;
+  color: var(--color-white);
   font-size: 14px;
   text-align: center;
   padding: 80px 0;
@@ -1142,7 +1144,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: var(--color-white);
   position: relative;
   font-family: "游ゴシック", sans-serif;
   padding: 0;
@@ -1163,8 +1165,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5D9A1F;
-  color: #fff;
+  background: var(--color-primary);
+  color: var(--color-white);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1176,8 +1178,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #f3a200;
-  color: #fff;
+  background: var(--color-primary-hover);
+  color: var(--color-white);
   text-decoration: none;
 }
 
