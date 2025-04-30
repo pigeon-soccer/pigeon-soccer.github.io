@@ -7,58 +7,35 @@
   <meta name="description"
     content="東京都文京区で行う活動内容と保護者の体験談をたくさん紹介。障がいのある子どもたちが、個々の症状と発達状況に合わせた練習メニューでサッカーを楽しみながら成長。社会性や自己管理能力を育み、自立への一歩を支援します。">
   <script type="application/ld+json">
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "NGO",
-        "subOrganization": "EducationalOrganization",
-        "name": "NPO法人ピジョン",
-        "funder": "武藤太一(むとうたいち)",
-        "address":{
-          "@type":"PostalAddress",
-          "streetAddress":"目白台",
-          "addressLocality":"文京区",
-          "addressRegion":"東京都",
-          "postalCode":"112-0015",
-          "addressCountry":"JP"
-        },
-        "sameAs": [
-          "https://twitter.com/PigeonSoccerNPO",
-          "https://www.facebook.com/pigeon.soccer/"
-          ],
-          "email": "share@pigeon-2ndplace.org",
-          "alternateName": "障がい児のためのサッカースクール",
-          "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-2ndplace.org/assets/img/logo/pigeon_logo.png",
-        "url":"https://soccer.pigeon-2ndplace.org/"
-      }, {
-        "@context": "https://schema.org",
-        "@type": "SportsTeam",
-        "name": "NPO法人ピジョン",
-        "sport": "Soccer",
-        "subOrganization": "SportsClub",
-        "coach": {
-          "@type": "Person",
-          "name": "鈴木祐揮(すずきゆうき)"
-        },
-        "address":{
-          "@type":"PostalAddress",
-          "streetAddress":"目白台",
-          "addressLocality":"文京区",
-          "addressRegion":"東京都",
-          "postalCode":"112-0015",
-          "addressCountry":"JP"
-        },
-        "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-        "url":"https://soccer.pigeon-2ndplace.org/"
-      }, {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "url": "https://soccer.pigeon-2ndplace.org/",
-        "creator": "江俣真人(えまたまさと)"
-      }
-    ]
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        /* ───── 共通ノード（フル）───── */
+        { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
+        { "@id": "https://soccer.pigeon-2ndplace.org/#sports" },
+        { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
+        { "@id": "https://soccer.pigeon-2ndplace.org/#bunkyoBlind" },
+
+        /* ───── Activity Page ───── */
+        {
+          "@type": "CollectionPage",
+          "@id": "https://soccer.pigeon-2ndplace.org/activity/#webpage",
+          "url": "https://soccer.pigeon-2ndplace.org/activity/",
+          "name": "活動内容・スケジュール｜NPO法人ピジョン",
+          "description": "練習方針・トレーニングメニュー、月間スケジュール、活動レポートを掲載。",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://soccer.pigeon-2ndplace.org/" },
+              { "@type": "ListItem", "position": 2, "name": "Activity", "item": "https://soccer.pigeon-2ndplace.org/activity/" }
+            ]
+          }
+        }
+
+        /* ─── Event を追加する場合はここに追記 ─── */
+      ]
+    }
   </script>
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">

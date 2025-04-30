@@ -10,60 +10,37 @@
   <meta content="ボランティア募集,児童,福祉,未経験歓迎,大学生,社会人,女性,文京区,東京" name="keywords">
 
   <script type="application/ld+json">
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "NGO",
-        "subOrganization": "EducationalOrganization",
-        "name": "NPO法人ピジョン",
-        "funder": "武藤太一(むとうたいち)",
-        "address":{
-          "@type":"PostalAddress",
-          "streetAddress":"目白台",
-          "addressLocality":"文京区",
-          "addressRegion":"東京都",
-          "postalCode":"112-0015",
-          "addressCountry":"JP"
-        },
-        "sameAs": [
-          "https://twitter.com/PigeonSoccerNPO",
-          "https://www.facebook.com/pigeon.soccer/"
-          ],
-          "email": "share@pigeon-2ndplace.org",
-          "alternateName": "障がい児のためのサッカースクール",
-          "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-2ndplace.org/assets/img//snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-2ndplace.org/assets/img//logo/pigeon_logo.jpg",
-        "url":"https://soccer.pigeon-2ndplace.org/"
-      }, {
-        "@context": "https://schema.org",
-        "@type": "SportsTeam",
-        "name": "NPO法人ピジョン",
-        "sport": "Soccer",
-        "subOrganization": "SportsClub",
-        "coach": {
-          "@type": "Person",
-          "name": "鈴木祐揮(すずきゆうき)"
-        },
-        "address":{
-          "@type":"PostalAddress",
-          "streetAddress":"目白台",
-          "addressLocality":"文京区",
-          "addressRegion":"東京都",
-          "postalCode":"112-0015",
-          "addressCountry":"JP"
-        },
-        "image":"https://soccer.pigeon-2ndplace.org/assets/img//snapshot/heading-practice-throwing-ball-mini.jpg",
-        "url":"https://soccer.pigeon-2ndplace.org/"
-      }, {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "url": "https://soccer.pigeon-2ndplace.org/",
-        "creator": "江俣真人(えまたまさと)"
-      }
-    ]
-  </script>
+    {
+      "@context": "https://schema.org",
+      "@graph": [
 
+        /* ───── 共通ノード（フル）───── */
+        { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
+        { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
+
+        /* ───── Join Page ───── */
+        {
+          "@type": "WebPage",
+          "@id": "https://soccer.pigeon-2ndplace.org/join/#webpage",
+          "url": "https://soccer.pigeon-2ndplace.org/join/",
+          "name": "体験参加・入会案内｜NPO法人ピジョン",
+          "description": "無料体験の申し込み方法や月謝・参加条件を掲載。フォームから簡単エントリー。",
+          "potentialAction": {
+            "@type": "JoinAction",
+            "target": "https://soccer.pigeon-2ndplace.org/join/#contact",
+            "name": "体験を申し込む"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://soccer.pigeon-2ndplace.org/" },
+              { "@type": "ListItem", "position": 2, "name": "Join", "item": "https://soccer.pigeon-2ndplace.org/join/" }
+            ]
+          }
+        }
+      ]
+    }
+  </script>
   <!-- Favicons -->
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/../assets/img/logo/favicon_pigeon.ico" />
   <!-- Google Tag Manager -->

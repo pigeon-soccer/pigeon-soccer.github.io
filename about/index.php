@@ -7,58 +7,34 @@
   <meta name="description"
     content="2010年から東京都文京区で活動するNPO法人ピジョンのミッションと沿革。自閉症、ダウン症、発達障がいなどの子どもたちに、サッカーを通じて明るい心と社会性を育む場を提供。保護者・学校と連携し、一人ひとりの未来を支援します。">
   <script type="application/ld+json">
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "NGO",
-        "subOrganization": "EducationalOrganization",
-        "name": "NPO法人ピジョン",
-        "funder": "武藤太一(むとうたいち)",
-        "address":{
-          "@type":"PostalAddress",
-          "streetAddress":"目白台",
-          "addressLocality":"文京区",
-          "addressRegion":"東京都",
-          "postalCode":"112-0015",
-          "addressCountry":"JP"
-        },
-        "sameAs": [
-          "https://twitter.com/PigeonSoccerNPO",
-          "https://www.facebook.com/pigeon.soccer/"
-          ],
-          "email": "share@pigeon-2ndplace.org",
-          "alternateName": "障がい児のためのサッカースクール",
-          "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-2ndplace.org/assets/img/logo/pigeon_logo.png",
-        "url":"https://soccer.pigeon-2ndplace.org/"
-      }, {
-        "@context": "https://schema.org",
-        "@type": "SportsTeam",
-        "name": "NPO法人ピジョン",
-        "sport": "Soccer",
-        "subOrganization": "SportsClub",
-        "coach": {
-          "@type": "Person",
-          "name": "鈴木祐揮(すずきゆうき)"
-        },
-        "address":{
-          "@type":"PostalAddress",
-          "streetAddress":"目白台",
-          "addressLocality":"文京区",
-          "addressRegion":"東京都",
-          "postalCode":"112-0015",
-          "addressCountry":"JP"
-        },
-        "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-        "url":"https://soccer.pigeon-2ndplace.org/"
-      }, {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "url": "https://soccer.pigeon-2ndplace.org/",
-        "creator": "江俣真人(えまたまさと)"
-      }
-    ]
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        /* ───── 共通ノード（フル）───── */
+        { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
+        { "@id": "https://soccer.pigeon-2ndplace.org/#sports" },
+        { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
+        { "@id": "https://soccer.pigeon-2ndplace.org/#bunkyoBlind" },
+
+        /* ───── About Page ───── */
+        {
+          "@type": "WebPage",
+          "@id": "https://soccer.pigeon-2ndplace.org/about/#webpage",
+          "url": "https://soccer.pigeon-2ndplace.org/about/",
+          "name": "団体概要｜NPO法人ピジョン",
+          "description": "設立理念・沿革・代表挨拶など、NPO法人ピジョンの概要をご紹介。",
+          "about": { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://soccer.pigeon-2ndplace.org/" },
+              { "@type": "ListItem", "position": 2, "name": "About", "item": "https://soccer.pigeon-2ndplace.org/about/" }
+            ]
+          }
+        }
+      ]
+    }
   </script>
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">

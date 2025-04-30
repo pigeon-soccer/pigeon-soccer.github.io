@@ -7,59 +7,131 @@
   <meta name="description"
     content="障がいのある子どもたちがサッカーに笑顔でチャレンジし、基礎体力と社会性を育む居場所。東京都文京区を拠点に継続的な活動で自立を支援。保護者・学校と連携した個別支援を提供します。">
   <script type="application/ld+json">
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "NGO",
-        "subOrganization": "EducationalOrganization",
-        "name": "NPO法人ピジョン",
-        "funder": "武藤太一",
-        "address":{
-          "@type":"PostalAddress",
-          "streetAddress":"目白台",
-          "addressLocality":"文京区",
-          "addressRegion":"東京都",
-          "postalCode":"112-0015",
-          "addressCountry":"JP"
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        /* ───── NGO 本体 ───── */
+        {
+          "@type": "NGO",
+          "@id": "https://soccer.pigeon-2ndplace.org/#org",
+          "name": "NPO法人ピジョン",
+          "alternateName": ["障がい児のためのサッカースクール", "ピジョン", "Pigeon Soccer", "Pigeon", "Ｐｉｇｅｏｎ"],
+          "url": "https://soccer.pigeon-2ndplace.org/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://soccer.pigeon-2ndplace.org/assets/img/logo/pigeon_logo.png"
+          },
+          "description": "障がい児と健常児が共に学ぶインクルーシブなサッカースクールを東京都文京区で運営。",
+          "nonprofitStatus": "https://schema.org/NPO",
+          "founder": { "@type": "Person", "name": "武藤 太一" },
+          "foundingDate": "2011-04-01",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+81-90-4705-0605",
+            "contactType": "customer service",
+            "areaServed": "JP"
+          },
+          "sameAs": [
+            "https://soccer.pigeon-handicap.org/",
+            "https://twitter.com/PigeonSoccerNPO",
+            "https://www.facebook.com/pigeon.soccer/"
+          ]
         },
-        "sameAs": [
-          "https://twitter.com/PigeonSoccerNPO",
-          "https://www.facebook.com/pigeon.soccer/"
-          ],
-          "email": "share@pigeon-2ndplace.org",
-          "alternateName": "障がい児のためのサッカースクール",
-          "slogan": "障がい者も健常者も共に手を取り合って生きていける社会を実現する",
-          "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-          "logo": "https://soccer.pigeon-2ndplace.org/assets/img/logo/pigeon_logo.png",
-        "url":"https://soccer.pigeon-2ndplace.org/"
-      }, {
-        "@context": "https://schema.org",
-        "@type": "SportsTeam",
-        "name": "NPO法人ピジョン",
-        "sport": "Soccer",
-        "subOrganization": "SportsClub",
-        "coach": {
-          "@type": "Person",
-          "name": "鈴木祐揮"
+
+        /* ───── クラブ運営者 ───── */
+        {
+          "@type": "SportsOrganization",
+          "@id": "https://soccer.pigeon-2ndplace.org/#sports",
+          "name": "Pigeon Soccer",
+          "sport": "Soccer",
+          "url": "https://soccer.pigeon-2ndplace.org/",
+          "parentOrganization": { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
+          "coach": { "@type": "Person", "name": "鈴木祐揮" }
         },
-        "address":{
-          "@type":"PostalAddress",
-          "streetAddress":"目白台",
-          "addressLocality":"文京区",
-          "addressRegion":"東京都",
-          "postalCode":"112-0015",
-          "addressCountry":"JP"
+
+        /* ───── 会場 ① 目白台運動公園 ───── */
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai",
+          "name": "ピジョンサッカースクール（目白台運動公園）",
+          "parentOrganization": { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
+          "image": "https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "文京区立目白台運動公園",
+            "addressLocality": "文京区",
+            "addressRegion": "東京都",
+            "postalCode": "112-0015",
+            "addressCountry": "JP"
+          },
+          "geo": { "@type": "GeoCoordinates", "latitude": 35.7149414, "longitude": 139.7193805 },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "12:30"
+          }],
+          "priceRange": "¥5,000/月",
+          "telephone": "+81-90-4705-0605"
         },
-        "image":"https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
-        "url":"https://soccer.pigeon-2ndplace.org/"
-      }, {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "url": "https://soccer.pigeon-2ndplace.org/",
-        "creator": "江俣真人"
-      }
-    ]
+
+        /* ───── 会場 ② 東京都立文京盲学校 ───── */
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://soccer.pigeon-2ndplace.org/#bunkyoBlind",
+          "name": "ピジョンサッカースクール（東京都立文京盲学校）",
+          "parentOrganization": { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
+          "image": "https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "東京都立文京盲学校",
+            "addressLocality": "文京区",
+            "addressRegion": "東京都",
+            "postalCode": "112-0002",
+            "addressCountry": "JP"
+          },
+          "geo": { "@type": "GeoCoordinates", "latitude": 35.7057131, "longitude": 139.7441532 },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "12:30"
+          }],
+          "priceRange": "¥5,000/月",
+          "telephone": "+81-90-4705-0605"
+        },
+
+        /* ───── WebSite & HomePage ───── */
+        {
+          "@type": "WebSite",
+          "@id": "https://soccer.pigeon-2ndplace.org/#website",
+          "url": "https://soccer.pigeon-2ndplace.org/",
+          "name": "NPO法人ピジョン公式サイト",
+          "alternateName": ["障がい児のためのサッカースクール", "ピジョン", "Pigeon Soccer", "Pigeon", "Ｐｉｇｅｏｎ"],
+          "publisher": { "@id": "https://soccer.pigeon-2ndplace.org/#org" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://soccer.pigeon-2ndplace.org/#homepage",
+          "url": "https://soccer.pigeon-2ndplace.org/",
+          "name": "障がい児専門サッカースクール｜NPO法人ピジョン",
+          "description": "障がい児と健常児が共に学ぶインクルーシブサッカースクール。東京都文京区で隔週開催。",
+          "isPartOf": { "@id": "https://soccer.pigeon-2ndplace.org/#website" },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://soccer.pigeon-2ndplace.org/"
+            }]
+          }
+        }
+      ]
+    }
   </script>
+
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <script src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
