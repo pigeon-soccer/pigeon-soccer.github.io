@@ -268,7 +268,7 @@
                           <div class="count-box">
                             <i class="bi bi-geo-alt" style="color: #f3a200;"></i>
                             <p class="txtLink txtLinkEmphasis"><a href="https://twitter.com/PigeonSoccerNPO"
-                                target="_blank">SNS</a></p>
+                                target="_blank">Twitterで活動報告を見る</a></p>
                             <p>日々の活動の内容やスタッフの気づきを報告しています。</p>
                             <!-- <a class="twitter-timeline" data-height="666"
                               href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Twitter読み込み中...</a>
@@ -291,7 +291,7 @@
             <section class="summary summary-news">
               <h2 class="summary__heading">お知らせ</h2>
               <div class="txtLink" style="text-align: center; margin-bottom: 20px;">
-                <a href="https://blog.pigeon-2ndplace.org/" target="_blank">公式ブログサイト&nbsp;&nbsp;&nbsp;</a>
+                <a href="https://blog.pigeon-2ndplace.org/" target="_blank">ブログで最新活動を見る</a>
               </div>
               <div style="max-width: 100%; margin: 0 auto 30px; height: 2500px; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                 <iframe src="https://blog.pigeon-2ndplace.org/" style="width: 100%; height: 100%; border: none;"></iframe>

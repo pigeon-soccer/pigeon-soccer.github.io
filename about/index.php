@@ -203,7 +203,7 @@
                 </dl>
               </li>
             </ul>
-            <p class="commonDetailBtn"><a href="/activity/">教室で何をする？</a></p>
+            <p class="commonDetailBtn"><a href="/activity/">詳しい練習内容を見る</a></p>
           </div>
         </section>
         <section class="commonSection commonSection-history">
