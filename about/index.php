@@ -252,7 +252,7 @@
             <h2 id="representative">4人の役員</h2>
             <div class="commonInner__introduce">
               <dl class="introduce__profile">
-                <img src="/assets/img/staff/profile-muto.png" loading="lazy">
+                <img src="/assets/img/staff/profile-muto.png" alt="代表理事・武藤太智の顔写真" loading="lazy">
                 <dt>
                   <p class="introduce__position">代表理事</p>
                   <p class="introduce__name">武藤 太智<br>(Muto Taichi)</p>
@@ -269,7 +269,7 @@
                 </dd>
               </dl>
               <dl class="introduce__profile">
-                <img src="/assets/img/staff/profile-suzuki.png" loading="lazy">
+                <img src="/assets/img/staff/profile-suzuki.png" alt="副理事・鈴木祐揮の顔写真" loading="lazy">
                 <dt>
                   <p class="introduce__position">副理事</p>
                   <p class="introduce__name">鈴木 祐揮<br>(Suzuki Yuuki)</p>
@@ -287,7 +287,7 @@
             </div>
             <div class="commonInner__introduce">
               <dl class="introduce__profile">
-                <img src="/assets/img/staff/profile-emata.png" loading="lazy">
+                <img src="/assets/img/staff/profile-emata.png" alt="理事・江俣真人の顔写真" loading="lazy">
                 <dt>
                   <p class="introduce__position">理事</p>
                   <p class="introduce__name">江俣 真人<br>(Emata Masato)</p>
@@ -299,7 +299,7 @@
               </dl>
               <dl class="introduce__profile">
                 <a href="https://ujimori-law.jp/" target="_blank">
-                  <img src="/assets/img/logo/ujimori_logo.png" loading="lazy">
+                  <img src="/assets/img/logo/ujimori_logo.png" alt="氏森総合法律事務所のロゴ" loading="lazy">
                 </a>
                 <dt>
                   <p class="introduce__position">監事</p>

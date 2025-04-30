@@ -155,7 +155,7 @@
           <figure class="figure">
             <img loading="lazy" width=602px height=453px
               src="../assets/img/snapshot/staff-rina-and-student-girl-art.jpg" class="figure-img img-fluid rounded"
-              alt="...">
+              alt="初参加の女性コーチと女子生徒がパスの練習をしている様子">
             <figcaption class="figure-caption">初参加「りなコーチ」とパスの練習</figcaption>
           </figure>
           <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
@@ -178,7 +178,7 @@
           </p>
           <figure class="figure">
             <img loading="lazy" width=685px height=456px src="../assets/img/snapshot/handshake-art.jpg"
-              class="figure-img img-fluid rounded" alt="...">
+              class="figure-img img-fluid rounded" alt="試合前に生徒と握手をするコーチの様子">
             <figcaption class="figure-caption">試合前に生徒と握手する「むとうコーチ」（手前左）</figcaption>
           </figure>
           <h3 class="mt-5">スタッフの体験談</h3>
