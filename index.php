@@ -17,6 +17,17 @@
           "@id": "https://soccer.pigeon-2ndplace.org/#org",
           "name": "NPO法人ピジョン",
           "alternateName": ["障がい児のためのサッカースクール", "ピジョン", "Pigeon Soccer", "Pigeon", "Ｐｉｇｅｏｎ"],
+          "legalName": "特定非営利活動法人ピジョン",
+          "taxID": "3011805003118",
+          "foundingLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "東京都"
+            }
+          },
+          "areaServed": "Tokyo Metropolitan Area",
+          "missionStatement": "障がいのある子どもたちに継続的な居場所と養育機会を提供し、自立を支援する。それとともに、社会全体の偏見や無理解を解消する。ひいては、障がい者も健常者も共に手を取り合って生きていける社会を実現する。",
           "url": "https://soccer.pigeon-2ndplace.org/",
           "logo": {
             "@type": "ImageObject",
@@ -32,11 +43,41 @@
             "contactType": "customer service",
             "areaServed": "JP"
           },
+
+          /* メンバー */
+          "leader": {
+            "@type": "Person",
+            "name": "武藤 太一",
+            "jobTitle": "代表理事"
+          },
+          "member": [
+            {
+              "@type": "Person",
+              "name": "鈴木 祐揮",
+              "jobTitle": "副代表理事／ヘッドコーチ"
+            },
+            {
+              "@type": "Person",
+              "name": "江俣 真人",
+              "jobTitle": "理事／開発・集客"
+            },
+            {
+              "@type": "Person",
+              "name": "氏森 政利",
+              "jobTitle": "幹事／法務"
+            }
+          ],
           "sameAs": [
             "https://soccer.pigeon-handicap.org/",
             "https://twitter.com/PigeonSoccerNPO",
             "https://www.facebook.com/pigeon.soccer/"
-          ]
+          ],
+          "potentialAction": {
+            "@type": "DonateAction",
+            "target": "https://pigeon.smktg.jp/public/application/add/329",
+            "name": "寄付をする"
+          },
+          "knowsLanguage": ["ja","en"]
         },
 
         /* ───── クラブ運営者 ───── */
@@ -47,7 +88,7 @@
           "sport": "Soccer",
           "url": "https://soccer.pigeon-2ndplace.org/",
           "parentOrganization": { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
-          "coach": { "@type": "Person", "name": "鈴木祐揮" }
+          "coach": { "@type": "Person", "name": "武藤 太一" }
         },
 
         /* ───── 会場 ① 目白台運動公園 ───── */
@@ -268,7 +309,7 @@
                           <div class="count-box">
                             <i class="bi bi-geo-alt" style="color: #f3a200;"></i>
                             <p class="txtLink txtLinkEmphasis"><a href="https://twitter.com/PigeonSoccerNPO"
-                                target="_blank">Twitterで活動報告を見る</a></p>
+                                target="_blank">SNS</a></p>
                             <p>日々の活動の内容やスタッフの気づきを報告しています。</p>
                             <!-- <a class="twitter-timeline" data-height="666"
                               href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Twitter読み込み中...</a>
@@ -291,7 +332,7 @@
             <section class="summary summary-news">
               <h2 class="summary__heading">お知らせ</h2>
               <div class="txtLink" style="text-align: center; margin-bottom: 20px;">
-                <a href="https://blog.pigeon-2ndplace.org/" target="_blank">ブログで最新活動を見る</a>
+                <a href="https://blog.pigeon-2ndplace.org/" target="_blank">公式ブログで最新の活動レポートを読む</a>
               </div>
               <div style="max-width: 100%; margin: 0 auto 30px; height: 2500px; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                 <iframe src="https://blog.pigeon-2ndplace.org/" style="width: 100%; height: 100%; border: none;"></iframe>
