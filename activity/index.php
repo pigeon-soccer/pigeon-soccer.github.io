@@ -11,19 +11,94 @@
       "@context": "https://schema.org",
       "@graph": [
 
-        /* ───── 共通ノード（フル）───── */
+        /* ========== LocalBusiness（目白台会場） ========== */
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai",
+          "name": "ピジョンサッカースクール（目白台運動公園）",
+          "parentOrganization": { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
+          "image": "https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-throwing-ball-mini.jpg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "文京区立目白台運動公園",
+            "addressLocality": "文京区",
+            "addressRegion": "東京都",
+            "postalCode": "112-0015",
+            "addressCountry": "JP"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 35.7149414,
+            "longitude": 139.7193805
+          },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "12:30"
+          }],
+          "priceRange": "¥5,000/月",
+          "telephone": "+81-90-4705-0605",
+
+          /* 口コミ CreativeWork を “一部” として関連付け */
+          "hasPart": [
+            { "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-1" },
+            { "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-2" },
+            { "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-3" },
+            { "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-4" },
+            { "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-5" }
+          ]
+        },
+
+        /* ========== 口コミ（CreativeWork） ========== */
+        {
+          "@type": "CreativeWork",
+          "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-1",
+          "about": { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
+          "author": { "@type": "Person", "name": "保護者Sさん" },
+          "text": "息子はとても楽しかったそうで『次も絶対行く！』とはりきっています。初めての場所が苦手な子ですが、リラックスして過ごせたので親も安心しました。"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-2",
+          "about": { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
+          "author": { "@type": "Person", "name": "保護者Bさん" },
+          "text": "サッカーは好きで、一度も面倒くさいと言ったことがありません。祐揮コーチにはとても素直で、信頼しているようです。"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-3",
+          "about": { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
+          "author": { "@type": "Person", "name": "保護者Yさん" },
+          "text": "本人もとても楽しかったようで『次はいつ行けるの？』と頻繁に聞いてきます。スタッフが多く、子どもたちがのびのびできる素晴らしい場だと感じました。"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-4",
+          "about": { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
+          "author": { "@type": "Person", "name": "保護者Tさん" },
+          "text": "リラックスできる雰囲気で、一人一人を尊重してくださり安心感がありました。"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-5",
+          "about": { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
+          "author": { "@type": "Person", "name": "保護者Kさん" },
+          "text": "転んで一度離れましたが、スタッフの温かい見守りで本人の意思で戻れました。成長を実感しています。"
+        },
+
+        /* ========== 共通参照ノード ========== */
         { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
         { "@id": "https://soccer.pigeon-2ndplace.org/#sports" },
-        { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
         { "@id": "https://soccer.pigeon-2ndplace.org/#bunkyoBlind" },
 
-        /* ───── Activity Page ───── */
+        /* ========== Activity ページ自体 ========== */
         {
           "@type": "CollectionPage",
           "@id": "https://soccer.pigeon-2ndplace.org/activity/#webpage",
           "url": "https://soccer.pigeon-2ndplace.org/activity/",
           "name": "活動内容・スケジュール｜NPO法人ピジョン",
-          "description": "練習方針・トレーニングメニュー、月間スケジュール、活動レポートを掲載。",
+          "description": "練習方針・トレーニングメニュー、月間スケジュール、活動レポート、保護者体験談を掲載。",
           "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [
@@ -32,11 +107,10 @@
             ]
           }
         }
-
-        /* ─── Event を追加する場合はここに追記 ─── */
       ]
     }
   </script>
+
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <script src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
@@ -178,9 +252,9 @@
               <dl class="episode__elm">
                 <dt>保護者Kさん<br>(お子さん:8歳、身体障害（脳性まひ）)</dt>
                 <dd>
-                  活動中に自身で動画に滑り転んだから心が乱れて、サッカーから離れてしまった。
+                  活動中に滑り転び、サッカーから離れてしまった。
                   スタッフが見守りをしていると心を整えて本人の意思で活動に戻った。
-                  １年前には、あーなったら活動中は改善されなかったが、Pigeonの温かい見守りにより心がとても成長出来たと感じている。
+                  １年前には、あーなったら活動中は改善されなかったが、Pigeonの温かい見守りによりとても成長出来たと感じている。
                   ありがとうございます
                 </dd>
               </dl>
