@@ -23,21 +23,21 @@
 
   /* 薄い緑色 - 背景色や微妥なアクセントとして使用(透明度付き) */
   /* 使用箇所:
-   * - join-laura.css: .section-title spanのテキスト色
+   * - join-laura.css: section-titleの大きな背景テキスト色
    */
   --color-primary-light: #6b9a1f21;
 
   /* やや薄い緑色 - Aboutページ特定の背景色 */
   /* 使用箇所:
-   * - main.css: #about #mainContent>section:nth-of-type(3)の背景色
+   * - main.css: Aboutページの特定セクション背景色(#about #mainContent>section:nth-of-type(3))
    */
   --color-primary-light-2: #86c4635e;
 
-  /* 明るい緑色 - ブランドカラーのバリエーション、チェックマークなど */
+  /* 明るい緑色 - ブランドカラーのバリエーション、強調アクセント */
   /* 使用箇所:
-   * - about/index.php: 沿革セクション装飾線、年表示アクセント
-   * - activity/index.php: タブメニューの背景色
-   * - main.css: チェックマークアイコン、装飾線、引用要素のボーダー
+   * - main.css: summaryInfoセクションの装飾線(.summaryInfo>dl dt:before)
+   * - main.css: 沿革セクションの年表示(.commonInner__history dl dt)
+   * - join-laura.css: ナビゲーションメニューのアクティブアイテムとホバー状態
    */
   --color-primary-alt: #b2d83e;
 
@@ -58,19 +58,28 @@
   --color-text: #444444;
 
   /* やや濃いテキスト色 - 重要度の高いテキストに使用 */
-  /* 使用箇所: 小見出し、強調テキスト */
+  /* 使用箇所:
+   * - join-laura.css: ドロップダウンメニュー、モバイルナビゲーション、見出し、カウンターボックス
+   */
   --color-text-dark: #3b434a;
 
   /* 中間テキスト色 - 二次的な情報やサブテキストに使用 */
-  /* 使用箇所: 説明文、補足情報(join.cssで使用) */
+  /* 使用箇所:
+   * - join.css: リンクアイコン色（smallIconLink .bi-box-arrow-up-right::before）
+   * - join-laura.css: キャプションテキスト、カウンターボックス説明
+   */
   --color-text-medium: #5d6a75;
 
   /* やや薄いテキスト色 - 補足情報や控えめなテキストに使用 */
-  /* 使用箇所: フッターテキスト、説明文 */
+  /* 使用箇所:
+   * - join-laura.css: パンくずリストのテキスト色
+   */
   --color-text-light: #6c757d;
 
   /* 最も薄いテキスト色 - 最も控えめな情報に使用 */
-  /* 使用箇所: メタ情報、補足説明 */
+  /* 使用箇所:
+   * - join-laura.css: リンクのホバー時色（.about .content .count-box a:hover）
+   */
   --color-text-lighter: #82909c;
 
   /*
@@ -126,16 +135,21 @@
 
   /* メイン背景色 - 薄い黄緑色の基本背景 */
   /* 使用箇所:
-   * - join.css: .blockquoteDecoration要素の背景色
+   * - join.css: .blockquoteDecoration 要素の背景色
    */
   --color-background: #F6F6E8;
 
   /* 明るい背景色 - 複数の要素に使われるライトグレー */
-  /* 現在は使用箇所が見つかりません */
+  /* 使用箇所:
+   * - join-laura.css: breadcrumbsの背景色
+   */
   --color-background-light: #f4f5f6;
 
   /* グレー背景 - フォーム要素やセクションの背景 */
-  /* 現在は使用箇所が見つかりません */
+  /* 使用箇所:
+   * - main.css: セクション背景色、グラデーション、フッターアクションエリア
+   * - join.css: リンクカードの背景色
+   */
   --color-background-gray: #eeeeee;
 
   /*
@@ -154,7 +168,10 @@
   --color-gray: #666666;
 
   /* 明るいグレー - 薄いボーダーやシャドウに使用 */
-  /* 現在は使用箇所が見つかりません */
+  /* 使用箇所:
+   * - main.css: ホバーボタンのシャドウ効果、ナビゲーション区切り線
+   * - join-laura.css: ヒーローセクションのテキスト色
+   */
   --color-gray-light: #eee;
 
   /*
