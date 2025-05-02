@@ -207,7 +207,7 @@
           </div>
         </section>
         <section class="commonSection commonSection-history">
-          <div class="commonInner sectionContent commonInner-history">
+          <div class="commonInner sectionContent">
             <h2 id="history"><span id="passedYeaer"></span>沿革</h2>
             <div class="commonInner__history">
               <dl>

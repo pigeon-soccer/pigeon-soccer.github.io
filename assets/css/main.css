@@ -959,6 +959,52 @@ ul.convey dl.convey__content>dd {
   padding-top: 5px;
 }
 
+/* ▽ コンテンツ -【about】history ▽ */
+.commonInner__history {
+  width: 700px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.commonInner__history dl {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.commonInner__history dl:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.commonInner__history dl dt.history__year {
+  width: 150px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  position: relative;
+  padding-top: 0;
+  line-height: 1.6;
+}
+
+.commonInner__history dl dt.history__year:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 6em;
+  height: 3px;
+  background-color: var(--color-primary-alt);
+  border-radius: 20px;
+}
+
+.commonInner__history dl dd.history__summary {
+  width: 530px;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+
 .eventMap {
   margin-top: 40px;
   text-align: center;
@@ -1626,12 +1672,23 @@ print {
     font-size: 1.4rem;
   }
 
-  .summaryInfo>dl dd {
+  .summaryInfo>dl dd,
+  .commonInner__history dl dd.history__summary {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .commonInner__history {
     width: 100%;
   }
 
+  .commonInner__history dl {
+    flex-direction: column;
+  }
 
-  
+  .commonInner__history dl dt.history__year {
+    margin-bottom: 10px;
+  }
 
   /* ▽ about ▽*/
   #about .topImage .topImage__img {
