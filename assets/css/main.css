@@ -132,7 +132,7 @@ div.tooltip:hover span {
   top: 25px;
   font-size: 90%;
   color: var(--color-white);
-  background-color: var(--color-primary-alt-4);
+  background-color: #88b35a;
   width: 375px;
   padding: 5px;
   border-radius: 3px;
@@ -155,7 +155,7 @@ div.tooltip span:before {
   left: 15px;
   border: 13px transparent solid;
   border-right-width: 0;
-  border-left-color: var(--color-primary-alt-4);
+  border-left-color: #88b35a;
   transform: rotate(270deg);
   /* 傾きをつける */
   -webkit-transform: rotate(270deg);
@@ -202,7 +202,7 @@ img.navWrapper__logo_img {
 }
 
 .navWrapper__logo:hover {
-  box-shadow: 3px 3px 6px var(--color-gray-lighter), -3px -3px 6px var(--color-white);
+  box-shadow: 3px 3px 6px var(--color-gray-light), -3px -3px 6px var(--color-white);
   border-radius: .55rem;
   border: .0625rem solid transparent;
 }
@@ -445,7 +445,7 @@ ul>li.menu__parent>ul.menu__child li>a {
 
 #mainContent>section:nth-of-type(odd) {
   /* 共通 */
-  background-color: var(--color-background-gray-light);
+  background-color: var(--color-background-gray);
 }
 
 section.commonSection section:not(:first-of-type) {
@@ -565,7 +565,7 @@ section.commonSection section:not(:first-of-type) {
   cursor: pointer;
   text-align: center;
   /* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
-  background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, var(--color-background-gray-light) 90%);
+  background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, var(--color-background-gray) 90%);
 }
 
 .paragraph input:checked+label {
@@ -586,7 +586,7 @@ section.commonSection section:not(:first-of-type) {
   letter-spacing: 0.05em;
   color: var(--color-white);
   border-radius: 20px;
-  background-color: var(--color-primary-alt-3);
+  background-color: #6dab21;
   height: 35px;
   padding-top: 5px;
 }
@@ -766,7 +766,7 @@ ul.commonInner__solution>li dd {
   justify-content: space-around;
   margin: 8px;
   padding: 30px 20px;
-  background-color: var(--color-background-gray-light);
+  background-color: var(--color-background-gray);
   box-shadow: 1px 1.5px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -1040,7 +1040,7 @@ ul.convey dl.convey__content>dd {
   border-top: 2px solid var(--color-primary-alt);
   border-right: 2px solid var(--color-primary-alt);
   border-left: 2px solid var(--color-primary-alt);
-  border-color: var(--color-background-gray-light);
+  border-color: var(--color-background-gray);
   font-weight: bold;
 }
 
@@ -1206,7 +1206,7 @@ ul.snsWrapper__btn>li a {
 }
 
 ul.snsWrapper__btn .snsBtn__tw a {
-  background: -webkit-linear-gradient(left, var(--color-accent) 0%, var(--color-accent-alt) 100%);
+  background: -webkit-linear-gradient(left, #1da1f2 0%, #1da1f2 100%);
 }
 
 ul.snsWrapper__btn .snsBtn__fb a {
@@ -1452,7 +1452,7 @@ print {
   }
 
   .navWrapper nav.globalNav ul.globalNav__menu>li:not(:first-child) {
-    border-top: 1px solid var(--color-gray-lighter);
+    border-top: 1px solid var(--color-gray-light);
   }
 
   .navWrapper nav.globalNav ul.globalNav__menu>li a {
