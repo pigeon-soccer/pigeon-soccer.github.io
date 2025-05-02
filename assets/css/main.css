@@ -1113,7 +1113,6 @@ ul.snsWrapper__btn>li.snsBtn__fb a:before {
 footer .footer-infomation {
   color: white;
   padding: 20px 0;
-  height: 100px;
   background-color: var(--color-gray);
   position: relative;
   text-align: center;
@@ -1155,6 +1154,7 @@ footer .footer-infomation .pageTop-up a:before {
 
 footer .footer-infomation .footer-infomation__logo {
   width: 200px;
+  color: var(--color-text);
 }
 
 footer .portraitright {
