@@ -35,15 +35,15 @@
 }
 
 .btn-outline-primary {
-  border-color: var(--color-accent-hover);
-  color: var(--color-accent-hover);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .btn:first-child:hover,
 :not(.btn-check)+.btn:hover {
-  border-color: var(--color-accent-hover);
+  border-color: var(--color-accent);
   color: white;
-  background-color: var(--color-accent-hover);
+  background-color: var(--color-accent);
 }
 
 main#main {

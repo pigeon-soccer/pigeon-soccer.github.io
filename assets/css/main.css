@@ -373,13 +373,17 @@ ul>li.menu__parent>ul.menu__child li>a {
 
 /* ======== main -content- ======== */
 /* ▽ セクション ▽ */
+#mainContent {
+  background-color: var(--color-background);
+}
+
 #mainContent .commonSection {
   min-height: 100%;
 }
 
 #mainContent>section:nth-of-type(odd) {
   /* 共通 */
-  background-color: var(--color-background-gray);
+  background-color: var(--color-background);
 }
 
 section.commonSection section:not(:first-of-type) {
@@ -438,7 +442,7 @@ section.commonSection section:not(:first-of-type) {
   transition: 0.3s;
   color: var(--color-white);
   text-decoration: none;
-  background: var(--color-accent-alt) url(../img/effect/grazed_belt.png) repeat-y;
+  background: var(--color-accent) url(../img/effect/grazed_belt.png) repeat-y;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   -webkit-tap-highlight-color: transparent;
 }
@@ -499,7 +503,7 @@ section.commonSection section:not(:first-of-type) {
   cursor: pointer;
   text-align: center;
   /* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
-  background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, var(--color-background-gray) 90%);
+  background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, var(--color-background) 90%);
 }
 
 .paragraph input:checked+label {
@@ -520,7 +524,7 @@ section.commonSection section:not(:first-of-type) {
   letter-spacing: 0.05em;
   color: var(--color-white);
   border-radius: 20px;
-  background-color: #6dab21;
+  background-color: var(--color-primary);
   height: 35px;
   padding-top: 5px;
 }
