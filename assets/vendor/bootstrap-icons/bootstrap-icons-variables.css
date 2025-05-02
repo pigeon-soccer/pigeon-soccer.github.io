@@ -1,0 +1,11 @@
+/*
+ * Bootstrap Icons用の変数定義
+ * index.htmlなどBootstrap Icons関連でのみ使用される変数を管理
+ */
+:root {
+  /* Bootstrap基本変数 */
+  --bs-light: #f8f9fa;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* その他Bootstrap Iconsで必要な変数があれば追加 */
+}
