@@ -94,76 +94,12 @@ strong {
   display: none;
 }
 
-.br-pc {
-  display: block;
+/* PC表示用スタイル - モバイル表示では非表示になる要素 */
+.spNone {
+  display: inline;  /* 実際に使用されているのでインライン要素として表示 */
 }
 
-.br-sp {
-  display: none;
-}
-
-/* ------ TOOL TIP ------ */
-/* 表示文字の装飾 */
-div.tooltip {
-  color: var(--color-text);
-  display: inline-block;
-  /* インライン要素化 */
-  border-bottom: dashed 1px var(--color-text);
-  /* 下線を引く */
-}
-
-/* ツールチップ部分を隠す */
-div.tooltip span {
-  display: none;
-}
-
-/* マウスオーバー */
-div.tooltip:hover {
-  position: relative;
-  color: var(--color-text-darker);
-}
-
-/* マウスオーバー時にツールチップを表示 */
-div.tooltip:hover span {
-  display: block;
-  /* ボックス要素にする */
-  position: absolute;
-  /* relativeからの絶対位置 */
-  top: 25px;
-  font-size: 90%;
-  color: var(--color-white);
-  background-color: #88b35a;
-  width: 375px;
-  padding: 5px;
-  border-radius: 3px;
-  z-index: 100;
-}
-
-div.tooltip:hover span td {
-  color: var(--color-white);
-}
-
-/* フキダシ部分を作成 */
-div.tooltip span:before {
-  content: '';
-  display: block;
-  position: absolute;
-  /* relativeからの絶対位置 */
-  height: 0;
-  width: 0;
-  top: -13px;
-  left: 15px;
-  border: 13px transparent solid;
-  border-right-width: 0;
-  border-left-color: #88b35a;
-  transform: rotate(270deg);
-  /* 傾きをつける */
-  -webkit-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  z-index: 100;
-}
-
-/* ------ END TOOL TIP ------ */
+/* 使用されていないブレークポイントスタイルを削除 */
 
 /* ======== header ======== */
 header {
@@ -1024,83 +960,12 @@ ul.convey dl.convey__content>dd {
 }
 
 /* ▽ コンテンツ -【join.html】▽ */
-.tab {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-}
 
-.tab>li {
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  background-color: var(--color-primary-alt);
-  color: var(--color-white);
-  border-radius: 10px 10px 0 0;
-  border-top: 2px solid var(--color-primary-alt);
-  border-right: 2px solid var(--color-primary-alt);
-  border-left: 2px solid var(--color-primary-alt);
-  border-color: var(--color-background-gray);
-  font-weight: bold;
-}
+/* 使用されていないSNS関連スタイルを削除 */
 
-.tab>li.select {
-  background-color: var(--color-white);
-  color: var(--color-text-darker);
-  border-top: 2px solid var(--color-primary-alt);
-  border-right: 2px solid var(--color-primary-alt);
-  border-left: 2px solid var(--color-primary-alt);
-  margin-bottom: -2px;
-}
+/* 使用されていないチェックマークスタイルを削除 */
 
-.tab>li:hover {
-  cursor: pointer;
-  box-shadow: 3px -15px 6px var(--color-background-gray), -3px -3px 6px var(--color-white);
-  border: .0625rem solid transparent;
-}
-
-.snsPrivateQuestion {
-  padding-left: 40px;
-}
-
-.snsPrivateQuestion img {
-  width: 56px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
-}
-
-.snsPrivateQuestion img:hover {
-  width: 60px;
-  height: 60px;
-}
-
-li .checkMark {
-  position: relative;
-  padding-left: 15px;
-}
-
-li .checkMark:before {
-  content: "";
-  position: absolute;
-  top: .1em;
-  left: 0;
-  -webkit-transform: rotate(50deg);
-  -ms-transform: rotate(50deg);
-  transform: rotate(50deg);
-  width: 5px;
-  height: 10px;
-  border-right: 3px solid var(--color-primary-alt);
-  border-bottom: 3px solid var(--color-primary-alt);
-}
-
-dd.summaryInfo__staffTarget {
-  display: -webkit-box;
-}
-
-img.summaryInfo__staffTarget-img {
-  max-width: 30%;
-  margin-left: 5vw;
-}
+/* 使用されていないスタッフターゲット関連スタイルを削除 */
 
 #join #mainContent {
   margin-top: 5vw;
@@ -1387,18 +1252,6 @@ print {
     font-size: 1.6rem;
   }
 
-  .spNone {
-    display: none;
-  }
-
-  .br-pc {
-    display: none;
-  }
-
-  .br-sp {
-    display: block;
-  }
-
   .commonInner {
     width: 100%;
   }
@@ -1667,9 +1520,9 @@ print {
     background: url(../img/icon/index_ic_005.png) no-repeat 0 0/25px 25px;
   }
 
-  .tab>li {
-    padding: 5px;
-    font-size: 1.4rem;
+  /* モバイル表示用のspNoneクラススタイルを追加 */
+  .spNone {
+    display: none;  /* モバイル表示では非表示 */
   }
 
   .summaryInfo>dl dd,
