@@ -368,7 +368,7 @@
             <h2 id="schoolTrial">体験方法</h2>
             <p>まずはお気軽にお問い合わせください<br>
               お子さまの笑顔と成長を、一緒に育んでいきましょう。体験参加やご質問など、お気軽にご連絡ください。</p>
-            <p class="commonDetailBtn"><a href="https://pigeon.smktg.jp/public/application/add/263">実際に教室に行ってみる</a></p>
+            <p class="commonDetailBtn"><a href="https://pigeon.smktg.jp/public/application/add/296">実際に教室に行ってみる</a></p>
           </div>
         </section>
 
