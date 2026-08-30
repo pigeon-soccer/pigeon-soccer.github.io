@@ -7,18 +7,18 @@
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/about/">
   <meta name="description"
     content="2010年から東京都文京区で活動するNPO法人ピジョンのミッションと沿革。自閉症、ダウン症、発達障がいなどの子どもたちに、サッカーを通じて明るい心と社会性を育む場を提供。保護者・学校と連携し、一人ひとりの未来を支援します。">
+  <!-- 構造化データ(JSON-LD): 共通ノード（フル） / About Page
+       ※JSONにコメント構文は無いため、ブロック内に /* */ を書くと解析に失敗する -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
 
-        /* ───── 共通ノード（フル）───── */
         { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
         { "@id": "https://soccer.pigeon-2ndplace.org/#sports" },
         { "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai" },
         { "@id": "https://soccer.pigeon-2ndplace.org/#bunkyoBlind" },
 
-        /* ───── About Page ───── */
         {
           "@type": "WebPage",
           "@id": "https://soccer.pigeon-2ndplace.org/about/#webpage",

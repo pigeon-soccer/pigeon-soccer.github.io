@@ -7,12 +7,13 @@
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/activity/">
   <meta name="description"
     content="東京都文京区で行う活動内容と保護者の体験談をたくさん紹介。障がいのある子どもたちが、個々の症状と発達状況に合わせた練習メニューでサッカーを楽しみながら成長。社会性や自己管理能力を育み、自立への一歩を支援します。">
+  <!-- 構造化データ(JSON-LD): LocalBusiness（目白台会場） / 口コミ CreativeWork を “一部” として関連付け / 口コミ（CreativeWork） / 共通参照ノード / Activity ページ自体
+       ※JSONにコメント構文は無いため、ブロック内に /* */ を書くと解析に失敗する -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
 
-        /* ========== LocalBusiness（目白台会場） ========== */
         {
           "@type": "LocalBusiness",
           "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai",
@@ -41,7 +42,6 @@
           "priceRange": "¥5,000/月",
           "telephone": "+81-90-4705-0605",
 
-          /* 口コミ CreativeWork を “一部” として関連付け */
           "hasPart": [
             { "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-1" },
             { "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-2" },
@@ -51,7 +51,6 @@
           ]
         },
 
-        /* ========== 口コミ（CreativeWork） ========== */
         {
           "@type": "CreativeWork",
           "@id": "https://soccer.pigeon-2ndplace.org/activity/#testimonial-1",
@@ -88,12 +87,10 @@
           "text": "転んで一度離れましたが、スタッフの温かい見守りで本人の意思で戻れました。成長を実感しています。"
         },
 
-        /* ========== 共通参照ノード ========== */
         { "@id": "https://soccer.pigeon-2ndplace.org/#org" },
         { "@id": "https://soccer.pigeon-2ndplace.org/#sports" },
         { "@id": "https://soccer.pigeon-2ndplace.org/#bunkyoBlind" },
 
-        /* ========== Activity ページ自体 ========== */
         {
           "@type": "CollectionPage",
           "@id": "https://soccer.pigeon-2ndplace.org/activity/#webpage",

@@ -7,12 +7,13 @@
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/">
   <meta name="description"
     content="障がいのある子どもたちがサッカーに笑顔でチャレンジし、基礎体力と社会性を育む居場所。東京都文京区を拠点に継続的な活動で自立を支援。保護者・学校と連携した個別支援を提供します。">
+  <!-- 構造化データ(JSON-LD): NGO 本体 / メンバー / クラブ運営者 / 会場 ① 目白台運動公園 / 会場 ② 東京都立文京盲学校 / WebSite & HomePage
+       ※JSONにコメント構文は無いため、ブロック内に /* */ を書くと解析に失敗する -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
 
-        /* ───── NGO 本体 ───── */
         {
           "@type": "NGO",
           "@id": "https://soccer.pigeon-2ndplace.org/#org",
@@ -45,7 +46,6 @@
             "areaServed": "JP"
           },
 
-          /* メンバー */
           "leader": {
             "@type": "Person",
             "name": "武藤 太一",
@@ -81,7 +81,6 @@
           "knowsLanguage": ["ja","en"]
         },
 
-        /* ───── クラブ運営者 ───── */
         {
           "@type": "SportsOrganization",
           "@id": "https://soccer.pigeon-2ndplace.org/#sports",
@@ -92,7 +91,6 @@
           "coach": { "@type": "Person", "name": "武藤 太一" }
         },
 
-        /* ───── 会場 ① 目白台運動公園 ───── */
         {
           "@type": "LocalBusiness",
           "@id": "https://soccer.pigeon-2ndplace.org/#mejirodai",
@@ -118,7 +116,6 @@
           "telephone": "+81-90-4705-0605"
         },
 
-        /* ───── 会場 ② 東京都立文京盲学校 ───── */
         {
           "@type": "LocalBusiness",
           "@id": "https://soccer.pigeon-2ndplace.org/#bunkyoBlind",
@@ -144,7 +141,6 @@
           "telephone": "+81-90-4705-0605"
         },
 
-        /* ───── WebSite & HomePage ───── */
         {
           "@type": "WebSite",
           "@id": "https://soccer.pigeon-2ndplace.org/#website",
