@@ -247,6 +247,18 @@ ul>li.menu__parent>ul.menu__child li>a {
   z-index: 0;
 }
 
+/* メインビジュアルの高さを明示する。
+   子の .mainVisual__img は `height: 100%` で背景画像を敷いているが、
+   親に確定した height がないと標準モードでは 0 に解決されてヒーローが消える。
+   従来このページは <!DOCTYPE html> がなく互換モードで描画されており、
+   互換モードだけが持つ「親が height:auto でも百分率高さをビューポートまで
+   遡って解決する」挙動に依存して表示されていた。
+   DOCTYPE を追加して標準モードへ移行するにあたり、その依存を断ち切る。
+   min-height ではなく height が必要 (min-height に対して子の height:100% は解決しない)。 */
+.mainVisual {
+  height: 100vh;
+}
+
 #about .topImage .topImage__img {
   background-image: url(/assets/img/snapshot/smiling-general-coach.jpg);
   background-size: cover;
