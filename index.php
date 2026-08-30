@@ -294,11 +294,12 @@
                         </div>
                         <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                           <div class="count-box">
-                            <p class="txtLink txtLinkEmphasis"><a href="https://www.youtube.com/embed/QlHb1P33YLU"
-                                target="_blank">インタビュー動画</a></p>
+                            <p class="txtLink txtLinkEmphasis"><a href="https://www.youtube.com/watch?v=QlHb1P33YLU"
+                                target="_blank" rel="noopener">インタビュー動画</a></p>
                             <p>株式会社IR Robotics様の「Japan Stock Channel」に取材いただいた、代表理事・武藤、副代表・鈴木のインタビュー動画です</p>
-                            <lite-youtube videoid="QlHb1P33YLU" playlabel="Play: Crayon Physics Deluxe - Trailer HD"
-                              style="width:344px;height:315px;"></lite-youtube>
+                            <lite-youtube videoid="QlHb1P33YLU"
+                              playlabel="再生：代表理事・武藤、副代表・鈴木のインタビュー動画"
+                              style="width:100%;"></lite-youtube>
                           </div>
                         </div>
                         <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
