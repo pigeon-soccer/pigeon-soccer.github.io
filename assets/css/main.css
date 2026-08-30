@@ -605,8 +605,8 @@ section.commonSection .summary-activity h2.summary__heading:before {
   content: "Activity";
 }
 
-section.commonSection .summary-atomosphere h2.summary__heading:before {
-  content: "Atomosphere";
+section.commonSection .summary-atmosphere h2.summary__heading:before {
+  content: "Atmosphere";
 }
 
 section.commonSection .summary-news h2.summary__heading:before {
@@ -1452,7 +1452,7 @@ print {
     order: 1;
   }
 
-  section.commonSection .summary-atomosphere .summary__txtWrapper {
+  section.commonSection .summary-atmosphere .summary__txtWrapper {
     order: 0;
 
   }

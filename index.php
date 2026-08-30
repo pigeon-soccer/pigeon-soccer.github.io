@@ -258,7 +258,7 @@
               </div>
             </section>
 
-            <section class="summary summary-atomosphere">
+            <section class="summary summary-atmosphere">
               <h2 class="summary__heading">活動の雰囲気は？</h2>
               <div class="summary__content">
                 <div class="summary__txtWrapper">
