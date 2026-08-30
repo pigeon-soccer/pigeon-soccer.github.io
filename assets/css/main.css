@@ -85,7 +85,11 @@ strong {
 
 .commonInner.sectionContent {
   max-width: 1250px;
-  min-height: 100%;
+  /* 互換モード時代は min-height:100% がビューポート高に解決され、
+     全セクションが最低でも画面1枚分の高さになっていた。標準モードでは
+     親が高さ auto のため 100% が解決されずこの指定は無視される。
+     従来の見た目を保つため vh に置き換える。 */
+  min-height: 100vh;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -250,12 +254,13 @@ ul>li.menu__parent>ul.menu__child li>a {
 /* メインビジュアルの高さを明示する。
    子の .mainVisual__img は `height: 100%` で背景画像を敷いているが、
    親に確定した height がないと標準モードでは 0 に解決されてヒーローが消える。
-   従来このページは <!DOCTYPE html> がなく互換モードで描画されており、
+   従来これらのページは <!DOCTYPE html> がなく互換モードで描画されており、
    互換モードだけが持つ「親が height:auto でも百分率高さをビューポートまで
    遡って解決する」挙動に依存して表示されていた。
    DOCTYPE を追加して標準モードへ移行するにあたり、その依存を断ち切る。
    min-height ではなく height が必要 (min-height に対して子の height:100% は解決しない)。 */
-.mainVisual {
+.mainVisual,
+.topImage {
   height: 100vh;
 }
 
@@ -729,6 +734,10 @@ ul.commonInner__solution>li dd {
   background-image: url("/assets/img/snapshot/handshake-original.jpg");
   background-size: cover;
   color: white;
+  /* 子の __wrapper が height:100% で半透明のオーバーレイを敷いている。
+     親に確定した高さがないと標準モードでは 0 に解決され、背景画像の上に
+     オーバーレイが乗らなくなる。 */
+  height: 100vh;
 }
 
 #about .commonSection-mission__wrapper {
@@ -998,6 +1007,9 @@ ul.convey dl.convey__content>dd {
 .eventMap iframe {
   width: 1000px;
   height: 400px;
+  /* iframe は既定で inline のため、標準モードではベースライン下に
+     約8pxの隙間ができる。reset.css の img と同じ流儀で下端揃えにする。 */
+  vertical-align: bottom;
 }
 
 /* ▽ コンテンツ -【trial】▽ */
