@@ -1198,6 +1198,113 @@ ul.snsWrapper__btn>li a:hover,
   margin: auto;
 }
 
+/* ▼ お知らせ - 公式ブログ埋め込み枠 ▼
+================================
+別オリジン(blog.pigeon-2ndplace.org)のため、親ページのCSSは iframe の中に一切届かない。
+そこで「中を直す」のではなく「見せる範囲を決める」方針を取る。
+iframe を負の margin-top でずらし、外側の overflow:hidden で
+ブログ自身のヘッダー(ロゴ・検索窓)とフッターを枠外へ追い出し、記事一覧だけを見せる。
+
+== 実測値(2026-08-29 / Chromium / 記事10件) ==
+ブログのレイアウトは「iframeの幅」641px で1カラム↔一覧に切り替わる。
+  iframe幅641px以上: ヘッダー下端=212px / 記事一覧下端=2344px / footer上端=2468px
+  iframe幅640px以下: ヘッダー下端=236px。1カラムになり幅に比例して伸びる。
+                     記事一覧下端 → 388px:4475 / 478px:4758 / 558px:5180 / 640px:5648
+
+== 注意1: ブレークポイントが 642px である理由 ==
+.newsEmbed の border(左右1pxずつ)により iframe の幅はビューポートより2px小さい。
+よって iframe幅641px を満たすのはビューポート643px以上。
+640px で切ると 641〜642px でブログが1カラムのまま枠だけ縮み、記事が大量に切れる。
+
+== 注意2: モバイルの高さが段階的な理由 ==
+1カラム時に必要な高さは幅に応じて連続的に変わる(4079px〜5412px)ため、
+静的CSSで完全一致させることは原理的に不可能。
+「記事が切れないこと」を優先し、各段階で必要な最大値＋余裕約100pxを採用している。
+余裕100pxは、記事見出しが1〜2行増えても切れないための保険(1行≒40px)。
+そのため狭い側の幅では下部にブログのフッターや余白が少し見える(::afterのフェードで緩和)。
+記事件数や見出しの長さが変わったら再計測して調整すること。
+
+== 既知の制約 ==
+ブログのヘッダー高さは幅により 236→252→273→294px と段階的に増える。
+オフセットを実際のヘッダーより深く取ると記事本体を削るため、安全側の236pxで固定。
+その結果、ビューポート343px以下ではヘッダーの帯が最大約37px残る。 */
+
+.newsEmbed {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto 30px;
+  border: 1px solid var(--color-gray-light);
+  border-radius: 8px;
+  box-shadow: var(--shadow-default);
+  background: var(--color-white);
+  /* iframe幅641〜1248pxでは中身の高さが変わらないと実測済みのため、
+     横幅を絞って記事の段の左右に空く余白を抑える */
+  max-width: 900px;
+  height: 2240px;
+}
+
+.newsEmbed__frame {
+  display: block;
+  width: 100%;
+  /* 中身の全高(2523px)より高くして、枠内スクロールバーを出さない */
+  height: 2600px;
+  border: 0;
+  /* ブログ自身のヘッダーを枠の上へ押し出す */
+  margin-top: -212px;
+}
+
+/* 切り取った下端をぼかし、枠の境界を意図的なものとして見せる */
+.newsEmbed::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 90px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--color-white));
+  pointer-events: none;
+}
+
+/* ブログが1カラムに切り替わる境界(iframe幅641px = ビューポート643px)より下 */
+@media screen and (max-width: 642px) {
+  .newsEmbed {
+    height: 5525px;
+  }
+
+  .newsEmbed__frame {
+    height: 6000px;
+    margin-top: -236px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .newsEmbed {
+    height: 5050px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .newsEmbed {
+    height: 4630px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .newsEmbed {
+    height: 4450px;
+  }
+}
+
+/* 枠は max-width で中央寄せされているため、導線も中央に揃える。
+   .commonDetailBtn(赤いボタン)は各ページの主要導線用なので、
+   ここでは既存の控えめなテキストリンク(.txtLink)を使う。 */
+.newsEmbed__more {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* ▲ お知らせ - 公式ブログ埋め込み枠 end ▲ */
+
 /* ▼▼▼ 600px～ PC only ▼▼▼
 ================================*/
 /* @media screen and (min-width: 600px), print {

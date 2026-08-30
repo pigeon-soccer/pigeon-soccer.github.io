@@ -327,13 +327,22 @@
 
             <section class="summary summary-news">
               <h2 class="summary__heading">お知らせ</h2>
-              <div class="txtLink" style="text-align: center; margin-bottom: 20px;">
-                <a href="https://blog.pigeon-2ndplace.org/" target="_blank">公式ブログで最新の活動レポートを読む</a>
+              <div class="summary__content">
+                <div class="summary__txtWrapper">
+                  <div class="txtWrapper__txt">
+                    <p>
+                      練習や大会の様子、イベントの開催報告、メディア掲載などの最新情報は、公式ブログで随時お届けしています。
+                      以下は公式ブログの最新記事一覧です。記事の全文は公式ブログでご覧ください。
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div style="max-width: 100%; margin: 0 auto 30px; height: 2500px; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                <iframe src="https://blog.pigeon-2ndplace.org/" style="width: 100%; height: 100%; border: none;"></iframe>
+              <div class="newsEmbed">
+                <iframe class="newsEmbed__frame" src="https://blog.pigeon-2ndplace.org/"
+                  title="NPO法人ピジョン公式ブログ 最新記事一覧" loading="lazy"></iframe>
               </div>
-
+              <p class="txtLink txtLinkEmphasis newsEmbed__more"><a href="https://blog.pigeon-2ndplace.org/"
+                  target="_blank" rel="noopener">公式ブログをもっと見る</a></p>
             </section>
 
         </section>
