@@ -650,8 +650,12 @@ section.commonSection .summary .summary__img {
 画像は figure を全幅にしたうえで中央寄せする。img 側は max-width:100% のままなので
 元画像より大きくは引き伸ばされない(ぼやけない)。 */
 @media screen and (min-width: 600px) and (max-width: 1039px) {
+  /* 縦積みになる帯なので、並び順はモバイル(599.98px以下)と揃えて画像を先に出す。
+     指定しないと source order のままテキストが先に来て、600pxの境界で
+     画像とテキストの上下が入れ替わってしまう。 */
   section.commonSection .summary .summary__txtWrapper {
     width: 100%;
+    order: 1;
   }
 
   /* figure を全幅にすると img が引き伸ばされて写真が主役になりすぎる
@@ -1362,7 +1366,7 @@ iframe を負の margin-top でずらし、外側の overflow:hidden で
 /* ▼▼▼ ～599px For SP ▼▼▼
 ================================*/
 
-@media screen and (max-width: 599px),
+@media screen and (max-width: 599.98px),
 print {
   .navWrapper {
     height: 100%;
