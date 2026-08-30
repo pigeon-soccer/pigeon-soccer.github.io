@@ -138,7 +138,12 @@ header.hide {
 
 img.navWrapper__logo_img {
   margin-top: 5%;
-  height: 60%;
+  /* 元は height: 60% だった。親の .navWrapper__logo に高さがないため、
+     互換モード時代は祖先を遡って header { height: 10vw } に対して解決され、
+     結果的に「ヘッダー高さの60%」になっていた。標準モードでは解決できず
+     元画像の実寸(322x80)で描画され、480〜599px でヘッダーからはみ出す。
+     header の高さは PC が 10vw、SP が 70px 固定なので、その60%を直接指定する。 */
+  height: 6vw;
 }
 
 .navWrapper__logo:hover {
@@ -1382,6 +1387,11 @@ iframe を負の margin-top でずらし、外側の overflow:hidden で
 print {
   .navWrapper {
     height: 100%;
+  }
+
+  /* この帯では header の高さが 70px 固定なので、その60% */
+  img.navWrapper__logo_img {
+    height: 42px;
   }
 
   ul.globalNav__menu>li a:before {
