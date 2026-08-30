@@ -173,8 +173,7 @@
     }
   </script>
 
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico" />
   <!-- Google Tag Manager -->
