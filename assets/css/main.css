@@ -623,6 +623,37 @@ section.commonSection .summary .summary__img {
   width: 450px;
 }
 
+/* ▼ タブレット〜小型ノート (600〜1039px) の2カラム解除 ▼
+================================
+本文 .width550(550px) + 左右マージン(20px×2) + 画像 .summary__img(450px) = 1040px。
+これがこのレイアウトで2カラムが成立する最小幅で、下回ると
+`justify-content: space-between` のまま固定幅だけが残り、
+本文も画像も左寄せのまま右側に大きな空白ができる。
+
+実測(2026-08-30 / Chromium / 768px幅):
+  本文 550px @x=20 → 右に198pxの空白
+  画像 450px @x=0  → 右に318pxの空白、さらに本文と左端が20pxずれる
+
+この帯では2カラムを諦めて縦積みにし、それぞれ全幅に広げる。
+画像は figure を全幅にしたうえで中央寄せする。img 側は max-width:100% のままなので
+元画像より大きくは引き伸ばされない(ぼやけない)。 */
+@media screen and (min-width: 600px) and (max-width: 1039px) {
+  section.commonSection .summary .summary__txtWrapper {
+    width: 100%;
+  }
+
+  /* figure を全幅にすると img が引き伸ばされて写真が主役になりすぎる
+     (1024px幅で 1024x683 まで拡大することを実測)。
+     2カラム時の 450px より少しだけ大きい 550px で頭打ちにし、中央寄せする。 */
+  section.commonSection .summary .summary__img {
+    width: 100%;
+    max-width: 550px;
+    margin-inline: auto;
+  }
+}
+
+/* ▲ タブレット〜小型ノートの2カラム解除 end ▲ */
+
 /* ▽ ボタン【部分】 ▽ */
 section.commonSection section.summary .commonDetailBtn {
   margin-top: 60px;
