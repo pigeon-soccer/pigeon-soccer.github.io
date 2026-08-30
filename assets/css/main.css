@@ -1796,7 +1796,9 @@ print {
   background: url(../img/icon/index_ic_001.png) no-repeat 0 0 /13px 20px;
 }
 
-.txtLink a:after {
+/* 別タブで開くリンクにだけ「別ウィンドウ」アイコンを出す。
+   同一タブで遷移する内部リンクに付けると、挙動と表示が食い違う。 */
+.txtLink a[target="_blank"]:after {
   content: "";
   position: absolute;
   top: 0;

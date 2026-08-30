@@ -269,59 +269,46 @@
                       ぜひ、ピジョンの温かい雰囲気を感じてみてください。
                     </p>
                   </div>
-                  <div class="col-lg-8 d-flex flex-column align-items-stretch">
-                    <div class="content ps-lg-4 d-flex flex-column justify-content-center">
 
-                      <div class="row">
-
-                        <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                          <div class="count-box">
-                            <p class="txtLink txtLinkEmphasis"><a href="/activity/#episode" target="_blank">保護者の体験談</a>
-                            </p>
-                            <p>実際に活動を体験したお子さんの様子を保護者の方々にコメントしていただいた内容を掲載しています。</p>
-                          </div>
-                        </div>
-
-                        <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                          <div class="count-box">
-                            <p class="txtLink txtLinkEmphasis"><a href="/join/#portfolio" target="_blank">スタッフのアルバム</a>
-                            </p>
-                            <p>
-                            <p>活動を支える現地のスタッフや生徒達の写真掲載しています(生徒の写真はプライバシー保護のためあまり充実させておりません)。</p>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                          <div class="count-box">
-                            <p class="txtLink txtLinkEmphasis"><a href="https://www.youtube.com/watch?v=QlHb1P33YLU"
-                                target="_blank" rel="noopener">インタビュー動画</a></p>
-                            <p>株式会社IR Robotics様の「Japan Stock Channel」に取材いただいた、代表理事・武藤、副代表・鈴木のインタビュー動画です</p>
-                            <lite-youtube videoid="QlHb1P33YLU"
-                              playlabel="再生：代表理事・武藤、副代表・鈴木のインタビュー動画"
-                              style="width:100%;"></lite-youtube>
-                          </div>
-                        </div>
-                        <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                          <div class="count-box">
-                            <p class="txtLink txtLinkEmphasis"><a href="https://twitter.com/PigeonSoccerNPO"
-                                target="_blank">SNS</a></p>
-                            <p>日々の活動の内容やスタッフの気づきを報告しています。</p>
-                            <!-- <a class="twitter-timeline" data-height="666"
-                              href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Twitter読み込み中...</a>
-                            <script src="https://platform.twitter.com/widgets.js" charset="utf-8" defer></script> -->
-                            <!-- <a class="twitter-timeline" href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Tweets by PigeonSoccerNPO</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-                          </div>
-                        </div>
-                      </div><!-- End row-->
+                  <div class="row">
+                    <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <p class="txtLink txtLinkEmphasis"><a href="/activity/#episode">保護者の体験談</a></p>
+                        <p>実際に活動を体験したお子さんの様子を保護者の方々にコメントしていただいた内容を掲載しています。</p>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div class="summary__content">
-                  <div class="summary__txtWrapper width550">
 
-                  </div>
+                    <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <p class="txtLink txtLinkEmphasis"><a href="/join/#portfolio">スタッフのアルバム</a></p>
+                        <p>活動を支える現地のスタッフや生徒達の写真掲載しています(生徒の写真はプライバシー保護のためあまり充実させておりません)。</p>
+                      </div>
+                    </div>
 
+                    <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <p class="txtLink txtLinkEmphasis"><a href="https://www.youtube.com/watch?v=QlHb1P33YLU"
+                            target="_blank" rel="noopener">インタビュー動画</a></p>
+                        <p>株式会社IR Robotics様の「Japan Stock Channel」に取材いただいた、代表理事・武藤、副代表・鈴木のインタビュー動画です</p>
+                        <lite-youtube videoid="QlHb1P33YLU"
+                          playlabel="再生：代表理事・武藤、副代表・鈴木のインタビュー動画"
+                          style="width:100%;"></lite-youtube>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <p class="txtLink txtLinkEmphasis"><a href="https://twitter.com/PigeonSoccerNPO"
+                            target="_blank" rel="noopener">SNS</a></p>
+                        <p>日々の活動の内容やスタッフの気づきを報告しています。</p>
+                        <!-- <a class="twitter-timeline" data-height="666"
+                          href="https://twitter.com/PigeonSoccerNPO?ref_src=twsrc%5Etfw">Twitter読み込み中...</a>
+                        <script src="https://platform.twitter.com/widgets.js" charset="utf-8" defer></script> -->
+                      </div>
+                    </div>
+                  </div><!-- End row -->
                 </div>
+              </div>
             </section>
 
             <section class="summary summary-news">
