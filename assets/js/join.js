@@ -111,12 +111,32 @@
   }
 
   /**
+   * Mobile nav open/close
+   *
+   * 開閉の状態はここだけが持つ。トグルのクリックと、ナビリンクのクリック(.scrollto)の
+   * 2経路から呼ばれるため、クラスと aria をまとめて更新しないと aria-expanded がずれる。
+   */
+  const setMenuOpen = (open) => {
+    const navbar = select('#navbar')
+    const toggle = select('.mobile-nav-toggle')
+    if (!navbar || !toggle) return
+    navbar.classList.toggle('navbar-mobile', open)
+    toggle.classList.toggle('bi-list', !open)
+    toggle.classList.toggle('bi-x', open)
+    toggle.setAttribute('aria-expanded', String(open))
+    toggle.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く')
+  }
+
+  const isMenuOpen = () => {
+    const navbar = select('#navbar')
+    return !!navbar && navbar.classList.contains('navbar-mobile')
+  }
+
+  /**
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
+    setMenuOpen(!isMenuOpen())
   })
 
   /**
@@ -136,12 +156,8 @@
     if (select(this.hash)) {
       e.preventDefault()
 
-      let navbar = select('#navbar')
-      if (navbar.classList.contains('navbar-mobile')) {
-        navbar.classList.remove('navbar-mobile')
-        let navbarToggle = select('.mobile-nav-toggle')
-        navbarToggle.classList.toggle('bi-list')
-        navbarToggle.classList.toggle('bi-x')
+      if (isMenuOpen()) {
+        setMenuOpen(false)
       }
       scrollto(this.hash)
     }
@@ -159,79 +175,5 @@
   });
 
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
-      });
-
-      let portfolioFilters = select('#portfolio-flters li', true);
-
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-
-      }, true);
-    }
-
-  });
-
-  /**
-   * Initiate portfolio lightbox 
-   */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Initiate Pure Counter 
-   */
-  new PureCounter();
 
 })()

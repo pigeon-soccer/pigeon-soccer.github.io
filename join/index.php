@@ -6,7 +6,17 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>ボランティア募集の情報 | 障がい児のサッカースクール NPO法人ピジョン</title>
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/join/">
-  <meta name="description" content="ボランティアスタッフのメンバー募集。児童・福祉・非営利活動に関心がある人、サッカー／ボランティア未経験者・女性・大学生・社会人など幅広く歓迎！">
+  <!-- Open Graph / Twitter Card（SNSで共有されたときの表示） -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NPO法人ピジョン">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="ボランティア募集の情報 | 障がい児のサッカースクール NPO法人ピジョン">
+  <meta property="og:description" content="障がい児サッカースクールのボランティアスタッフ募集。無償ですが交通費を支給。サッカー／ボランティア未経験者・女性・大学生・社会人、児童・福祉・非営利活動に関心がある人を歓迎！">
+  <meta property="og:url" content="https://soccer.pigeon-2ndplace.org/join/">
+  <meta property="og:image" content="https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-2-trim-art.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PigeonSoccerNPO">
+  <meta name="description" content="障がい児サッカースクールのボランティアスタッフ募集。無償ですが交通費を支給。サッカー／ボランティア未経験者・女性・大学生・社会人、児童・福祉・非営利活動に関心がある人を歓迎！">
   <meta content="ボランティア募集,児童,福祉,未経験歓迎,大学生,社会人,女性,文京区,東京" name="keywords">
 
   <script type="application/ld+json">
@@ -21,7 +31,7 @@
           "@id": "https://soccer.pigeon-2ndplace.org/join/#webpage",
           "url": "https://soccer.pigeon-2ndplace.org/join/",
           "name": "ボランティア募集の情報｜NPO法人ピジョン",
-          "description": "障がい児サッカースクールのボランティアスタッフを募集。無償ですが交通費は支給します。サッカー／ボランティア未経験者、女性、大学生、社会人を歓迎します。",
+          "description": "障がい児サッカースクールのボランティアスタッフ募集。無償ですが交通費を支給。サッカー／ボランティア未経験者・女性・大学生・社会人、児童・福祉・非営利活動に関心がある人を歓迎！",
           "potentialAction": {
             "@type": "JoinAction",
             "target": "https://soccer.pigeon-2ndplace.org/join/#contact",
@@ -83,14 +93,15 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link" href="/">サイトTOP</a></li>
-        <li><a class="nav-link" href="#whyVolunteer">ボランティアの価値</a></li>
-        <li><a class="nav-link" href="#about">募集の情報</a></li>
-        <li><a class="nav-link" href="#portfolio">アルバム写真</a></li>
+        <li><a class="nav-link scrollto" href="#whyVolunteer">ボランティアの価値</a></li>
+        <li><a class="nav-link scrollto" href="#about">募集の情報</a></li>
+        <li><a class="nav-link scrollto" href="#portfolio">アルバム写真</a></li>
         <li><a class="nav-link" target="_blank" rel="noopener"
             href="https://pigeon.smktg.jp/public/application/add/263">相談・体験する<i
               class="bi bi-box-arrow-up-right"></i></a></li>
       </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
+      <button type="button" class="bi bi-list mobile-nav-toggle" aria-label="メニューを開く"
+        aria-expanded="false" aria-controls="navbar"></button>
     </nav><!-- .navbar -->
 
   </header><!-- End Header -->
@@ -113,8 +124,8 @@
           大学生・社会人・女性など幅広く在籍
         </figcaption>
       </figure>
-      <a class="mt-5" href="https://pigeon.smktg.jp/public/application/add/263"><button type="button"
-          class="btn btn-outline-primary greenBkButton">見学・体験を申し込む</button></a>
+      <a class="btn btn-outline-primary greenBkButton mt-5"
+        href="https://pigeon.smktg.jp/public/application/add/263">見学・体験を申し込む</a>
       <a href="#whyVolunteer" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
   </section><!-- End Hero -->
@@ -124,11 +135,14 @@
     <section id="whyVolunteer" class="whyVolunteer">
       <div class="container">
 
-        <div class="whyVolunteerSectionTitle section-title">
-          <span>あなたの存在</span>
-          <h2>あなたの存在が子どもの笑顔をつくる</h2>
-        </div>
-        <div class="row">
+        <div class="row justify-content-center">
+          <!-- 本文の1行が長くなりすぎないよう、読み物カラムの幅を制限する。
+               見出しも同じカラムに入れて本文と左端を揃える。 -->
+          <div class="col-12 col-lg-10 col-xl-8">
+          <div class="whyVolunteerSectionTitle section-title">
+            <span aria-hidden="true">あなたの存在</span>
+            <h2>あなたの存在が子どもの笑顔をつくる</h2>
+          </div>
           <blockquote class="blockquote blockquoteDecoration">
             <p>一緒にいてくれてありがとうございます。<br>
               外であんないい顔の我が子を初めて見ました、奇跡です。</p>
@@ -151,12 +165,12 @@
             <br><span class="enrichText">障がいのある子どもが笑顔になる居場所、学ぶ場としてあり続けること</span>です。
           </p>
           <figure class="figure">
-            <img loading="lazy" width=602px height=453px
+            <img loading="lazy" width="602" height="453"
               src="../assets/img/snapshot/staff-rina-and-student-girl-art.jpg" class="figure-img img-fluid rounded"
               alt="初参加の女性コーチと女子生徒がパスの練習をしている様子">
             <figcaption class="figure-caption">初参加の付き添いスタッフ「りなコーチ」とパスの練習</figcaption>
           </figure>
-          <a href="#about"><button type="button" class="btn btn-outline-primary">募集の情報を見る</button></a>
+          <a class="btn btn-outline-primary scrollto" href="#about">募集の情報を見る</a>
           <h3 class="mt-5">サッカー未経験、子どもも不得意</h3>
           <p>
             私がピジョンの活動に初めて参加したのは、社会人になったばかりの頃でした。
@@ -175,7 +189,7 @@
             <br>そして価値があるのは「ボランティア参加者(そして社会)にとっての生徒の存在」も同じだと考えています。
           </p>
           <figure class="figure">
-            <img loading="lazy" width=685px height=456px src="../assets/img/snapshot/handshake-art.jpg"
+            <img loading="lazy" width="685" height="456" src="../assets/img/snapshot/handshake-art.jpg"
               class="figure-img img-fluid rounded" alt="試合前に生徒と握手をするコーチの様子">
             <figcaption class="figure-caption">試合前に生徒と握手する「むとうコーチ」（手前左）</figcaption>
           </figure>
@@ -203,7 +217,7 @@
           <p>2人とも、参加前には持っていなかった見方を得ています。</p>
 
           <figure class="figure">
-            <img loading="lazy" width="355.9px" height="423.479px"
+            <img loading="lazy" width="654" height="778"
               src="../assets/img/snapshot/staff-todai-ashiki-club.jpg" class="figure-img img-fluid rounded" alt="東京大学ア式サッカー部の部員たちがグラウンドで生徒と活動している様子">
             <figcaption class="figure-caption">活躍する東京大学ア式サッカー部の部員たち。成蹊大学、東洋大学、武蔵野大学などから定期的に参加してくれる大学生が増えています。
             </figcaption>
@@ -221,7 +235,8 @@
             <br>しかし、生徒数や活動量を増やそうにも、そのために必要な<span class="enrichText">付き添いスタッフが足りていません</span>。
             <br>なので少しでも興味があれば、ピジョンの活動を体験してみてください！
           </p>
-        </div>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
       </div>
     </section>
     <!-- ======= About Me Section ======= -->
@@ -229,14 +244,14 @@
       <div class="container">
 
         <div class="section-title">
-          <span>募集の情報</span>
+          <span aria-hidden="true">募集の情報</span>
           <h2>募集の情報</h2>
         </div>
 
         <div class="row">
           <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
             <figure class="figure">
-              <img loading="lazy" width="355.9 0px" height="583.854px"
+              <img loading="lazy" width="439" height="720"
                 src="../assets/img/snapshot/general-coach-half-art.jpg" class="figure-img img-fluid rounded" alt="グラウンドで笑顔を見せるむとう監督">
               <figcaption class="figure-caption">むとう監督の笑顔</figcaption>
             </figure>
@@ -280,7 +295,7 @@
                       </a>
                     </p>
                     <p>
-                      - 東京都文京区後楽飯「文京盲学校」
+                      - 東京都文京区後楽「文京盲学校」
                       <a class="smallIconLink" target="_blank" href="https://goo.gl/maps/E65gSuvqQv7URDAL9">
                         <i class="bi bi-box-arrow-up-right"></i>
                         <span>地図を開く</span>
@@ -377,8 +392,8 @@
 
             </div><!-- End .content-->
 
-            <a class="mt-5" href="https://pigeon.smktg.jp/public/application/add/263"><button type="button"
-                class="btn btn-outline-primary">見学・体験を申し込む</button></a>
+            <a class="btn btn-outline-primary mt-5"
+              href="https://pigeon.smktg.jp/public/application/add/263">見学・体験を申し込む</a>
 
           </div>
         </div>
@@ -392,7 +407,7 @@
       <div class="container">
 
         <div class="section-title">
-          <span>アルバム</span>
+          <span aria-hidden="true">アルバム</span>
           <h2>アルバム</h2>
           <p>スタッフ紹介を兼ねて全員ではありませんが、一部写真を掲載します。<br>スタッフ、生徒みんな和気あいあいとしています。<br>最近は大学生の方が増えてきました。</p>
         </div>
@@ -400,7 +415,7 @@
         <div class="row portfolio-container">
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="386.604px"
+              <img loading="lazy" width="593" height="644"
                 src="../assets/img/snapshot/staff-emata-fist-pump-with-students-art.jpg"
                 class="figure-img img-fluid rounded" alt="試合前に生徒たちと気合を入れるえまコーチ">
               <figcaption class="figure-caption">試合の前に気合を入れる「えまコーチ」（左）と生徒たち</figcaption>
@@ -409,7 +424,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="355.990px" src="../assets/img/snapshot/staff-inagon-art.jpg"
+              <img loading="lazy" width="441" height="466" src="../assets/img/snapshot/staff-inagon-art.jpg"
                 class="figure-img img-fluid rounded" alt="ボールを受け止める生徒と、その横で試合の補助をするいなごんコーチ">
               <figcaption class="figure-caption">ボールを受け止める生徒と、試合の補助をする「いなごんコーチ」（右）</figcaption>
             </figure>
@@ -417,7 +432,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="474.646px"
+              <img loading="lazy" width="840" height="1120"
                 src="../assets/img/snapshot/staff-digda-and-minako-coach-art.jpg" class="figure-img img-fluid rounded"
                 alt="ハロウィン当日に並んで写るりなコーチとみなこコーチ">
               <figcaption class="figure-caption">ハロウィン当日の「りなコーチ」（手前）と「みなこコーチ」（奥）</figcaption>
@@ -426,7 +441,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="246.594px"
+              <img loading="lazy" width="840" height="582"
                 src="../assets/img/snapshot/staff-listen-to-the-coach.jpg" class="figure-img img-fluid rounded"
                 alt="生徒たちに練習の指示を出すゆうきコーチと、話を聞く生徒たち">
               <figcaption class="figure-caption">生徒に指示する「ゆうきコーチ」（左）、生徒たち（中）</figcaption>
@@ -435,7 +450,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="277.938px" src="../assets/img/snapshot/staff-hayato-coach.jpg"
+              <img loading="lazy" width="840" height="656" src="../assets/img/snapshot/staff-hayato-coach.jpg"
                 class="figure-img img-fluid rounded" alt="生徒にサッカーボールを手渡すはやとコーチ">
               <figcaption class="figure-caption">生徒にボールを渡す「はやとコーチ」</figcaption>
             </figure>
@@ -443,7 +458,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item">
             <figure class="figure">
-              <img loading="lazy" width="355.9px" height="213.781px" src="../assets/img/snapshot/event-hollowin.jpg"
+              <img loading="lazy" width="840" height="504" src="../assets/img/snapshot/event-hollowin.jpg"
                 class="figure-img img-fluid rounded" alt="ハロウィンの催しが終わった後の会場の様子">
               <figcaption class="figure-caption">ハロウィンの残骸</figcaption>
             </figure>
@@ -459,14 +474,14 @@
       <div class="container">
 
         <div class="section-title">
-          <!-- <span>相談・体験する</span> -->
-          <!-- <h2>相談・体験する</h2> -->
-          <h4 class="text-center">
+          <span aria-hidden="true">相談・体験する</span>
+          <h2>相談・体験する</h2>
+          <p class="contactAction">
             <a href="https://pigeon.smktg.jp/public/application/add/263"
               class="submitButton">連絡して、参加する</a>
-          </h4>
-          <figcaption class="figure-caption">
-            いつでもご連絡を心待ちにしております。見学・体験がご不安な方は先に相談いただいても構いません。</figcaption>
+          </p>
+          <p class="contactLead">
+            いつでもご連絡を心待ちにしております。見学・体験がご不安な方は先に相談いただいても構いません。</p>
         </div>
 
       </div>
@@ -503,12 +518,8 @@
   <script defer src="../assets/js/join.js"></script>
   <!-- <script defer src="../assets/js/form.js"></script> -->
   <!-- Vendor JS Files -->
-  <script defer src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script defer src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script defer src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script defer src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script defer src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script defer src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <!-- Swiper / GLightbox / Isotope / PureCounter / Waypoints / Bootstrap JS は
+       このページに対象要素が1つも無いため読み込まない（join.js からも呼び出しを削除済み）。 -->
   <!-- <script defer src="../assets/vendor/php-email-form/validate.js"></script> -->
   <!-- <script defer src="https://sdk.form.run/js/v2/formrun.js"></script> -->
 

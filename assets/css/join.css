@@ -1,3 +1,13 @@
+/* join ページ専用のコントラスト対応トークン。
+   共有の --color-accent / --color-primary は TOP・about・activity でも使われるため、
+   ここでは変更せず、暗いバリアントを追加して join 内でだけ使う。 */
+:root {
+  --color-accent-dark: #c54721;
+  /* #E05126 を暗く: 白文字で 4.89:1 */
+  --color-primary-dark: #4c7e19;
+  /* #5D9A1F を暗く: 白文字で 4.88:1 */
+}
+
 .whyVolunteerSectionTitle {
   text-align: left;
 }
@@ -34,16 +44,18 @@
   margin: 0;
 }
 
+/* WCAG 1.4.3 AA 対応。共有トークン --color-accent は他ページでも使うため
+   ここでは join ページ用に上書きするだけに留める。 */
 .btn-outline-primary {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
+  border-color: var(--color-accent-dark);
+  color: var(--color-accent-dark);
 }
 
 .btn:first-child:hover,
 :not(.btn-check)+.btn:hover {
-  border-color: var(--color-accent);
+  border-color: var(--color-accent-dark);
   color: white;
-  background-color: var(--color-accent);
+  background-color: var(--color-accent-dark);
 }
 
 main#main {
@@ -85,7 +97,7 @@ p {
   font-size: medium;
 }
 .greenBkButton {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-dark);
   border-color: transparent;
   color: white;
 }
@@ -117,9 +129,11 @@ a.smallIconLink span {
 }
 
 /* Fix for the contact button to be responsive */
-.section-title h4.text-center {
+/* 以前は CTA を <h4> で包んでいたが、見出し階層が h2 から h4 に飛ぶため <p> に変更した。 */
+.section-title .contactAction {
   display: flex;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 .submitButton {
@@ -128,7 +142,7 @@ a.smallIconLink span {
   max-width: 550px; /* Set max-width instead of min-width */
   margin: 0 auto;
   padding: 10px;
-  background-color: var(--color-accent);
+  background-color: var(--color-accent-dark);
   color: var(--color-white);
   font-size: 20px;
   font-weight: 500;

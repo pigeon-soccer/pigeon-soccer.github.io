@@ -215,6 +215,17 @@ h6 {
   cursor: pointer;
   display: none;
   line-height: 0;
+  /* <i> から <button> にしたので UA 既定のボタン外観を打ち消す */
+  background: none;
+  border: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.mobile-nav-toggle:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 4px;
 }
 
 @media (max-width: 991px) {
@@ -224,6 +235,15 @@ h6 {
 
   .navbar ul {
     display: none;
+  }
+
+  /* #header は justify-content:center のためトグルが画面中央に来てしまい、
+     短いビューポートでは白い h1 と重なって判読できなくなる。右端に寄せる。 */
+  #header > .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
   }
 }
 
@@ -316,10 +336,16 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  /* height ではなく min-height。短いビューポート(横向きスマホ等)で内容が
+     固定高さから溢れ、h1 が固定ヘッダーに隠れるのを防ぐ。 */
+  min-height: 100vh;
   background: url("../img/snapshot/heading-practice-2-trim-art.jpg") top right;
   background-size: cover;
   position: relative;
+  /* #hero 自身を flex コンテナにして .hero-container に高さを配る。
+     子に min-height を持たせると padding と二重に効いて 100vh を超えてしまう。 */
+  display: flex;
+  flex-direction: column;
 }
 
 #hero:before {
@@ -333,16 +359,18 @@ h6 {
 }
 
 #hero .hero-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+  /* 通常フローに戻す。absolute のままだと #hero の高さに寄与しないため
+     min-height:100vh が伸びず、内容が溢れて h1 がヘッダーに潜る。 */
+  position: relative;
+  /* 親の高さを埋める。内容がそれより高ければ、親ごと伸びる。 */
+  flex: 1 0 auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 15px;
+  /* 上は固定ヘッダー(80px)分の逃げ */
+  padding: 80px 15px 20px;
 }
 
 #hero h1 {
@@ -375,16 +403,10 @@ h6 {
   color: var(--color-primary);
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
 @media (max-width: 575px) {
   #hero {
     background: url("../img/snapshot/heading-practice-2-student-art.jpg") top right;
-    height: 660px;
+    min-height: 660px;
   }
   #hero h1 {
     font-size: 38px;
@@ -648,7 +670,9 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  /* 背景が写真のため、明るい部分ではクレジットリンクが 3.50:1 まで落ちる。
+     0.6 -> 0.7 にすると最悪ケースでも 5.23:1 を確保できる。 */
+  background: rgba(0, 0, 0, 0.7);
 }
 
 #footer .container {
@@ -703,4 +727,78 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+#footer .credits a {
+  color: var(--color-primary-alt);
+  text-decoration: underline;
+  /* WCAG 2.5.8: タップ領域を 24px 以上にする */
+  display: inline-block;
+  padding: 6px 4px;
+}
+
+
+/*--------------------------------------------------------------
+# Accessibility / layout fixes
+--------------------------------------------------------------*/
+
+/* 図キャプション: Bootstrap 既定の #6c757d は背景 #f6f6e8 に対し 4.30:1 で
+   WCAG 1.4.3 AA (4.5:1) を満たさない。 */
+.figure-caption,
+#contact .contactLead {
+  color: #646d74;
+}
+
+/* 575px 以下で .container の左右パディングが 0 になり、本文が画面端に密着する。
+   フィギュアの左端が 0 / 12 / 17px とばらつく原因でもある。 */
+@media (max-width: 575px) {
+
+  #main .container,
+  #footer .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* アルバムの画像は width 属性で 355.9px に固定されていたため、
+   列(最大440px)より狭いまま左寄せになり、カード幅もキャプション長でばらついていた。 */
+/* 以前は width 属性で 355.9px に固定されていたため、列(最大440px)より狭いまま
+   左寄せになり、カード幅もキャプションの長さでばらついていた。列幅に追随させる。
+
+   キャプションの上端は行内で最大 21px ずれるが、これは写真の縦横比が
+   0.75〜1.67 とばらばらなことによる。揃える方法は2つとも採らない:
+   - 下端揃え(margin-top:auto) -> 写真とキャプションが最大140px離れて見栄えが悪化
+   - aspect-ratio + object-fit:cover -> 「（左）」「（中）」など写真内の位置を指す
+     キャプションがあるため、切り抜きで被写体が欠ける */
+.portfolio-item .figure {
+  display: block;
+  width: 100%;
+}
+
+.portfolio-item .figure-img {
+  width: 100%;
+  height: auto;
+}
+
+/* アルバム末尾から CTA までの空白が 166px あり、間延びしていた。 */
+#contact {
+  padding-top: 10px;
+}
+
+#contact .section-title {
+  padding-top: 10px;
+}
+
+/* 戻るボタンが本文の行末に重なる。ホバー/フォーカス時のみ不透明にして影響を減らす。 */
+.back-to-top {
+  opacity: 0;
+}
+
+.back-to-top.active {
+  opacity: 0.75;
+}
+
+.back-to-top.active:hover,
+.back-to-top.active:focus-visible {
+  opacity: 1;
 }
