@@ -1,5 +1,17 @@
+// 沿革リンクに出す「◯年の」の年数。ヘッダーは load() で非同期に読み込まれるため、
+// #passedYeaer はコールバックの中でしか存在しない。
+function calcPassedYear() {
+  var date = new Date();
+  return date.getFullYear() - 2011;
+}
+
 $(function(){
-   $("#header").load("/header.html");
+   $("#header").load("/header.html", function () {
+     var el = document.querySelector("#passedYeaer");
+     if (el) {
+       el.innerText = calcPassedYear() + '年の';
+     }
+   });
    $("#footer").load("/footer.html");
 });
 
@@ -45,15 +57,4 @@ $(document).on('click','.globalNav__btn', function() {
     $(".globalNav").stop().animate({
         right: rightVal
     }, 200);
-});
-
-$(function () {
-  // 沿革の年数表示
-  function calcPassedYear() {
-    var date = new Date();
-    var thisYear = date.getFullYear();
-    return thisYear - 2011;
-  }
-  console.log(calcPassedYear());
-  document.querySelector("#passedYeaer").innerText = calcPassedYear() + '年の'
 });

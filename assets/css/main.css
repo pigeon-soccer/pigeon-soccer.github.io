@@ -1602,6 +1602,14 @@ print {
     padding-top: 20px;
   }
 
+  /* 画像はモバイルでは全幅(フルブリード)にする。
+     .summary__img は width:450px 固定のため、450px未満では flex アイテムとして
+     縮んで全幅になるが、451〜599px では450pxで止まり右側に空白が残っていた
+     (599px幅で149pxの空白を実測)。 */
+  section.commonSection .summary .summary__img {
+    width: 100%;
+  }
+
   section.commonSection .summary .summary__txtWrapper {
     order: 1;
   }
