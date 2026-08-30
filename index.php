@@ -5,6 +5,16 @@
   <meta charset="utf-8">
   <title>東京都の障がい児専門サッカースクール | NPO法人ピジョン公式</title>
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/">
+  <!-- Open Graph / Twitter Card（SNSで共有されたときの表示） -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NPO法人ピジョン">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="東京都の障がい児専門サッカースクール | NPO法人ピジョン公式">
+  <meta property="og:description" content="障がいのある子どもたちがサッカーに笑顔でチャレンジし、基礎体力と社会性を育む居場所。東京都文京区を拠点に継続的な活動で自立を支援。保護者・学校と連携した個別支援を提供します。">
+  <meta property="og:url" content="https://soccer.pigeon-2ndplace.org/">
+  <meta property="og:image" content="https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-2-trim-art.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PigeonSoccerNPO">
   <meta name="description"
     content="障がいのある子どもたちがサッカーに笑顔でチャレンジし、基礎体力と社会性を育む居場所。東京都文京区を拠点に継続的な活動で自立を支援。保護者・学校と連携した個別支援を提供します。">
   <!-- 構造化データ(JSON-LD): NGO 本体 / メンバー / クラブ運営者 / 会場 ① 目白台運動公園 / 会場 ② 東京都立文京盲学校 / WebSite & HomePage

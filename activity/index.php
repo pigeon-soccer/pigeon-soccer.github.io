@@ -5,6 +5,16 @@
   <meta charset="utf-8">
   <title>活動内容 | サッカーで育む自立と笑顔 - NPO法人ピジョン</title>
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/activity/">
+  <!-- Open Graph / Twitter Card（SNSで共有されたときの表示） -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NPO法人ピジョン">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="活動内容 | サッカーで育む自立と笑顔 - NPO法人ピジョン">
+  <meta property="og:description" content="東京都文京区で行う活動内容と保護者の体験談をたくさん紹介。障がいのある子どもたちが、個々の症状と発達状況に合わせた練習メニューでサッカーを楽しみながら成長。社会性や自己管理能力を育み、自立への一歩を支援します。">
+  <meta property="og:url" content="https://soccer.pigeon-2ndplace.org/activity/">
+  <meta property="og:image" content="https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-2-trim-art.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PigeonSoccerNPO">
   <meta name="description"
     content="東京都文京区で行う活動内容と保護者の体験談をたくさん紹介。障がいのある子どもたちが、個々の症状と発達状況に合わせた練習メニューでサッカーを楽しみながら成長。社会性や自己管理能力を育み、自立への一歩を支援します。">
   <!-- 構造化データ(JSON-LD): LocalBusiness（目白台会場） / 口コミ CreativeWork を “一部” として関連付け / 口コミ（CreativeWork） / 共通参照ノード / Activity ページ自体
@@ -109,8 +119,7 @@
     }
   </script>
 
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico" />
   <!-- Google Tag Manager -->
@@ -150,7 +159,7 @@
             <h2 id="development">練習で育むもの</h2>
             <ul class="convey">
               <li>
-                <figure class="convey__img"><img src="/assets/img/snapshot/smiling-children.jpg"
+                <figure class="convey__img"><img loading="lazy" src="/assets/img/snapshot/smiling-children.jpg"
                     alt="子どもの笑顔を引き出すイメージ画像 - 障がい児のためのサッカースクール" /></figure>
                 <dl class="convey__content">
                   <dt>①ココロ&mdash;感受性</dt>
@@ -160,7 +169,7 @@
                 </dl>
               </li>
               <li>
-                <figure class="convey__img"><img src="/assets/img/snapshot/practice-game.jpg"
+                <figure class="convey__img"><img loading="lazy" src="/assets/img/snapshot/practice-game.jpg"
                     alt="自己管理能力を高める練習風景の写真 - 障がい児のためのサッカースクール" /></figure>
                 <dl class="convey__content">
                   <dt>②カラダ&mdash;自己管理／体力</dt>
@@ -171,7 +180,7 @@
                 </dl>
               </li>
               <li>
-                <figure class="convey__img"><img src="/assets/img/snapshot/listen-to-the-coach.jpg"
+                <figure class="convey__img"><img loading="lazy" src="/assets/img/snapshot/listen-to-the-coach.jpg"
                     alt="鈴木ゆうきコーチのお話をよく聞く生徒たちの写真 - 障がい児のためのサッカースクール" /></figure>
                 <dl class="convey__content">
                   <dt>③ヒト&mdash;協調性</dt>

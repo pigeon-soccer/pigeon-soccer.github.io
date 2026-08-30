@@ -5,6 +5,16 @@
   <meta charset="utf-8">
   <title>ミッションと沿革 | 自立を支援する障がい児サッカースクール NPO法人ピジョン</title>
   <link rel="canonical" href="https://soccer.pigeon-2ndplace.org/about/">
+  <!-- Open Graph / Twitter Card（SNSで共有されたときの表示） -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NPO法人ピジョン">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="ミッションと沿革 | 自立を支援する障がい児サッカースクール NPO法人ピジョン">
+  <meta property="og:description" content="2010年から東京都文京区で活動するNPO法人ピジョンのミッションと沿革。自閉症、ダウン症、発達障がいなどの子どもたちに、サッカーを通じて明るい心と社会性を育む場を提供。保護者・学校と連携し、一人ひとりの未来を支援します。">
+  <meta property="og:url" content="https://soccer.pigeon-2ndplace.org/about/">
+  <meta property="og:image" content="https://soccer.pigeon-2ndplace.org/assets/img/snapshot/heading-practice-2-trim-art.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PigeonSoccerNPO">
   <meta name="description"
     content="2010年から東京都文京区で活動するNPO法人ピジョンのミッションと沿革。自閉症、ダウン症、発達障がいなどの子どもたちに、サッカーを通じて明るい心と社会性を育む場を提供。保護者・学校と連携し、一人ひとりの未来を支援します。">
   <!-- 構造化データ(JSON-LD): 共通ノード（フル） / About Page
@@ -37,8 +47,7 @@
       ]
     }
   </script>
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/assets/img/logo/favicon_pigeon.ico" />
   <!-- Google Tag Manager -->
