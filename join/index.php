@@ -81,6 +81,9 @@
   ======================================================== -->
   <link href="../assets/css/join-laura.css" rel="stylesheet">
   <link href="../assets/css/join.css" rel="stylesheet">
+  <!-- モバイル用フルスクリーンナビ。join-laura.css より後に読み込んで旧実装を上書きする -->
+  <link rel="stylesheet" href="/assets/css/nav-overlay.css">
+  <script defer src="/assets/js/nav-overlay.js"></script>
   <script defer src="/assets/vendor/jquery/ajax/3.6.0/jquery.min.js"></script>
 
 </head>
@@ -100,9 +103,13 @@
             href="https://pigeon.smktg.jp/public/application/add/263">相談・体験する<i
               class="bi bi-box-arrow-up-right"></i></a></li>
       </ul>
-      <button type="button" class="bi bi-list mobile-nav-toggle" aria-label="メニューを開く"
-        aria-expanded="false" aria-controls="navbar"></button>
     </nav><!-- .navbar -->
+    <button type="button" class="navToggle" aria-label="メニューを開く" aria-expanded="false"
+      aria-controls="navbar">
+      <span class="navToggle__bar"></span>
+      <span class="navToggle__bar"></span>
+      <span class="navToggle__bar"></span>
+    </button>
 
   </header><!-- End Header -->
 

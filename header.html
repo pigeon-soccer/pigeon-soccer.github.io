@@ -4,12 +4,13 @@
       <img class="navWrapper__logo_img" src="/assets/img/logo/pigeon_logo.png" alt="障がい児のサッカースクール「NPO法人Pigeon」の公式サイト">
     </a>
   </div>
-  <nav class="globalNav">
-    <div class="globalNav__btn">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+  <button type="button" class="navToggle" aria-label="メニューを開く" aria-expanded="false"
+    aria-controls="globalNav">
+    <span class="navToggle__bar"></span>
+    <span class="navToggle__bar"></span>
+    <span class="navToggle__bar"></span>
+  </button>
+  <nav class="globalNav" id="globalNav">
     <ul class="globalNav__menu">
       <li class="menu__parent">
         <a href="/about/">どんな団体？</a>

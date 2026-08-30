@@ -1,0 +1,308 @@
+@import 'variables.css';
+
+/* ==========================================================================
+   モバイル用グローバルナビゲーション（フルスクリーン・オーバーレイ）
+
+   従来このサイトにはモバイルメニューが2種類あった。
+     本体サイト (/, /about/, /activity/) … 右から264px幅の白いドロワー。背景は暗くならない
+     /join/                              … 画面を暗くし、内側に白い角丸パネル
+                                            (項目5つに対し高さ730pxで大半が空白)
+   ページをまたぐと見た目が変わるため、ここに1つだけ定義を置いて両方から使う。
+   本体サイトは header.html、/join/ は join/index.php にマークアップがあり、
+   クラス名の体系が違うので、セレクタだけ二系統・宣言は共通、という形にしている。
+
+   このファイルは main.css / join-laura.css より後に読み込むこと。
+   旧実装の残りを上書きする必要がある。
+   ========================================================================== */
+
+/* ▼ 切り替え幅について
+   従来は本体サイトが599.98px以下、/join/ が991px以下でハンバーガーに切り替わっており、
+   768pxでは本体サイトが横並びナビ、/join/ がハンバーガーという食い違いがあった。
+   本体サイトの横並びナビは font-size:1.7vw のため600px幅では約10pxまで潰れる。
+   タブレット帯はハンバーガーの方が読みやすいので、991.98px以下に揃える。 */
+
+@media screen and (max-width: 991.98px) {
+
+  /* ----------------------------------------------------------------------
+     トグルボタン（ハンバーガー ⇄ ×）
+     ---------------------------------------------------------------------- */
+
+  .navToggle {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 1001;
+    /* 44x44 は iOS/Android のタップ領域の推奨最小サイズ */
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(25, 28, 31, 0.55);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: background-color 0.25s ease;
+  }
+
+  .navToggle:hover {
+    background: rgba(25, 28, 31, 0.75);
+  }
+
+  .navToggle:focus-visible {
+    outline: 2px solid var(--color-white);
+    outline-offset: 3px;
+  }
+
+  /* 3本の線。中央を基準に上下へ振り分ける */
+  .navToggle__bar {
+    position: absolute;
+    left: 50%;
+    width: 22px;
+    height: 2px;
+    margin-left: -11px;
+    border-radius: 2px;
+    background: var(--color-white);
+    transition: transform 0.3s ease, opacity 0.2s ease;
+  }
+
+  .navToggle__bar:nth-child(1) {
+    top: 15px;
+  }
+
+  .navToggle__bar:nth-child(2) {
+    top: 21px;
+  }
+
+  .navToggle__bar:nth-child(3) {
+    top: 27px;
+  }
+
+  /* 開いている間は × に変形する。
+     上下の線を中央(top:21px)まで寄せてから回転させ、中央の線は消す。 */
+  .navToggle.is-open .navToggle__bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .navToggle.is-open .navToggle__bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navToggle.is-open .navToggle__bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  .navToggle.is-open {
+    background: rgba(25, 28, 31, 0.9);
+  }
+
+  /* ----------------------------------------------------------------------
+     オーバーレイ本体
+     本体サイトは nav.globalNav、/join/ は nav#navbar が器になる
+     ---------------------------------------------------------------------- */
+
+  .navWrapper nav.globalNav,
+  #header > nav#navbar.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgba(20, 22, 25, 0.97);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    /* 閉じている間は描画も操作も無効にする。display:none にしないのは
+       開閉のフェードを効かせるため。 */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.28s ease, visibility 0.28s ease;
+    /* 端末を横向きにすると項目が画面に収まらないことがある */
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .navWrapper nav.globalNav.is-open,
+  #header > nav#navbar.navbar.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  /* ----------------------------------------------------------------------
+     リスト
+     ---------------------------------------------------------------------- */
+
+  .navWrapper nav.globalNav ul.globalNav__menu,
+  #header > nav#navbar.navbar > ul {
+    display: block;
+    /* 上はトグルボタン(44px + 余白)の逃げ */
+    margin: 0;
+    padding: 78px 28px 40px;
+    list-style: none;
+    /* 項目が少ないので上寄せではなく、画面の高さに対して少し下げた位置から始める */
+    min-height: 100%;
+    box-sizing: border-box;
+  }
+
+  .navWrapper nav.globalNav ul.globalNav__menu > li,
+  #header > nav#navbar.navbar > ul > li {
+    display: block;
+    width: 100%;
+    border: 0;
+    text-align: left;
+  }
+
+  /* 第1階層のリンク。指で押しやすいよう縦の余白を広く取る */
+  .navWrapper nav.globalNav ul.globalNav__menu > li > a,
+  #header > nav#navbar.navbar > ul > li > a {
+    display: block;
+    height: auto;
+    padding: 14px 0;
+    color: var(--color-white);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    /* 旧デザインの矢印アイコンを打ち消す */
+    background: none;
+  }
+
+  .navWrapper nav.globalNav ul.globalNav__menu > li > a:before,
+  .navWrapper nav.globalNav ul.globalNav__menu > li > a:after,
+  #header > nav#navbar.navbar > ul > li > a:before,
+  #header > nav#navbar.navbar > ul > li > a:after {
+    content: none;
+  }
+
+  .navWrapper nav.globalNav ul.globalNav__menu > li > a:hover,
+  #header > nav#navbar.navbar > ul > li > a:hover {
+    color: var(--color-primary-alt);
+  }
+
+  /* 第1階層どうしの区切り。最初の項目の上には線を引かない */
+  .navWrapper nav.globalNav ul.globalNav__menu > li + li,
+  #header > nav#navbar.navbar > ul > li + li {
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  /* ----------------------------------------------------------------------
+     第2階層（本体サイトのみ。/join/ のメニューは1階層）
+
+     本体サイトは4つの親に対し子が計15項目ある。アコーディオンにすると
+     開く操作が1つ増えるので、最初から展開して字を小さくし、字下げで従属を示す。
+     ---------------------------------------------------------------------- */
+
+  .navWrapper nav.globalNav ul.menu__child {
+    position: static;
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 18px;
+    width: auto;
+    margin: 0 0 12px;
+    padding: 0 0 0 2px;
+    list-style: none;
+  }
+
+  .navWrapper nav.globalNav ul.menu__child > li {
+    height: auto;
+    border: 0;
+    background: none;
+  }
+
+  .navWrapper nav.globalNav ul.menu__child > li > a {
+    display: block;
+    padding: 7px 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .navWrapper nav.globalNav ul.menu__child > li > a:hover {
+    color: var(--color-white);
+  }
+
+  .navWrapper nav.globalNav ul.menu__child > li > a:before,
+  .navWrapper nav.globalNav ul.menu__child > li > a:after {
+    content: none;
+  }
+
+  /* 親をホバーしても子を隠さない（デスクトップ用の挙動を打ち消す） */
+  .navWrapper li.menu__parent:hover ul.menu__child {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* ----------------------------------------------------------------------
+     旧実装の打ち消し
+     ---------------------------------------------------------------------- */
+
+  /* 本体サイト: 旧ドロワーのスライド用オフセットと、旧ハンバーガーの四角いボタン */
+  .navWrapper .globalNav__btn {
+    display: none;
+  }
+
+  /* /join/: 旧オーバーレイ。器側を .is-open で制御するので不要 */
+  #header > nav#navbar.navbar.navbar-mobile {
+    background: rgba(20, 22, 25, 0.97);
+  }
+
+  #header > nav#navbar.navbar.navbar-mobile > ul {
+    position: static;
+    inset: auto;
+    border-radius: 0;
+    background: none;
+  }
+
+  /* /join/ の旧トグル（アイコンフォント）は使わない */
+  #header .mobile-nav-toggle {
+    display: none;
+  }
+
+  /* 本体サイトの現在地バッジはオーバーレイでは邪魔になる */
+  .navWrapper nav.globalNav ul.globalNav__menu > li.current {
+    height: auto;
+    padding: 0;
+    background: none;
+  }
+
+  .navWrapper nav.globalNav ul.globalNav__menu > li.current:before {
+    content: none;
+  }
+
+  /* 開いている間は背面のページをスクロールさせない */
+  body.is-navOpen {
+    overflow: hidden;
+  }
+}
+
+/* 992px以上ではトグルを出さない */
+@media screen and (min-width: 992px) {
+  .navToggle {
+    display: none;
+  }
+}
+
+/* 動きを抑える設定の利用者にはアニメーションを与えない */
+@media (prefers-reduced-motion: reduce) {
+
+  .navToggle,
+  .navToggle__bar,
+  .navWrapper nav.globalNav,
+  #header > nav#navbar.navbar {
+    transition: none;
+  }
+}

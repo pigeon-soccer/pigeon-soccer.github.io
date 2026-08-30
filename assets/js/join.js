@@ -111,54 +111,17 @@
   }
 
   /**
-   * Mobile nav open/close
-   *
-   * 開閉の状態はここだけが持つ。トグルのクリックと、ナビリンクのクリック(.scrollto)の
-   * 2経路から呼ばれるため、クラスと aria をまとめて更新しないと aria-expanded がずれる。
-   */
-  const setMenuOpen = (open) => {
-    const navbar = select('#navbar')
-    const toggle = select('.mobile-nav-toggle')
-    if (!navbar || !toggle) return
-    navbar.classList.toggle('navbar-mobile', open)
-    toggle.classList.toggle('bi-list', !open)
-    toggle.classList.toggle('bi-x', open)
-    toggle.setAttribute('aria-expanded', String(open))
-    toggle.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く')
-  }
-
-  const isMenuOpen = () => {
-    const navbar = select('#navbar')
-    return !!navbar && navbar.classList.contains('navbar-mobile')
-  }
-
-  /**
-   * Mobile nav toggle
-   */
-  on('click', '.mobile-nav-toggle', function(e) {
-    setMenuOpen(!isMenuOpen())
-  })
-
-  /**
-   * Mobile nav dropdowns activate
-   */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
-
-  /**
    * Scrool with ofset on links with a class name .scrollto
+   *
+   * モバイルメニューの開閉は assets/js/nav-overlay.js が担当する。
+   * 旧実装は #navbar に .navbar-mobile を付け外しし、.mobile-nav-toggle の
+   * アイコンクラスを bi-list / bi-x で差し替える方式だったが、
+   * 本体サイトと共通のフルスクリーン・オーバーレイに置き換えたため削除した。
+   * リンクを踏んだときにメニューを閉じる処理もそちらが行う。
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
-
-      if (isMenuOpen()) {
-        setMenuOpen(false)
-      }
       scrollto(this.hash)
     }
   }, true)

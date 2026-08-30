@@ -41,20 +41,6 @@ $(function(){
 });
 
 
-$(document).on('click','.globalNav__btn', function() {
-    // ハンバーガーメニューの位置を設定
-    var rightVal = 0;
-    if($(this).hasClass("open")) {
-        // 位置を移動させメニューを開いた状態にする
-        rightVal = -700;
-        // メニューを開いたら次回クリック時は閉じた状態になるよう設定
-        $(this).removeClass("open");
-    } else {
-        // メニューを開いたら次回クリック時は閉じた状態になるよう設定
-        $(this).addClass("open");
-    }
-
-    $(".globalNav").stop().animate({
-        right: rightVal
-    }, 200);
-});
+// ハンバーガーメニューの開閉は assets/js/nav-overlay.js が担当する。
+// 旧実装は .globalNav の right を -700px から 0 へ animate する方式だったが、
+// マークアップから .globalNav__btn を廃止したため削除した。

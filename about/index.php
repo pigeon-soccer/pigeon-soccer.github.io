@@ -63,6 +63,9 @@
   <script src="/assets/js/main.js"></script>
   <link rel="stylesheet" href="/assets/css/reset.css">
   <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- モバイル用フルスクリーンナビ。main.css より後に読み込んで旧実装を上書きする -->
+  <link rel="stylesheet" href="/assets/css/nav-overlay.css">
+  <script defer src="/assets/js/nav-overlay.js"></script>
 </head>
 
 <body id="top">
