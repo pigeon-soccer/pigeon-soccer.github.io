@@ -37,7 +37,7 @@
 
   /* ホバー状態のアクションカラー - オレンジ色のアクセント */
   /* 使用箇所:
-   * - join/index.php: .greenBkButton:hoverの背景色
+   * - join/index.html: .greenBkButton:hoverの背景色
    * - join-laura.css: フッターのソーシャルリンクホバー時
    */
   --color-primary-hover: #f3a200;
@@ -121,7 +121,7 @@
   /* 使用箇所:
    * - main.css: .commonDetailBtnのボーダー、ボタン背景色
    * - join.css: 送信ボタンの背景色
-   * ボタンホバー、アイコン(index.phpの一部)
+   * ボタンホバー、アイコン(index.htmlの一部)
    */
   --color-accent: #E05126;
 
@@ -140,9 +140,9 @@
   /* 白色 - 基本のコンテンツ背景、テキストのコントラストに使用 */
   /* 使用箇所:
    * - 全ページ: カード、ボックス、ボタンテキスト
-   * - index.php: ヘッダー背景、ナビゲーションメニュー
-   * - activity/index.php: カード背景、タブリストのテキスト色
-   * - join/index.php: ボタンのテキスト、フォーム背景
+   * - index.html: ヘッダー背景、ナビゲーションメニュー
+   * - activity/index.html: カード背景、タブリストのテキスト色
+   * - join/index.html: ボタンのテキスト、フォーム背景
    * - main.css: アローボタン、メニュースクロールダウン要素
    */
   --color-white: #ffffff;
